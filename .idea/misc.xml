@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.12 (AOU Guide)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (AOU Guide)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (TryingLangChain)" project-jdk-type="Python SDK" />
 </project>
