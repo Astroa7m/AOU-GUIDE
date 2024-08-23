@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51e1784b-2b35-40b4-876b-7b2e42b2007e" name="Changes" comment="First version">
-      <change afterPath="$PROJECT_DIR$/RAG/helpers/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RAG/helpers/neo4j_connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RAG/second_RAG/aou_chatbot_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RAG/second_RAG/data_upload.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RAG/second_RAG/todo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/aou_data/Faculty.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/aou_data/Major.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/aou_data/Modules.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/aou_data/Tutor.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/aou_data/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AOU Guide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AOU Guide.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrievals/first_RAG/create_retrieval.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/create_retrieval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrievals/first_RAG/uni_vectorstore/index.faiss" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/uni_vectorstore/index.faiss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrievals/first_RAG/uni_vectorstore/index.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/uni_vectorstore/index.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrievals/first_RAG/uni_vectorstore_chroma/b48d689a-1257-46ac-9d9a-d33a34e9cd68/data_level0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/uni_vectorstore_chroma/b48d689a-1257-46ac-9d9a-d33a34e9cd68/data_level0.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrievals/first_RAG/uni_vectorstore_chroma/b48d689a-1257-46ac-9d9a-d33a34e9cd68/header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/uni_vectorstore_chroma/b48d689a-1257-46ac-9d9a-d33a34e9cd68/header.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrievals/first_RAG/uni_vectorstore_chroma/b48d689a-1257-46ac-9d9a-d33a34e9cd68/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/uni_vectorstore_chroma/b48d689a-1257-46ac-9d9a-d33a34e9cd68/length.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrievals/first_RAG/uni_vectorstore_chroma/b48d689a-1257-46ac-9d9a-d33a34e9cd68/link_lists.bin" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/uni_vectorstore_chroma/b48d689a-1257-46ac-9d9a-d33a34e9cd68/link_lists.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrievals/first_RAG/uni_vectorstore_chroma/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/uni_vectorstore_chroma/chroma.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrievals/first_RAG/use_retrieval.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/use_retrieval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrievals/uni_vectorstore_chroma/chroma.sqlite3" beforeDir="false" />
-    </list>
+    <list default="true" id="51e1784b-2b35-40b4-876b-7b2e42b2007e" name="Changes" comment="Second version" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Astroa7m"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Astroa7m/AOU-GUIDE.git",
+    "accountId": "0b31d310-c2f0-4566-923b-29b07f9fe4a3"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -69,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/ahmed/PycharmProjects/AOU Guide/data",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -287,13 +275,33 @@
       <option name="project" value="LOCAL" />
       <updated>1723903637795</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Second version">
+      <option name="closed" value="true" />
+      <created>1724424458484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724424458484</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First version" />
-    <option name="LAST_COMMIT_MESSAGE" value="First version" />
+    <MESSAGE value="Second version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
