@@ -1,4 +1,0 @@
-modules:
-* add prequisties relationship 
-* add teaches relationship and for tutor
-* add relationship between modules and major or department

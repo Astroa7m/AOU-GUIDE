@@ -4,7 +4,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-# loader = TextLoader("../../data/retrieval_data/aou_retrieval_data.json", encoding="utf-8")
+# loader = TextLoader("../../data/retrieval_data/aou_training_dataset.json", encoding="utf-8")
 # docs = loader.load()
 # splitter = RecursiveCharacterTextSplitter(chunk_size=200, chunk_overlap=50)
 # chunks = splitter.split_documents(documents=docs)
@@ -24,7 +24,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
 # setting up chromadb
-loader = TextLoader("../../data/retrieval_data/aou_retrieval_data.json", encoding="utf-8")
+loader = TextLoader("../../data/retrieval_data/aou_training_dataset.json", encoding="utf-8")
 reviews = loader.load()
 
 reviews_db = Chroma.from_documents(
