@@ -3,7 +3,7 @@ from langchain_community.chains.graph_qa.cypher import GraphCypherQAChain
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 
-from RAG.helpers.neo4j_connection import get_graph
+from RAG._helpers.neo4j_connection import get_graph
 
 graph = get_graph()
 

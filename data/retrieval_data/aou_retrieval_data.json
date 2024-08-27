@@ -172,14 +172,6 @@
     "completion": "يتم نشر جداول الامتحانات بشكل مستمر على الصفحة الرئيسية لنظام إدارة التعلم على الرابط https://omnlms.arabou.edu.kw/. يرجى التأكد من تحديد نوع الامتحان المحدد الذي تبحث عنه، مثل امتحانات منتصف الفصل الدراسي، أو الامتحانات النهائية، أو امتحانات الصيف، أو الامتحانات التكميلية."
   },
   {
-    "prompt": "",
-    "completion": ""
-  },
-  {
-    "prompt": "",
-    "completion": ""
-  },
-  {
     "prompt": "كيف يمكنني الدخول الى بريدي الإلكتروني الجامعي؟",
     "completion": "الخطوة 1: اذهب إلى موقع الجامعة https://www.aou.edu.om .\nالخطوة 2: انقر على أيقونة البريد الإلكتروني، وعادة ما تكون آخر أيقونة على اليمين.\nالخطوة 3: اكتب بريدك الإلكتروني الجامعي، على سبيل المثال\n123456om@aou.edu.om تأكد من تغيير 123456 برقمك الجامعي وتأكد من إضافة om بعده، والذي يشير إلى رمز الدولة.\nالخطوة 4: اكتب كلمة المرور الخاصة بك، على سبيل المثال:\nAou12345\nتأكد من استبدال 12345 بالأرقام الخمسة الأولى من رقم بطاقتك المدنية.\nالخطوة 5: انقر فوق تسجيل الدخول.\n\nلمزيد من المعلومات التفصيلية والمرئية، تفضل بزيارة https://omnlms.arabou.edu.kw/mod/forum/discuss.php?d=18100#p70135"
   },
@@ -790,8 +782,41 @@
   {
     "prompt": "What are the conditions related to the foundation courses and fees for the MBA at AOU?",
     "completion": "If a student is exempted from some of the foundation courses in the MBA program at AOU, the fee will be reduced accordingly based on the results of the placement test."
-  }, {
-    "prompt": "ما هي الشروط المتعلقة بالدورات التأسيسية والرسوم لبرنامج الماجستير في إدارة الأعمال في الجامعة العربية المفتوحة؟",
-    "completion": "إذا تم إعفاء الطالب من بعض الدورات التأسيسية في برنامج الماجستير في إدارة الأعمال في الجامعة العربية المفتوحة، سيتم تخفيض الرسوم وفقًا لذلك بناءً على نتائج اختبار تحديد المستوى."
+  },
+  {
+    "prompt": "هل تخصص البزنس هو نفسه إدارة الاعمال",
+    "completion": "نعم إدارة الاعمال هو نغسه البزنس"
+  },
+  {
+    "prompt": "Who is Dr. Kabaly Subramanian Pitchakannu?",
+    "completion": "He is an Assistant Professor at AOU in Faculty of business studies"
+  },
+  {
+    "prompt": "من هو الدكتور كبالي سوبرامانيان بيتشاكانو",
+    "completion": "هو استاذ مساعد فالجامعة العربية المغتوحة بقسم إدارة الاعمال"
+  },
+  {
+    "prompt": "Tell me more about Dr. Kabaly Subramanian Pitchakannu?",
+    "completion": "Dr Kabaly P Subramanian is presently the Acting Dean-Faculty of Business Studies, at Arab Open University, Oman. Dr Kabaly holds a PhD in Management. He is a Fellow at the Chartered Management Institute, FCMI (UK) and International Research Fellow at University of Selangor (Malaysia).Also he is a certified Management and   Business Educator, CMBE, from Chartered Association of Business Schools, CABS (UK) \n\n\nHe is a member of the British Academy of Management (UK),  IEEE, Indian Society for Training and Development (ISTD), Project Management Institute (PMI), and Strategic partner of Blue Ocean Strategy Regional Centre (Malaysia).  Dr Kabaly P Subramanian has been in Academia for the past 24+ years. He believes in and practices a balanced approach to academia: Research, Teaching and Learning, Industry and Community Services.\n\n Research\n\nDr Kabaly's Research and Teaching interests lie at the intersection of Business Strategy, Business Innovation, Startups, Startup Ecosystems and Digital Transformation of Businesses. Dr Kabaly has published in indexed journals and visited and presented at conferences across the world including India, US, UK, Oman, UAE, Kuwait, Malaysia, Georgia, Lebanon, Germany and Poland and won the best research paper award.  He is presently leading a team of researchers in investigating phenomena including Value as a Strategy, Digital Transformation of Higher Education Institutions, Blockchain in Business, and IoT in Education. These research projects are funded by MoHERI Oman and other external Industry funding partners. Dr Kabaly is on the Editorial Board of several academic research journals. \n\n Teaching and Learning Facilitation\n\nDr Kabaly P Subramanian is a well-respected teacher and Learning facilitator in Business Strategy, Business Innovation, Digital Business and Entrepreneurship courses and modules at both Undergraduate (BBA) and Postgraduate (MBA) levels. He receives good feedback from his students as an “inspiring” teacher.\n\n Industry and Community Services\n\nDr Kabaly P Subramanian has trained more than 1000 Business leaders, Entrepreneurs and Executives in Strategy, Innovation and Digital Transformation worldwide. He conducts Strategy workshops, Executive Education Programmes and coaching sessions for Startup founders and founding teams. Dr Kabaly P Subramanian has consulted large, medium, and small enterprises on Strategy, Innovation and Digital Transformation initiatives. Presently Dr Kabaly is consulting a large corporation in Oman on their Digital Transformation Strategy and is a Strategy Coach to a senior management team of a corporate group in Oman. Dr Kabaly is involved in social initiatives which include supporting educational Institutions and startups ecosystem enabling.\n\n Continuous Learner\n\nDr Kabaly believes in and invests in continuous learning and Development. Recently Dr Kabaly graduated from Columbia Business School, US and MIT, US in their jointly offered PG programme in Digital Business through the Emeritus Institute of Management, Singapore and a programme in Public Policy from the Indian School of Business, Hyderabad, India. He has attended several Faculty Development Programmes (FDP) and Management Development Programmes (MDP) in reputed institutions which include IIM-K, IIM-B, TAPMI, ISB (India), UCSI (Malaysia) and, Oxford University (UK).\n\n Awards\n\nDr Kabaly has received several awards including the Best Employee award from the Ministry of Manpower, Sultanate of Oman, and Best Professor in Management Studies as a part of the “Oman Innovation Leadership Award\"\" 2021. Recognized by Arab Open University Presidentship for “Dedication and the outstanding role played” in accomplishing Open University, UK validation in 2021. He also won the Best Research Paper award.\n\n Prior Experience\n\nBefore Arab Open University, Dr Kabaly P Subramanian worked as Head of the Academic Section at Al Musanna College of Technology (University of Technology and Applied Sciences, Musanna) Sultanate of Oman. Also, he worked with the University of Madras affiliated National Institute of Human Resource Development as a member of faculty, in India."
+  },
+  {
+    "prompt": "اخبرني المزيد عن الدكتور الدكتور كبالي سوبرامانيان بيتشاكانو",
+    "completion": "الدكتور كابالي ب. سوبرامانيان هو حاليًا عميد كلية دراسات الأعمال بالوكالة في الجامعة العربية المفتوحة، عُمان. حصل الدكتور كابالي على درجة الدكتوراه في الإدارة. وهو زميل في معهد الإدارة المعتمد، FCMI (المملكة المتحدة) وزميل أبحاث دولي في جامعة سيلانجور (ماليزيا). كما أنه مدرس معتمد في الإدارة والأعمال، CMBE، من جمعية كليات إدارة الأعمال المعتمدة، CABS (المملكة المتحدة)\n\nوهو عضو في الأكاديمية البريطانية للإدارة (المملكة المتحدة)، ومعهد مهندسي الكهرباء والإلكترونيات، والجمعية الهندية للتدريب والتطوير (ISTD)، ومعهد إدارة المشاريع (PMI)، والشريك الاستراتيجي لمركز إستراتيجية المحيط الأزرق الإقليمي (ماليزيا). عمل الدكتور كابالي ب. سوبرامانيان في المجال الأكاديمي لأكثر من 24 عامًا. وهو يؤمن ويمارس نهجًا متوازنًا في المجال الأكاديمي: البحث والتدريس والتعلم والصناعة والخدمات المجتمعية.\n\nالبحث\n\nتكمن اهتمامات الدكتور كابالي في البحث والتدريس في تقاطع استراتيجية الأعمال والابتكار التجاري والشركات الناشئة ونظم الشركات الناشئة والتحول الرقمي للأعمال. نشر الدكتور كابالي في مجلات مفهرسة وزار مؤتمرات وقدم عروضًا فيها في جميع أنحاء العالم بما في ذلك الهند والولايات المتحدة والمملكة المتحدة وعمان والإمارات العربية المتحدة والكويت وماليزيا وجورجيا ولبنان وألمانيا وبولندا وفاز بجائزة أفضل ورقة بحثية. وهو يقود حاليًا فريقًا من الباحثين في التحقيق في ظواهر بما في ذلك القيمة كاستراتيجية والتحول الرقمي لمؤسسات التعليم العالي والبلوك تشين في الأعمال وإنترنت الأشياء في التعليم. يتم تمويل مشاريع البحث هذه من قبل وزارة التعليم العالي والبحث العلمي في عمان وشركاء تمويل الصناعة الخارجيين الآخرين. الدكتور كابالي عضو في هيئة تحرير العديد من المجلات البحثية الأكاديمية.\n\nتيسير التدريس والتعلم\n\nالدكتور كابالي ب. سوبرامانيان هو مدرس وميسر تعليم يحظى بالاحترام في استراتيجية الأعمال والابتكار التجاري والأعمال الرقمية ودورات ووحدات ريادة الأعمال على مستوى البكالوريوس (BBA) والدراسات العليا (MBA). يتلقى ردود فعل جيدة من طلابه باعتباره مدرسًا \"\"ملهمًا\"\".\n\nالصناعة والخدمات المجتمعية\n\nلقد درب الدكتور كابالي ب. سوبرامانيان أكثر من 1000 من قادة الأعمال ورواد الأعمال والمديرين التنفيذيين في الاستراتيجية والابتكار والتحول الرقمي في جميع أنحاء العالم. وهو يدير ورش عمل استراتيجية وبرامج تعليمية تنفيذية وجلسات تدريب لمؤسسي الشركات الناشئة والفرق المؤسسة. استشار الدكتور كابالي ب. سوبرامانيان الشركات الكبيرة والمتوسطة والصغيرة بشأن مبادرات الاستراتيجية والابتكار والتحول الرقمي. حاليًا، يستشير الدكتور كابالي شركة كبيرة في عمان بشأن استراتيجية التحول الرقمي الخاصة بها وهو مدرب استراتيجي لفريق الإدارة العليا لمجموعة شركات في عمان. يشارك الدكتور كابالي في المبادرات الاجتماعية التي تشمل دعم المؤسسات التعليمية وتمكين النظام البيئي للشركات الناشئة.\n\nمتعلم مستمر\n\nيؤمن الدكتور كابالي بالتعلم والتطوير المستمرين ويستثمر فيهما. تخرج الدكتور كابالي مؤخرًا من كلية كولومبيا للأعمال بالولايات المتحدة ومعهد ماساتشوستس للتكنولوجيا بالولايات المتحدة في برنامج الدراسات العليا المشترك في الأعمال الرقمية من خلال المعهد الفخري للإدارة في سنغافورة وبرنامج في السياسة العامة من كلية الأعمال الهندية في حيدر أباد بالهند. وقد حضر العديد من برامج تطوير أعضاء هيئة التدريس وبرامج تطوير الإدارة في مؤسسات مرموقة بما في ذلك IIM-K وIIM-B وTAPMI وISB (الهند) وUCSI (ماليزيا) وجامعة أكسفورد (المملكة المتحدة).\n\nالجوائز\n\nحصل الدكتور كابالي على العديد من الجوائز بما في ذلك جائزة أفضل موظف من وزارة القوى العاملة بسلطنة عمان، وأفضل أستاذ في دراسات الإدارة كجزء من \"\"جائزة القيادة الإبداعية العمانية\"\" 2021. كما تم تكريمه من قبل رئاسة الجامعة العربية المفتوحة لـ \"\"التفاني والدور المتميز الذي لعبه\"\" في تحقيق التحقق من صحة الجامعة المفتوحة بالمملكة المتحدة في عام 2021. كما فاز بجائزة أفضل ورقة بحثية.\n\nالخبرات السابقة\n\nقبل الجامعة العربية المفتوحة، عمل الدكتور كابالي ب. سوبرامانيان رئيسًا للقسم الأكاديمي في كلية المصنّعة للتكنولوجيا (جامعة التكنولوجيا والعلوم التطبيقية، المصنّعة) بسلطنة عمان. كما عمل مع المعهد الوطني لتنمية الموارد البشرية التابع لجامعة مدراس كعضو هيئة تدريس في الهند."
+  },
+  {
+    "prompt": "What is doctor Kabaly Subramanian email?",
+    "completion": "It is kabaly@aou.edu.om"
+  },
+  {
+    "prompt": "ما هو البريد الالكتروني او الايميل الخاص بدكتور كبالي سوبرامانيان؟",
+    "completion": "kabaly@aou.edu.om"
+  },
+  {
+    "prompt": "ما هو تخصص الدكتور كبالي سوبرامانيان؟",
+    "completion": "تخصصه فالادارة"
+  },
+  {
+    "prompt": "What is the speciality of doctor Kabaly Subramanian?",
+    "completion": "He is specialized in Management"
   }
 ]

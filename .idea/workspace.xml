@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51e1784b-2b35-40b4-876b-7b2e42b2007e" name="Changes" comment="Second version" />
+    <list default="true" id="51e1784b-2b35-40b4-876b-7b2e42b2007e" name="Changes" comment="Second version">
+      <change afterPath="$PROJECT_DIR$/RAG/_helpers/data_prep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RAG/_helpers/output.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RAG/third_RAG/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RAG/third_RAG/run_tutor_embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data_helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAG/first_RAG/create_retrieval.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/create_retrieval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAG/first_RAG/use_retrieval.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAG/helpers/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/_helpers/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAG/helpers/neo4j_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/_helpers/neo4j_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAG/second_RAG/aou_chatbot_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/second_RAG/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAG/second_RAG/data_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/second_RAG/data_upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/retrieval_data/retrieval_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/retrieval_data/aou_retrieval_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/dataset_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/dataset_counter.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,10 +62,14 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.aou_chatbot_api.executor": "Run",
+    "Python.create_embeddings.executor": "Run",
     "Python.create_retrieval.executor": "Run",
+    "Python.data_helpers.executor": "Run",
+    "Python.data_prep.executor": "Run",
     "Python.data_upload.executor": "Run",
     "Python.dataset_counter.executor": "Run",
     "Python.first_retrieval.executor": "Run",
+    "Python.run_tutor_embeddings.executor": "Run",
     "Python.simple_scrapping.executor": "Run",
     "Python.use_retrieval (1).executor": "Run",
     "Python.use_retrieval.executor": "Run",
@@ -68,25 +87,25 @@
       <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\retrievals\first_RAG" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.aou_chatbot_api">
-    <configuration name="aou_chatbot_api" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.data_helpers">
+    <configuration name="create_embeddings" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="" />
+        <env name="PYTHONUNBUFFERED" value="1" />
         <env name="GROQ_API_KEY" value="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" />
         <env name="NEO4J_USERNAME" value="neo4j" />
         <env name="NEO4J_PASSWORD" value="thzlUv46pM7WlBgvR_4p5-gCz9aHl257ZWA_1g7b25I" />
         <env name="NEO4J_URI" value="neo4j+ssc://b9111ef5.databases.neo4j.io:7687" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RAG/second_RAG" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RAG/_helpers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RAG/second_RAG/aou_chatbot_api.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RAG/_helpers/create_embeddings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,6 +128,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/retrievals/first_RAG/create_retrieval.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_helpers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AOU Guide" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/data_helpers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_prep" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AOU Guide" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RAG/_helpers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RAG/_helpers/data_prep.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,28 +206,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataset_counter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AOU Guide" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/dataset_counter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
@@ -187,20 +228,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simple_scrapping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="AOU Guide" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="" />
+        <env name="GROQ_API_KEY" value="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" />
+        <env name="NEO4J_USERNAME" value="neo4j" />
+        <env name="NEO4J_PASSWORD" value="thzlUv46pM7WlBgvR_4p5-gCz9aHl257ZWA_1g7b25I" />
+        <env name="NEO4J_URI" value="neo4j+ssc://b9111ef5.databases.neo4j.io:7687" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RAG/second_RAG" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RAG/second_RAG/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_tutor_embeddings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="GROQ_API_KEY" value="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" />
+        <env name="NEO4J_USERNAME" value="neo4j" />
+        <env name="NEO4J_PASSWORD" value="thzlUv46pM7WlBgvR_4p5-gCz9aHl257ZWA_1g7b25I" />
+        <env name="NEO4J_URI" value="neo4j+ssc://b9111ef5.databases.neo4j.io:7687" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapping" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RAG/third_RAG" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapping/simple_scrapping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RAG/third_RAG/run_tutor_embeddings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,20 +304,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.aou_chatbot_api" />
+      <item itemvalue="Python.create_embeddings" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.data_upload" />
+      <item itemvalue="Python.data_helpers" />
+      <item itemvalue="Python.data_prep" />
+      <item itemvalue="Python.run_tutor_embeddings" />
       <item itemvalue="Python.create_retrieval" />
-      <item itemvalue="Python.dataset_counter" />
       <item itemvalue="Python.use_retrieval" />
-      <item itemvalue="Python.simple_scrapping" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.data_helpers" />
+        <item itemvalue="Python.data_prep" />
+        <item itemvalue="Python.run_tutor_embeddings" />
         <item itemvalue="Python.use_retrieval" />
         <item itemvalue="Python.create_retrieval" />
-        <item itemvalue="Python.dataset_counter" />
-        <item itemvalue="Python.simple_scrapping" />
       </list>
     </recent_temporary>
   </component>
@@ -283,8 +356,29 @@
       <option name="project" value="LOCAL" />
       <updated>1724424458484</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second version">
+      <option name="closed" value="true" />
+      <created>1724426787937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724426787937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
