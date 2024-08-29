@@ -2,11 +2,12 @@ import json
 import csv
 from deep_translator import GoogleTranslator
 
+
 # todo: Make sure of the prompts in helpers before use
-class AcademicStaffHelper:
+class AcademicStaffDataHelper:
 
     @staticmethod
-    def enter_academic_staff_data():
+    def create_academic_staff_prompts():
         academicStaffNameEn = input("Enter academic staff name in English: ")
         academicStaffNameAr = input("Enter academic staff name in Arabic: ")
 
@@ -127,7 +128,7 @@ class AcademicStaffHelper:
                 writer.writerow(row)
 
 
-class MajorHelpers:
+class MajorDataHelpers:
 
     @staticmethod
     def write_major_prompts():
@@ -172,12 +173,12 @@ class MajorHelpers:
             name = input("Enter name: ")
             name_ar = GoogleTranslator(source='auto', target='ar').translate(text=name)
             required_credit = int(input("Enter required credit: "))
-            degree_level = "Undergraduate" if int(input("Enter degree level (1-Undergraduate, else-Postgraduate): ")) == 1 else "Postgraduate"
+            degree_level = "Undergraduate" if int(
+                input("Enter degree level (1-Undergraduate, else-Postgraduate): ")) == 1 else "Postgraduate"
             degree_level_ar = GoogleTranslator(source='auto', target='ar').translate(text=degree_level)
             description = input("Enter description: ")
             description_ar = GoogleTranslator(source='auto', target='ar').translate(text=description)
             study_plan = input("Enter study plan link: ")
-
 
             return {
                 "id": id,
@@ -213,4 +214,96 @@ class MajorHelpers:
                 writer.writerow(row)
 
 
-MajorHelpers.write_major_data_to_csv()
+class ModulesDataHelpers:
+
+    @staticmethod
+    def write_modules_csv_from_scrapped_data(in_file, out_file, faculty):
+
+        def translate_to_arabic(text):
+            translator = GoogleTranslator(source='auto', target='ar')
+            return translator.translate(text)
+
+        # reading existing data from the output file to check if modules to be added already exist
+        existing_data = {}
+        try:
+            with open(out_file, 'r', newline='', encoding='utf-8') as outfile:
+                reader = csv.DictReader(outfile)
+                for row in reader:
+                    existing_data[row["code"]] = row
+        except FileNotFoundError:
+            # if the file doesn't exist, we'll create it later
+            pass
+
+        with open(in_file, 'r', newline='', encoding='utf-8') as infile, \
+                open(out_file, 'w', newline='', encoding='utf-8') as outfile:
+            reader = csv.DictReader(infile)
+
+            fieldnames = ['id', 'name', 'nameArabic', 'code', 'creditsHours', 'description', 'descriptionArabic',
+                          'objectives', 'objectivesArabic', 'outcomes', 'outcomesArabic', 'offeredByFaculty']
+
+            writer = csv.DictWriter(outfile, fieldnames=fieldnames)
+
+            # headers already written since we are appending
+            writer.writeheader()
+
+            # keeping track of number of conflicts
+            conflictCount = 0
+
+            # to properly order the ids after adding
+            # new data
+            rowsCount = 0
+
+            for i, row in enumerate(reader):
+                id = f"T{(i):04d}"
+                rowsCount = i
+                # checking if modules be written from in_file are already within out_file
+                # writing the common rows
+                if row['course_code'] in existing_data.keys():
+                    conflictCount += 1
+                    targetRow = dict(existing_data[row['course_code']])
+                    # updating the ids so we have old and new modules sorted in place by ids
+                    targetRow['id'] = id
+                    targetRow['offeredByFaculty'] = targetRow['offeredByFaculty'] + f', ${faculty}'
+                    writer.writerow(targetRow)
+
+                    # removing the common row from the existing data of the outputfile
+                    # to write the remaining data
+                    del existing_data[row['course_code']]
+                else:
+                    # writing uncommon rows
+                    new_row = {
+                        'id': id,
+                        'name': row['course_title'],
+                        'nameArabic': translate_to_arabic(row['course_title']),
+                        'code': row['course_code'],
+                        'creditsHours': row['credit_hours'],
+                        'description': row['course_desc'],
+                        'descriptionArabic': translate_to_arabic(row['course_desc']),
+                        'objectives': row['course_objectives'],
+                        'objectivesArabic': translate_to_arabic(row['course_objectives']),
+                        'outcomes': row['course_outcomes'],
+                        'outcomesArabic': translate_to_arabic(row['course_outcomes']),
+                        # change according to the faculty
+                        'offeredByFaculty': faculty
+                    }
+                    writer.writerow(new_row)
+                    print(f"Wrote {row['course_code']} module")
+
+            print("Done writing new data and solving conflicts")
+            print("writing existing data")
+
+            # writing the remaining rows from existing data
+            for i, row in enumerate(existing_data.values()):
+                row["id"] = f"T{(i + rowsCount):04d}"
+                writer.writerow(row)
+                print(f"Wrote {row['code']} module")
+
+            print("Done writing to file")
+            print(f"Solved {conflictCount} conflicted rows")
+
+
+ModulesDataHelpers.write_modules_csv_from_scrapped_data(
+    in_file="scrapping/scrappedCoursesBusiness.csv",
+    out_file="aou_data/csv/Modules.csv",
+    faculty="Faculty"
+)

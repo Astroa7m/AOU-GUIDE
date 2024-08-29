@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 # Sample HTML
 html_content = """
-<div id="ctl00_ctl50_g_b140d04d_c55f_489b_a897_9f8364e914ed_ctl00_dWebpart" class="wp-wrapper">
+<div id="ctl00_ctl50_g_6ce2bd0e_6228_4092_9c97_2ca3d1f0486e_ctl00_dWebpart" class="wp-wrapper">
 
     <div>
         <div class="input-group mb-1 col-md-6">
@@ -23,21 +23,212 @@ html_content = """
 
             <div class="course-item">
                 <div class="course-title">
-                    AR111&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arabic Communication Skills (I) <span class="float-right">(3) Credit Hours</span>
+                    ACC300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accounting Information Systems <span class="float-right">(4) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    AR111 is three credit hour university requirements. It aims to enable students to acquire the Arabic language skills needed at university level, specifically: Arabic syntactic structures, grammatical inflection and case ending in spoken and written Arabic, ability to read Arabic texts in different disciplines, adequate training in writing and using dictionary
+                    This course is the first module to introduce the domain of information systems in accounting. This is a Level 6 course and students need to have a good knowledge of financial accounting, obtained through Levels 4 and 5 accounting modules. Thus, it is strongly recommended that students study this course after studying Financial/Management accounting (B291 and B292).
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_75">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_1">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_75" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
+				<div id="modal_1" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Accounting Information Systems</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>ACC300</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Accounting Information Systems</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B291 and B292</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This course is the first module to introduce the domain of information systems in accounting. This is a Level 6 course and students need to have a good knowledge of financial accounting, obtained through Levels 4 and 5 accounting modules. Thus, it is strongly recommended that students study this course after studying Financial/Management accounting (B291 and B292).</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p style="text-align:justify;">&ZeroWidthSpace;This course is designed to present an understanding of accounting information systems and their role in the accounting environment. Particular attention is paid to transaction cycles and internal control structure. The three broad aims of the course are to provide students with: &nbsp;<br></p><ol><li>an understanding of the purpose and role of accounting information systems within contemporary organisations.&nbsp; </li><li>an awareness of the way in which internal controls and technology interrelate with accounting information systems.</li></ol><p>an understanding of the real-life problems of designing, implementing and using accounting information systems and its sub-cycles.<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>A. Knowledge
+and understanding</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: Explain what an accounting information system is and describe
+the basic function it performs.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Demonstrate understanding of the role and importance of
+accounting information systems in the various types of business and other
+organisations. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3. Identify information system documentation techniques and their
+use to understand, evaluate, and document an accounting information systems. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4. Explain the difference between database and file-based
+systems. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A5: Discuss the relational database systems and informatively
+analyse and interpret accountant’s role of database systems development. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A6: Describe the basic business activities and related data
+processing operations performed in the accounting cycles.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A7: Identify and explain control procedures.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;&ZeroWidthSpace;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Review and illustrate the purpose, context and functions of
+accounting information systems in business practices. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Critically assess the impact and effective use of information
+systems in organisations for competitive advantage. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Explain, analyse and apply the mechanism of system
+documentation techniques in the accounting cycle. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4. Compare approaches to AIS including Enterprise Information,
+Enterprise Resource Planning, etc. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5- Formulate a vision of the future and explain the evolving
+importance of AIS and Internal Controls due to the guidance and direction of
+Public Company Accounting Oversight Board (PCAOB) pronouncements.</span></p><p><br>&nbsp;</p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Prepare system documentation, and use data flow diagrams and
+flowcharts to understand, evaluate, and document information systems. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Design, implement, and effectively use relational database
+systems using MS-Access &ZeroWidthSpace;</span><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><br></span></p><p>&nbsp;<br></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Crucial participating in systems analysis and design. </span></p>
+
+<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:13px;">D2: Accounting systems
+are studied from an accounting cycles perspective, emphasizing the nature and
+relevance of accounting internal controls and the relationship of accounting
+systems to the functional areas of accounting.</span><br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    ACC302&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Principles of Auditing &amp; Assurance Services <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    The course describes the role of the public accountant, professional standards, professional ethics, legal liability, audit evidence and documentation, audit planning internal control, audit sampling &amp; procedures to audit the financial statements. This course thus aims to provide an introduction to the principles and practices of auditing.
+It provides students with a sound understanding of fundamental auditing concepts and procedures, and the application of auditing standards. Accordingly, the course provides a foundation for students, who intend pursuing a specialised pathway in the auditing profession, as well as those who will pursue careers in accounting and other disciplines where principles of risk assessment, systems control and evaluation, and transaction testing are important. While the course focuses mainly on the practical application of an external financial audit.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_2">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_2" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Principles of Auditing &amp; Assurance Services</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>ACC302</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Principles of Auditing &amp; Assurance Services</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B291 and B292</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>The course describes the role of the public accountant, professional standards, professional ethics, legal liability, audit evidence and documentation, audit planning internal control, audit sampling &amp; procedures to audit the financial statements. This course thus aims to provide an introduction to the principles and practices of auditing.
+It provides students with a sound understanding of fundamental auditing concepts and procedures, and the application of auditing standards. Accordingly, the course provides a foundation for students, who intend pursuing a specialised pathway in the auditing profession, as well as those who will pursue careers in accounting and other disciplines where principles of risk assessment, systems control and evaluation, and transaction testing are important. While the course focuses mainly on the practical application of an external financial audit.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;This is an AOU based course. The goals of the providers of information may run somewhat counter to those of the users of information. Accordingly there is recognition of the social need for independent public accountants-individuals of professional competence and integrity who can tell us whether the information that we use constitutes a fair picture of what is really going on.<br>On successful completion of BS312 course, students should be able to: 1) Determine an understanding of Certified Public Accountants, Professional standards, and Fundamental audit concepts. 2) Apply a range of audit procedures. 3) Apply auditing standards. 4) Demonstrate an understanding of the legal context within which auditing occurs.&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><div class="ms-rtedir" dir="ltr"><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>A. Knowledge
+and understanding</b></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1 :<span>&nbsp; </span>Awareness and
+understanding of the role of the public accountant , audit standards, ethics ,
+liability , audit evidence , documentation , audit planning, internal control ,
+audit sampling </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Demonstrate the ability to audit financial statements based on
+the standards and procedures A3:<span>&nbsp; </span>Audit
+of The Sales and Collection Cycle. A4: Audit of The Acquisition and Payment
+Cycle </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Understand the purpose of auditing and be able to investigate
+and identify procedures Plan the audit, investigate evidence &amp; identify
+procedures. B2: Acquire understanding of the audit standards and how to apply
+them in the audit process B3: Be able to distinguish between the different
+types of audit reports and which report is mostly applicable for each
+situation. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4: Be able to identify the environmental influences that might
+impact the auditor’s plan and opinion.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Perform basic audit based on auditing standards &amp; GAAP. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Perform audit procedures </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Establish a relationship between the audit process and
+environmental influences</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Select appropriate procedures for auditing financial statement
+accounts </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Prepare an audit program of a typical firm </span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Ability to dig out
+evidence from a variety of sources in order to achieve the specific audit
+objectives of financial statement accounts.</span>&nbsp;</div></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    AR111&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arabic Communication Skills (I) <span class="float-right">(3) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    	
+AR111 is three credit hour university requirements. It aims to enable students to acquire the Arabic language skills needed at university level, specifically: Arabic syntactic structures, grammatical inflection and case ending in spoken and written Arabic, ability to read Arabic texts in different disciplines, adequate training in writing and using dictionary
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_87">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_87" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -66,7 +257,8 @@ html_content = """
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>AR111 is three credit hour university requirements. It aims to enable students to acquire the Arabic language skills needed at university level, specifically: Arabic syntactic structures, grammatical inflection and case ending in spoken and written Arabic, ability to read Arabic texts in different disciplines, adequate training in writing and using dictionary</td>
+											<td>	
+AR111 is three credit hour university requirements. It aims to enable students to acquire the Arabic language skills needed at university level, specifically: Arabic syntactic structures, grammatical inflection and case ending in spoken and written Arabic, ability to read Arabic texts in different disciplines, adequate training in writing and using dictionary</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
@@ -104,13 +296,13 @@ html_content = """
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_76">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_88">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_76" class="modal fade" role="dialog">
+				<div id="modal_88" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -169,26 +361,26 @@ html_content = """
 
             <div class="course-item">
                 <div class="course-title">
-                    B207-A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shaping Business Opportunities <span class="float-right">(8) Credit Hours</span>
+                    B 324&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marketing and Society <span class="float-right">(8) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    B207A is an 8-credit (30 points), Level 5 UK-OU based course offered through the Business Program at the Arab Open University as a compulsory course for all students enrolled in all tracks in the program. Entry into this course is contingent upon the successful completion of BUS110. The B207 module in this new study plan is an OU updated version of its equivalent B203A module.
+                    This course explores the theory and practice of responsible marketing, addressing the interrelated areas of corporate social responsibility and marketing ethics and the emergent area of social marketing. It examines the impact of established marketing techniques and practices on the promotion of social well-being and behavioural change. You will identify key ethical issues involved in marketing decision-making and the responsibilities of organisations to their stakeholders, including the wider community. Elements of marketing management (such as communications, research and planning) are examined within this wider framework at both a domestic and international level.  
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_9">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_3">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_9" class="modal fade" role="dialog">
+				<div id="modal_3" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="modal-title">Shaping Business Opportunities</span>
+								<span class="modal-title">Marketing and Society</span>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
@@ -196,15 +388,15 @@ html_content = """
 									<tbody>
 										<tr>
 											<td>Course Code</td>
-											<td>B207-A</td>
+											<td>B 324</td>
 										</tr>
 										<tr>
 											<td>Course Title</td>
-											<td>Shaping Business Opportunities</td>
+											<td>Marketing and Society</td>
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>B205B</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
@@ -212,18 +404,36 @@ html_content = """
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>B207A is an 8-credit (30 points), Level 5 UK-OU based course offered through the Business Program at the Arab Open University as a compulsory course for all students enrolled in all tracks in the program. Entry into this course is contingent upon the successful completion of BUS110. The B207 module in this new study plan is an OU updated version of its equivalent B203A module.</td>
+											<td>This course explores the theory and practice of responsible marketing, addressing the interrelated areas of corporate social responsibility and marketing ethics and the emergent area of social marketing. It examines the impact of established marketing techniques and practices on the promotion of social well-being and behavioural change. You will identify key ethical issues involved in marketing decision-making and the responsibilities of organisations to their stakeholders, including the wider community. Elements of marketing management (such as communications, research and planning) are examined within this wider framework at both a domestic and international level.  </td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;&ZeroWidthSpace;</span><span class="ms-rteThemeFontFace-1" lang="EN-GB" style="font-size:13px;">This
-module is designed to provide intermediate conceptual and practical learning to
-students in operations management, marketing and human resource management. The
-module comprises 16 study weeks (including final assessment).&nbsp;</span><br><br></span></p></td>
+											<td><p style="line-height:115%;"><span class="ms-rteThemeFontFace-1" lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:13px;">&ZeroWidthSpace;Marketing
+and Sociology. It is a level three course of the B.A. (Hons) in Business
+Studies with marketing degree.&nbsp;&ZeroWidthSpace;</span></p>
+
+<p>This course will develop student's ability to synthesise arguments and assumptions from a variety of sources and perspectives, critically evaluate them and apply relevant concepts in a range of contexts. In particular, student will learn concepts, theories and debates about the roles and responsibilities of marketing in society: <br></p><ul><li>Identification and critical analysis of relevant issues involved in responsible marketing</li><li>Application of marketing thinking to health and social behaviour </li><li>Application of responsible marketing to own professional context</li><li>Sensitivity to the problems and challenges in both commercial and social marketing. </li><li>Explore how marketing concepts and techniques can be applied to the marketing of social issues as opposed to the more traditional area of commercial marketing;</li><li>Examine how social marketing approaches can change behaviour in order to achieve socially desirable goals;</li><li>Illustrate, through case study examples, the application of concepts and techniques to 'real world' social marketing problems.&nbsp;<br></li></ul><div>The course is a new development in the optional courses of the BA Business Studies Programme.&nbsp; Marketing in Society will build upon the students understanding of aspects of marketing gleaned from earlier courses within the programme but will focus on the importance of responsible marketing.&nbsp; <br><br>Students will learn to integrate and use information and/or data appropriately in complex contexts. They will also learn to recognise the limitations of knowledge in the area. The course will provide you with opportunities to develop skills in effective communication of ideas and arguments to relevant audiences. You'll be encouraged to manage your learning and reflect on your development as an independent learner.&nbsp;<br><br>The principal learning method used in the course will be problem-based. Usually, students will encounter a short or long case study. They will be expected to make sense of, discuss, analyse, synthesise and evaluate issues and possibilities in the case study. You'll do this by applying your existing knowledge and any new knowledge you can gather from the supplied textbooks, journal articles, electronic sources and course participants. You'll gain knowledge and understanding in the areas of ethics, corporate social responsibility, social marketing, and ethical issues in commercial marketing. The way you are assessed and what you will be assessed on will mirror how you learn and what you learn; the assessment will constitute part of the learning.<br></div></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">At the end of the module, learners will be expected to:</span></p><ol style="text-align:justify;"><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop a critical appreciation of the interactions between various business functions (operations management, marketing and human resource management) and the integrative complexity that shapes business innovation.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop a critical understanding of why new products and services are imperative to contemporary business practice. Also to develop knowledge and understanding of external issues affecting the successful running of organizations, including how they compete in a global context.<br></span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop knowledge and understanding of the elements required to build long-term success in organizations, and how students can contribute to the fostering of long-term value creation.&ZeroWidthSpace;<br></span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">develop knowledge and critical understanding of the theories, concepts and models of different business functions (operations management, marketing and human resource management).</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">B. Cognitive skills</span></strong><br></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">At the end of the module learners will be expected to:</span></p><ol style="text-align:justify;"><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Select and<strong> </strong>critically analyse information relevant to a particular problem or issue related to business and management.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Evaluate and compare competing perspectives, theoretical models and concepts in the context of practical situations</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Gather and synthesise material from a variety of sources in constructing arguments applied to business and management&nbsp;&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br><br></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">At the end of the module, learners will be expected to:</span></p><ol style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate in a professional manner in written work, face to face and online. Plan, monitor and review progress as independent learner, including a focus on personal skills development.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop an awareness of ethical issues and professional standards relevant to business and management</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">At the end of the module, learners will be expected to:</span></p><ol style="text-align:justify;"><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Search for and use relevant digital and non-digital information from sources other than the module materials.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Compare critically and use different approaches to issues and problems within business management. Engage in critical reflection.</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Consolidate an understanding of academic language and literacy practices in order to effectively engage with the academic knowledge and skills of Level 5 study.&ZeroWidthSpace;&ZeroWidthSpace;</span><br><br></span></li></span></ol></td>
+											<td><p><strong>&ZeroWidthSpace;</strong><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>A. Knowledge
+and understanding</strong></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: To
+understand and apply concepts, theories and debates about the roles and
+responsibilities of marketing in society to real life situations </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Apply
+marketing thinking to the field of health and social behaviour </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3:
+Demonstrate an understanding about ethics and marketing </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4: Green and
+environmental marketing, sustainability, fair trade and ethical consumption </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Evaluate the relevance of course concepts to a variety of
+other contexts </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2 Synthesise and critical evaluate arguments and assumptions from
+a variety of sources and competing perspectives </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3. Recognise the limitations of knowledge in the area </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Apply responsible marketing to their own professional context
+or one they are familiar with C2:Demonstrate a sensitivity to the problems and
+challenges in both commercial and social marketing</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Identify and critically analyse relevant<span> </span>issues involved in responsible
+social<span> </span>and commercial
+marketing </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Effectively communicate ideas and arguments to relevant
+audiences </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Integrate and use information and/or data in complex contexts </span></p>
+
+<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:13px;">D4: Manage own learning
+and reflect on their development as an independent learner</span>&ZeroWidthSpace;<br></td>
 										</tr>
 									</tbody>
 								</table>
@@ -245,11 +455,656 @@ module comprises 16 study weeks (including final assessment).&nbsp;</span><br><b
 
             <div class="course-item">
                 <div class="course-title">
-                    B207-B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shaping Business Opportunities <span class="float-right">(8) Credit Hours</span>
+                    B122&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An Introduction to Retail management and Marketing <span class="float-right">(8) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    B207B is an 8-credit (30 points), Level 5 UK-OU based course offered through the Business Program at the Arab Open University as a compulsory course for all students enrolled in all tracks in the program. Entry into this course is contingent upon the successful completion of B207A.
+                    It is an introductory Level 1 course. As the retail industry is highly dynamic and innovative, this
+course looks at how retailing has developed within a business context, and how retail outlets work and apply retail marketing. It offers a balance between theory and practice that is innovative and engaging. During your studies you will consider contemporary factors that affect retailing: globalization; the impact of ever-changing technology; and social and ethical issues. This course is designed for retail industry employees wishing to develop a career in management, and anyone interested in working in the retail sector, or simply wanting to know more about the world of retailing.
+
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_4">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_4" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">An Introduction to Retail management and Marketing</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B122</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>An Introduction to Retail management and Marketing</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>BUS110</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>It is an introductory Level 1 course. As the retail industry is highly dynamic and innovative, this
+course looks at how retailing has developed within a business context, and how retail outlets work and apply retail marketing. It offers a balance between theory and practice that is innovative and engaging. During your studies you will consider contemporary factors that affect retailing: globalization; the impact of ever-changing technology; and social and ethical issues. This course is designed for retail industry employees wishing to develop a career in management, and anyone interested in working in the retail sector, or simply wanting to know more about the world of retailing.
+</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;The academic aims of this module is to introduce you to the main functions and management of<br></p><p>a retail business and the key issues associated with understanding retail trading and retail</p><p>environments. After studying the course, you should be able to:</p><ul><li>Explain relevant theories and concepts of retailing</li><li>Describe the key elements of a retail business and the retail trading environment</li><li>Discuss issues associated with operating a business in a retail environment/context</li><li>Outline the key course topics and explain why each topic is important to understanding the principles of retail management</li><li>Explain linkages between components of the course</li><li>Organise your studies, including paper-based and computer-based services</li></ul><p>Continue to develop your awareness of how you learn and how different elements of the course applied to your individual learning style.<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>&ZeroWidthSpace;A. Knowledge
+and understanding</strong></span></p><p><span lang="EN-GB">A1: retail technology, which focuses on the
+virtual world of e-retailing;</span></p><p><span lang="EN-GB">A2: the diversity of retail products and
+sectors;</span></p><p><span lang="EN-GB">A3: retail ethics and the environmental
+impact;</span></p><p style="text-align:justify;"><span lang="EN-GB">A4: the
+implications of globalisation</span><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Reflection and critical engagement into both domestic retail technology
+and e-retailing</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Critical thinking, analysis, and synthesis</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Valuation
+and comparison of retail management.</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><br></span>&nbsp;</p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical
+and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Time management, skills appropriate to business, such as
+creativity, persuasion and attractiveness.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Study skills, learning to learn and reflecting on students’
+own development as learners.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: The ability to analyse work-related cases and situations to
+identify challenges for organisations in developing responses in relation to
+their environments.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4: The application of course ideas to students’ own interactions
+with organisations and life experiences.</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D Key
+transferable skills</strong></span></p>
+
+<p>D1: Decision making and problem solving making a viable approach to students to engage with data analysis, interpretation and extrapolation.</p><p>D2: Immerse in related information, arguments and ideas.</p><p>D3: Identify some of the key strengths and needs of their own learning and identify opportunities to address these.&ZeroWidthSpace;&nbsp;</p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B123&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Management Practice <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This course introduces management ideas and uses activities to build on existing knowledge and skills through the application of management theory. It’s suitable if you’ve studied any introductory course and want to complete the Certificate in Business Studies or gain 30 credits towards our BA (Hons). This introductory Level 1 course introduces management ideas and uses activities to build on your existing knowledge and skills. You’ll also use your own workplace experiences to develop an academic understanding of management and valuable study skills, which you’ll demonstrate by writing about management and reflecting on your own skills as a learner.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_5">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_5" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Management Practice</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B123</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Management Practice</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>BUS110</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This course introduces management ideas and uses activities to build on existing knowledge and skills through the application of management theory. It’s suitable if you’ve studied any introductory course and want to complete the Certificate in Business Studies or gain 30 credits towards our BA (Hons). This introductory Level 1 course introduces management ideas and uses activities to build on your existing knowledge and skills. You’ll also use your own workplace experiences to develop an academic understanding of management and valuable study skills, which you’ll demonstrate by writing about management and reflecting on your own skills as a learner.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><div dir="ltr" style="text-align:left;"><span class="ms-rteFontSize-2" id="ms-rterangepaste-start"></span></div><p dir="ltr" style="text-align:left;"><span class="ms-rteFontSize-2" id="ms-rterangepaste-start"></span><span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">By the
+end of this course you’ll have developed a new, more theoretical understanding
+of how and why managers do what they do in organisations. You’ll build a
+toolkit of management concepts, theories and models that you can use to tackle
+workplace issues. You’ll also feel more confident in embarking on further
+undergraduate study.</span>&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p>&ZeroWidthSpace;<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A. Knowledge
+and understanding</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1. Demonstrated how learning they have undertaken previously in
+the workplace can be utilised to inform the development of their management
+practice </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2. Selected and used a range of management theories, concepts and
+ideas to help identify, analyse and address issues and situations in their
+current practice setting. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3. Worked in collaboration with others in assessing the
+applicability of selected management theories, etc. to their own and others’
+identified practice problems.</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4. Reflected
+on the impact of their learning on their practice of management, and their
+future development as a management practitioner.</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B. Cognitive
+skills</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1. Identify and draw upon appropriate forms of prior learning
+relating to the development of their management practice. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2. Apply relevant theoretical knowledge of management to a
+practical problem. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3. Collaborate with peers’ practitioners to, and begin to,
+critically evaluate the applicability of selected management theories etc. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4. Reflect productively on the development of their practice of
+management. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C. Practical and professional skills</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1. Communicate their understanding of management theory and its
+application to practice in writing.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2. Work independently on identifying issues and situations in the
+workplace and apply academic theories and concepts to these to gain a deeper
+understanding of them. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D. Key transferable skills.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1. Use of a range of tools and websites for finding and recording
+information online: internet browsers, search engines, copy/ paste, e-portfolios
+and download functions </span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2. Communicate with
+peer learners via synchronous and asynchronous online media.</span>&ZeroWidthSpace;<br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B124&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fundamentals of Accounting <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This module provides a broad introduction to accounting study at the university level.  It covers the fundamentals of financial and management accounting as well as the essential skills, knowledge and ethics required to be a professional accountant. Fundamentals of Accounting module is required for all business with accounting track. It is strongly recommended that students study this module before Financial accounting (B291) and Management accounting (B292). &ZeroWidthSpace;&ZeroWidthSpace;
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_6">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_6" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Fundamentals of Accounting</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B124</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Fundamentals of Accounting</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>BUS110</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This module provides a broad introduction to accounting study at the university level.  It covers the fundamentals of financial and management accounting as well as the essential skills, knowledge and ethics required to be a professional accountant. Fundamentals of Accounting module is required for all business with accounting track. It is strongly recommended that students study this module before Financial accounting (B291) and Management accounting (B292). &ZeroWidthSpace;&ZeroWidthSpace;</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:13px;">&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;It aims to equip students with the essential principles of measuring management performance and improving financial planning, control and decision-making. Students can gain an understanding of financial reports through their preparation, based on the double-entry bookkeeping system which is essential for the management of any organisation.&nbsp; &ZeroWidthSpace;</span>&ZeroWidthSpace;<br></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p>&ZeroWidthSpace;<strong>A. Knowledge and understanding</strong></p><p style="text-align:justify;"><strong>A1</strong>: Awareness and understanding of the role of accounting in business and other organisations and of its theory, principles, concepts, practices, techniques, ethics, limitations, and techniques central to bookkeeping and accounting.<br></p><p style="text-align:justify;"><strong>A2: </strong>Demonstrate the ability to prepare financial statements based on application of accounting concepts, regulations and principles.</p><p style="text-align:justify;"><strong>A3</strong>: Demonstrate understanding of the types of costs and how they behave in order to calculate cost-volume-profit relationships, </p><p style="text-align:justify;"><strong>A4</strong>: Demonstrate understanding of management's decision-making process as it relates to product pricing, production, adding and dropping, etc.</p><p style="text-align:justify;"><strong>A5</strong>: Demonstrate understanding of the types of budgets and be able to prepare operating budgets, financial budgets and capital budgets.</p><p style="text-align:justify;"><strong>A6:</strong> Demonstrate understanding of the responsibility centers and balanced scorecard.<br></p><p><br><strong>B. Cognitive skills</strong></p><p style="text-align:justify;"><strong>B1</strong>: Review and illustrate the purpose, context and environmental influences and constraints on financial accounting and business practices.</p><p style="text-align:justify;"><strong>B2</strong>: Explain the balance sheet equation, the basic financial statements and the information conveyed in each of the statements. </p><p style="text-align:justify;"><strong>B3</strong>: Explain the steps in the accounting cycle for service and merchandising companies.</p><p style="text-align:justify;"><strong>B4:</strong> Explain the relevant factors in making different decisions.</p><p style="text-align:justify;"><strong>B5</strong>: Explain methods that don't use present value versus those that do use present value </p><p style="text-align:justify;"><strong>B6</strong>: Explain the features of responsibility reports and differentiate between cost centres, profit centres and investment centres.<br></p><p><strong>C. Practical and professional skills</strong>&ZeroWidthSpace;</p><p style="line-height:115%;text-indent:-19.7pt;margin-left:19.7pt;"><span class="ms-rteThemeFontFace-1 ms-rteThemeForeColor-2-5" style="font-size:13px;"><span lang="EN-GB" style="line-height:115%;"><strong>C1:</strong></span><span lang="EN-GB" style="line-height:115%;"> Record transactions
+and events, and maintain accounting records as required for bookkeeping and
+accounting.</span></span></p>
+
+<p style="line-height:115%;text-indent:-19.7pt;margin-left:19.7pt;"><span style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;">C2: </span></strong><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;">Prepare basic
+financial statements based upon Generally Accepted Accounting Principles.</span></span></p><p style="line-height:115%;text-indent:-19.7pt;margin-left:19.7pt;"><span style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;">C3</span></strong><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;">: Develop the
+general practical and professional skills of management accounting that can be
+used for personal and career goals.</span></span></p>
+
+<p><strong>D Key transferable skills&nbsp;</strong></p><p><strong>D1</strong>: Use simple mathematics for the purpose of calculations in bookkeeping, accounting and preparing/analysing financial statements, including basic ratio analysis.<br></p><p><strong>D2</strong>: Compare critically and use different approaches to issues and problems within management accounting.<br></p><p><strong>D3</strong>: Communicate management accounting information effectively and appropriately.&ZeroWidthSpace;<br></p><p><strong>D4</strong>: Use fundamental business mathematics and other quantitative methods effectively and appropriately.<br></p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B205A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exploring innovation and entrepreneurship <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This module provides students with a broad foundation in innovation and entrepreneurship. The course is composed of two parts A and B. Part A of it comprises 14 study weeks (one semester). And is structured into 2 (out of the five) linked blocks. It also forms part of the new undergraduate qualification BA Business Management and BA Business Marketing. Students will be introduced to core concepts of entrepreneurship and innovation. They will also examine the theoretical and practical connections between these distinct yet closely-interrelated fields of study.
+
+Block 1: Core concepts
+Introduces core concepts of innovation and entrepreneurship and gives the student an opportunity to examine ‘what it all means for me’. It also introduces students to each other, creates confidence, and promotes teambuilding in preparation for Block 2.
+
+Block 2: Teams and networks
+Block 2 focuses on the skills required to create teams, build networks and to secure the necessary resources in the context of an innovative, entrepreneurial venture. It also introduces and develops the underpinning knowledge and understanding on key areas, including teams, networks, resource acquisition and legitimacy-building, in preparation for the new venture creation activity (Block 4 of B205B).
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_7">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_7" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Exploring innovation and entrepreneurship</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B205A</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Exploring innovation and entrepreneurship</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B207B</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This module provides students with a broad foundation in innovation and entrepreneurship. The course is composed of two parts A and B. Part A of it comprises 14 study weeks (one semester). And is structured into 2 (out of the five) linked blocks. It also forms part of the new undergraduate qualification BA Business Management and BA Business Marketing. Students will be introduced to core concepts of entrepreneurship and innovation. They will also examine the theoretical and practical connections between these distinct yet closely-interrelated fields of study.
+
+Block 1: Core concepts
+Introduces core concepts of innovation and entrepreneurship and gives the student an opportunity to examine ‘what it all means for me’. It also introduces students to each other, creates confidence, and promotes teambuilding in preparation for Block 2.
+
+Block 2: Teams and networks
+Block 2 focuses on the skills required to create teams, build networks and to secure the necessary resources in the context of an innovative, entrepreneurial venture. It also introduces and develops the underpinning knowledge and understanding on key areas, including teams, networks, resource acquisition and legitimacy-building, in preparation for the new venture creation activity (Block 4 of B205B).</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;B205A academic aim is to introduce students to number of fundamental concepts and theories of entrepreneurial innovation. It also re-apply some generic business and management concepts in an entrepreneurial and innovation-related concept (e.g. entrepreneurial marketing and entrepreneurial finance. The coverage of innovation and entrepreneurship subjects will be wide-ranging and integrative, with the aim of providing the necessary foundations for interested students to progress to a more in-depth study of specialist topics within this subject area during their level 3 studies. <br></p><p>Progression is also addressed within B205A - with a gradual development of knowledge and skills from Block 1 and Block 2 (covered in Part A of the course) through Block 3, Block 4 and Block 5 (covered in Part B of the course, B207B). There will be a logical progression of subject matter, from an introduction to core concepts in innovation and entrepreneurship (Block 1), followed by a more skills-oriented examination of teams, networks and associated concepts (Block 2), a comparative study of innovation and entrepreneurship in different contexts (Block 3), a simulated experience of entrepreneurial team-working and innovation (Block 4) and an opportunity for reflection and integration (Block 5). Study and employment skills will be integrated into the learning activities, with a particular focus on digital literacy, creative thinking and problem solving, team-working, persuasive communication and more general personal development and enterprise-related skills. <br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>A. Knowledge
+and understanding</b></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: knowledge
+of different forms of innovative and entrepreneurial practice around the world
+and at different scales, including: technological and social innovation;
+commercial and social enterprise; independent and corporate entrepreneurship. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: understand
+different research perspectives on innovation and entrepreneurship, recognising
+that these subjects can be studied at multiple levels of analysis. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3:
+familiarize with core theories, concepts and frameworks that have been applied
+to innovation and entrepreneurship, with a particular focus on their
+implications for practice. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4: Know the
+relationship between innovation and entrepreneurship, both at a conceptual and
+a practical level. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Distinguish the key components of innovative and
+entrepreneurial processes and practices kinds (i.e. in comparison with more
+routinised approaches) </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Select innovative and entrepreneurial approaches that are
+likely to be appropriate in particular organisational contexts. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills&ZeroWidthSpace;</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span>C1: Identify, search for
+and pursue entrepreneurial opportunities, with the aim of creating sustainable
+business models. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Negotiate, influence, and gain legitimacy in an
+entrepreneurial setting. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Engage in creative problem-solving. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4: Apply design thinking approaches in order to develop practical
+solutions. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C5: Deploy effective networking and persuasive communication
+skills. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Work constructively and ethically in entrepreneurial settings,
+which may be characterised by ambiguity, complexity and open-ended challenges. </span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Display resilience
+and an on-going capacity to learn from direct personal experiences, and those
+of others.</span><br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B205B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exploring innovation and entrepreneurship <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This module provides students with a broad foundation in innovation and entrepreneurship. The course is composed of two parts A and B. Part A of it comprises 14 study weeks (one semester). And is structured into 2 (out of the five) linked blocks. It also forms part of the new undergraduate qualification BA Business Management and BA Business Marketing. Students will be introduced to core concepts of entrepreneurship and innovation. They will also examine the theoretical and practical connections between these distinct yet closely-interrelated fields of study.
+Block 1: Core concepts
+Introduces core concepts of innovation and entrepreneurship and gives the student an opportunity to examine ‘what it all means for me’. It also introduces students to each other, creates confidence, and promotes teambuilding in preparation for Block 2.
+Block 2: Teams and networks
+Block 2 focuses on the skills required to create teams, build networks and to secure the necessary resources in the context of an innovative, entrepreneurial venture. It also introduces and develops the underpinning knowledge and understanding on key areas, including teams, networks, resource acquisition and legitimacy-building, in preparation for the new venture creation activity (Block 4 of B205B).
+
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_8">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_8" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Exploring innovation and entrepreneurship</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B205B</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Exploring innovation and entrepreneurship</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B207B</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This module provides students with a broad foundation in innovation and entrepreneurship. The course is composed of two parts A and B. Part A of it comprises 14 study weeks (one semester). And is structured into 2 (out of the five) linked blocks. It also forms part of the new undergraduate qualification BA Business Management and BA Business Marketing. Students will be introduced to core concepts of entrepreneurship and innovation. They will also examine the theoretical and practical connections between these distinct yet closely-interrelated fields of study.
+Block 1: Core concepts
+Introduces core concepts of innovation and entrepreneurship and gives the student an opportunity to examine ‘what it all means for me’. It also introduces students to each other, creates confidence, and promotes teambuilding in preparation for Block 2.
+Block 2: Teams and networks
+Block 2 focuses on the skills required to create teams, build networks and to secure the necessary resources in the context of an innovative, entrepreneurial venture. It also introduces and develops the underpinning knowledge and understanding on key areas, including teams, networks, resource acquisition and legitimacy-building, in preparation for the new venture creation activity (Block 4 of B205B).
+</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;B205A academic aim is to introduce students to number of fundamental concepts and theories of entrepreneurial innovation. It also re-apply some generic business and management concepts in an entrepreneurial and innovation-related concept (e.g. entrepreneurial marketing and entrepreneurial finance. The coverage of innovation and entrepreneurship subjects will be wide-ranging and integrative, with the aim of providing the necessary foundations for interested students to progress to a more in-depth study of specialist topics within this subject area during their level 3 studies. <br></p><p>Progression is also addressed within B205A - with a gradual development of knowledge and skills from Block 1 and Block 2 (covered in Part A of the course) through Block 3, Block 4 and Block 5 (covered in Part B of the course, B207B). There will be a logical progression of subject matter, from an introduction to core concepts in innovation and entrepreneurship (Block 1), followed by a more skills-oriented examination of teams, networks and associated concepts (Block 2), a comparative study of innovation and entrepreneurship in different contexts (Block 3), a simulated experience of entrepreneurial team-working and innovation (Block 4) and an opportunity for reflection and integration (Block 5). Study and employment skills will be integrated into the learning activities, with a particular focus on digital literacy, creative thinking and problem solving, team-working, persuasive communication and more general personal development and enterprise-related skills. <br><br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>A. Knowledge
+and understanding</strong></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: knowledge
+of different forms of innovative and entrepreneurial practice around the world
+and at different scales, including: technological and social innovation;
+commercial and social enterprise; independent and corporate entrepreneurship. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: understand
+different research perspectives on innovation and entrepreneurship, recognising
+that these subjects can be studied at multiple levels of analysis. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3:
+familiarize with core theories, concepts and frameworks that have been applied
+to innovation and entrepreneurship, with a particular focus on their
+implications for practice. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4: Know the
+relationship between innovation and entrepreneurship, both at a conceptual and
+a practical level. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Distinguish the key components of innovative and
+entrepreneurial processes and practices kinds (i.e. in comparison with more
+routinised approaches) </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Select innovative and entrepreneurial approaches that are
+likely to be appropriate in particular organisational contexts. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills&ZeroWidthSpace;</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span>C1: Identify, search for
+and pursue entrepreneurial opportunities, with the aim of creating sustainable
+business models. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Negotiate, influence, and gain legitimacy in an
+entrepreneurial setting. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Engage in creative problem-solving. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4: Apply design thinking approaches in order to develop practical
+solutions. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C5: Deploy effective networking and persuasive communication
+skills.&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><br></span>&nbsp;</p>
+
+<p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Work constructively and ethically in entrepreneurial settings,
+which may be characterised by ambiguity, complexity and open-ended challenges. </span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Display resilience
+and an on-going capacity to learn from direct personal experiences, and those
+of others.</span><span class="ms-rteFontSize-2">&ZeroWidthSpace;</span><span class="ms-rteFontSize-2" id="ms-rterangepaste-end"></span>&ZeroWidthSpace;<br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B207A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shaping Business Opportunities I <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    B207A is an 8-credit (30 points), Level 5 UK-OU based course offered through the Business Program at the Arab Open University as a compulsory course for all students enrolled in all tracks in the program. Entry into this course is contingent upon the successful completion of BS110. The B207 module in this new study plan is equivalent to B203 module in the old study plan (which is itself previously equivalent to B202)
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_47">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_47" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Shaping Business Opportunities I</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B207A </td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Shaping Business Opportunities I</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>BS110</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>B207A is an 8-credit (30 points), Level 5 UK-OU based course offered through the Business Program at the Arab Open University as a compulsory course for all students enrolled in all tracks in the program. Entry into this course is contingent upon the successful completion of BS110. The B207 module in this new study plan is equivalent to B203 module in the old study plan (which is itself previously equivalent to B202)</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;This module is designed to provide intermediate conceptual and practical learning to students in operations management, marketing and human resource management. The module comprises 16 study weeks (including final assessment). <br></p><p>&ZeroWidthSpace;<br></p><p><span lang="EN-GB" style="text-decoration:underline;">&ZeroWidthSpace;Operations Management: (4 weeks)</span></p><p>The following subjects will be covered: </p><ul><li>Introduction to operations management</li><li>Operations strategy</li><li>Product, service and process design</li><li>International location of operations</li><li>Global supply chain</li><li>Operations: changing market conditions</li></ul><div>Operations: risk and resilience<br><br>&nbsp;<br><br><span lang="EN-GB" style="text-decoration:underline;">&ZeroWidthSpace;&ZeroWidthSpace;Marketing: (6</span><span lang="EN-GB" style="text-decoration:underline;"> weeks)</span><br><br>The following subjects will be covered:</div><ul><li>Marketing: purpose and mission</li><li>Marketing (external environment, brand formulation, segmentation and targeting, market research)</li><li>Analysing market growth potential</li><li>International marketing and global branding</li><li>Consumer behaviour</li><li>Business-to-business marketing</li></ul><div>Marketing (integrated marketing; lifecycle maturity, product portfolio, brand refreshing, monitoring and measuring success, crisis management)<br><br><br><br><span lang="EN-GB" style="text-decoration:underline;">Human Resource Management (3 weeks)</span><br></div><ul><li>What does it mean to move from employee relations to HRM in a global context?</li><li>Employment relations</li><li>Change management&ZeroWidthSpace;<br></li></ul></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p>&ZeroWidthSpace;<strong>A. Knowledge and understanding</strong></p><p><strong>A1</strong>:&nbsp; Develop a critical appreciation of the interactions between various business functions (operations management, marketing and human resource management) and the integrative complexity that shapes business innovation.</p><p><strong>A2</strong>: Develop a critical understanding of why new products and services are imperative to contemporary business practice. Also to develop knowledge and understanding of external issues affecting the successful running of organizations, including how they compete in a global context.<br></p><p><strong>A3: </strong>Develop knowledge and understanding of the elements required to build long-term success in organizations, and how students can contribute to the fostering of long-term value creation.</p><p><strong>A4: </strong>develop knowledge and critical understanding of the theories, concepts and models of different business functions (operations management, marketing and human resource management).</p><p></p><p><strong>B. Cognitive skills</strong><br></p><p><strong>B1: </strong>Select and<strong> </strong>critically analyse information relevant to a particular problem or issue related to business and management.</p><p><strong>B2/B3: </strong>Evaluate and compare competing perspectives, theoretical models and concepts in the context of practical situations</p><p><strong>B2/B4: </strong>Gather and synthesise material from a variety of sources in constructing arguments applied to business and management <br></p><p><strong>C. Practical and professional skills</strong><br></p><p></p><p><strong>C3</strong>: Communicate in a professional manner in written work, face to face and online. Plan, monitor and review progress as independent learner, including a focus on personal skills development.</p><p><strong>C4: </strong>Develop an awareness of ethical issues and professional standards relevant to business and management<br></p><p><strong>D Key transferable skills&nbsp;</strong></p><p><strong>D2: </strong>Search for and use relevant digital and non-digital information from sources other than the module materials.</p><p><strong>D3: </strong>Compare critically and use different approaches to issues and problems within business management. Engage in critical reflection.</p><p><strong>D4: </strong>Consolidate an understanding of academic language and literacy practices in order to effectively engage with the academic knowledge and skills of Level 5 study.<br></p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B207B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shaping Business Opportunities  <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    B207B is an 8-credit (30 points), Level 5 UK-OU based course offered through the Business Program at the Arab Open University as a compulsory course for all students enrolled in all tracks in the program. Entry into this course is contingent upon the successful completion of B207A. 
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_51">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_51" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Shaping Business Opportunities </span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B207B</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Shaping Business Opportunities </td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B207A</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>B207B is an 8-credit (30 points), Level 5 UK-OU based course offered through the Business Program at the Arab Open University as a compulsory course for all students enrolled in all tracks in the program. Entry into this course is contingent upon the successful completion of B207A. </td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p><span style="font-size:13px;"><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;">&ZeroWidthSpace;This
+module is designed to provide intermediate conceptual and practical learning to
+students in management and accounting. The module comprises 16 study weeks
+(including final assessment). </span>&ZeroWidthSpace;<br></span></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p>&ZeroWidthSpace;<strong>A. Knowledge and understanding</strong></p><p style="text-align:justify;"><strong>A1</strong>:&nbsp; Develop a critical appreciation of the interactions between various business functions (management and accounting) and the integrative complexity that shapes business innovation.<br></p><p style="text-align:justify;"><strong>A2: </strong>Develop knowledge and understanding of the elements required to build long-term success in organizations, and how students can contribute to the fostering of long-term value creation.<br></p><p style="text-align:justify;"><strong>A3: </strong>develop knowledge and critical understanding of the theories, concepts and models of different business functions.</p><p style="text-align:justify;"><strong>B. Cognitive skills</strong><br></p><p></p><p style="text-align:justify;"><strong>B1: </strong>Select and<strong> </strong>critically analyse information relevant to a particular problem or issue related to business and management.<br></p><p style="text-align:justify;"><strong>B2: </strong>Evaluate and compare competing perspectives, theoretical models and concepts in the context of practical situations<br></p><p><strong>B3: </strong>Gather and synthesise material from a variety of sources in constructing arguments applied to business and management <br></p><p><strong>C. Practical and professional skills</strong></p><p><strong>C1</strong>: Communicate in a professional manner in written work, face to face and online. Plan, monitor and review progress as independent learner, including a focus on personal skills development.<br></p><p><strong>C2: </strong>Develop an awareness of ethical issues and professional standards relevant to business and management<br></p><p><strong>D Key transferable skills </strong></p><p><strong>D1: </strong>Search for and use relevant digital and non-digital information from sources other than the module materials.</p><p style="text-align:justify;"><strong>D2: </strong>Compare critically and use different approaches to issues and problems within business management. Engage in critical reflection.&ZeroWidthSpace;<br></p><p><strong>D3: </strong>Consolidate an understanding of academic language and literacy practices in order to effectively engage with the academic knowledge and skills of Level 5 study.<br></p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B291&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Financial Accounting <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This course is the first of two modules leading to the Professional Certificate in Accounting (K01). We strongly recommend that you study this course before Management accounting (B292), but both courses can be studied independently. This is a Level 2 course and students need to have a good knowledge of financial accounting, obtained either through Level 1 study with the AOU or by doing equivalent work at another university. Ideal preparation for this course would be our Level 1 course Fundamentals of Accounting (B124).
                 </div>
 				
 				<div class="course-details float-right">
@@ -264,7 +1119,7 @@ module comprises 16 study weeks (including final assessment).&nbsp;</span><br><b
 						<!-- Modal content-->
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="modal-title">Shaping Business Opportunities</span>
+								<span class="modal-title">Financial Accounting</span>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
@@ -272,15 +1127,15 @@ module comprises 16 study weeks (including final assessment).&nbsp;</span><br><b
 									<tbody>
 										<tr>
 											<td>Course Code</td>
-											<td>B207-B</td>
+											<td>B291</td>
 										</tr>
 										<tr>
 											<td>Course Title</td>
-											<td>Shaping Business Opportunities</td>
+											<td>Financial Accounting</td>
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>B124</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
@@ -288,15 +1143,51 @@ module comprises 16 study weeks (including final assessment).&nbsp;</span><br><b
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>B207B is an 8-credit (30 points), Level 5 UK-OU based course offered through the Business Program at the Arab Open University as a compulsory course for all students enrolled in all tracks in the program. Entry into this course is contingent upon the successful completion of B207A.</td>
+											<td>This course is the first of two modules leading to the Professional Certificate in Accounting (K01). We strongly recommend that you study this course before Management accounting (B292), but both courses can be studied independently. This is a Level 2 course and students need to have a good knowledge of financial accounting, obtained either through Level 1 study with the AOU or by doing equivalent work at another university. Ideal preparation for this course would be our Level 1 course Fundamentals of Accounting (B124).</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;This module is designed to provide intermediate conceptual and practical learning to students in management and accounting. The module comprises 16 study weeks (including final assessment).&nbsp;<br><br></p></td>
+											<td><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:12pt;">&ZeroWidthSpace;This
+is the course for students if they want a route into the accountancy profession
+or need to gain fundamental accounting skills for a management or other role.
+Students will gain an understanding of how financial statements are prepared
+and develop the skills to prepare financial statements. Students will explore
+differences in financial accounting for different businesses, building an
+understanding of the frameworks underpinning accounting and audit practice</span>.&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong></p><p style="text-align:justify;">At the end of the module, learners will be expected to:</p><ol><li>Develop a critical appreciation of the interactions between various business functions (management and accounting) and the integrative complexity that shapes business innovation.</li><li>Develop knowledge and understanding of the elements required to build long-term success in organizations, and how students can contribute to the fostering of long-term value creation.</li><li><strong>&nbsp;</strong>develop knowledge and critical understanding of the theories, concepts and models of different business functions.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong></p><p style="text-align:justify;">At the end of the module learners will be expected to:</p><ol style="text-align:justify;"><li>Select and<strong>&nbsp;</strong>critically analyse information relevant to a particular problem or issue related to business and management.</li><li>Evaluate and compare competing perspectives, theoretical models and concepts in the context of practical situations</li><li>Gather and synthesise material from a variety of sources in constructing arguments applied to business and management&nbsp;&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>At the end of the module, learners will be expected to:</p><ol><li>&nbsp;Communicate in a professional manner in written work, face to face and online. Plan, monitor and review progress as independent learner, including a focus on personal skills development.</li><li>Develop an awareness of ethical issues and professional standards relevant to business and management&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D.&nbsp;Key transferable skills&nbsp;</span></strong><br></p><p style="text-align:justify;">At the end of the module, learners will be expected to:</p><ol style="text-align:justify;"><li>Search for and use relevant digital and non-digital information from sources other than the module materials.</li><li>Compare critically and use different approaches to issues and problems within business management. Engage in critical reflection.</li><li><strong>&nbsp;</strong>Consolidate an understanding of academic language and literacy practices in order to effectively engage with the academic knowledge and skills of Level 5 study.&ZeroWidthSpace;&ZeroWidthSpace;<br><br></li></ol></td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>&ZeroWidthSpace;A. Knowledge
+and understanding</b></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1:
+Demonstrate understanding of the role and importance of accounting in the
+various types of business and other organisations. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2:
+Demonstrate understanding of the accounting regulatory framework in the UK and
+EU as well as within the context of international financial and capital
+markets. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3:
+Demonstrate understanding of the qualitative characteristics of financial
+accounting information, accounting concepts and principles. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4:
+Demonstrate the ability to prepare financial statements based on application of
+accounting concepts, regulations and principles. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Review and illustrate the purpose, context and environmental
+influences and constraints on financial accounting and business practices (Unit
+1). B2: Explain, analyse and apply the mechanism of double-entry bookkeeping
+and the accounting cycle (Unit 2). B3: Identify, classify, measure and
+summarise the elements of financial statements applying accounting principles
+and concepts (Units 3 and 4). B4: Explain and interpret the purpose, form and
+content of the three main financial statements; income statement, balance sheet
+and cash flow statement (Unit 5). B5: Explain and evaluate the need for ethics
+in the behaviour of accountants and the need for independent auditing in the
+reporting process of public and large enterprises (Unit 6). B6: Explain and
+review the relations between corporate governance,</span><span lang="EN-GB"> </span><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">auditing and
+financing (Unit 7). </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Record transactions and events, and maintain accounting
+records manually and gain some familiarity with computerised accounting
+software (Units 3 and 4). </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Prepare periodic financial statements for sole traders,
+partnerships, non-profit organisations and single-entity private and public
+limited companies (Unit 5)</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Use simple
+mathematics for the purpose of calculations in bookkeeping, accounting and
+preparing/analysing financial statements, including basic ratio analysis.</span><p><br>&nbsp;</p></td>
 										</tr>
 									</tbody>
 								</table>
@@ -318,26 +1209,26 @@ module comprises 16 study weeks (including final assessment).&nbsp;</span><br><b
 
             <div class="course-item">
                 <div class="course-title">
-                    BE322/4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entrepreneurship &amp; Small Business Management <span class="float-right">(4) Credit Hours</span>
+                    B292&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Management Accounting <span class="float-right">(8) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    BE322 is an introductory four credit undergraduate course. It assumes no deep knowledge of business. Indeed, it provides students with an overview of business in an-increasingly global society. This is not a course of theory; it is more an application or "how-to" course. It is designed to increase awareness of the opportunities and challenges in today's business environment. The success of any business depends upon several factors: marketing, management and leadership, human resources, financing, logistics, planning, and knowledge of the business environment. An overview of business topics will be discussed including the entrepreneur's success factors, developing business plans, forms of business ownership, management and leadership styles, marketing and market research, technology and e-commerce, understanding financial statements and testing the feasibility and viability of a new venture.
+                    This is a level 2 course and students need to have a good knowledge of financial accounting obtained either through level 1 study with the AOU or completing equivalent work at another university. This is the course for students if they want a route into the accounting profession or need to gain fundamental accounting skills  for a management or other role. The overall aim of this module is to help students learn and interpret management accounting information. You may be undertaking this module to prepare for a career as an accountant working in or with organizations, as part of a degree or as a stand- alone module.  
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_80">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_11">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_80" class="modal fade" role="dialog">
+				<div id="modal_11" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="modal-title">Entrepreneurship &amp; Small Business Management</span>
+								<span class="modal-title">Management Accounting</span>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
@@ -345,15 +1236,873 @@ module comprises 16 study weeks (including final assessment).&nbsp;</span><br><b
 									<tbody>
 										<tr>
 											<td>Course Code</td>
-											<td>BE322/4</td>
+											<td>B292</td>
 										</tr>
 										<tr>
 											<td>Course Title</td>
-											<td>Entrepreneurship &amp; Small Business Management</td>
+											<td>Management Accounting</td>
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>B120</td>
+											<td>B124</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This is a level 2 course and students need to have a good knowledge of financial accounting obtained either through level 1 study with the AOU or completing equivalent work at another university. This is the course for students if they want a route into the accounting profession or need to gain fundamental accounting skills  for a management or other role. The overall aim of this module is to help students learn and interpret management accounting information. You may be undertaking this module to prepare for a career as an accountant working in or with organizations, as part of a degree or as a stand- alone module.  </td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:12pt;display:none;"></span></p><p style="margin:0in 0in 0pt;text-align:justify;line-height:115%;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">B292 academic aim is to introduce students to number of fundamental
+concepts and theories of Management Accounting in order to guide managerial
+decision making by individuals and business units. It also develops the
+students’ knowledge of Management Accounting as well as skills in
+problem-solving, decision making relating to aspects of planning, costing, budgeting,
+evaluating. B292 also prepares students for advanced Management Accounting
+concepts. After studying the course, the students should be able to: </span></p><p style="margin:0in 0in 0pt;text-align:justify;line-height:115%;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">&nbsp;</span></p><ul style="margin-top:0in;"><li style="color:#000000;line-height:115%;font-size:12pt;font-style:normal;font-weight:400;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Demonstrate
+     understanding of the nature of management and the role of management
+     accounting in the management process.</span></li><li style="color:#000000;line-height:115%;font-size:12pt;font-style:normal;font-weight:400;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Demonstrate
+     understanding of the different types of costs and the role of costs in
+     decision making.</span></li><li style="color:#000000;line-height:115%;font-size:12pt;font-style:normal;font-weight:400;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Demonstrate understanding
+     of how inventory is accounted for and managed within the organization, and
+     the methods for calculating the cost of different types of products,
+     processes and services.</span></li><li style="color:#000000;line-height:115%;font-size:12pt;font-style:normal;font-weight:400;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Demonstrate the
+     ability to prepare budgets.</span></li><li style="color:#000000;line-height:115%;font-size:12pt;font-style:normal;font-weight:400;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Demonstrate
+     understanding of the management and the influence of economic factors and
+     economic analysis on management decision making.</span></li></ul>
+
+<p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:12pt;"></span><br>&nbsp;</p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>A. Knowledge
+and understanding</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"></span></p><p><strong>A1</strong> : Demonstrate Understanding of the nature of management and the role of management accounting in the management process.<br></p><p><strong>A2</strong>: Demonstrate the understanding of the different types of costs and the role of costs in decision making.<br></p><p><strong>A3:</strong> Demonstrate understanding of how inventory is accounted for and managed within the organization and the methods for calculating the costs of different types of products , processes and services..<br></p><p style="line-height:115%;"><strong><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">A4:</span></strong><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"> Demonstrate the ability to prepare
+budgets.</span></p>
+
+<p><br>&nbsp;</p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"></span></p><p style="text-align:justify;"><strong>B1.</strong> Understand the nature of organizations, the process of management and the role of information (including accounting information) in managing organizations. (Unit 1).<br></p><p style="text-align:justify;"><strong>B2. </strong>Understand the nature of cost analysis for planning and decision making and be able to apply and explain the techniques covered. (Unit 2).<br></p><p style="text-align:justify;"><strong>B3</strong>. Understand and explain the costing and accounting methods and&nbsp;&nbsp;&nbsp; systems which provide the management of an organization with relevant and reliable information on which to base decisions. (Unit 3).<br></p><p style="text-align:justify;"><strong>B4</strong>. Explain the budgetary process and illustrate in detail a method of preparing budgets for planning and control purposes. (Unit 4).<br><br></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"></span></p><p style="text-align:left;"><strong>C1: </strong>Understand the use of marginal costs , cost volume –profit Analysis and contribution analysis in costing and price decisions.<br><strong>C2:</strong>Calculate costs using the job , process and contract costing <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Methods , calculate the cost of a product or service from basic<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Information using batch and process costing.</p><p style="text-align:left;"><strong>C3:</strong>Prepare budgets and calculate the main variances used in <br>&nbsp;&nbsp;&nbsp;&nbsp; Variance analysis. </p><p style="text-align:left;"><strong>C4</strong>:Be able to prepare accounting statements for planning and <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Control.</p><p style="text-align:left;"><strong>C5:</strong> Be able to prepare periodic reports<br></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"></span></p><p style="text-align:justify;"><strong>D1:</strong>Demonstrate understanding of the nature &amp; types of costs</p><p style="text-align:justify;"><strong>D2:</strong> Calculate Break-even points in units and in turnover.</p><p><strong>D3:</strong> The use of Activity based costing as a more exact method </p><p>In indirect cost allocation.<br></p><p><strong>D4:</strong>Demonstrate ability to prepare different types of budgets&ZeroWidthSpace;<br></p><p><strong>D5</strong>: Work with qualitative &amp; quantitative data drawing appropriate conclusions based on findings.<span class="ms-rteFontSize-2">&ZeroWidthSpace;</span><span class="ms-rteFontSize-2" id="ms-rterangepaste-end"></span>&ZeroWidthSpace;<br></p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B325&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Managing across organisational and cultural boundaries <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    B325 is offered as an option at level 3 in the awards: BA (Hons) Business Studies; BA (Hons) Leadership and management. The course aligns well within the educational aims of these programs by developing “the student’s interest in and knowledge of the world of business”. By providing students with the opportunity to draw on their own experience and critically engage with theory with theory relevant to managing across organisational and cultural boundaries, it supports the program’s aim of developing “graduates who bring to their employment in business or organisations of any sort, a range of critically important and highly valued skills”. B325 will complement other courses within the existing suite of courses offered within management and business studies. It will embrace all learners irrespective of their level of attained experience and position within their own organisation.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_12">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_12" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Managing across organisational and cultural boundaries</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B325</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Managing across organisational and cultural boundaries</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>BUS310</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>B325 is offered as an option at level 3 in the awards: BA (Hons) Business Studies; BA (Hons) Leadership and management. The course aligns well within the educational aims of these programs by developing “the student’s interest in and knowledge of the world of business”. By providing students with the opportunity to draw on their own experience and critically engage with theory with theory relevant to managing across organisational and cultural boundaries, it supports the program’s aim of developing “graduates who bring to their employment in business or organisations of any sort, a range of critically important and highly valued skills”. B325 will complement other courses within the existing suite of courses offered within management and business studies. It will embrace all learners irrespective of their level of attained experience and position within their own organisation.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p><span class="ms-rteFontSize-2" id="ms-rterangepaste-start"></span><span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">The
+aim of the course is fairly to provide students with ways if understanding and
+analysing different organisational, inter- organisational and international
+context and the ways in which such different contexts influence individuals’
+experience of work. Secondly, the course aims to provide students with
+knowledge and understanding of themes and challenges pertaining to organising
+and managing across this different context; managing aims, power, politics,
+trust, cultural diversity and the darker side of organising. The course
+embassies the relationships between theory and practice; putting emphasis on
+the theoretical underpinnings and debates surrounding the themes whilst at the
+same time requiring students to draw on their own experience. Achieving the
+intended learning outcomes (covering both knowledge and skills) fully supports
+this dual aim.</span>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>&ZeroWidthSpace;A. Knowledge
+and understanding</strong></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1:
+Inter-organisational collaboration, organisational behaviour, and international
+management theories and concepts relevant to managing across organisational and
+cultural boundaries.<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Themes
+and challenges pertaining to organizing and managing across intra,
+inter-organisational and international contexts including the management of
+aims, power, politics, trust, cultural diversity and the darker side of
+organising.</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Use conceptual frameworks to describe functions of organising and
+managing in and across organisational and international contexts. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Identify and critically assess different perspectives on
+managing and organising.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Synthesise, critically evaluate and challenge course relevant
+theories of inter-organisational collaboration, organisational behaviour, and
+international management. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4: Critically evaluate theories in relation to personal
+experiences, organisational, inter-organisational and international setting
+with which you are familiar and the relative standpoints of others within
+different contexts. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Use and adopt relevant concepts and theories to practically
+engage with a range of problems and issues in the work place. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Use specific inter-organisational collaboration,
+organisational behaviour, and international management knowledge, cognitive and
+key skills developed during the course to enhance individual work / practice.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.&ZeroWidthSpace;</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span>D1: Read and interpret
+information presented in a variety of forms including academic journals, books
+and on-line text. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Articulate ideas and communicate effectively using appropriate
+interorganisational collaboration, organisational behaviour, and international
+management theories and concepts. D3: Identify and ask questions appropriate to
+the exploration and complex concepts.&nbsp;</span></p><p><span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4: Engage in
+reflective, experiential and collaborative learning in face to face and virtual
+context.</span>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B326&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advanced Financial Accounting <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    Advanced Accounting is a continuation of the study of financial accounting. This course is the last of three modules leading to the Professional Certificate in Accounting. This is a Level 3 course and students need to have a good knowledge of financial accounting, obtained either through Levels 1 and 2 studies. Ideal preparation for this course would be our Level 1 course Financial accounting (BE210) and level 2 course Intermediate financial accounting (B291).
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_13">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_13" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Advanced Financial Accounting</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B326</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Advanced Financial Accounting</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B291</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>Advanced Accounting is a continuation of the study of financial accounting. This course is the last of three modules leading to the Professional Certificate in Accounting. This is a Level 3 course and students need to have a good knowledge of financial accounting, obtained either through Levels 1 and 2 studies. Ideal preparation for this course would be our Level 1 course Financial accounting (BE210) and level 2 course Intermediate financial accounting (B291).</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p><span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;The
+areas of coverage in this course include issues concerning the operation of
+business combinations and consolidated financial statements, and international
+accounting issues. Students are expected to develop both an understanding of
+the concepts underlying these topics and the technical and analytical skills
+needed to apply the concepts in practice. The case method will be used to
+supplement problems.</span>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>A. Knowledge
+and understanding</b></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: Demonstrate an understanding of current GAAP related to
+business combinations and its relationship to present reporting practices.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Demonstrate an understanding of contemporary accounting theory
+and practice pertaining to business combinations and corporate consolidations. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3: Demonstrate an understanding of the various methods of
+accounting for an investment in equity shares of another company.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4: Understand concepts related to foreign currency, exchange
+rates, and foreign exchange risk.<span>&nbsp; </span>A5: Understand
+how foreign currency forward contracts and foreign currency options can be used
+to hedge foreign exchange risk.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A6: Describe guidelines as to when foreign currency financial
+statements are to be translated using the current rate method and when they are
+to be translated using the temporal method.<span>&nbsp;
+</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Explain how acquisition expenses are reported.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Explain the complexities of revenue recognition. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: the valuation of assets, including goodwill, and liabilities
+acquired in a business combination accounted for by the acquisition method. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4: Analyse and interpret the relevant International Financial
+Reporting Standard (IFRS). </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5: Prepare and analyse accounts for importing and exporting
+transactions denominated in foreign currencies, as well as accounting for
+forward exchange contracts.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Properly prepare consolidated financial statements as of the
+date of acquisition and for periods subsequent to the date of acquisition. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Prepare a worksheet to consolidate the accounts of two
+companies that form a business combination. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Adjust for foreign currency transactions and financial
+statements.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.&ZeroWidthSpace;</strong></span></p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:12pt;"><span class="ms-rteFontSize-2">D1: Use simple mathematics for the purpose of
+calculations in bookkeeping, accounting and preparing/analysing financial
+statements</span></span>&ZeroWidthSpace;<br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B327&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating futures: Sustainable enterprise and innovation <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This module is designed to provide intermediate/advanced conceptual and practical learning to students interested in the theory and practice of entrepreneurship and innovation in different contexts. B327 is a new level three course in the B.A. (Hons) in Business Studies with Marketing track. This module is a direct replacement for B322 (Investigating entrepreneurial opportunities). Structured around 4 study blocks, B327 addresses the societal impacts of entrepreneurship and innovation, researching entrepreneurship and innovation, and sustainable enterprise challenge.  
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_14">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_14" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Creating futures: Sustainable enterprise and innovation</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B327</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Creating futures: Sustainable enterprise and innovation</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>BUS310</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This module is designed to provide intermediate/advanced conceptual and practical learning to students interested in the theory and practice of entrepreneurship and innovation in different contexts. B327 is a new level three course in the B.A. (Hons) in Business Studies with Marketing track. This module is a direct replacement for B322 (Investigating entrepreneurial opportunities). Structured around 4 study blocks, B327 addresses the societal impacts of entrepreneurship and innovation, researching entrepreneurship and innovation, and sustainable enterprise challenge.  </td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p><span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;The
+academic purpose of this module is to enable learners to develop independent
+research and online collaborative skills necessary to engage in enterprise and
+innovation practices in new and existing organisations. The module encourages
+students to do so by articulating how entrepreneurship and innovation can be
+used to satisfy individual goals/objectives while contributing to solving
+societal problems in an ethical and sustainable manner. The module also
+explores the theoretical and practical connections between the distinct yet
+closely-interrelated fields of study.</span>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>A. Knowledge
+and understanding</strong></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: Create
+and manage sustainable forms of innovative and entrepreneurial ventures within
+a range of specialist areas, such as Engineering, science and information
+technology; Creative, leisure and cultural industries; Health and social care.<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Research
+entrepreneurship and innovations within a specialist real world setting,
+recognising that specialist areas have to be explored at multiple levels of
+analysis.<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3: Apply
+core theories, concepts and frameworks of innovation and entrepreneurship to
+understand the strategy, process and operations of enterprises at different
+stages of their life cycle. A4: Discuss the impact of innovation and
+entrepreneurship on society, both at a conceptual and a practical level,
+including ethics and sustainability, economic and social benefits to you, the
+economy and local communities. <span>&nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Differentiate the distinctive roles played by start-ups and
+established enterprises in the process of developing and commercializing
+various forms of innovations. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Distinguish the responsibilities of founders, managers,
+employees and directors within particular types of sustainable enterprises and
+innovations, including roles and rewards. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Use concepts from enterprise and innovation to critically
+analyse and evaluate solutions to a variety of societal challenges. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Work independently and as part of a collaborative virtual team
+to develop attributes and capabilities for entrepreneurial success in a complex
+and changing environment. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Undertake independent research to inform practice within your
+area of specialism. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Critically evaluate and reflect on your own career development
+objectives. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Select and apply conceptual thinking for the process of
+enterprise development. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Critically analyse and design competitive and sustainable
+strategies for developing and introducing innovations into particular markets. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Negotiating, influencing, and agreeing roles and rewards
+within founder teams in entrepreneurial settings, doing so in a legitimate
+ethical manner. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4: Appropriately plan and solve problems in entrepreneurial and
+innovative settings. </span></p>
+
+<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:13px;">D5: Deploying effective
+networking and persuasive communication skills.</span>&nbsp;<br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B392&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advanced Management Accounting <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    The module offers students the opportunity to continue their studies in the BA Business Studies after they have completed the B291 &amp; B292 modules. It builds on the knowledge and skills students have learned in B292 by focusing on theories, concepts and techniques at a more advanced level. The learning outcomes also include a critical evaluation of the theories and techniques and their application in ambiguous settings using case study approach. Business entities operate in economic turbulent environments. Under these constraints, decisions taken by managers of business units can vary and differ depending on the manager’s and the company’s pursuit of goals and objectives. Proper economic analysis and use of appropriate techniques and tools are therefore mandatory for managers and decision makers. The module can be used to understand strategy and to situate the role of strategic management accounting within the broader content of organizational and industry differences using theories, tools, techniques and relevant case studies and examples. Basic skills of quantitative proficiency is required in order to understand pricing decisions techniques, financial measures of performance, investments , EVA , Variance analysis , budgeting costing etc. This module provides students with a solid base of Advanced management Accounting study and practice.  
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_16">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_16" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Advanced Management Accounting</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B392</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Advanced Management Accounting</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B292</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>The module offers students the opportunity to continue their studies in the BA Business Studies after they have completed the B291 &amp; B292 modules. It builds on the knowledge and skills students have learned in B292 by focusing on theories, concepts and techniques at a more advanced level. The learning outcomes also include a critical evaluation of the theories and techniques and their application in ambiguous settings using case study approach. Business entities operate in economic turbulent environments. Under these constraints, decisions taken by managers of business units can vary and differ depending on the manager’s and the company’s pursuit of goals and objectives. Proper economic analysis and use of appropriate techniques and tools are therefore mandatory for managers and decision makers. The module can be used to understand strategy and to situate the role of strategic management accounting within the broader content of organizational and industry differences using theories, tools, techniques and relevant case studies and examples. Basic skills of quantitative proficiency is required in order to understand pricing decisions techniques, financial measures of performance, investments , EVA , Variance analysis , budgeting costing etc. This module provides students with a solid base of Advanced management Accounting study and practice.  </td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td>&ZeroWidthSpace;<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>A. Knowledge
+and understanding</strong></span><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1 :
+Understand the role of strategic management accounting and apply a strategic
+analysis framework in simple complex settings. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2
+:Critically select , apply and evaluate management accounting techniques in
+strategic costing and pricing including value chain analysis , activity based
+costing and business process optimization approaches.<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3:
+Understand, describe and evaluate the sources , costs and risks associated with
+the financing of investments. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4: Apply and
+critically evaluate advanced techniques for investment appraisal. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A5: Explain,
+apply and evaluate methods of accounting control and performance evaluation for
+the purpose of improving strategic and operational performance of
+organizations. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Develop the ability to integrate information and use reasoned
+approaches to select relevant information and analytical techniques in simple
+and complex settings. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Compare critically and use different approaches to issues and
+problems within management accounting. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Communicate management accounting information effectively and
+appropriately. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4: Use information and communication technologies appropriately
+and effectively.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5: Use fundamental business mathematics and other quantitative
+methods effectively and appropriately</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Apply digital technologies to analyse data using strategic
+management techniques, e.g spread sheets.<span>&nbsp;
+</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Frame problems in ambiguous settings independently .Identify
+and critically select appropriate information both from digital and print
+sources to address these.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Use a combination of electronic applications to communicate
+analysis and findings.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4: Use tools and techniques of management accounting to<span>&nbsp; </span>improve managerial decision making.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Provide students with knowledge and understanding of
+management accounting techniques that play an important role in in the
+formulation and implementation of business strategy. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Examine two key areas of financial management of organizations
+and link them to the management accounting and strategic activities of
+organizations. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Build on the material already studied by students on
+investment appraisal, adding theoretical depth and a critical evaluation of the
+techniques.<span>&nbsp; </span></span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4: Evaluate performance
+using benchmarks and appropriate measures of return on investment. </span>&ZeroWidthSpace;<br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B628&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Managing 1: Organizations and People <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This module is designed for managers, aspiring managers, team leaders and supervisors; it uses activities and problem-solving to take you through core topics in organizational behavior and human resource management. Topics include organizational context and culture, stakeholders, management roles, recruitment and induction, performance management, motivation, team work, managing operations and change. These are focused primarily on your own work situations and practices, whether these are in the commercial, public or voluntary sectors.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_17">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_17" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Managing 1: Organizations and People</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B628</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Managing 1: Organizations and People</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B207B</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This module is designed for managers, aspiring managers, team leaders and supervisors; it uses activities and problem-solving to take you through core topics in organizational behavior and human resource management. Topics include organizational context and culture, stakeholders, management roles, recruitment and induction, performance management, motivation, team work, managing operations and change. These are focused primarily on your own work situations and practices, whether these are in the commercial, public or voluntary sectors.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;<span class="ms-rteFontSize-2" id="ms-rterangepaste-start"></span><span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">By the
+end of the course students will be enabled to critically reflect on and analyse
+workplace situations and their own ways of managing. It is ‘solution oriented’
+to help students to not only understand work situations from a manager’s
+perspective, but also to help them to work out what to do, given that they may
+not be in charge of the organisation they work for. As they work through
+activities, problems and solutions, they will question the idea that there are
+single solutions or issues or that there is ‘one best way’. they will come to
+understand the constraints, choices and demands that operate and learn when to
+work within them and when and how they may be able to bring about change.</span>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>A. Knowledge
+and understanding</strong></span><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span style="text-decoration:underline;">Module 1 : </span>Managing</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: the role and context of managerial work with particular
+reference to the development of own practice.<span>&nbsp;
+</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: managerial skills ( including problem solving , decision
+making, information gathering treatment and presentation) </span></p><p style="text-decoration:underline;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">Module 2:&nbsp; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3: Key processes of people management, incorporating the
+recruitment and development of staff and the management and leadership of
+individuals, teams and change. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4: Behavioural aspects of the management of leadership of
+individuals, teams and change. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span><strong>B. Cognitive skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span>B1:apply management concepts
+to work context. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: analyse and critically reflect on work practice and
+professional self knowledge. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: solve management problems through the use of the analytical
+skills including problem identification, analysis, logic, thinking and
+judgement to the advantage of one's own organization.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Setting objectives for developing and implementing<span>&nbsp;&nbsp; </span>Operational plans for the area of
+responsibility. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Reviewing and evaluating performance and practice.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: reflecting and questioning.<span>&nbsp;
+</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4: presenting and reporting information. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C5: problem solving, innovation and decision-making.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C6: Managing business<span>&nbsp;
+</span>processes. <span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Use interpersonal skills including those involved in team
+working and collaborating. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: communicate effectively , using management vocabulary, both
+orally and in writing<span>&nbsp; </span>and listen
+actively . </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Gather, handle , present and use information effectively;
+analyse and evaluate numerical data and information for specific purposes; use
+information technologies.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4: Demonstrate numeracy and literacy<span>&nbsp; </span></span></p>
+
+<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:13px;">D5: Learn how to learn
+with an emphasis on self-monitoring and progress towards independent learning.</span>&ZeroWidthSpace;<br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B629&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Managing 2: Marketing and Finance <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    Main elements and realities of a manager’s job and explains how one can develop and organize himself to be effective and successful in his role. Managing in modern organizations is not easy: no context is the same; the ‘right’ decision in one organization may be the ‘wrong’ one in another, or at another time. There is no ‘one best way’. However, there is also ‘received wisdom’ – tried and tested practices and behaviours that are usually effective in bringing about the result a manager wants. These are included in this module where appropriate. But even ‘good practice’ needs adaptation: time or resources may be in short supply and a manager may have to do the best he or she can with what’s available. This is the art of management: doing what’s possible in the best way possible in the circumstances to achieve, through others, the goals for which an organization is striving.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_18">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_18" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Managing 2: Marketing and Finance</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B629</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Managing 2: Marketing and Finance</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>-</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>Main elements and realities of a manager’s job and explains how one can develop and organize himself to be effective and successful in his role. Managing in modern organizations is not easy: no context is the same; the ‘right’ decision in one organization may be the ‘wrong’ one in another, or at another time. There is no ‘one best way’. However, there is also ‘received wisdom’ – tried and tested practices and behaviours that are usually effective in bringing about the result a manager wants. These are included in this module where appropriate. But even ‘good practice’ needs adaptation: time or resources may be in short supply and a manager may have to do the best he or she can with what’s available. This is the art of management: doing what’s possible in the best way possible in the circumstances to achieve, through others, the goals for which an organization is striving.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p><strong><span style="text-decoration:underline;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;B629-</span></span></strong><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"> Managing 2: Marketing and Finance will cover core topics in
+Marketing and Finance.<span>&nbsp; </span>Topics include;
+assessing the external environment, consumer relationship, market research,
+product/service analysis, price, promotion and delivery, quality, consumer expectations
+and satisfaction, financial planning and monitoring through budgets, cash flow,
+profit and loss.<span>&nbsp; </span>All these topics will
+focus primarily on student’s own work situations and practices. The teaching
+and learning strategy of this module is problem-based. Through this approach,
+the module aims to develop the skills an effective manager needs: such as
+analysis, constructing sound arguments, critical and reflective thinking,
+problem identification and solving, active listening and communication, sourcing
+and presenting information, and report writing. The course is a management
+development vehicle that aims to help student perform more effectively as
+managers.<span>&nbsp; </span>It does so by:</span></p><ul><li><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">Increasing student’s foundation management knowledge and competencies </span></li><li><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">Providing a repertoire of theories, concepts, and techniques to apply in different management setting -Helping students understand their individual management role, its context and nature of their interventions in their organizations </span></li><li><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">Encouraging student to be reflective practitioners, applying independent and inquisitive learning in the workplace </span></li><li><span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">Enabling students to understand the discourse of specialist and senior managers better, so that they can hold more confident and informed conversations with them, work more effectively with and where appropriate challenge them. </span></li></ul></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>A. Knowledge
+and understanding</strong></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: Client
+communications, relationships, the role of marketing information and the
+development of value. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Marketing
+planning, service quality with particular reference to own practice. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3:
+Understand how financial information can be used to support managerial decision
+making (i.e. the relevance of the generation and reporting of financial
+information) </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4:
+Understand the importance of costs costing and budgeting processes in
+managerial decisions A5: Have a good understanding of how business concepts
+relate to real life businesses, organizations </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A6:
+Importance of performance management for organisations </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span><strong>B. Cognitive skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1. Apply management concepts to work contexts </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2. Analyse and critically reflect on work practice and
+professional self-knowledge </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3. Solve management problems through the use of analytical skills
+including problem-identification, analysis, logic, critical thinking and
+judgment to the advantage of one’s own organization </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4. Communicate effectively, using management vocabulary, both
+orally and in writing and listen actively. Use interpersonal skills including
+those involved in team working and collaborating<span>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5. Gather, handle, present and use information effectively;
+analyse and evaluate numerical data and information for specific purposes; use
+information technologies B6. Demonstrate numeracy and literacy and Learn how to
+learn with an emphasis on self-monitoring and progress towards independent
+learning B7. Critical thinking, analysis and synthesis.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1. Setting objectives for, developing and implementing
+operational plans for<span>&nbsp; </span>area of
+responsibility<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2. Reviewing and evaluating performance &amp; practice </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3. Reflecting and questioning C4. Presenting and reporting
+information </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C5. Problem-solving, innovation and decision-making by using tools
+and techniques and models C6. Apply key concepts<span>&nbsp; </span>to managerial decision making the<span>&nbsp; </span>Managing of<span>&nbsp;
+</span>business processes&ZeroWidthSpace;</span></p><p><font face="&quot;calibri&quot;,sans-serif"></font><br>&nbsp;</p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1. Use interpersonal skills including those involved in team
+working and collaborating<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2. Communicate effectively, using management vocabulary, both
+orally and in writing and listen actively </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3. Gather, handle, present and use information effectively;
+analyse and evaluate numerical data and information for specific purposes; use
+information technologies </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4. Demonstrate numeracy and literacy<span>&nbsp; </span></span></p>
+
+<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:13px;">D5. Learn how to learn
+with an emphasis on self-monitoring and progress towards independent learning</span>&ZeroWidthSpace;<br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B863 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Human Resource Professional <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    B863 is a postgraduate course and is one of a series of optional courses offered to all students who progress to Stage II of the AOU MBA program/ mandatory for those who are to specialize This module will consider the role and contribution of the HR professional and the skills needed to be effective in this role. 
+Students will consider the implications of recent research findings in the field of human resource management for their own practice, for example in increasing levels of engagement and improving performance, in acting ethically and in managing change. 
+They will compare this with the practice of HR professionals in other contexts, drawing on case studies and the experience of their fellow students working in different geographical areas and sectors; and they will also look at the development over time of thinking about the role of HR professionals in order to understand how this may influence current thinking. The emphasis throughout will be on considering what HRM practices are associated with positive organizational outcomes.
+Students will develop and practice the skills they will need to be effective as an HR professional, including as a leader and a senior manager. These include self-management, leading and working in teams, making decisions, managing and communicating information, including financial information, consultancy skills and helping others to learn. They will also develop postgraduate study skills and digital literacy skills.
+Perhaps most importantly this module will develop students’’ skills as a reflective practitioner, committed to continuously learning from reflection on their practice and on the critical application of new theories and ideas to inform this practice. Collaboration skills of the students with all functional areas of an organization (accounting, human resources, operations, production, marketing, information technology, etc.) will be improved.
+
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_81">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_81" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">The Human Resource Professional</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B863 </td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>The Human Resource Professional</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B870B</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>B863 is a postgraduate course and is one of a series of optional courses offered to all students who progress to Stage II of the AOU MBA program/ mandatory for those who are to specialize This module will consider the role and contribution of the HR professional and the skills needed to be effective in this role. 
+Students will consider the implications of recent research findings in the field of human resource management for their own practice, for example in increasing levels of engagement and improving performance, in acting ethically and in managing change. 
+They will compare this with the practice of HR professionals in other contexts, drawing on case studies and the experience of their fellow students working in different geographical areas and sectors; and they will also look at the development over time of thinking about the role of HR professionals in order to understand how this may influence current thinking. The emphasis throughout will be on considering what HRM practices are associated with positive organizational outcomes.
+Students will develop and practice the skills they will need to be effective as an HR professional, including as a leader and a senior manager. These include self-management, leading and working in teams, making decisions, managing and communicating information, including financial information, consultancy skills and helping others to learn. They will also develop postgraduate study skills and digital literacy skills.
+Perhaps most importantly this module will develop students’’ skills as a reflective practitioner, committed to continuously learning from reflection on their practice and on the critical application of new theories and ideas to inform this practice. Collaboration skills of the students with all functional areas of an organization (accounting, human resources, operations, production, marketing, information technology, etc.) will be improved.
+</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p style="text-align:justify;"><span style="font-family:arial, sans-serif;font-size:11pt;">&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;The
+primary aims of this course are:</span></p><ul style="margin-top:0in;"><li style="text-align:justify;color:#000000;font-size:11pt;font-style:normal;font-weight:400;"><span style="font-family:arial, sans-serif;font-size:11pt;">To understand the role of the HR professional,
+     the nature of professionalism and approaches to<span>&nbsp; </span>addressing ethical dilemmas </span></li><li style="text-align:justify;color:#000000;font-size:11pt;font-style:normal;font-weight:400;"><span style="font-family:arial, sans-serif;font-size:11pt;">To review recent research and to assess its
+     relevance for practice in a range of contexts </span></li><li style="text-align:justify;color:#000000;font-size:11pt;font-style:normal;font-weight:400;"><span style="font-family:arial, sans-serif;font-size:11pt;">To assess the relevance of theory for practice
+     and apply it where appropriate to improve practice </span></li><li style="text-align:justify;color:#000000;font-size:11pt;font-style:normal;font-weight:400;"><span style="font-family:arial, sans-serif;font-size:11pt;">To review theoretical approaches to leadership
+     and team-working and to develop the skills needed to be effective as a leader
+     and as a team member </span></li><li style="text-align:justify;color:#000000;font-size:11pt;font-style:normal;font-weight:400;"><span style="font-family:arial, sans-serif;font-size:11pt;">To critically assess the range of concepts and
+     issues that are associated with managing performance in the workplace, and
+     the interrelationships between these factors&nbsp; </span></li><li style="text-align:justify;color:#000000;font-size:11pt;font-style:normal;font-weight:400;"><span style="font-family:arial, sans-serif;font-size:11pt;">To develop the skills and understanding needed
+     to address change management issues and to work at a strategic level in
+     the organization </span></li></ul>
+
+<span style="font-family:arial, sans-serif;font-size:11pt;">To develop skills essential for HR work such as:
+leading and working in teams, making decisions, managing financial information,
+communicating effectively and helping others to learn</span><br></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p>&ZeroWidthSpace;<strong>A. Knowledge and understanding</strong></p><p style="text-align:justify;"><strong>A1. </strong>Gain an understanding the theoretical and practical aspects of human resource management to formulate strategies that will enable organizations to achieve both operational and strategic goals related to the organization's human capital.</p><p style="text-align:justify;"><strong>A2.</strong> Define, explain, illustrate and reason with the key role of the HR professional and approaches to addressing ethical dilemmas. </p><p style="text-align:justify;"><strong>A3</strong>. Identify the linkages between HRM functions and operations and performances in the workplace and leadership<br></p><p><strong>B. Cognitive skills</strong></p><p style="text-align:justify;"><strong>B1. </strong>Skills to manage communication initiatives to create and implement human resources initiatives and programs that achieve organizational goals</p><p style="text-align:justify;"><strong>B2</strong><strong>.</strong> Critical thinking and problem-solving skills by assessing and interpreting source materials, evaluating arguments, examining and applying both case-based and real-world business, as consulting teams in the development of business and human resource management solutions<br></p><p><strong><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;">B3.</span></strong><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;"> </span><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;">Collaboration skills with all functional areas
+of an organization (accounting, human resources, operations, production,
+marketing, information technology, etc.)</span><br><strong>C. Practical and professional skills&nbsp;</strong></p><p style="text-align:justify;"><strong>C1</strong><strong>.</strong> Appraise and apply techniques in talent management that human resource professionals may use to facilitate effective position planning, talent selection, placement, compensation and rewards, as well as retention. </p><p style="text-align:justify;"><strong>C2. </strong>Reflect and comment in a way that demonstrates awareness of the different contexts that impact on the operation of HRM<strong> </strong></p><p style="text-align:justify;"><strong>C3.</strong><strong>&nbsp; </strong>Practice behaviour and performance that demonstrates enhanced competence in HR Skills, leadership, oral and written communication, critical thinking, problem-solving.</p><p><strong>C4.</strong> Recognise the significance of ethical issues in HR practices and the management of people in the workplace.<br></p><p><strong>D Key transferable skills&nbsp;</strong></p><p style="text-align:justify;margin-bottom:6pt;"><strong><span style="font-family:arial, sans-serif;font-size:11pt;">D1.</span></strong><span style="font-family:arial, sans-serif;font-size:11pt;">
+Gain s</span><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;">kills necessary to work effectively in teams,
+assuming roles of leader and follower</span></p><p style="text-align:justify;margin-bottom:6pt;"><strong><span style="font-family:arial, sans-serif;font-size:11pt;">D2. </span></strong><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;">Learn through
+reflection on practice and experience.</span></p><p style="text-align:justify;margin-bottom:6pt;"><strong><span style="font-family:arial, sans-serif;font-size:11pt;">D3. </span></strong><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;">Demonstrate people management skills
+essential for HR work such as: selection interviewing; appraisal interviewing;
+disciplinary interviewing; delivering training; making presentations; project
+management; managing performance</span></p><p style="text-align:justify;margin-bottom:6pt;"><strong><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;">D4.</span></strong><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;"><span>&nbsp;
+</span></span><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;">Gain proficiency in communication skills,
+independent action and team working.</span><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;"></span></p><p style="text-align:justify;margin-bottom:6pt;"><strong><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;">D5.</span></strong><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;"> Manage and
+communicate information using IT applications and software packages in
+accordance with the requirements of the Digital Information Literacy Levels
+Framework.<span>&nbsp; </span></span><span lang="EN-GB" style="font-family:arial, sans-serif;font-size:11pt;">&ZeroWidthSpace;</span></p>
+
+<p><br>&nbsp;</p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B870A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Managing in a changing world-Management <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    The module provides you with the opportunity to develop and learn about managing and marketing in relation to your working life and personal practice. As an aspiring organisational decision-maker, you'll gain the knowledge and tools necessary to successfully take advantage of cutting-edge theories of management and human resource management. This will be linked to the values of collective responsibility, aesthetics and ethics. You'll become empowered to create responsible growth, across a range of private sector, public and not for profit organisations, while also critically reflecting on your own potential in terms of leadership and management practice. In addition, you'll explores the ways in which marketing can be used to more effectively help organisations to be both successful and forward thinking in a business environment that is quickly moving beyond traditional geographic, cultural and organisational boundaries. The module offers a developmental route appropriate for the first module of an MBA, which builds on and consolidates knowledge through a series of activities and text.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_104">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_104" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Managing in a changing world-Management</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B870A</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Managing in a changing world-Management</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td></td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
@@ -361,7 +2110,153 @@ module comprises 16 study weeks (including final assessment).&nbsp;</span><br><b
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>BE322 is an introductory four credit undergraduate course. It assumes no deep knowledge of business. Indeed, it provides students with an overview of business in an-increasingly global society. This is not a course of theory; it is more an application or "how-to" course. It is designed to increase awareness of the opportunities and challenges in today's business environment. The success of any business depends upon several factors: marketing, management and leadership, human resources, financing, logistics, planning, and knowledge of the business environment. An overview of business topics will be discussed including the entrepreneur's success factors, developing business plans, forms of business ownership, management and leadership styles, marketing and market research, technology and e-commerce, understanding financial statements and testing the feasibility and viability of a new venture.</td>
+											<td>The module provides you with the opportunity to develop and learn about managing and marketing in relation to your working life and personal practice. As an aspiring organisational decision-maker, you'll gain the knowledge and tools necessary to successfully take advantage of cutting-edge theories of management and human resource management. This will be linked to the values of collective responsibility, aesthetics and ethics. You'll become empowered to create responsible growth, across a range of private sector, public and not for profit organisations, while also critically reflecting on your own potential in terms of leadership and management practice. In addition, you'll explores the ways in which marketing can be used to more effectively help organisations to be both successful and forward thinking in a business environment that is quickly moving beyond traditional geographic, cultural and organisational boundaries. The module offers a developmental route appropriate for the first module of an MBA, which builds on and consolidates knowledge through a series of activities and text.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B870B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Managing in a changing world-Marketing <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    B870 Part B Managing in a changing world. While studying this module, you will be encouraged to develop, as well as challenge, your current knowledge and skills in order to meet the contemporary and rapidly changing areas of management, marketing, ethics and leadership. Using both independent and collaborative approaches to learning, this module will enable you to integrate and understand ways of managing these core business functions in the face of globalisation, technological advancements and other recent economic, social and political challenges. B 870 B Theme provides a coherent and strong conceptual narrative to the module. These overarching themes provide a way of relating different and disparate knowledge to a conceptually organised framework. The theme consists of, Unitarism and Pluralism, challenges the idea that there is one best way and the assumption that when we speak of ‘an organisation’ we are talking about one harmonious and homogenous entity.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_105">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_105" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Managing in a changing world-Marketing</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B870B</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Managing in a changing world-Marketing</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B870A</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>B870 Part B Managing in a changing world. While studying this module, you will be encouraged to develop, as well as challenge, your current knowledge and skills in order to meet the contemporary and rapidly changing areas of management, marketing, ethics and leadership. Using both independent and collaborative approaches to learning, this module will enable you to integrate and understand ways of managing these core business functions in the face of globalisation, technological advancements and other recent economic, social and political challenges. B 870 B Theme provides a coherent and strong conceptual narrative to the module. These overarching themes provide a way of relating different and disparate knowledge to a conceptually organised framework. The theme consists of, Unitarism and Pluralism, challenges the idea that there is one best way and the assumption that when we speak of ‘an organisation’ we are talking about one harmonious and homogenous entity.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B872&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating and sustaining value-Financial Management <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This course is an elective for the direct entrants to the Finance track of the MBA programme. The scope of this course relates to the central managerial aspects of understanding, creating, improving and sustaining value within contemporary organisations. This course will enable the participant to gain a greater understanding of how decisions and organisational performance can be optimised. This module will help you understand how different business functions, such as management accounting, financial reporting, operations management and business intelligence, contribute to sustainable value creation. Most importantly, the module moves beyond a treatment of functional areas, towards a systemic view of organisational functions. Through this systemic view, you will be able to expand your critical understanding of what constitutes organisational value and how a range of value perspectives can be implemented within diverse organisational contexts. By the end of this module, you should have a greater understanding of what creating and sustaining value is and be more confident in applying these ideas in your daily work life.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_106">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_106" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Creating and sustaining value-Financial Management</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B872</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Creating and sustaining value-Financial Management</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This course is an elective for the direct entrants to the Finance track of the MBA programme. The scope of this course relates to the central managerial aspects of understanding, creating, improving and sustaining value within contemporary organisations. This course will enable the participant to gain a greater understanding of how decisions and organisational performance can be optimised. This module will help you understand how different business functions, such as management accounting, financial reporting, operations management and business intelligence, contribute to sustainable value creation. Most importantly, the module moves beyond a treatment of functional areas, towards a systemic view of organisational functions. Through this systemic view, you will be able to expand your critical understanding of what constitutes organisational value and how a range of value perspectives can be implemented within diverse organisational contexts. By the end of this module, you should have a greater understanding of what creating and sustaining value is and be more confident in applying these ideas in your daily work life.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
@@ -391,21 +2286,896 @@ module comprises 16 study weeks (including final assessment).&nbsp;</span><br><b
 
             <div class="course-item">
                 <div class="course-title">
-                    BUS110&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Business <span class="float-right">(8) Credit Hours</span>
+                    B873&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Effective Strategic management <span class="float-right">(8) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    "Introduction to Business” is an introductory course, which surveys the role of business in society. At its simplest level, business is the exchange of goods and services for mutual benefit or profit. Students will be exposed to a wide variety of topics including the terms, trends, organizational structure and opportunities inherent in this exchange, the course introduces the student to the contemporary business world, the business of managing, people in organizations, the principles of marketing, managing information, and financial issues.
+                    This module B873 Effective strategic management in business and the public sector will provide the student with the necessary tools to become an effective strategic decision-maker. Students will learn about the strategic analysis of the organizational environment, strategic decision-making processes, and the implementation of preferred strategic choices. The module will also support the development of soft skills, which student will require both to progress in the qualification and succeed in the workplace by applying their learning to their own context. By the end of this module, student should have a greater understanding of what strategic management is and be able to apply their learning to your own workplace. This module intends to provide student's ways of increasing levels of engagement and improving performance, in acting ethically and in managing change. This module draws on case studies and the experience of their fellow students working in different geographical areas and sectors; and they will also look at the development over time of thinking about the role of strategy in order to understand how this may influence current thinking. The emphasis throughout will be on considering what Strategy practices are associated with positive organizational outcomes. Students will develop and practice the skills they will need to be effective as a Strategist, including as a leader and a senior manager. These include self-management, leading and working in teams, making decisions, managing and communicating information, including financial information, consultancy skills and helping others to learn. They will also develop postgraduate study skills and digital literacy skills. Most importantly this module will develop students’’ skills as a reflective practitioner, committed to continuously learning from reflection on their practice and on the critical application of new theories and ideas to inform this practice.
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_7">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_108">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_7" class="modal fade" role="dialog">
+				<div id="modal_108" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Effective Strategic management</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B873</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Effective Strategic management</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B870A</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This module B873 Effective strategic management in business and the public sector will provide the student with the necessary tools to become an effective strategic decision-maker. Students will learn about the strategic analysis of the organizational environment, strategic decision-making processes, and the implementation of preferred strategic choices. The module will also support the development of soft skills, which student will require both to progress in the qualification and succeed in the workplace by applying their learning to their own context. By the end of this module, student should have a greater understanding of what strategic management is and be able to apply their learning to your own workplace. This module intends to provide student's ways of increasing levels of engagement and improving performance, in acting ethically and in managing change. This module draws on case studies and the experience of their fellow students working in different geographical areas and sectors; and they will also look at the development over time of thinking about the role of strategy in order to understand how this may influence current thinking. The emphasis throughout will be on considering what Strategy practices are associated with positive organizational outcomes. Students will develop and practice the skills they will need to be effective as a Strategist, including as a leader and a senior manager. These include self-management, leading and working in teams, making decisions, managing and communicating information, including financial information, consultancy skills and helping others to learn. They will also develop postgraduate study skills and digital literacy skills. Most importantly this module will develop students’’ skills as a reflective practitioner, committed to continuously learning from reflection on their practice and on the critical application of new theories and ideas to inform this practice.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B874&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finance for strategic decision making <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This module will provide you with the necessary tools to use financial information and other data for making management decisions. You will learn a range of accounting and data analysis techniques as well as being introduced to the workings of the financial markets. Additionally, the module will make use of Excel spreadsheets and discuss good spreadsheet practice. The module is designed for professionals from a wide range of contexts and backgrounds who need to actively to engage with the challenges of using financial and other quantitative information for making decisions.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_109">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_109" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Finance for strategic decision making</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B874</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Finance for strategic decision making</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>Co-requisite B872</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This module will provide you with the necessary tools to use financial information and other data for making management decisions. You will learn a range of accounting and data analysis techniques as well as being introduced to the workings of the financial markets. Additionally, the module will make use of Excel spreadsheets and discuss good spreadsheet practice. The module is designed for professionals from a wide range of contexts and backgrounds who need to actively to engage with the challenges of using financial and other quantitative information for making decisions.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    B875&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MBA project: leaders of change (Capstone) <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This module will build specialized expertise by putting the theory and central managerial aspects taught on the MBA into practice, engaging in a life-changing learning that can challenge students understanding of theories and management practices. Students will identify a real problem in an organization and look for a change that will help solve this problem. This will enable students to develop as leaders of change that go beyond mere applications of theoretical and practical skills to be reflective practitioners, critical thinkers, and independent professionals. In this module students study contemporary aspects of management and industry in depth, carry out high level research, utilize data, evaluate literature, and present their findings accurately and concisely.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_110">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_110" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">MBA project: leaders of change (Capstone)</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>B875</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>MBA project: leaders of change (Capstone)</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>B874&amp;B873</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This module will build specialized expertise by putting the theory and central managerial aspects taught on the MBA into practice, engaging in a life-changing learning that can challenge students understanding of theories and management practices. Students will identify a real problem in an organization and look for a change that will help solve this problem. This will enable students to develop as leaders of change that go beyond mere applications of theoretical and practical skills to be reflective practitioners, critical thinkers, and independent professionals. In this module students study contemporary aspects of management and industry in depth, carry out high level research, utilize data, evaluate literature, and present their findings accurately and concisely.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BA100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Career Planning and Development <span class="float-right">(1) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This course aims at making students aware of the need for career planning and self-developmental activities. It teaches the effective ways of developing curriculum vitae and the cover letter for applying for a job. It will teach the various techniques that students can use to develop the communication skills in particular the written communication skills. By studying this course, students get familiarized with the various job search methods and the effective utilization of such job search methods. This will make students understand the importance of concept of career planning and make them to think about the ways and means of achieving those plans.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_103">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_103" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Career Planning and Development</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>BA100</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Career Planning and Development</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>EL111</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>1</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This course aims at making students aware of the need for career planning and self-developmental activities. It teaches the effective ways of developing curriculum vitae and the cover letter for applying for a job. It will teach the various techniques that students can use to develop the communication skills in particular the written communication skills. By studying this course, students get familiarized with the various job search methods and the effective utilization of such job search methods. This will make students understand the importance of concept of career planning and make them to think about the ways and means of achieving those plans.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p><p style="box-sizing:border-box;margin-bottom:1rem;color:#212529;font-family:&quot;alegreya sans&quot;, &quot;droid kufi&quot;, sans-serif;font-size:16px;background-color:#ffffff;"><span class="ms-rteFontSize-2" style="box-sizing:border-box;">&ZeroWidthSpace;<span style="box-sizing:border-box;line-height:16.8667px;color:black;top:0.5pt;letter-spacing:-0.05pt;"><span style="box-sizing:border-box;">T</span></span><span style="box-sizing:border-box;line-height:16.8667px;color:black;top:0.5pt;"><span style="box-sizing:border-box;">he</span><span style="box-sizing:border-box;letter-spacing:0.45pt;">&nbsp;</span><span style="box-sizing:border-box;">o</span><span style="box-sizing:border-box;letter-spacing:-0.05pt;"><span style="box-sizing:border-box;">v</span></span><span style="box-sizing:border-box;">erall</span><span style="box-sizing:border-box;letter-spacing:0.55pt;">&nbsp;</span><span style="box-sizing:border-box;letter-spacing:-0.05pt;"><span style="box-sizing:border-box;">g</span></span><span style="box-sizing:border-box;">oal</span><span style="box-sizing:border-box;letter-spacing:0.45pt;">&nbsp;</span><span style="box-sizing:border-box;letter-spacing:0.1pt;"><span style="box-sizing:border-box;">o</span></span><span style="box-sizing:border-box;">f</span><span style="box-sizing:border-box;letter-spacing:0.45pt;">&nbsp;</span><span style="box-sizing:border-box;">the</span><span style="box-sizing:border-box;letter-spacing:0.6pt;">&nbsp;</span><span style="box-sizing:border-box;">co</span><span style="box-sizing:border-box;letter-spacing:-0.05pt;"><span style="box-sizing:border-box;">ur</span></span><span style="box-sizing:border-box;">se</span><span style="box-sizing:border-box;letter-spacing:0.5pt;">&nbsp;</span><span style="box-sizing:border-box;">is</span><span style="box-sizing:border-box;letter-spacing:0.5pt;">&nbsp;</span><span style="box-sizing:border-box;">to</span><span style="box-sizing:border-box;letter-spacing:0.5pt;">&nbsp;</span><span style="box-sizing:border-box;">ma</span><span style="box-sizing:border-box;letter-spacing:-0.05pt;"><span style="box-sizing:border-box;">k</span></span><span style="box-sizing:border-box;">e</span><span style="box-sizing:border-box;letter-spacing:0.5pt;">&nbsp;</span><span style="box-sizing:border-box;">the</span><span style="box-sizing:border-box;letter-spacing:0.6pt;">&nbsp;</span><span style="box-sizing:border-box;">stu</span><span style="box-sizing:border-box;letter-spacing:-0.05pt;"><span style="box-sizing:border-box;">d</span></span><span style="box-sizing:border-box;letter-spacing:0.2pt;"><span style="box-sizing:border-box;">e</span></span><span style="box-sizing:border-box;">n</span><span style="box-sizing:border-box;letter-spacing:0.05pt;"><span style="box-sizing:border-box;">t</span></span><span style="box-sizing:border-box;">s</span><span style="box-sizing:border-box;letter-spacing:0.45pt;">&nbsp;</span><span style="box-sizing:border-box;letter-spacing:-0.05pt;"><span style="box-sizing:border-box;">f</span></span><span style="box-sizing:border-box;">amiliar</span><span style="box-sizing:border-box;letter-spacing:0.45pt;">&nbsp;</span><span style="box-sizing:border-box;letter-spacing:-0.05pt;"><span style="box-sizing:border-box;">w</span></span><span style="box-sizing:border-box;">i</span><span style="box-sizing:border-box;letter-spacing:0.05pt;"><span style="box-sizing:border-box;">t</span></span><span style="box-sizing:border-box;">h</span><span style="box-sizing:border-box;letter-spacing:0.45pt;">&nbsp;</span><span style="box-sizing:border-box;">t</span><span style="box-sizing:border-box;letter-spacing:0.1pt;"><span style="box-sizing:border-box;">h</span></span><span style="box-sizing:border-box;">e</span><span style="box-sizing:border-box;letter-spacing:0.5pt;">&nbsp;</span><span style="box-sizing:border-box;">conce</span><span style="box-sizing:border-box;letter-spacing:0.05pt;"><span style="box-sizing:border-box;">p</span></span><span style="box-sizing:border-box;">ts</span><span style="box-sizing:border-box;letter-spacing:0.5pt;">&nbsp;</span><span style="box-sizing:border-box;">li</span><span style="box-sizing:border-box;letter-spacing:-0.05pt;"><span style="box-sizing:border-box;">k</span></span><span style="box-sizing:border-box;">e</span><span style="box-sizing:border-box;letter-spacing:0.5pt;">&nbsp;</span><span style="box-sizing:border-box;">ca</span><span style="box-sizing:border-box;letter-spacing:-0.05pt;"><span style="box-sizing:border-box;">r</span></span><span style="box-sizing:border-box;">e</span><span style="box-sizing:border-box;letter-spacing:0.05pt;"><span style="box-sizing:border-box;">er&nbsp;</span></span></span>&ZeroWidthSpace;<span style="box-sizing:border-box;text-align:justify;"><span style="box-sizing:border-box;">planning and development and with the job search methods. &nbsp;Students also get to know the art of developing curriculum vitae and cover letter to apply for jobs.</span></span></span></p><p style="box-sizing:border-box;margin-bottom:1rem;color:#212529;font-family:&quot;alegreya sans&quot;, &quot;droid kufi&quot;, sans-serif;font-size:16px;background-color:#ffffff;text-align:justify;"><span class="ms-rteFontSize-2" style="box-sizing:border-box;">The &nbsp;main &nbsp;objective &nbsp;of &nbsp;this &nbsp;course &nbsp;is &nbsp;to &nbsp;develop &nbsp;the &nbsp;skills &nbsp;of &nbsp;students &nbsp;in &nbsp;the &nbsp;areas &nbsp;like developing effective curriculum vitae, facing interviews, planning for further moves in their career.</span></p><p style="box-sizing:border-box;margin-bottom:1rem;color:#212529;font-family:&quot;alegreya sans&quot;, &quot;droid kufi&quot;, sans-serif;font-size:16px;background-color:#ffffff;"><span class="ms-rteFontSize-2" style="box-sizing:border-box;">Students need to plan their career in their life to progress. Progression in career needs careful planning. This course will teach on developing career plans and implementing them. It teaches certain techniques that can be used by the students to win over the competition in the job market as well to excel in their care</span>er&ZeroWidthSpace;<br><br></p><p>&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p>&ZeroWidthSpace;</p><p style="box-sizing:border-box;margin-bottom:1rem;color:#212529;font-family:&quot;alegreya sans&quot;, &quot;droid kufi&quot;, sans-serif;font-size:16px;">The following are the learning outcomes of the course:<br style="box-sizing:border-box;">1.&nbsp; &nbsp;Developing curriculum vitae and a cover letter for a job on their own.<br style="box-sizing:border-box;">2.&nbsp; &nbsp;Acquiring the necessary skills of creating and sustaining network and relationship with people and organizations.<br style="box-sizing:border-box;">3.&nbsp; &nbsp;Making career plans and learning the ways and means of implementing the career<br style="box-sizing:border-box;">plans.<br style="box-sizing:border-box;">4.&nbsp; &nbsp;Learn and understand various job search methods available with its pros and cons.</p><p style="box-sizing:border-box;margin-bottom:1rem;color:#212529;font-family:&quot;alegreya sans&quot;, &quot;droid kufi&quot;, sans-serif;font-size:16px;">5.&nbsp; &nbsp;(e) Improving the oral and written communication skills.&ZeroWidthSpace;<br><br></p><p><br></p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BB848&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Leadership and management intercultural context <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    "This course is relevant to any managerial career. It has particular relevance if you are considering or already have an international career or if your managerial and leadership role involves interaction with or within intercultural or intracultural organisations or contexts. Given the increasingly intercultural and globally connected nature of business, management and organisations, this course provides opportunities for you to question and reflect on your own practice and to develop ways of managing and leading which are appropriate in different national and regional settings. By offering new (cross-national) perspectives on leadership and management you are also challenged to rethink your own practices in your current setting. This course addresses issues facing managers and leaders working in intercultural contexts and supports you to develop skills, competencies and knowledge to thrive and to get the best from colleagues, partners and associates. The course covers three main themes: Theme One: Understanding cultures effects: This theme explores different approaches to understanding cultures. Theme Two: Understanding the role of social, political and economic institutions: Drawing on a varieties of capitalism approach, this section looks at the ways in which institutions such as labour markets, forms of firm governance, legal systems, differences in the rule of law, and the structure of inter-firm collaboration and competition affect the practices and challenges of leadership and management. Activities encourage you to explore the ways in which the business, social, economic and political environments affect your own experience of leadership and management. Theme Three: Putting it into practice: cross-cultural leadership capabilities: This theme explores the implications of what you have learned for your own practice and uses, with a series of self-assessment tools to evaluate and assess your own strengths and development needs in relation to the challenges of intercultural leadership and management. This course is relevant to any managerial career. It has particular relevance if you are considering or already have an international career or if your managerial and leadership role involves interaction with or within intercultural or intracultural organisations or contexts. Given the increasingly intercultural and globally connected nature of business, management and organisations, this course provides opportunities for you to question and reflect on your own practice and to develop ways of managing and leading which are appropriate in different national and regional settings. By offering new (cross-national) perspectives on leadership and management you are also challenged to rethink your own practices in your current setting. This course addresses issues facing managers and leaders working in intercultural contexts and supports you to develop skills, competencies and knowledge to thrive and to get the best from colleagues, partners and associates. The course covers three main themes: Theme One: Understanding cultures effects: This theme explores different approaches to understanding cultures. Theme Two: Understanding the role of social, political and economic institutions: Drawing on a varieties of capitalism approach, this section looks at the ways in which institutions such as labour markets, forms of firm governance, legal systems, differences in the rule of law, and the structure of inter-firm collaboration and competition affect the practices and challenges of leadership and management. Activities encourage you to explore the ways in which the business, social, economic and political environments affect your own experience of leadership and management. Theme Three: Putting it into practice: cross-cultural leadership capabilities: This theme explores the implications of what you have learned for your own practice and uses, with a series of self-assessment tools to evaluate and assess your own strengths and development needs in relation to the challenges of intercultural leadership and management. "
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_111">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_111" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Leadership and management intercultural context</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>BB848</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Leadership and management intercultural context</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>"This course is relevant to any managerial career. It has particular relevance if you are considering or already have an international career or if your managerial and leadership role involves interaction with or within intercultural or intracultural organisations or contexts. Given the increasingly intercultural and globally connected nature of business, management and organisations, this course provides opportunities for you to question and reflect on your own practice and to develop ways of managing and leading which are appropriate in different national and regional settings. By offering new (cross-national) perspectives on leadership and management you are also challenged to rethink your own practices in your current setting. This course addresses issues facing managers and leaders working in intercultural contexts and supports you to develop skills, competencies and knowledge to thrive and to get the best from colleagues, partners and associates. The course covers three main themes: Theme One: Understanding cultures effects: This theme explores different approaches to understanding cultures. Theme Two: Understanding the role of social, political and economic institutions: Drawing on a varieties of capitalism approach, this section looks at the ways in which institutions such as labour markets, forms of firm governance, legal systems, differences in the rule of law, and the structure of inter-firm collaboration and competition affect the practices and challenges of leadership and management. Activities encourage you to explore the ways in which the business, social, economic and political environments affect your own experience of leadership and management. Theme Three: Putting it into practice: cross-cultural leadership capabilities: This theme explores the implications of what you have learned for your own practice and uses, with a series of self-assessment tools to evaluate and assess your own strengths and development needs in relation to the challenges of intercultural leadership and management. This course is relevant to any managerial career. It has particular relevance if you are considering or already have an international career or if your managerial and leadership role involves interaction with or within intercultural or intracultural organisations or contexts. Given the increasingly intercultural and globally connected nature of business, management and organisations, this course provides opportunities for you to question and reflect on your own practice and to develop ways of managing and leading which are appropriate in different national and regional settings. By offering new (cross-national) perspectives on leadership and management you are also challenged to rethink your own practices in your current setting. This course addresses issues facing managers and leaders working in intercultural contexts and supports you to develop skills, competencies and knowledge to thrive and to get the best from colleagues, partners and associates. The course covers three main themes: Theme One: Understanding cultures effects: This theme explores different approaches to understanding cultures. Theme Two: Understanding the role of social, political and economic institutions: Drawing on a varieties of capitalism approach, this section looks at the ways in which institutions such as labour markets, forms of firm governance, legal systems, differences in the rule of law, and the structure of inter-firm collaboration and competition affect the practices and challenges of leadership and management. Activities encourage you to explore the ways in which the business, social, economic and political environments affect your own experience of leadership and management. Theme Three: Putting it into practice: cross-cultural leadership capabilities: This theme explores the implications of what you have learned for your own practice and uses, with a series of self-assessment tools to evaluate and assess your own strengths and development needs in relation to the challenges of intercultural leadership and management. "</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BB849&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supply chain management <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    تم تصميم هذا المقرر للذين يرغبون في معرفة جيدة ورؤية ثاقبة لإدارة سلسلة التوريد وسوف تروق لكل من محترفي سلسلة التوريد والمديرين في المهن الأخرى. سيوفر لك هذا المقرر نظرة معمقة حول النظرية والمشكلات والحلول وأفضل الممارسات في مجال إدارة سلسلة التوريد. سيوفر لك فرصًا للتساؤل والتفكير في مؤسستك ودورها في سلسلة التوريد الأوسع. سيساعدك أيضًا على تطوير قدرتك على تحديد فرص تحسين تصميم المنتج ومعالجات التصنيع واستراتيجيات التوريد وتطوير السوق.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_107">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_107" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Supply chain management</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>BB849</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Supply chain management</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>تم تصميم هذا المقرر للذين يرغبون في معرفة جيدة ورؤية ثاقبة لإدارة سلسلة التوريد وسوف تروق لكل من محترفي سلسلة التوريد والمديرين في المهن الأخرى. سيوفر لك هذا المقرر نظرة معمقة حول النظرية والمشكلات والحلول وأفضل الممارسات في مجال إدارة سلسلة التوريد. سيوفر لك فرصًا للتساؤل والتفكير في مؤسستك ودورها في سلسلة التوريد الأوسع. سيساعدك أيضًا على تطوير قدرتك على تحديد فرص تحسين تصميم المنتج ومعالجات التصنيع واستراتيجيات التوريد وتطوير السوق.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p><br><br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BB851&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entrepreneurship in context <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This module aims to equip you with an entrepreneurial mindset that helps you to make better career decisions – either in your workplace or as an independent entrepreneur – and effectively cope with the increasingly rapid changes in economy and society. In this module, entrepreneurship is broadly described as the application of enterprise behaviors with the aim to create economic, social, environmental, or cultural value in various contexts, among them private and public organizations, small enterprises, large corporations. Specifically, it goes beyond new venture creation (i.e. entrepreneurship) and considers the application of entrepreneurial skills and knowledge in established organizations (i.e. intrapreneurship) to initiate innovation, change and organizational development. Therefore, you need not aim to start your own venture to enjoy studying this module.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_112">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_112" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Entrepreneurship in context</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>BB851</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Entrepreneurship in context</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This module aims to equip you with an entrepreneurial mindset that helps you to make better career decisions – either in your workplace or as an independent entrepreneur – and effectively cope with the increasingly rapid changes in economy and society. In this module, entrepreneurship is broadly described as the application of enterprise behaviors with the aim to create economic, social, environmental, or cultural value in various contexts, among them private and public organizations, small enterprises, large corporations. Specifically, it goes beyond new venture creation (i.e. entrepreneurship) and considers the application of entrepreneurial skills and knowledge in established organizations (i.e. intrapreneurship) to initiate innovation, change and organizational development. Therefore, you need not aim to start your own venture to enjoy studying this module.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BDE850&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Digital Economy in Business <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This module consolidates, integrates, and assesses your learning from the Digital Economy. The Digital Economy explains the new economy, the new enterprise, and the new technology, and how they link to one another, how they enable one another. If you and your organization understand these relationships, the role of the new technology in creating the new enterprise for a new economy, you can be successful.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_113">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_113" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Digital Economy in Business</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>BDE850</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Digital Economy in Business</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This module consolidates, integrates, and assesses your learning from the Digital Economy. The Digital Economy explains the new economy, the new enterprise, and the new technology, and how they link to one another, how they enable one another. If you and your organization understand these relationships, the role of the new technology in creating the new enterprise for a new economy, you can be successful.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BUS101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Math for Business <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    The world is a small place these days with business becoming more and more of a global endeavour. This course, Introduction to Math for Business aim to equip students with technical skills and business knowledge needed for further advanced courses in finance. Students need to have effective financial skills for both their personal and professional lives.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_49">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_49" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Introduction to Math for Business</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>BUS101</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Introduction to Math for Business</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>EL099 </td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>The world is a small place these days with business becoming more and more of a global endeavour. This course, Introduction to Math for Business aim to equip students with technical skills and business knowledge needed for further advanced courses in finance. Students need to have effective financial skills for both their personal and professional lives.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p style="text-align:left;"><span class="ms-rteFontFace-13" lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">&ZeroWidthSpace;&ZeroWidthSpace;The overall aims of
+this course are to introduce entry knowledge of finance and to provide the
+computational skills needed for evaluating financial decisions. Thus providing
+learners a footstep into the world of Business Mathematics. This introductory
+module introduces learners to the mathematical concepts, vocabulary, and
+terminology employed nowadays in the business world in Finance, Banking, and
+Accounting to name a few.</span></p><p style="text-align:left;"><span class="ms-rteFontFace-13" lang="EN-GB" style="font-size:11pt;">More specifically, the
+students will gain practical experience into aspects such as percentages,
+discounts, markups and markdowns, payroll, interest calculations, installment
+buying, and annuities.</span><span lang="EN-GB" style="font-family:&quot;times new roman&quot;,serif;font-size:12pt;"> </span></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"><strong>A. Knowledge
+and understanding</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">A1: Knowledge
+and understanding of the depth of relation between math and business
+(particularly finance)</span></p><p><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">A2: Knowledge
+and understanding of a range of ideas concerning basic business mathematics and
+its applications. </span></p><p><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">A3: Knowledge
+and understanding of relevant ideas, tools, and techniques that are widely used
+in everyday business practice.</span></p><p align="right" dir="RTL" style="text-align:left;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;"><strong>B. Cognitive skills</strong></span></p><p align="right" dir="RTL" style="text-align:left;"></p><div dir="ltr" style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">B1: the ability to develop skills in interpreting and explaining mathematics</span><span dir="RTL"></span><span dir="RTL"></span><span lang="AR-SA" style="color:black;font-family:&quot;arial&quot;,sans-serif;"><span dir="RTL"></span><span dir="RTL"></span>.</span><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;"></span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">&nbsp;</span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">B2: the ability to integrate mathematical ideas into everyday thinking</span><span dir="RTL"></span><span dir="RTL"></span><span lang="AR-SA" style="color:black;font-family:&quot;arial&quot;,sans-serif;"><span dir="RTL"></span><span dir="RTL"></span>.</span><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;"></span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">&nbsp;</span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">B3: the ability to develop mathematical modeling skills</span><span dir="RTL"></span><span dir="RTL"></span><span lang="AR-SA" style="color:black;font-family:&quot;arial&quot;,sans-serif;"><span dir="RTL"></span><span dir="RTL"></span>.</span><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;"></span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">&nbsp;</span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">B4: the ability to develop basic mathematical financial skills</span><span dir="RTL"></span><span dir="RTL"></span><span lang="AR-SA" style="color:black;font-family:&quot;arial&quot;,sans-serif;"><span dir="RTL"></span><span dir="RTL"></span>.</span><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;"></span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">&nbsp;</span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">B5: the ability to use techniques from the course to analyse and solve problems in a range of contexts</span><span dir="RTL"></span><span dir="RTL"></span><span lang="AR-SA" style="color:black;font-family:&quot;arial&quot;,sans-serif;"><span dir="RTL"></span><span dir="RTL"></span>.</span><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;"></span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">&nbsp;</span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">B6: the ability to recognize, interpret and criticize the use of mathematics in different contexts</span><span dir="RTL"></span><span dir="RTL"></span><span lang="AR-SA" style="color:black;font-family:&quot;arial&quot;,sans-serif;"><span dir="RTL"></span><span dir="RTL"></span>.</span><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;"></span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">&nbsp;</span></div><div style="padding:0px;text-align:left;margin-top:0px;margin-right:0px;margin-bottom:0px;"><span lang="EN-GB" dir="LTR" style="color:black;font-family:&quot;arial&quot;,sans-serif;">B7: the ability to reason logically using mathematical ideas and principles of the course</span><span dir="RTL"></span><span dir="RTL"></span><span lang="AR-SA" style="color:black;font-family:&quot;arial&quot;,sans-serif;"><span dir="RTL"></span><span dir="RTL"></span>.</span><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"><br></span></div><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"><p style="text-align:left;"><br>&nbsp;</p><p><span lang="EN-GB" style="font-size:13px;"><strong>C. Practical and professional skills</strong>&ZeroWidthSpace;</span></p><p><span lang="EN-GB">C1: practically deal with numbers and
+manipulate them confidently.</span></p><p><span lang="EN-GB">C2: easily use a calculator and its
+functions.</span></p>
+
+<span class="ms-rteFontFace-13" lang="EN-GB">C3: master the techniques of discounts,
+mark-ups/markdowns, payroll, credit consumer, simple &amp; compounded
+interests, and annuities.</span></span><br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BUS102&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Statistics <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    The course helps students understand the relationship between statistics and the world, bringing life to the theory and methods. It incorporates an unprecedented amount of real and interesting data that will help students to connect statistics to their daily lives.
+
+BUS102 is considered an introductory course for BUS202 (data analysis). At the undergraduate level, both modules (BUS102 and BUS202) are considered as part of common modules for all tracks in Business Programme.
+
+It is well-known that Statistics is a science that deals with collection, description, analysis, interpretation, and presentation of data. Statistics can be used to describe a particular data set, termed descriptive statistics (BUS102) as well as to draw conclusions about the population from a particular data set, termed inferential statistics (BUS102 and BUS202). The course applies statistical methods in a business context in order to address business related questions and help make evidence based decisions. The course will provide students with the knowledge they need to become stronger analysts and better decision makers.
+
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_50">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_50" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Introduction to Statistics</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>BUS102</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Introduction to Statistics</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>EL111</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>The course helps students understand the relationship between statistics and the world, bringing life to the theory and methods. It incorporates an unprecedented amount of real and interesting data that will help students to connect statistics to their daily lives.
+
+BUS102 is considered an introductory course for BUS202 (data analysis). At the undergraduate level, both modules (BUS102 and BUS202) are considered as part of common modules for all tracks in Business Programme.
+
+It is well-known that Statistics is a science that deals with collection, description, analysis, interpretation, and presentation of data. Statistics can be used to describe a particular data set, termed descriptive statistics (BUS102) as well as to draw conclusions about the population from a particular data set, termed inferential statistics (BUS102 and BUS202). The course applies statistical methods in a business context in order to address business related questions and help make evidence based decisions. The course will provide students with the knowledge they need to become stronger analysts and better decision makers.
+</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p style="text-align:justify;">&ZeroWidthSpace;&ZeroWidthSpace;The course covers basic statistical concepts and introduces some advanced topics and tools that are very useful for decision-makers in different business disciplines. The topics include descriptive statistics, probability distributions, sampling, and estimations for small and large samples of data (statistical inference). An emphasis will be given to the understanding, applicability of statistical analysis and interpretation of output using MS Excel spreadsheets and/ or any available open source analytical tools.<br><strong>&nbsp;</strong></p><p style="text-align:justify;"><strong>Attitudinal aims</strong></p><p style="text-align:justify;">In addition to specific learning outcomes, the course aims to shape the attitudes of learners regarding the field of Statistics. Specifically, the course aims to </p><p style="text-align:justify;">&nbsp;</p><p style="text-align:justify;">1. Motivate in students an intrinsic interest in statistical thinking. </p><p style="text-align:justify;">2. Instil the belief that Statistics is important for scientific research. </p><p style="text-align:justify;">3. Provide a foundation and motivation for exposure to statistical ideas subsequent to the course&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"><strong>A.
+Knowledge and understanding</strong></span></p><p style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"><strong>A1:</strong>
+knowledge of how to formulate data analysis problems in a statistical
+framework.</span></p><p style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"><strong>A2:</strong>
+knowledge of how to assemble relevant information and construct appropriate
+arguments.</span></p><p style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"><b>A3:</b>
+knowledge of how to exercise judgment in selection and application of a wide
+range of statistical tools and techniques.</span></p><p style="text-align:justify;"><strong>B. Cognitive skills</strong></p><p style="text-align:justify;"><strong>B1: </strong>the ability to approach statistical problems and tasks in a flexible way.<br></p><p style="text-align:justify;"><strong>B2:</strong> the ability to choose appropriate models for situations involving uncertainty, and understand their key elements and properties.<br></p><p style="text-align:justify;"><strong>B3: </strong>the ability to comment critically on choices of model and analyses resulting from them.&ZeroWidthSpace;<br></p><p style="text-align:justify;"><strong>B4: </strong>the ability to evaluate statistical evidence and to interpret the results of a statistical analysis</p><p style="text-align:justify;"><strong>B5: </strong>the ability to create statistical models and draw justifiable inferences<span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"><br></span></p><span>&nbsp;</span><p><span lang="EN-GB"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB"><strong>C1: </strong>practically deal with numbers and
+manipulate them confidently.</span></p><p><span lang="EN-GB"><strong>C2</strong><strong>:</strong> easily use a calculator and its
+functions.</span></p>
+
+<span class="ms-rteThemeFontFace-1" lang="EN-GB" style="font-size:13px;"><strong>C3:</strong> master the techniques of discounts,
+mark-ups/markdowns, payroll, credit consumer, simple &amp; compounded
+interests, and annuities</span><span class="ms-rteThemeFontFace-1">
+
+</span><p><br>&nbsp;</p><p><strong>D. Key transferable skills&nbsp;</strong></p><p style="text-align:justify;"><strong>D1:</strong> Work with others effectively, participate as a member of a team and thus contribute to group effort.</p><p style="text-align:justify;"><strong>D2:</strong> Work hard to satisfy others expectations.</p><p style="text-align:justify;"><strong>D3:</strong> Exercise Leadership and communicate ideas clearly to convince others and responsibly challenge his classmates having other ideas, opinions, or methods of solving. </p><p style="text-align:justify;"><strong>D4:</strong> Collaborate with classmates to solve a problem and teach others new skills.</p><p style="text-align:justify;"><strong>D5:</strong> Apply technologies to task (exercises, problems, situations) and work with a variety of technologies and solve problems using calculators, and computers.<br></p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BUS109&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Law – Country Specific <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    Rules of law govern many aspects of business. An understanding of legal rules and ethical constraints provides a framework for making sound business decisions, facilitates commercial transactions, and promotes order in the marketplace.  
+
+This module introduces the students to the fundamental concepts of commercial laws. It entails the survey of the country-specific judicial system, business ethics, contract laws, antitrust law and commercial agencies; contracts; property sales and secured transactions; insurance; commercial papers; agency; bailment; bankruptcy; banking operations, all in a comparative approach.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_19">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_19" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Business Law – Country Specific</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>BUS109</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Business Law – Country Specific</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>EL 111: Freshman English</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>Rules of law govern many aspects of business. An understanding of legal rules and ethical constraints provides a framework for making sound business decisions, facilitates commercial transactions, and promotes order in the marketplace.  
+
+This module introduces the students to the fundamental concepts of commercial laws. It entails the survey of the country-specific judicial system, business ethics, contract laws, antitrust law and commercial agencies; contracts; property sales and secured transactions; insurance; commercial papers; agency; bailment; bankruptcy; banking operations, all in a comparative approach.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p style="text-align:justify;">&ZeroWidthSpace;&ZeroWidthSpace;The main objective of the module is to help business students understand the legal aspect of common business activities and the formation and functioning of commercial companies along with the related ethical principles.&nbsp; </p><p style="text-align:justify;">&nbsp;</p><p style="text-align:justify;">This engaging module teaches students about the workings of business law by examining real case studies and examples. The material explores core issues in both national and international business law in depth while remaining brief and concise. </p><p style="text-align:justify;">&nbsp;<br></p><p style="text-align:justify;">Topics covered include: The basic elements of contract laws, negligence and product liability, property laws such as mortgages, landlord and tenant and personal property, Intellectual Property, Labour law, Environmental Law.&nbsp; </p><p style="text-align:justify;"><br>&nbsp;</p><p style="text-align:justify;">After studying the module students should be able to: <br></p><ol><li>Recognize legal and ethical issues when making business decisions. </li><li>Gain an enhanced understanding of legal rules and ethical constraints. </li><li>Improve analytical problem solving and ethical decision-making skills.&nbsp; </li><li>Apply knowledge and skills to address and manage potential problems before they become actual, expensive problems.&nbsp; </li><li>Evaluate expert advice and determine the extent to which it should be incorporated into business decisions. </li><li>Total understanding of the The Law of Contracts and Sales. </li></ol><p>Understanding and respect of the intellectual property rights and environmental laws.<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>A. Knowledge
+and understanding</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1:<span>&nbsp; </span>The Legal Environment
+of Business. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2:<span>&nbsp; </span>Constitutional
+Principles. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3:<span>&nbsp; </span>Ethics, Social
+Responsibility, and the Business Manager. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4: The
+International Legal Environment of Business. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span><strong>B. Cognitive skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Recognize, compare and contrast different ways of analyzing
+business case studies and other material about contemporary business law
+practice. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Apply their knowledge in the analysis of practical business
+law problems and issues. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Recognize, compare and contrast different interpretations of
+and approaches to practical business law problems and issues.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Analyze work-related cases and situations to identify problems
+with an exploration of ethics that takes business law education a step further
+by teaching students how to practice justly<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Identify and communicate potential solutions based on
+knowledge of theory and applying it to their own work situation as Business Law
+uses tangible examples that students will be able to reference in their future
+careers to introduce students to this important topic.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Read and précis written text materials for key salient points.
+</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Communicate effectively in writing, showing recognition of
+audience and purpose. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Select data, information and ideas from different sources and
+present in an appropriate fashion to support an argument. </span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4: Identify some of the
+key strengths and needs of their own learning and identify opportunities to
+address these.</span>&nbsp;</td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BUS110&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Business <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    “Introduction to Business” is an introductory course, which surveys the role of business in society. At its simplest level, business is the exchange of goods and services for mutual benefit or profit. Students will be exposed to a wide variety of topics including the terms, trends, organizational structure and opportunities inherent in this exchange, the course introduces the student to the contemporary business world, the business of managing, people in organizations, the principles of marketing, managing information, and financial issues.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_48">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_48" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -426,7 +3196,7 @@ module comprises 16 study weeks (including final assessment).&nbsp;</span><br><b
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>EL111</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
@@ -434,15 +3204,227 @@ module comprises 16 study weeks (including final assessment).&nbsp;</span><br><b
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>"Introduction to Business” is an introductory course, which surveys the role of business in society. At its simplest level, business is the exchange of goods and services for mutual benefit or profit. Students will be exposed to a wide variety of topics including the terms, trends, organizational structure and opportunities inherent in this exchange, the course introduces the student to the contemporary business world, the business of managing, people in organizations, the principles of marketing, managing information, and financial issues.</td>
+											<td>“Introduction to Business” is an introductory course, which surveys the role of business in society. At its simplest level, business is the exchange of goods and services for mutual benefit or profit. Students will be exposed to a wide variety of topics including the terms, trends, organizational structure and opportunities inherent in this exchange, the course introduces the student to the contemporary business world, the business of managing, people in organizations, the principles of marketing, managing information, and financial issues.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;The primary objective is to give the student an understanding of basic business principles. Global business, entrepreneurship, management, marketing, information technology, and financial&nbsp;management will be discussed. Another purpose of this course is to build a foundation of knowledge on the different theoretical approaches to management and decision making • develop analytical skills to identify the links between the functional areas in management, organisations, management practices and the business environment&ZeroWidthSpace;.<br></p><p><span class="ms-rteThemeForeColor-2-0" style="text-decoration-style:solid;text-decoration-color:#444444;">Learning Objectives: Upon completion of the course students will have a firm understanding of the following business topics:</span></p><ul><li><span class="ms-rteThemeForeColor-2-0" style="text-decoration-style:solid;text-decoration-color:#444444;">The&nbsp;<span lang="EN-GB" style="font-family:arial, sans-serif;text-decoration-style:solid;text-decoration-color:#444444;">relationship between business and society in a free market economy</span></span></li><li><span class="ms-rteThemeForeColor-2-0" lang="EN-GB" style="font-family:arial, sans-serif;text-decoration-style:solid;text-decoration-color:#444444;">Common forms of business ownership</span></li><li><span class="ms-rteThemeFontFace-1"><span class="ms-rteThemeForeColor-2-0 ms-rteThemeFontFace-1" lang="EN-GB" style="text-decoration-style:solid;text-decoration-color:#444444;">Business ethics and social responsibility</span>&ZeroWidthSpace;<br></span></li><li><span class="ms-rteThemeFontFace-1">International business and the global economy</span></li><li><span class="ms-rteThemeFontFace-1">Fundamentals of business management</span></li><li><span class="ms-rteThemeFontFace-1">Business organization and structure</span></li><li><span class="ms-rteThemeFontFace-1">Human resources, motivation and productivity</span></li><li><span class="ms-rteThemeFontFace-1">Marketing, accounting, finance, operations &ZeroWidthSpace;management and other business specialties</span></li></ul><p><br><br></p><p></p></td>
+											<td><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">&ZeroWidthSpace;The primary objective is to give the student an understanding of
+basic business principles. Global business, entrepreneurship, management,
+marketing, information technology, and financial management will be discussed.
+Another purpose of this course is to build a foundation of knowledge on the
+different theoretical approaches to management and decision making • develop
+analytical skills to identify the links between the functional areas in
+management, organisations, management practices and the business environment.</span><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"></span><p style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Learning Objectives: Upon completion of the course students will
+have a firm understanding of the following business topics:</span><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;"></span></p>
+
+<ul><li><div style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">The
+relationship between business and society in a free market economy</span></div></li><li><div style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Common forms of business ownership</span></div></li><li><div style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Business ethics and social
+responsibility</span></div></li><li><div style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">International business and the global
+economy</span></div></li><li><div style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Fundamentals of business management</span></div></li><li><div style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Business organization and structure</span></div></li><li><div style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Human resources, motivation and
+productivity</span></div></li><li><div style="line-height:115%;"><span lang="EN-GB" style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">Marketing, accounting, finance,
+operations management and other business specialties</span><br></div></li></ul></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>At the end of the module, learners will be expected to:</p><ol><li>Identify business functions</li><li>Recognize different business models and forms</li><li>Acquire knowledge of business ethics and social responsibility</li><li>Be aquatinted with the fundamentals of management.&nbsp;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>At the end of the module learners will be expected to:<br></p><ol><li>&nbsp;Differentiate between business structures and business forms.<br></li><li>Examine different models and theories and its effect in business life&nbsp;</li><li>&nbsp;analysing and evaluating different perspectives, identifying biases and hidden assumptions in different models and forms of businesses.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>At the end of the module, learners will be expected to:<br></p><ol><li>Analyse different business-related situations and forms.<br></li><li>&nbsp;Deduce problems and solutions and its pathways</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>At the end of the module, learners will be expected to:<br></p><ul><li>Read financial and business related reports&ZeroWidthSpace;</li><li>&ZeroWidthSpace;Communicate knowledge and understanding of business issues to different stakeholders.</li><li>Analyse situations in an academic manner.<br><br></li></ul></td>
+											<td><p>&ZeroWidthSpace;<strong>A. Knowledge and understanding</strong></p><p><strong><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">A1</span></strong><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">: Identify
+business functions </span></p><p><strong><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">A2</span></strong><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">: Recognize
+different business models and forms</span></p><p><strong><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">A3</span></strong><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">: Acquire
+knowledge of business ethics and social responsibility</span></p>
+
+<strong><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">A4</span></strong><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">: Be aquatinted with the fundamentals of management. </span><p>&ZeroWidthSpace;<br><strong>B. Cognitive skills</strong></p><p><strong><span lang="EN-GB" style="color:black;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">B1</span></strong><span lang="EN-GB" style="color:black;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">: Differentiate between business structures
+and business forms.&ZeroWidthSpace;</span></p><p><strong><span lang="EN-GB" style="color:black;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">B2</span></strong><span lang="EN-GB" style="color:black;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">: Examine different models and theories and
+its effect in business life.</span></p><p><strong><span lang="EN-GB" style="color:black;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">B3</span></strong><span lang="EN-GB" style="color:black;font-family:&quot;arial&quot;,sans-serif;font-size:11pt;">: analysing and evaluating different
+perspectives, identifying biases and hidden assumptions in different models and
+forms of businesses.</span></p>
+
+<p><strong class="ms-rteThemeFontFace-1" style="font-size:13px;">C. Practical and professional skills</strong></p><p><span class="ms-rteFontFace-13" style="font-size:11pt;"><strong>C1</strong>: Analyse different business-related situations and forms.&nbsp;<br></span></p><p><span class="ms-rteFontFace-13" style="font-size:11pt;"><strong>C2</strong>: Deduce problems and solutions and its pathways<br></span></p><p><strong class="ms-rteThemeFontFace-1" style="font-size:13px;">D Key transferable skills&nbsp;</strong></p><p><span class="ms-rteFontFace-13" style="font-size:11pt;"><strong>D1</strong>: Read financial and business related reports<br></span></p><p><span class="ms-rteFontFace-13" style="font-size:11pt;"><strong>D2</strong>: Communicate knowledge and understanding of business issues to different stakeholders.&ZeroWidthSpace;<br></span></p><p><strong class="ms-rteFontFace-13" style="font-size:11pt;">D3</strong><span class="ms-rteFontFace-13" style="font-size:11pt;">: Analyse situations in an academic manner.</span><br></p><p><br>&nbsp;</p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BUS115&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small Business Management <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    BUS115 is an introductory four credit undergraduate course. It assumes no deep knowledge of business. Indeed, it provides students with an overview of business in an-increasingly global society. This is not a course of theory; it is more an application or "how-to" course. It is designed to increase awareness of the opportunities and challenges in today's business environment. The success of any business depends upon several factors: marketing, management and leadership, human resources, financing, logistics, planning, and knowledge of the business environment. An overview of business topics will be discussed including the entrepreneur's success factors, developing business plans, forms of business ownership, management and leadership styles, marketing and market research, technology and e-commerce, understanding financial statements and testing the feasibility and viability of a new venture.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_20">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_20" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Small Business Management</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>BUS115</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Small Business Management</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>BUS110</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>BUS115 is an introductory four credit undergraduate course. It assumes no deep knowledge of business. Indeed, it provides students with an overview of business in an-increasingly global society. This is not a course of theory; it is more an application or "how-to" course. It is designed to increase awareness of the opportunities and challenges in today's business environment. The success of any business depends upon several factors: marketing, management and leadership, human resources, financing, logistics, planning, and knowledge of the business environment. An overview of business topics will be discussed including the entrepreneur's success factors, developing business plans, forms of business ownership, management and leadership styles, marketing and market research, technology and e-commerce, understanding financial statements and testing the feasibility and viability of a new venture.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p style="text-align:justify;">&ZeroWidthSpace;The course develops the student's understanding of entrepreneurship and the needed competencies of the entrepreneur.&nbsp; The following topics will be emphasized: entrepreneur's success factors, developing business plans, understanding financial statements, completing market assessment, marketing and market research, and how to obtain financing for the new business venture. After studying the course, you should be able to: </p><ul><li>To possess a well-grounded understanding of essential entrepreneurial business principals.&nbsp; </li><li>To develop an understanding of important business issues as they relate to new ventures. </li><li>To identify, appreciate, and assess the knowledge, attitudes, and skills of an entrepreneur.</li><li>To study and observe entrepreneurial settings and entrepreneurial role models through exposure to actual business settings and experiences. </li><li>To have an expanded awareness of the resources available for creating a business plan.&nbsp; </li></ul><p>To establish a level of confidence in creating a business plan as a tool to assess, create and communicate a business concept. &ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>&ZeroWidthSpace;A. Knowledge
+and understanding</b></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: Entrepreneurship and the role of the entrepreneur in the
+economic development of nations<span>&nbsp; </span>A2:
+Entrepreneurial competencies </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2:
+Understanding and writing the business plan</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3:<span>&nbsp; </span>Understanding financial statements and
+completing sales forecasts and projections <span>&nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Reflection and critical engagement into the differences
+between franchising versus building your own business concept<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Critical thinking, analysis, and synthesis </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Valuation and comparison of small business management. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Time management, skills appropriate to business, such as
+creativity, persuasion and attractiveness. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Study skills, learning to learn and reflecting on students’
+own development as learners. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: The ability to analyse work-related cases and situations to
+identify challenges for organisations in developing responses in relation to
+their environments. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4: The application of course ideas to students’ own interactions
+with organisations and life experiences. <span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Decision making and problem solving making a viable approach
+to students to engage with data analysis, interpretation and extrapolation. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Market assessment: consumers, competitors, etc….<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Identify some of the key strengths and needs of their own
+learning and identify opportunities to address these.</span><br></p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    BUS202&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Analysis <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    The module helps students understand the relationship between statistics and the world, bringing life to the theory and methods. It incorporates an unprecedented amount of real and interesting data that will help students to connect statistics to their daily lives. BUS202 Data Analysis is an extension of the module BUS102 Introduction to Statistics. At the undergraduate level, both modules (BUS102 and BUS202) are common modules for FBS, as a part of the faculty requirements. 
+ 
+It is well-known that Statistics is a science that deals with collection, description, analysis, interpretation, and presentation of data. Statistics can be used to describe a particular data set, termed descriptive statistics as well as to draw conclusions about the population from a particular data set, termed inferential statistics. This module applies statistical methods in a business context in order to address business related questions and help make evidence based decisions. The module would provide students with the knowledge they need to become stronger analysts and better decision makers.
+
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_21">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_21" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Data Analysis</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>BUS202</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Data Analysis</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>BUS101 &amp; BUS102</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>The module helps students understand the relationship between statistics and the world, bringing life to the theory and methods. It incorporates an unprecedented amount of real and interesting data that will help students to connect statistics to their daily lives. BUS202 Data Analysis is an extension of the module BUS102 Introduction to Statistics. At the undergraduate level, both modules (BUS102 and BUS202) are common modules for FBS, as a part of the faculty requirements. 
+ 
+It is well-known that Statistics is a science that deals with collection, description, analysis, interpretation, and presentation of data. Statistics can be used to describe a particular data set, termed descriptive statistics as well as to draw conclusions about the population from a particular data set, termed inferential statistics. This module applies statistical methods in a business context in order to address business related questions and help make evidence based decisions. The module would provide students with the knowledge they need to become stronger analysts and better decision makers.
+</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p style="text-align:justify;">&ZeroWidthSpace;As mentioned before this module is an extension of BUS102. The module covers a higher level of statistical concepts and introduces advanced topics and tools that are very useful for decisionmakers in different business disciplines. The topics include hypothesis testing, regression analysis, analysis of categorical data and time series.&nbsp;&nbsp; </p><p style="text-align:justify;">An emphasis will be given to the understanding, applicability of statistical analysis and interpretation of output using MS Excel spreadsheets and/ or any available open source statistical software. <br></p><p style="text-align:justify;">Attitudinal aims In addition to specific learning outcomes, the module aims to shape the attitudes of learners regarding the field of Statistics. Specifically, the module aims to&nbsp; </p><ol><li>Motivate in students an intrinsic interest in statistical thinking.&nbsp; </li><li>Instil the belief that Statistics is important for scientific research.&nbsp; </li></ol><p>3. Provide a foundation and motivation for exposure to statistical ideas subsequent to the module.<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>&ZeroWidthSpace;A. Knowledge
+and understanding</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: Knowledge of how to formulate data analysis problems in a
+statistical framework. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Knowledge of how to assemble relevant information and
+construct appropriate arguments. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3: Knowledge
+of how to exercise judgment in selection and application of a wide range of
+statistical tools and techniques.</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: the ability to approach statistical problems and tasks in a
+flexible way.<span>&nbsp;&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: the ability to choose appropriate models for situations
+involving uncertainty, and understand their key elements and properties </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: the ability to comment critically on choices of model and
+analyses resulting from them. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4: the ability to evaluate statistical evidence and to interpret
+the results of a statistical analysis </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5: the ability to create statistical models and draw justifiable
+inferences</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: confidently use a variety of hypothesis testing techniques to
+test for different types of parameters. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: easily find/use different types of models including simple
+regression, multiple regression, time series generated models (Moving Average
+“MA”, Auto-Regressive “AR”) </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: work with others effectively and to participate as a member of
+a team and thus contribute to group effort. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: collaborate with classmates to solve a problem and teach
+others new skills. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: work hard to satisfy others expectations. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4: exercise Leadership and communicate ideas clearly to convince
+others and responsibly challenge his classmates having other ideas, opinions,
+or methods of solving.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D5: communicate in writing relevant information accurately and
+effectively, using a form, structure and style that suits the purpose. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D6: apply technologies to task (exercises, problems, situations)
+and use information technology with confidence to develop statistical insight,
+acquire statistical knowledge, present data to model, and solve problems.</span></p></td>
 										</tr>
 									</tbody>
 								</table>
@@ -474,13 +3456,13 @@ The module   has been designed to encourage and develop greater critical analyti
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_21">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_53">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_21" class="modal fade" role="dialog">
+				<div id="modal_53" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -501,7 +3483,7 @@ The module   has been designed to encourage and develop greater critical analyti
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>B207B</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
@@ -515,13 +3497,41 @@ The module   has been designed to encourage and develop greater critical analyti
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><ul><li>&ZeroWidthSpace;Provide students with concepts and tangible strategic skills that can readily be put into practice in often&nbsp;&nbsp; changing business environments.&nbsp;</li><li>Present the 21st century competitive/business landscape from a strategic management perspective and to assess how global and technological influences shape it</li><li>Provide students with a critical overview of the main tools of contemporary strategic practice in organizations in a way which is relevant to their professional needs</li><li>Achieving the intended learning outcomes (covering both knowledge and skills) fully supports this aim.</li></ul><p><br></p></td>
+											<td><p>&ZeroWidthSpace;The aims of this course are to:<br></p><p style="text-align:left;">Provide students with concepts and tangible strategic skills that can readily be put into practice in often&nbsp;&nbsp; changing business environments.&nbsp;<br>-Present the 21st century competitive/business landscape from a strategic management perspective and to assess how global and technological influences shape it</p><p style="text-align:left;">-Provide students with a critical overview of the main tools of contemporary strategic practice in organizations in a way which is relevant to their professional needs</p><p>Achieving the intended learning outcomes (covering both knowledge and skills) fully supports this aim.&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;line-height:107%;font-family:arial, sans-serif;letter-spacing:-0.3pt;">A</span><span lang="EN-GB" style="font-size:11pt;line-height:107%;font-family:arial, sans-serif;">.<span style="letter-spacing:0.1pt;"> </span><span style="letter-spacing:-0.05pt;">K</span>n<span style="letter-spacing:-0.05pt;">o</span><span style="letter-spacing:0.15pt;">w</span><span style="letter-spacing:0.05pt;">l</span>e<span style="letter-spacing:-0.05pt;">d</span>ge a<span style="letter-spacing:-0.05pt;">n</span>d<span style="letter-spacing:-0.1pt;"> </span>u<span style="letter-spacing:-0.05pt;">n</span><span style="letter-spacing:-0.15pt;">d</span>erstan<span style="letter-spacing:-0.05pt;">d</span><span style="letter-spacing:0.05pt;">i</span>ng</span></strong><br></p><p style="text-align:justify;"><em>A</em><em>t</em><em> </em><em>t</em><em>he</em><em> </em><em>e</em><em>n</em><em>d</em><em> </em><em>of </em><em>t</em><em>he</em><em> </em><em>m</em><em>o</em><em>d</em><em>u</em><em>l</em><em>e</em><em>,</em><em> </em><em>l</em><em>e</em><em>a</em><em>r</em><em>n</em><em>e</em><em>r</em><em>s</em><em> </em><em>w</em><em>il</em><em>l be</em><em> </em><em>ex</em><em>p</em><em>e</em><em>c</em><em>t</em><em>e</em><em>d </em><em>t</em><em>o</em><em>:</em><em> </em><em>de</em><em>v</em><em>e</em><em>l</em><em>o</em><em>p a</em><em>n</em><em>d </em><em>de</em><em>m</em><em>o</em><em>n</em><em>s</em><em>t</em><em>ra</em><em>t</em><em>e </em><em>t</em><em>h</em><em>e </em><em>f</em><em>ol</em><em>l</em><em>o</em><em>w</em><em>i</em><em>n</em><em>g</em><em> </em><em>K</em><em>n</em><em>o</em><em>w</em><em>l</em><em>e</em><em>d</em><em>ge</em><em> </em><em>a</em><em>n</em><em>d </em><em>u</em><em>n</em><em>d</em><em>er</em><em>s</em><em>t</em><em>a</em><em>n</em><em>di</em><em>ng</em><em>:</em></p><ol style="text-align:justify;"><li>The structure and dynamics of business environments; how businesses seek to track and analyse their environments;</li><li>Markets, market economies and how they function; how consumers, firms and governments behave as economic agents; why and how markets fail and how this failure is managed;</li><li>Business processes and how they operate; the nature, structure and functioning of organisations; how and why organisations are changing;</li><li>Key business functions such as Marketing, Human Resources, Information Management, Accounting &amp; Finance, Operations – their nature and contribution to organisational success, their historic origins and their interactions;</li><li>How businesses develop strategies; the different forms and theories of strategy;</li><li>How organisations make decisions and organise decision-making processes; the various sources of decision-making irrationality; the nature, role and implications of governmental, regional and supranational business policy on businesses;<br></li><li>How to apply key ideas in mathematics, including some&nbsp;&nbsp; statistics, and algebra.</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;line-height:107%;font-family:arial, sans-serif;letter-spacing:-0.05pt;">B</span><span lang="EN-GB" style="font-size:11pt;line-height:107%;font-family:arial, sans-serif;">.<span style="letter-spacing:0.1pt;"> </span><span style="letter-spacing:-0.05pt;">C</span>o<span style="letter-spacing:-0.05pt;">g</span>n<span style="letter-spacing:-0.1pt;">i</span><span style="letter-spacing:0.05pt;">ti</span><span style="letter-spacing:-0.15pt;">v</span>e<span style="letter-spacing:0.15pt;"> </span>s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05pt;">ll</span>s</span></strong><br></p><p>At the end of the module learners will be expected to:</p><ol><li>&nbsp;Read material questioningly, identifying and recording key ideas and concepts in business studies;<br></li><li>&nbsp;Synthesise material from a variety of sources, analysing and evaluating different perspectives, identifying biases and hidden assumptions;<br></li><li>Classify, recognise and organise material in distinct and relevant categories;<br></li><li>&nbsp;Construct, defend and evaluate an argument, using relevant evidence, giving reasons for conclusions.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;line-height:107%;font-family:arial, sans-serif;letter-spacing:-0.05pt;">C</span><span lang="EN-GB" style="font-size:11pt;line-height:107%;font-family:arial, sans-serif;">.<span style="letter-spacing:0.1pt;"> </span><span style="letter-spacing:-0.05pt;">P</span>ra<span style="letter-spacing:-0.15pt;">c</span><span style="letter-spacing:0.05pt;">ti</span>c<span style="letter-spacing:-0.15pt;">a</span>l<span style="letter-spacing:0.1pt;"> </span>a<span style="letter-spacing:-0.05pt;">n</span>d
-pr<span style="letter-spacing:-0.15pt;">o</span><span style="letter-spacing:0.05pt;">f</span>e<span style="letter-spacing:-0.15pt;">s</span>sion<span style="letter-spacing:-0.05pt;">a</span>l
-s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05pt;">ll</span>s</span></strong><br></p><p>At the end of the module, learners will be expected to:</p><ol><li>Transfer and use relevant key skills in the workplace context;</li><li>Use the more specific knowledge, analytic skills and methods, rooted in the different disciplines as a strong basis for work in many professions;&nbsp;Students will have become better informed, more active and questioning members of an organisation by:</li><li>The ability to engage critically with the underlying challenges and problems facing a business;</li><li>&nbsp;The ability to identify and evaluate conflicting arguments, including recognising the significance of different value positions in these arguments.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;line-height:107%;font-family:arial, sans-serif;"><strong><span lang="EN-GB" style="font-size:11pt;line-height:107%;font-family:arial, sans-serif;">D. <span style="letter-spacing:-0.05pt;">K</span><span style="letter-spacing:0.1pt;">e</span>y<span style="letter-spacing:-0.2pt;"> </span><span style="letter-spacing:0.05pt;">t</span>ran<span style="letter-spacing:-0.05pt;">s</span><span style="letter-spacing:0.05pt;">f</span>era<span style="letter-spacing:-0.15pt;">b</span><span style="letter-spacing:0.05pt;">l</span>e s<span style="letter-spacing:-0.1pt;">k</span><span style="letter-spacing:-0.05pt;">i</span><span style="letter-spacing:0.05pt;">l</span><span style="letter-spacing:-0.05pt;">l</span>s</span></strong><br></span></strong></p><p style="text-align:justify;">At the end of the module, learners will be expected to:&ZeroWidthSpace;</p><ol style="text-align:justify;"><li>Interpersonal skills of effective listening, negotiating, persuasion and presentation;</li><li>Ability to conduct research into business and management issues, either individually or as part of a team for projects/dissertations/presentations. This requires familiarity with and an evaluative approach to a range of business data, sources of information and appropriate methodologies, and for such to inform the overall learning process; including the development of personal and team attributes and capabilities for entrepreneurial success;</li><li>Self reflection and criticality including self awareness, openness and sensitivity to diversity in terms of people, cultures, business and management issues;</li><li>Skills of learning to learn and developing a continuing appetite for learning; reflective, adaptive and collaborative learning.</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;line-height:107%;font-family:arial, sans-serif;"><br></span></strong></p></td>
+											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong>A</strong><strong>.</strong><strong> </strong><strong>K</strong><strong>n</strong><strong>o</strong><strong>w</strong><strong>l</strong><strong>e</strong><strong>d</strong><strong>ge a</strong><strong>n</strong><strong>d</strong><strong> </strong><strong>u</strong><strong>n</strong><strong>d</strong><strong>erstan</strong><strong>d</strong><strong>i</strong><strong>ng</strong></span></p><p style="text-align:justify;line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">A1</span></strong><span lang="EN-GB" style="line-height:115%;">. The structure and dynamics of business environments; how
+businesses seek to track and analyse their environments;</span></span></p><p style="text-align:justify;line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">A2</span></strong><span lang="EN-GB" style="line-height:115%;">. Markets, market economies and how they function; how consumers,
+firms and governments behave as economic agents; why and how markets fail and
+how this failure is managed;</span></span></p><p style="text-align:justify;line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">A3</span></strong><span lang="EN-GB" style="line-height:115%;">. Business processes and how they operate; the nature, structure
+and functioning of organisations; how and why organisations are changing;&ZeroWidthSpace;</span></span></p><p style="text-align:justify;line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">A4</span></strong><span lang="EN-GB" style="line-height:115%;">. Key business functions such as Marketing, Human Resources,
+Information Management, Accounting &amp; Finance, Operations – their nature and
+contribution to organisational success, their historic origins and their
+interactions;</span></span></p><p style="text-align:justify;line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">A5</span></strong><span lang="EN-GB" style="line-height:115%;">. How businesses develop strategies; the different forms and
+theories of strategy;</span></span></p><p style="text-align:justify;line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">A6</span></strong><span lang="EN-GB" style="line-height:115%;">. How organisations make decisions and organise decision-making
+processes; the various sources of decision-making irrationality; the nature,
+role and implications of governmental, regional and supranational business
+policy on businesses;</span></span></p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">
+
+</span><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB">A7</span></strong><span class="ms-rteThemeFontFace-1" lang="EN-GB" style="font-size:13px;">. How to apply key ideas in mathematics, including some&nbsp;&nbsp; statistics, and algebra.</span><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><br><strong>B</strong><strong>.</strong><strong> </strong><strong>C</strong><strong>o</strong><strong>g</strong><strong>n</strong><strong>i</strong><strong>ti</strong><strong>v</strong><strong>e</strong><strong> </strong><strong>s</strong><strong>ki</strong><strong>ll</strong><strong>s</strong></span></p><p style="line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">B1</span></strong><span lang="EN-GB" style="line-height:115%;">.
+Read material questioningly, identifying and recording key ideas and concepts
+in business studies;</span></span></p><p style="line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">B2</span></strong><span lang="EN-GB" style="line-height:115%;">.
+Synthesise material from a variety of sources, analysing and evaluating
+different perspectives, identifying biases and hidden assumptions;</span></span></p><p style="line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">B3</span></strong><span lang="EN-GB" style="line-height:115%;">.
+Classify, recognise and organise material in distinct and relevant categories;</span></span></p><div><span class="ms-rteThemeFontFace-1" style="font-size:13px;">
+
+<strong><span lang="EN-GB">B4</span></strong><span lang="EN-GB">. Construct, defend and evaluate an argument, using relevant evidence,
+giving reasons for conclusions.</span></span></div><div><span class="ms-rteThemeFontFace-1" lang="EN-GB" style="font-size:13px;"><br></span>&nbsp;</div><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>C</strong><strong>.</strong><strong> </strong><strong>P</strong><strong>ra</strong><strong>c</strong><strong>ti</strong><strong>c</strong><strong>a</strong><strong>l</strong><strong> </strong><strong>a</strong><strong>n</strong><strong>d pr</strong><strong>o</strong><strong>f</strong><strong>e</strong><strong>s</strong><strong>sion</strong><strong>a</strong><strong>l s</strong><strong>ki</strong><strong>ll</strong><strong>s</strong><br></span></p><p style="line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">C1</span></strong><span lang="EN-GB" style="line-height:115%;">. Transfer
+and use relevant key skills in the workplace context;</span></span></p><p style="line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">C2</span></strong><span lang="EN-GB" style="line-height:115%;">.
+Use the more specific knowledge, analytic skills and methods, rooted in the
+different disciplines as a strong basis for work in many professions;</span></span></p><p style="line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" lang="EN-GB" style="line-height:115%;font-size:13px;">Students will have become better informed, more
+active and questioning members of an organisation by:</span></p><p style="line-height:115%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="line-height:115%;">C3</span></strong><span lang="EN-GB" style="line-height:115%;">.
+The ability to engage critically with the underlying challenges and problems
+facing a business; </span></span></p><div><span class="ms-rteThemeFontFace-1" style="font-size:13px;">
+
+<strong><span lang="EN-GB">C4</span></strong><span lang="EN-GB">. The ability to identify and evaluate conflicting arguments, including <span lang="EN-GB">recognising
+the significance of different value positions in these arguments.</span></span></span></div><div><span class="ms-rteThemeFontFace-1" lang="EN-GB" style="font-size:13px;"><span lang="EN-GB"><br></span></span>&nbsp;</div><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>D </strong><strong>K</strong><strong>e</strong><strong>y</strong><strong> </strong><strong>t</strong><strong>ran</strong><strong>s</strong><strong>f</strong><strong>era</strong><strong>b</strong><strong>l</strong><strong>e s</strong><strong>k</strong><strong>i</strong><strong>l</strong><strong>l</strong><strong>s</strong></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>D1</strong>. Interpersonal skills of effective listening, negotiating, persuasion and presentation;<br></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>D2</strong>. Ability to conduct research into business and management issues, either individually or as part of a team for projects/dissertations/presentations. This requires familiarity with and an evaluative approach to a range of business data, sources of information and appropriate methodologies, and for such to inform the overall learning process; including the development of personal and team attributes and capabilities for entrepreneurial success;<br></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>D3</strong>. Self reflection and criticality including self awareness, openness and sensitivity to diversity in terms of people, cultures, business and management issues;&ZeroWidthSpace;<br></span></p><p><span style="font-size:13px;"><strong class="ms-rteThemeFontFace-1" style="font-size:13px;">D4</strong><span class="ms-rteThemeFontFace-1" style="font-size:13px;">. Skills of learning to learn and developing a continuing appetite for learning; reflective, adaptive and collaborative learning.</span></span><br></p></td>
 										</tr>
 									</tbody>
 								</table>
@@ -548,17 +3558,16 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
                 </div>
                 <div class="course-desc">
                     The course introduces the student to the basics of Chinese (Mandarin). These include the alphabet, common everyday expressions, simple sentences, short dialogues and small paragraphs. The four skills of reading, writing, listening and speaking will be equally emphasized. However, as we live in the age of the image, students will have ample exposure to a variety of audio-visual material which boost their command of the language at the beginner’s level.  The communicative approach is to be adopted in face-to-face tutorials and the various methods of enabling students to learn on their own will be prioritized.
-
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_81">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_94">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_81" class="modal fade" role="dialog">
+				<div id="modal_94" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -587,12 +3596,11 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>The course introduces the student to the basics of Chinese (Mandarin). These include the alphabet, common everyday expressions, simple sentences, short dialogues and small paragraphs. The four skills of reading, writing, listening and speaking will be equally emphasized. However, as we live in the age of the image, students will have ample exposure to a variety of audio-visual material which boost their command of the language at the beginner’s level.  The communicative approach is to be adopted in face-to-face tutorials and the various methods of enabling students to learn on their own will be prioritized.
-</td>
+											<td>The course introduces the student to the basics of Chinese (Mandarin). These include the alphabet, common everyday expressions, simple sentences, short dialogues and small paragraphs. The four skills of reading, writing, listening and speaking will be equally emphasized. However, as we live in the age of the image, students will have ample exposure to a variety of audio-visual material which boost their command of the language at the beginner’s level.  The communicative approach is to be adopted in face-to-face tutorials and the various methods of enabling students to learn on their own will be prioritized.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
@@ -623,17 +3631,16 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
                 </div>
                 <div class="course-desc">
                     The course builds on what the student has learnt in level (1). Toward this end, it introduces the student to more everyday expressions, more widely-used short sentences, some compound and complex sentences, medium-size dialogues, and short passages. While the skills of listening and speaking will be receiving adequate attention, more emphasis is to be placed on the skills of reading and writing.  Face-to-face tutorials will be communicative and students will be empowered to learn on their own.
-
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_82">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_95">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_82" class="modal fade" role="dialog">
+				<div id="modal_95" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -662,12 +3669,11 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>The course builds on what the student has learnt in level (1). Toward this end, it introduces the student to more everyday expressions, more widely-used short sentences, some compound and complex sentences, medium-size dialogues, and short passages. While the skills of listening and speaking will be receiving adequate attention, more emphasis is to be placed on the skills of reading and writing.  Face-to-face tutorials will be communicative and students will be empowered to learn on their own.
-</td>
+											<td>The course builds on what the student has learnt in level (1). Toward this end, it introduces the student to more everyday expressions, more widely-used short sentences, some compound and complex sentences, medium-size dialogues, and short passages. While the skills of listening and speaking will be receiving adequate attention, more emphasis is to be placed on the skills of reading and writing.  Face-to-face tutorials will be communicative and students will be empowered to learn on their own.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
@@ -693,26 +3699,26 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
 
             <div class="course-item">
                 <div class="course-title">
-                    CS240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to computer Graphics <span class="float-right">(4) Credit Hours</span>
+                    DD209A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Economics for Business <span class="float-right">(8) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    This module targets to cope with the current advances in computer graphics and multimedia and providing clear and concise explanations of the basic concepts of computer graphics and multimedia. This module is expected to enable students to gain understanding of basics of modelling, viewing, animation principles in both 2D and 3D and the impact of such topics on modern multimedia aspects.
+                    This key introductory Level 5 course is the second in our degree in business studies and forms the core of the certificate in business studies- economic track. This module teaches Macroeconomics (DD209A) – the focus of most public debate – the student is engaged in policy debates and the problems of managing the national and global economy after a major economic crisis. Through this module, students will be enabled to place themselves as an economic analyst tackling problems in the national macro economy. The student will emerge with a good grasp of some fundamentals of economic theory including the application of basic game theory; an understanding of some key theoretical and policy debates in economics; and confidence in applying these theories and concepts to major economic policy challenges.  
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_98">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_24">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_98" class="modal fade" role="dialog">
+				<div id="modal_24" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="modal-title">Introduction to computer Graphics</span>
+								<span class="modal-title">Economics for Business</span>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
@@ -720,15 +3726,460 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
 									<tbody>
 										<tr>
 											<td>Course Code</td>
-											<td>CS240</td>
+											<td>DD209A</td>
 										</tr>
 										<tr>
 											<td>Course Title</td>
-											<td>Introduction to computer Graphics</td>
+											<td>Economics for Business</td>
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>M132</td>
+											<td>ECO101 and ECO102</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This key introductory Level 5 course is the second in our degree in business studies and forms the core of the certificate in business studies- economic track. This module teaches Macroeconomics (DD209A) – the focus of most public debate – the student is engaged in policy debates and the problems of managing the national and global economy after a major economic crisis. Through this module, students will be enabled to place themselves as an economic analyst tackling problems in the national macro economy. The student will emerge with a good grasp of some fundamentals of economic theory including the application of basic game theory; an understanding of some key theoretical and policy debates in economics; and confidence in applying these theories and concepts to major economic policy challenges.  </td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p style="text-align:justify;">&ZeroWidthSpace;&ZeroWidthSpace;The academic purpose of this course is designed to introduce learners to the internal and external elements of Macroeconomics. The module will have a student-cantered approach in developing and applying economic theories and debates to serious worldwide economic problems, and the critical assessment of proposed solutions. Transferable and vocational skills students will acquire include: <br></p><ol><li>The interpretation, manipulation and critique of economic evidence, including numerical data and basic statistical skills </li><li>Compare and contrast the most prominent economic traditions and theories of the last two centuries, widely used in public debate </li><li>Ability to build and support an argument in a discussion </li><li>Use and present modelling and simulation as methods of analysis of economic problems; simulate the macro economy under different policy scenarios&nbsp; </li></ol><p>5. Ability to engage in debates with other students, substantiating views with economic theory and evidence (coming from data, simulator or case studies)&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&ZeroWidthSpace;<strong>A. Knowledge
+and understanding</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1.<span>&nbsp; </span>Modelling and its
+importance in economic thinking; Be able to engage in the economic debate on
+the role of demand stimulus vs. fiscal constraint in recovery; monetary policy;
+and the scope for supply side restructuring and growth; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2. The use of abstraction in developing economic theories and
+models; Recognise the implications of global imbalances in balance of payments
+(deficits and surpluses), credit and debt, rising inequality, and the need for
+‘rebalancing’ economies. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3. How specific economic models are constructed;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4. Competing
+theoretical perspectives and the assumptions underlying economic theories;
+Understand how macroeconomics feeds into economic arguments for policy in areas
+such as privatisation/nationalisation; trade restriction and promotion; welfare
+state policies including health and education. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A5. How to
+apply appropriate theories, models and concepts to economic problems, events
+and processes.</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1. Construct and combine economic arguments and recognise the
+differences between economic and other forms of argument;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2. Manipulate economic models to analyse the impact of changes in
+variables; Interpret, manipulate and criticise different types of data. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3. Evaluate economic theories and use them to explain and analyse
+policy questions; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4. Integrate diagrammatic and verbal analysis of economic issues;
+</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5. Interpret economic data presented in a variety of forms
+including </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">basic regression results and undertake data analysis using
+economic data and appropriate analytical tools; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B6. Search library catalogues and bibliographic databases and
+select a range of academic literature focusing on a particular theoretical
+proposition or economic issue and conduct fieldwork research.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>C. Practical and professional skills</b></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1. Demonstrate an awareness of skills and abilities in relation
+to the requirements of own work role;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2. Identify and evaluate the range of resources related to
+working effectively; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3. Choosing appropriate methods and apply a model of a national economy
+as constructed and used to analyse the roles of consumer spending, investment,
+government taxes and spending and imports and exports;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4. Analyse the macroeconomic problems rather than a matter for
+national governments; gain familiarity with a computer-based statistical
+package and search and manipulate and present different sources of data. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C5. Seek for convenient policy to stabilise the economy and keep
+unemployment and inflation low;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C6. Communication of complex information, arguments and ideas in
+ways appropriate to a business context and audience; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1. Read and synthesise information from a variety of sources for
+a specified purpose and apply economic theory to real-life situations. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2. Read and construct scale drawings, graphs, charts and diagrams
+from numerical data; read and interpret large and complex numerical data sets; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3. Carry out multistage calculations with numbers of any size
+incorporating the use of powers and roots; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4. Calculate measures of average distribution; apply standard
+formulae, equations and expressions in calculating economic measures and
+indicators; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D5. Select and use appropriate methods to illustrate findings,
+show trends and make comparisons; numerical and verbal analysis of economic
+issues. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D6.&nbsp; Work with qualitative and quantitative data,
+drawing appropriate conclusions based on findings, including how possible
+sources of error may affect the results.</span><p><br>&nbsp;</p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    DD209B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Economics for Business-Microeconomics <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This key introductory Level 5 course is the second in our degree in business studies and forms the core of the certificate in business studies- economic track. This module teaches Microeconomics (DD209B) – the focus of most public debate – the student is engaged in policy debates and the problems of managing the national and global economy after a major economic crisis. The D209B module addresses the recurrent themes of inequalities and imbalances. It takes a global perspective on the challenges faced by national economies and the debates on the roles for government. It focuses particular on the interacting roles of trade policy and government welfare policies in addressing and mitigating inequality within and between countries.   
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_25">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_25" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Economics for Business-Microeconomics</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>DD209B</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Economics for Business-Microeconomics</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>DD209A</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This key introductory Level 5 course is the second in our degree in business studies and forms the core of the certificate in business studies- economic track. This module teaches Microeconomics (DD209B) – the focus of most public debate – the student is engaged in policy debates and the problems of managing the national and global economy after a major economic crisis. The D209B module addresses the recurrent themes of inequalities and imbalances. It takes a global perspective on the challenges faced by national economies and the debates on the roles for government. It focuses particular on the interacting roles of trade policy and government welfare policies in addressing and mitigating inequality within and between countries.   </td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;The academic purpose of this course is designed to introduce learners to the most important elements of Microeconomics. The module will have a student-centered approach in developing and applying economic theories and debates to serious worldwide economic problems, and the critical assessment of proposed solutions. Transferable and vocational skills students will acquire include:&nbsp; </p><ol><li>Exploring the decision-making processes within firms that drive the growth of an economy.&nbsp; </li><li>Compare and contrast the most prominent economic traditions and theories of the last two centuries, widely used in public debate </li><li>Developing an understanding of the theory of the firm and the working of markets. Ability to build and support an argument in a discussion </li></ol><p>Analysing how global trade and the pursuit of growth creates imbalances that may have caused a macroeconomic crisis. &ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>A. Knowledge
+and understanding</b></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1. Modelling and its importance in economic thinking; Be able to
+engage in the economic debate on the role of demand stimulus vs. fiscal
+constraint in recovery; and the scope for supply side restructuring and growth;
+</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2. The use of abstraction in developing economic theories and
+models; Recognise the implications of global imbalances in balance of payments
+(deficits and surpluses), credit and debt, rising inequality, and the need for
+‘rebalancing’ economies. A3. How specific economic models are constructed;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4. Competing theoretical perspectives and the assumptions
+underlying economic theories; Understand how microeconomics feeds into economic
+arguments for policy in areas such as trade restriction and promotion; welfare
+state policies including health and education. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A5. How to
+apply appropriate theories, models and concepts to economic problems, events
+and processes. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1. Construct and combine economic arguments and recognise the
+differences between economic and other forms of argument;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2. Manipulate economic models to analyse the impact of changes in
+variables; Interpret, manipulate and criticise different types of data. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3. Evaluate economic theories and use them to explain and analyse
+policy questions; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4. Integrate diagrammatic and verbal analysis of economic issues;
+</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5. Interpret economic data presented in a variety of forms
+including basic regression results and undertake data analysis using economic
+data and appropriate analytical tools; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B6. Search library catalogues and bibliographic databases and
+select a range of academic literature focusing on a particular theoretical
+proposition or economic issue and conduct fieldwork research.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1. Demonstrate an awareness of skills and abilities in relation
+to the requirements of own work role;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2. Identify and evaluate the range of resources related to
+working effectively; <span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3. Choosing appropriate methods and apply a model of a national
+economy as constructed and used to analyse the roles of consumer spending,
+investment, government taxes and spending and imports and exports;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4. Analyse the microeconomic problems, gain familiarity with a
+computer-based statistical package and search and manipulate and present
+different sources of data. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C5. Communication of complex information, arguments and ideas in
+ways appropriate to a business context and audience; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C6. Problem-solving and decision-making using appropriate
+quantitative and qualitative skills including data analysis, interpretation and
+extrapolation </span></p>
+
+<p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1. Read and synthesise information from a variety of sources for
+a specified purpose and apply economic theory to real-life situations. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2. Read and construct scale drawings, graphs, charts and diagrams
+from numerical data; read and interpret large and complex numerical data sets; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3. Carry out multistage calculations with numbers of any size
+incorporating the use of powers and roots; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4. Calculate measures of average distribution; apply standard
+formulae, equations and expressions in calculating economic measures and
+indicators; &ZeroWidthSpace;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><br></span>&nbsp;</p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D5. Select and use appropriate methods to illustrate findings,
+show trends and make comparisons; numerical and verbal analysis of economic
+issues. &ZeroWidthSpace;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><br></span>&nbsp;</p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D6.&nbsp; Work with qualitative and quantitative data,
+drawing appropriate conclusions based on findings, including how possible
+sources of error may affect the results.</span>&nbsp;</td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    DD309A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Doing Economics <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    Doing economics: people, markets and policy is a sixty-point third level course which teaches
+economic theories that explain the behaviour of people in households, firms, markets and
+governments. This course is split into two parts, D309A and D309B with 30 points each. It presents alternative economic explanations that will enable students to make their own critical
+judgments of which theory serves which purpose best. The course also equips students with the
+research skills that they’ll need to conduct their own project on a topic they want to know more
+about. At the end of the course, students should have developed a more critical view of the socioeconomic world in which they live. The course will equip them with the theoretical tools
+necessary to investigate recent developments in the global economy. A pluralist view of
+economic theory is adopted, enabling students to appreciate the debates between different
+approaches. The first part of the course teaches intermediate microeconomics with an emphasis
+on both economic theory and its applications. The second part of the course is project-based;
+students will be able to specialize in an area of their choice and carry out their own research
+project.
+
+D309a (first part of the course) is divided into three blocks 1, 2 and 3 plus two weeks of work
+that introduce methods used by economists to test the relevance of their models using data. Block 1, People and Households; Block 2, Firms and Industries; and Block 3, Markets and Governments
+
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_22">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_22" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Doing Economics</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>DD309A</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Doing Economics</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>DD209B</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>Doing economics: people, markets and policy is a sixty-point third level course which teaches
+economic theories that explain the behaviour of people in households, firms, markets and
+governments. This course is split into two parts, D309A and D309B with 30 points each. It presents alternative economic explanations that will enable students to make their own critical
+judgments of which theory serves which purpose best. The course also equips students with the
+research skills that they’ll need to conduct their own project on a topic they want to know more
+about. At the end of the course, students should have developed a more critical view of the socioeconomic world in which they live. The course will equip them with the theoretical tools
+necessary to investigate recent developments in the global economy. A pluralist view of
+economic theory is adopted, enabling students to appreciate the debates between different
+approaches. The first part of the course teaches intermediate microeconomics with an emphasis
+on both economic theory and its applications. The second part of the course is project-based;
+students will be able to specialize in an area of their choice and carry out their own research
+project.
+
+D309a (first part of the course) is divided into three blocks 1, 2 and 3 plus two weeks of work
+that introduce methods used by economists to test the relevance of their models using data. Block 1, People and Households; Block 2, Firms and Industries; and Block 3, Markets and Governments
+</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;The aim of the course is to
+provide students with a critical overview of the main tools of doing<font face="&quot;Segoe UI&quot;,&quot;Segoe&quot;,Tahoma,Helvetica,Arial,sans-serif"> </font></span><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">economies focusing on people,
+markets and policy. It thus places emphasis on the theoretical<font face="&quot;Segoe UI&quot;,&quot;Segoe&quot;,Tahoma,Helvetica,Arial,sans-serif"> </font></span><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">underpinnings of the economic
+theories, and the debates which surround it, as well as </span><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">developing practical skills
+relevant to work in a range of organisations. Achieving the intended<font face="&quot;Segoe UI&quot;,&quot;Segoe&quot;,Tahoma,Helvetica,Arial,sans-serif"> </font></span><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">learning outcomes (covering both
+knowledge and skills) fully supports this aim. This is a Level<font face="&quot;Segoe UI&quot;,&quot;Segoe&quot;,Tahoma,Helvetica,Arial,sans-serif"> </font></span><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">3 course. Level 3 courses build on
+study skills and subject knowledge acquired from studies at </span><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">Levels 1 and 2. The students
+should take Economics and economic change (DD202) course </span><em><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">before</span></em><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"> studying
+DD309.&ZeroWidthSpace;</span>
+
+<br></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><b>A. Knowledge and understanding</b></p><p>A1 : How decisions taken in various contexts, such as consumption, labour market participation, savings, investment in education and training. And how households, as well as individuals, can make decisions.</p><p>A2: Key theories underpinning the efficiency and productivity in the production of goods and services. Although the issues about choice of technology, entrepreneurship, innovation, employment relations, outsourcing and competition policy</p><p>A3: The overall organisation of the economy. The strengths and weaknesses of markets and governments in the organisation of economic activities, explores issues concerning the environment and ethics, and looks at economic theory that underpins government behaviour.</p><p>A4: Economic theories and their applications to various areas. Three available theoretical strands: environmental economics, business and finance or economics and society.</p><p>A5; Research Methods, how to carry out a literature review and then choose which research methods to be applied in A6. The qualitative methods – which include interviewing and case studies – and quantitative methods, which involve analysis of economic data.</p><p style="text-align:justify;">A6: Project work, choosing and completing a project. </p><p style="text-align:justify;">&nbsp;</p><p style="text-align:justify;"><strong>B. Cognitive skills</strong></p><p>B1: Thinking strategically in the context of a case study</p><p>B2: Critical thinking, analysis and synthesis: including identifying and questioning assumptions, weighing evidence appropriately, identifying and challenging false logic or reasoning, and generalising in a way which recognises the limits of knowledge in firm.</p><p>B3: Evaluation and comparison of competing perspectives from a variety of sources, including some informed by current issues or research developments.</p><p style="text-align:justify;">B4: The ability to argue relevantly and to justify a point of view </p><p style="text-align:justify;">&nbsp;</p><p style="text-align:justify;"><strong>C. Practical and professional skills</strong></p><p>C1 : Communication of complex information, arguments and ideas in ways appropriate to a business context and audience.</p><p>C2: Problem-solving and decision-making using appropriate quantitative and qualitative skills including data analysis, interpretation and extrapolation.</p><p>C3: Effective performance in a team environment in a virtual context.</p><p>C4. The application of course ideas to students' own interactions with organisations and life experiences.</p><p>C5: Selecting and using information and communication technologies for business purposes.</p><p>&nbsp;</p><p style="text-align:justify;"><strong>D Key transferable skills</strong></p><p>D1 : Engagement, as appropriate, with practical and professional business strategy skills and ethical issues.&ZeroWidthSpace;<br></p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    DD309B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Doing economics: people, markets and policy <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    Doing economics: people, markets and policy (Part B) is a thirty point third level course which teaches economic theories that explain the behaviour of people in households, firms, markets and governments. The course equips students with the research skills that they’ll need to conduct their own project on a topic they want to know more about. At the end of the course, students should have developed a more critical view of the socio-economic world in which they live. DD309b (second part of the course is divided into Blocks 4, 5 and 6.
+Block 4, Optional strands, teaches further economic theory and its applications to various areas. Students should choose one of three available theoretical strands: environmental economics, business and finance or economics and society. In Block 5, Research Methods, students will learn how to carry out a literature review and then choose which research methods they plan to use for their project. They can choose between qualitative methods – which include interviewing and case studies – and quantitative methods, which involve analysis of economic data. In Block 6, Project Work, students will work towards their end-of-module assessment, completing a project of their choice.
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_23">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_23" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Doing economics: people, markets and policy</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>DD309B</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Doing economics: people, markets and policy</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>DD309A </td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>Doing economics: people, markets and policy (Part B) is a thirty point third level course which teaches economic theories that explain the behaviour of people in households, firms, markets and governments. The course equips students with the research skills that they’ll need to conduct their own project on a topic they want to know more about. At the end of the course, students should have developed a more critical view of the socio-economic world in which they live. DD309b (second part of the course is divided into Blocks 4, 5 and 6.
+Block 4, Optional strands, teaches further economic theory and its applications to various areas. Students should choose one of three available theoretical strands: environmental economics, business and finance or economics and society. In Block 5, Research Methods, students will learn how to carry out a literature review and then choose which research methods they plan to use for their project. They can choose between qualitative methods – which include interviewing and case studies – and quantitative methods, which involve analysis of economic data. In Block 6, Project Work, students will work towards their end-of-module assessment, completing a project of their choice.</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;The aim of the course is to provide students with a critical overview of the main tools of doing economies focusing on people, markets and policy. It thus places emphasis on the theoretical underpinnings of the economic theories, and the debates which surround it, as well as developing practical skills relevant to work in a range of organisations. Achieving the intended learning outcomes (covering both knowledge and skills) fully supports this aim. This is a Level 3 course. Level 3 courses build on study skills and subject knowledge acquired from studies at Levels 1 and 2. The students should take Economics and economic change (DD209) course before studying DD309.&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>A. Knowledge
+and understanding</b></span><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1 :<span>&nbsp; </span>Modeling and its importance in economic
+thinking; </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2 : The use
+of abstraction in developing economic theories and models; </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3 : How
+specific economic models are constructed; A4:<span>&nbsp;
+</span>Competing theoretical perspectives and the assumptions underlying
+economic theories; <span>&nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&ZeroWidthSpace;&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1 : Construct economic arguments and recognise the differences
+between economic and other forms of argument; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Manipulate economic models to analyse the impact of changes in
+variables; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3 : Evaluate economic theories and use them to explain and
+analyse social issues and policy questions; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4 : Integrate diagrammatic and verbal analysis of economic
+issues;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1:<span>&nbsp; </span>Transfer and use
+relevant key skills in the workplace context; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Use the more specific knowledge, analytic skills and methods, rooted
+in the different disciplines as a strong basis for work in many professions.
+Students will have become better informed, more active and … questioning
+members of an organisation.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3 :The ability to engage critically with the underlying
+challenges and problems facing a business;<span>&nbsp;
+</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4: The ability to identify and evaluate conflicting arguments,
+including recognising the significance of different value positions in these
+arguments.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Read and synthesise information from a variety of sources for
+a specified purpose. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Read and construct scale drawings, graphs, charts and diagrams
+from numerical data; read and interpret large and complex numerical data sets; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3 : Calculate measures of average and distribution; apply
+standard formulae, equations and expressions in calculating economic measures
+and indicators; </span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4: Select and use
+appropriate methods to illustrate findings, show trends and make comparisons.</span>&nbsp;</td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    ECO101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Principle of Microeconomics <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This key introductory Level 1 course is the first economics module in our degree in business studies and forms the core of business studies- economics track. Students should first understand the economic problem before they move to learn its economic implications and economic changes. Every day people make decisions, what to buy and what to sell? All people are participating in consumption or production. These activities are the basic units of an economy and are concerned with the economic problem: how best to satisfy unlimited wants using the limited available resources. This module develops skills such as logical and analytical thinking and problem-solving skills. It is designed to explain the theoretical ideas and applies them to real life examples and case studies from the Arab region, without ignoring the international aspects. Therefore, this module directly addresses the Arab countries’ characteristics, problems, and economic policies. For some of students, economics is not the main area of study. However, understanding of basic economic concepts will still prove useful to all students whatever direction their studies and subsequent career may take.  
+
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_26">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_26" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Principle of Microeconomics</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>ECO101</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Principle of Microeconomics</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>BUS110</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
@@ -736,15 +4187,325 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>This module targets to cope with the current advances in computer graphics and multimedia and providing clear and concise explanations of the basic concepts of computer graphics and multimedia. This module is expected to enable students to gain understanding of basics of modelling, viewing, animation principles in both 2D and 3D and the impact of such topics on modern multimedia aspects.</td>
+											<td>This key introductory Level 1 course is the first economics module in our degree in business studies and forms the core of business studies- economics track. Students should first understand the economic problem before they move to learn its economic implications and economic changes. Every day people make decisions, what to buy and what to sell? All people are participating in consumption or production. These activities are the basic units of an economy and are concerned with the economic problem: how best to satisfy unlimited wants using the limited available resources. This module develops skills such as logical and analytical thinking and problem-solving skills. It is designed to explain the theoretical ideas and applies them to real life examples and case studies from the Arab region, without ignoring the international aspects. Therefore, this module directly addresses the Arab countries’ characteristics, problems, and economic policies. For some of students, economics is not the main area of study. However, understanding of basic economic concepts will still prove useful to all students whatever direction their studies and subsequent career may take.  
+</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p></p><ul><li>&ZeroWidthSpace;Introduce all aspects of the hardware and software components of computer graphics.</li><li>Provide Knowledge to perform 2D and 3D geometric transformations.</li><li>&nbsp;Describe the algorithms for projection, viewing and clipping of graphs.</li><li>Identify how to graphics software and hardware.</li><li>&nbsp;Provide Knowledge to evaluate the performance of graphics systems.&ZeroWidthSpace;<br><br></li></ul><p>&ZeroWidthSpace;<br></p></td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;The academic purpose of this course is designed to introduce learners to the internal and external elements of Microeconomics. Students are not expected to have taken any courses in economics, or to have any knowledge or experience of ICT. Nevertheless, this is a Level 2 course and students need the general study techniques appropriate to Level 2 study in the social sciences. After studying the module students should be able to: <br></p><ul><li>understand the domain of economics as a social theory </li><li>understand the main analytical tools which are used in economic analysis </li><li>learn the main conclusions derived from economic analysis and to develop their understanding of the organisational and policy implications </li></ul><p>to participate in debates on economic matters.&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;</p><table class="ms-formtable" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:8px;"><tbody><tr><td valign="top" class="ms-formbody" width="350px"><div aria-labelledby="ctl00_ctl39_g_eb7daa64_36cc_4108_a9f5_cc8a9db927e9_ctl00_ctl05_ctl09_ctl00_ctl00_ctl05_ctl00_label" style="display:inline;"><p></p><p><span class="ms-rteThemeFontFace-1"><br class="Apple-interchange-newline">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1">Upon completing this module,&nbsp;<span lang="EN-GB"><strong>student should be able to:</strong></span></span></p><ol><li><span class="ms-rteThemeFontFace-1">Describe the basic principles of computer graphics.</span></li><li><span class="ms-rteThemeFontFace-1">Explain the different operations in graphics systems such as transformations, projects, views, texturing, lighting, shading, animation and clipping.</span></li><li><span class="ms-rteThemeFontFace-1">Select the suitable hardware and software of a graphics system for a specific application.</span></li><li><span class="ms-rteThemeFontFace-1">Explain graphics algorithms.</span></li><li><span class="ms-rteThemeFontFace-1">Develop graphics applications in Java.</span></li></ol><p><span class="ms-rteThemeFontFace-1"><strong>B. Cognitive skills</strong><br></span></p><p><span class="ms-rteThemeFontFace-1">Upon completing this module,&nbsp;<span lang="EN-GB"><strong>student should be able to:</strong></span></span></p><ol><li><span class="ms-rteThemeFontFace-1">Evaluate graphics hardware and software.</span></li><li><span class="ms-rteThemeFontFace-1">Compare the different computer graphics applications.</span></li><li><span class="ms-rteThemeFontFace-1">Select the suitable graphics hardware for different applications.</span></li><li><span class="ms-rteThemeFontFace-1">Evaluate 3D modelling techniques.</span></li></ol><p><span class="ms-rteThemeFontFace-1"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1">Upon completing this module,&nbsp;<span lang="EN-GB"><strong>student should be able to:</strong></span></span></p><ol><li><span class="ms-rteThemeFontFace-1">Develop graphics applications using advanced APIs</span></li><li><span class="ms-rteThemeFontFace-1">Apply computer graphics concepts and techniques to develop graphics and visualization applications</span></li><li><span class="ms-rteThemeFontFace-1">Model 3D objects.<br></span></li></ol><p><span class="ms-rteThemeFontFace-1"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1">Upon completing this module,&nbsp;<span lang="EN-GB"><strong>student should be able to:</strong></span></span></p><ol><li><span class="ms-rteThemeFontFace-1">Effectively communicate oral and written.</span></li><li><span class="ms-rteThemeFontFace-1">Work in a team.</span></li><li><span class="ms-rteThemeFontFace-1">&ZeroWidthSpace;Effectively manage resources and time.</span></li></ol><p>&ZeroWidthSpace;<br><br></p></div></td></tr></tbody></table><p><br></p></td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&ZeroWidthSpace;<b>A. Knowledge
+and understanding</b></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: A strong
+set of introductory chapters.<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Early
+coverage of policy issues.<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3: Complete
+coverage of monopolistic competition. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Recognise, compare, and contrast different ways of analysing
+business case studies within the Arabian region and other material about
+contemporary business practice. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Apply their knowledge in the analysis of practical business
+problems and issues. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Recognise, compare and contrast different interpretations of
+and approaches to practical business problems and issues </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>C. Practical and professional skills</b></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: The ability to understand the labour market and other factors
+of production. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Pricing strategy </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><br></span>&nbsp;</p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Students develop many transferable skills that are highly
+valued by employers such as time management, self-reliance, problem-solving,
+the ability to understand and evaluate new concepts, and prioritising effectively.
+Skills required include:<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">i) effective communication skills – both written and oral (These
+are extremely important, as is the ability to work well as part of a
+team.)<span>&nbsp;&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">ii)taking the initiative in the classroom but also allowing the
+students enough freedom to further develop their own personality and
+abilities<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">iii) working closely with other teachers, parents and other
+education professionals<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">iv) creativity in presenting ideas </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">v) time management both inside and outside the classroom </span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">vi) enthusiasm, patience</span><br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    ECO102&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Principle of Macroeconomics <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    This key introductory Level 1 course is the first economics module in our degree in business studies and forms the core of business studies- economics track. Students should first understand the economic problem before they move to learn its economic implications and economic changes. Every day people make decisions, what to buy and what to sell? All people are participating in consumption or production. These activities are the basic units of an economy and are concerned with the economic problem: how best to satisfy unlimited wants using the limited available resources. This module develops skills such as logical and analytical thinking and problem-solving skills. It is designed to explain the theoretical ideas and applies them to real life examples and case studies from the Arab region, without ignoring the international aspects. Therefore, this module directly addresses the Arab countries’ characteristics, problems, and economic policies. For some of students, economics is not the main area of study. However, understanding of basic economic concepts will still prove useful to all students whatever direction their studies and subsequent career may take.  
+
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_27">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_27" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Principle of Macroeconomics</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>ECO102</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Principle of Macroeconomics</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>BUS110</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>This key introductory Level 1 course is the first economics module in our degree in business studies and forms the core of business studies- economics track. Students should first understand the economic problem before they move to learn its economic implications and economic changes. Every day people make decisions, what to buy and what to sell? All people are participating in consumption or production. These activities are the basic units of an economy and are concerned with the economic problem: how best to satisfy unlimited wants using the limited available resources. This module develops skills such as logical and analytical thinking and problem-solving skills. It is designed to explain the theoretical ideas and applies them to real life examples and case studies from the Arab region, without ignoring the international aspects. Therefore, this module directly addresses the Arab countries’ characteristics, problems, and economic policies. For some of students, economics is not the main area of study. However, understanding of basic economic concepts will still prove useful to all students whatever direction their studies and subsequent career may take.  
+</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;The academic purpose of this course is designed to introduce learners to the internal and external elements of Microeconomics. Students are not expected to have taken any courses in economics, or to have any knowledge or experience of ICT. Nevertheless, this is a Level 2 course and students need the general study techniques appropriate to Level 2 study in the social sciences. After studying the module students should be able to: <br></p><ul><li>understand the domain of economics as a social theory </li><li>understand the main analytical tools which are used in economic analysis </li><li>learn the main conclusions derived from economic analysis and to develop their understanding of the organisational and policy implications to participate in debates on economic matters.&ZeroWidthSpace;<br></li></ul></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>&ZeroWidthSpace;A. Knowledge
+and understanding</b></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: A strong
+set of introductory chapters.<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Early
+coverage of policy issues.<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3: Complete
+coverage of monopolistic competition. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Recognise, compare, and contrast different ways of analysing
+business case studies within the Arabian region and other material about
+contemporary business practice. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Apply their knowledge in the analysis of practical business
+problems and issues. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Recognise, compare and contrast different interpretations of
+and approaches to practical business problems and issues </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: The ability to understand the labour market and other factors
+of production. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Pricing strategy </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><br></span>&nbsp;</p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Students develop many transferable skills that are highly
+valued by employers such as time management, self-reliance, problem-solving,
+the ability to understand and evaluate new concepts, and prioritising effectively.
+Skills required include:<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">i) effective communication skills – both written and oral (These
+are extremely important, as is the ability to work well as part of a
+team.)<span>&nbsp;&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">ii)taking the initiative in the classroom but also allowing the
+students enough freedom to further develop their own personality and
+abilities<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">iii) working closely with other teachers, parents and other
+education professionals<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">iv) creativity in presenting ideas </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">v) time management both inside and outside the classroom </span></p>
+
+<span class="ms-rteFontSize-2" lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">vi) enthusiasm, patience</span><br></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    ECO340&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Managerial Economics <span class="float-right">(4) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    Business entities operate in economic turbulent environments. Under these constraints, decisions taken by managers of business units can vary and differ depending on the manager’s and the company’s pursuit of goals and objectives. Proper economic analysis and use of appropriate techniques and tools are therefore mandatory for managers and decision makers. This module highlights the role of economics in business decision-making and how economics is relevant in other areas of management such as marketing and operations management. The module can be used to understand economic aspects of business problems and business environment using theories, tools, techniques and relevant case studies and examples. Basic skills of quantitative proficiency is required in order to understand pricing decisions techniques, variation of supply and demand, risk analysis, investment and the growth of the firm. This module provides students with a solid base of managerial economics study and practice.  
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_46">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_46" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Managerial Economics</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>ECO340</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Managerial Economics</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>DD209B</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>Business entities operate in economic turbulent environments. Under these constraints, decisions taken by managers of business units can vary and differ depending on the manager’s and the company’s pursuit of goals and objectives. Proper economic analysis and use of appropriate techniques and tools are therefore mandatory for managers and decision makers. This module highlights the role of economics in business decision-making and how economics is relevant in other areas of management such as marketing and operations management. The module can be used to understand economic aspects of business problems and business environment using theories, tools, techniques and relevant case studies and examples. Basic skills of quantitative proficiency is required in order to understand pricing decisions techniques, variation of supply and demand, risk analysis, investment and the growth of the firm. This module provides students with a solid base of managerial economics study and practice.  </td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;ECO340's academic aim is to introduce students to number of managerial concepts and theories of economics in order to understand and explain the behavior decision and decision-making of business firms and aspects of the market economy.&nbsp; <p>&nbsp;</p><p>It also develops the students' knowledge of economics as well as skills in problem-solving, decision making, and written and oral communication. ECO340 also aims to prepares students for business-economics concepts and making sense of the business-world. Thus, after studying the course, the students should be able to:&nbsp; </p><ol><li>Understand and apply a toolbox of fundamental concepts and theories of economics to guide managerial decision-making by individuals and business units.</li><li>Explain the nature and role of models and theories in economic analysis.</li><li>Explain the concepts of supply/demand/market equilibrium and their determinants. </li><li>Identify the main characteristics of different market types (perfect competition, monopoly and oligopoly) and predict price and output outcomes. </li><li>Apply economic models to for production and cost estimation.&nbsp;</li><li>Identify and explain the challenges and opportunities for today's managers.&ZeroWidthSpace;&ZeroWidthSpace;<br></li></ol></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&ZeroWidthSpace;<b>A. Knowledge
+and understanding</b></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1 : Understand the economic environment that affect business
+strategies, business behaviour and managerial decisions in order to realize
+firms’ goals and objectives. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2 : Identify the determinants and variation of supply and demand
+and their impact in the context of local economy. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3: Understand the importance of production functions in
+managerial decisions. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4:
+Understand the importance of cost in managerial decisions. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Identify economic factors determining the firms’ decisions. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Evaluate and interpret economic ideas, views and evidence. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Analyse demand estimation and forecasting </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4: Identify the relation between production and cost </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5: Identify and explain issues related to pricing and output
+decisions</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: apply the economic way of thinking in order to identify
+microeconomic problems (market resources allocation, prices rise and fall,
+budgets allocation, production decisions...) </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Implement managerial decisions in high-risks environment and
+turbulent economies</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Apply key concepts and theories of economics to managerial
+decision making </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4: Implement appropriate pricing strategies and output decisions
+in different market types </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C5: Use tools and techniques of economics to improve managerial
+decision making </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Develop a broad and inclusive understanding of how the
+economic environment affects business strategies and decision making in
+domestic and global economy. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Develop effective communication, both in speaking and writing
+to convey solid arguments while adapting the language approach to the relevant
+business situation and audience. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Identify some of the key strengths and needs of their own
+learning and recognize opportunities to address these. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D4:<span>&nbsp; </span>Effectively use
+information and communication technologies when analysing economic situations
+and using appropriate tools for managers’ decision-making.&nbsp;</span><br></p></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
+                    ECO341&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Economic Development <span class="float-right">(8) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    Economic development is the process of gradual improvement in the material well-being of individuals. At the macro level, development economics studies why some countries have high standards of living, while others do not. At the micro level, development studies the functioning of markets in low income countries, with the ultimate goal of addressing market failures and lifting individuals out of poverty. Almost all topics in economics have a counterpart in development economics. The context of developing countries proves to be challenging for conventional economic models due to the prevalence of market failures. The situation often requires a careful investigation of the plausibility of assumptions in a developing context. Based on that, the course will cover mainly, among other topics, analytical approaches to the economic problems of developing nations. Topics include deep-rooted and new directions in development economics thinking, the welfare economics of poverty and inequality, empirical evidence on who benefits from economic development, labour market models, and public policy evaluation. 
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_54">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_54" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Economic Development</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>ECO341</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Economic Development</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td>DD209B</td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>Economic development is the process of gradual improvement in the material well-being of individuals. At the macro level, development economics studies why some countries have high standards of living, while others do not. At the micro level, development studies the functioning of markets in low income countries, with the ultimate goal of addressing market failures and lifting individuals out of poverty. Almost all topics in economics have a counterpart in development economics. The context of developing countries proves to be challenging for conventional economic models due to the prevalence of market failures. The situation often requires a careful investigation of the plausibility of assumptions in a developing context. Based on that, the course will cover mainly, among other topics, analytical approaches to the economic problems of developing nations. Topics include deep-rooted and new directions in development economics thinking, the welfare economics of poverty and inequality, empirical evidence on who benefits from economic development, labour market models, and public policy evaluation. </td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p style="text-align:justify;line-height:115%;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:13px;">&ZeroWidthSpace;The aim of this course is to introduce students to </span></p><p style="text-align:justify;line-height:115%;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:13px;">1. the theoretical foundations of development economics and also to
+recent advances in the use of empirical methods in the study of developing
+countries. </span></p><p style="text-align:justify;line-height:115%;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:13px;">2. apply the tools of economic analysis to problems of growth,
+poverty, and environmental sustainability in developing countries. </span></p><p style="text-align:justify;line-height:115%;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:13px;">3. analyze the economic, social, and environmental impacts of
+specific initiatives and promote development through policies and investment
+projects</span></p><p style="text-align:justify;line-height:115%;"><span style="line-height:115%;font-family:&quot;arial&quot;,sans-serif;font-size:13px;">4. use economic data to conduct development analyses such as growth
+diagnostics, poverty assessments, impact analysis of development projects, and
+environmental impact assessments</span></p><span style="font-size:13px;">
+
+</span><span lang="EN-GB" style="font-family:&quot;arial&quot;,sans-serif;font-size:13px;">5. prepare the corresponding reports for
+international development agencies and policy makers. </span>&ZeroWidthSpace;<br></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>&ZeroWidthSpace;A. </strong><span lang="EN-GB"><strong>Knowledge
+and Understanding&nbsp;</strong></span></span></p><p style="line-height:150%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">A1. Gain knowledge and understanding of the
+theories,&nbsp; </span></p><p style="line-height:150%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+principles, historical trends, current issues and practices </span></p><p style="line-height:150%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+relevant to economic development. </span></p><p style="line-height:150%;text-indent:-21.3pt;margin-left:21.3pt;"><span style="font-size:13px;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">A2.&nbsp;
+Understand measurement of economic growth, poverty </span><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">and inequality, agriculture and industrialization, </span></span></p><p style="margin:0px 0px 10px 21.3pt;text-align:left;color:#444444;text-transform:none;line-height:150%;text-indent:-21.3pt;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+population, education and human capital, health and </span></p><p style="margin:0px 0px 10px 21.3pt;text-align:left;color:#444444;text-transform:none;line-height:150%;text-indent:-21.3pt;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+nutrition, savings and credits; and trade and </span></p><p style="margin:0px 0px 10px 21.3pt;text-align:left;color:#444444;text-transform:none;line-height:150%;text-indent:-21.3pt;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+development. </span></p><p style="line-height:150%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">A3. Understand what affects&nbsp; economic growth, inequality and <span style="text-align:left;color:#444444;text-transform:none;line-height:150%;text-indent:-28.4px;letter-spacing:normal;font-family:&quot;arial&quot;,sans-serif;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;display:inline !important;white-space:normal;orphans:2;float:none;">poverty</span><span style="text-align:left;color:#444444;text-transform:none;line-height:150%;text-indent:-28.4px;letter-spacing:normal;font-family:&quot;arial&quot;,sans-serif;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;display:inline;white-space:normal;orphans:2;font-size-adjust:none;font-stretch:normal;float:none;">. &ZeroWidthSpace;</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></p><p style="line-height:150%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">A4. Understand why do some countries achieve
+high levels of economic development and others do not. </span></p><p style="text-align:justify;line-height:150%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;">A5. Understand the policies that
+government can implement to change the growth path of their countries</span></p><p style="text-align:justify;line-height:150%;text-indent:-21.3pt;margin-left:21.3pt;"><span class="ms-rteFontFace-13" lang="EN-GB" style="line-height:150%;font-size:13px;"><br></span>&nbsp;</p>
+
+<p><span class="ms-rteFontFace-13" style="font-size:13px;"><strong>&ZeroWidthSpace;</strong><span lang="EN-GB"><strong>B. Cognitive
+skills&nbsp;</strong></span></span></p><p><span class="ms-rteFontFace-13" lang="EN-GB" style="font-size:13px;"><span lang="EN-GB">B1.
+Learn how to think systematically and strategically about aspects of economic
+development&nbsp;</span></span></p><span class="ms-rteFontFace-13" id="ms-rterangepaste-start" style="font-size:13px;"></span><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13" style="font-size:13px;">B2. Reflect on and begin to critically evaluate the aspects that affect economic development.</span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13" style="font-size:13px;">B3. Use conceptual frameworks to describe economic development and economic development policies and what needs to be done to implement these policies and to achieve development; particularly for developing countries.&nbsp;<br></span></p><p><span class="ms-rteFontFace-13" style="font-size:13px;">B4. Critically evaluate theories in relation to economic development and international setting with which they are familiar and the relative standpoints of others within different contexts;&ZeroWidthSpace;</span></p><p><span class="ms-rteFontFace-13" style="font-size:13px;"><br></span>&nbsp;</p><p><span class="ms-rteFontFace-13" style="font-size:13px;"><span lang="EN-GB"><strong>C.
+Practical and professional skills</strong></span></span><span class="ms-rteFontFace-13"><br></span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">C1. Evaluate the impact of economic development on the&nbsp; </span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; country prosperity and international stand.&nbsp; </span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">C2. Demonstrate advanced professional and educational </span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; capabilities using appropriate interpersonal, written </span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; communication and critical thinking skills that are required&nbsp; </span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for economic development policies</span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">.C3.&nbsp; Apply theories and concepts relevant to economic </span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; development in all its dimension within local, regional and </span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; international contexts.&nbsp;&nbsp; </span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">C4. Develop knowledge, skills, attitudes and values </span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; necessary for economic development policies&nbsp; </span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; implementation&nbsp; particularly in developing struggling <br></span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; countries.&nbsp;</span></p><p style="margin:0px 0px 10px;text-align:left;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13"><br></span>&nbsp;</p><p><span class="ms-rteFontFace-13" lang="EN-GB" style="font-size:13px;"><strong>D.
+Key/transferable skills</strong></span></p><p style="margin:0px 0px 10px;text-align:justify;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13" style="font-size:13px;"><strong>D1.</strong>Be creative and assertive in presenting ideas related to economic development and economic development policies. </span></p><p style="margin:0px 0px 10px;text-align:justify;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13" style="font-size:13px;"><strong>D2</strong>.Articulate ideas and communicate effectively using appropriate theories pertinent to the concept of economic development in general and in particular economic development in developing countries. </span></p><p style="margin:0px 0px 10px;text-align:justify;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13" style="font-size:13px;"><strong>D3</strong>.Communicate effectively, using economic vocabulary, both orally and in writing&nbsp; and listen actively;</span></p><p style="margin:0px 0px 10px;text-align:justify;color:#444444;text-transform:none;line-height:1.6;text-indent:0px;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"><span class="ms-rteFontFace-13" style="font-size:13px;"><strong style="text-align:left;color:#444444;text-transform:none;text-indent:0px;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:700;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;">D4</strong><span style="text-align:left;color:#444444;text-transform:none;text-indent:0px;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;display:inline !important;white-space:normal;orphans:2;float:none;">.</span><span style="text-align:left;color:#444444;text-transform:none;text-indent:0px;letter-spacing:normal;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;display:inline;white-space:normal;orphans:2;float:none;">Conduct research into economic development issues related to the course topics, either individually or as part of a team for projects/dissertations/presentations. This requires familiarity with and an evaluative approach to a range of economic data, sources of information and appropriate methodologies, and for such to inform the overall learning process. </span><br></span></p><p><span style="font-size:13px;"><strong class="ms-rteFontFace-13" style="font-size:13px;">&ZeroWidthSpace;D5</strong><span class="ms-rteFontFace-13" style="font-size:13px;">.Self-reflection and criticality including self-awareness, openness and sensitivity to diversity in terms of various aspects related to and affecting economic development; particularly in developing countries</span><br></span></p><p><br>&nbsp;</p></td>
 										</tr>
 									</tbody>
 								</table>
@@ -771,16 +4532,17 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
                 </div>
                 <div class="course-desc">
                     EL111 is three credit hour university requirements. It aims to develop in students the skills of listening, speaking, reading and writing in English, together with attention to function and correct use of vocabulary and grammar. The course introduces thematic topics which aim at developing critical thinking skills. In addition, learning strategies such as prior knowledge, scanning for specific information, skimming for main idea and getting meaning from context are emphasized.
+
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_77">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_89">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_77" class="modal fade" role="dialog">
+				<div id="modal_89" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -809,11 +4571,12 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>EL111 is three credit hour university requirements. It aims to develop in students the skills of listening, speaking, reading and writing in English, together with attention to function and correct use of vocabulary and grammar. The course introduces thematic topics which aim at developing critical thinking skills. In addition, learning strategies such as prior knowledge, scanning for specific information, skimming for main idea and getting meaning from context are emphasized.</td>
+											<td>EL111 is three credit hour university requirements. It aims to develop in students the skills of listening, speaking, reading and writing in English, together with attention to function and correct use of vocabulary and grammar. The course introduces thematic topics which aim at developing critical thinking skills. In addition, learning strategies such as prior knowledge, scanning for specific information, skimming for main idea and getting meaning from context are emphasized.
+</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+											<td><p>&ZeroWidthSpace;<br><br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
@@ -844,17 +4607,16 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
                 </div>
                 <div class="course-desc">
                     EL112 is an advanced integrated skills course which builds on knowledge gained from EL111. The course continues to develop the four communication skills of listening, speaking, reading and writing to a more advanced level. In addition, students start to write longer essays.
-
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_78">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_90">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_78" class="modal fade" role="dialog">
+				<div id="modal_90" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -883,8 +4645,7 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>EL112 is an advanced integrated skills course which builds on knowledge gained from EL111. The course continues to develop the four communication skills of listening, speaking, reading and writing to a more advanced level. In addition, students start to write longer essays.
-</td>
+											<td>EL112 is an advanced integrated skills course which builds on knowledge gained from EL111. The course continues to develop the four communication skills of listening, speaking, reading and writing to a more advanced level. In addition, students start to write longer essays.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
@@ -918,8 +4679,7 @@ s<span style="letter-spacing:-0.05pt;">ki</span><span style="letter-spacing:0.05
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    	
-This is a four-credit-hour module of one semester in length. The module aims to help students become better readers of English texts and build their vocabulary. It focuses on expanding students’ reading skills and vocabulary use so that they can cope with different academic, professional and social situations effectively. The course applies the Interactive Reading model where reading is an active process in which readers draw upon top-down processing (bringing meaning to the text), as well as bottom-up processing (decoding words and other details of language). The top-down aspect of this construct suggests that reading is facilitated by interesting and relevant reading materials that activate a range of knowledge in a reader's mind. This knowledge is refined and extended during the act of reading. The bottom-up aspect of this model suggests that the students need to pay attention to language proficiency, including vocabulary. As an academic reading course, it addresses the teaching of higher level reading strategies without neglecting the need for language support. In addition, it addresses both sides of the interactive model. High-interest academic readings and activities provide students with opportunities to draw upon authentic life experience in their mastery of a wide variety of reading strategies and skills, including
+                    This is a four-credit-hour module of one semester in length. The module aims to help students become better readers of English texts and build their vocabulary. It focuses on expanding students’ reading skills and vocabulary use so that they can cope with different academic, professional and social situations effectively. The course applies the Interactive Reading model where reading is an active process in which readers draw upon top-down processing (bringing meaning to the text), as well as bottom-up processing (decoding words and other details of language). The top-down aspect of this construct suggests that reading is facilitated by interesting and relevant reading materials that activate a range of knowledge in a reader's mind. This knowledge is refined and extended during the act of reading. The bottom-up aspect of this model suggests that the students need to pay attention to language proficiency, including vocabulary. As an academic reading course, it addresses the teaching of higher level reading strategies without neglecting the need for language support. In addition, it addresses both sides of the interactive model. High-interest academic readings and activities provide students with opportunities to draw upon authentic life experience in their mastery of a wide variety of reading strategies and skills, including
 • previewing
 • outlining
 • skimming and scanning
@@ -942,13 +4702,13 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_83">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_96">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_83" class="modal fade" role="dialog">
+				<div id="modal_96" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -977,8 +4737,7 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>	
-This is a four-credit-hour module of one semester in length. The module aims to help students become better readers of English texts and build their vocabulary. It focuses on expanding students’ reading skills and vocabulary use so that they can cope with different academic, professional and social situations effectively. The course applies the Interactive Reading model where reading is an active process in which readers draw upon top-down processing (bringing meaning to the text), as well as bottom-up processing (decoding words and other details of language). The top-down aspect of this construct suggests that reading is facilitated by interesting and relevant reading materials that activate a range of knowledge in a reader's mind. This knowledge is refined and extended during the act of reading. The bottom-up aspect of this model suggests that the students need to pay attention to language proficiency, including vocabulary. As an academic reading course, it addresses the teaching of higher level reading strategies without neglecting the need for language support. In addition, it addresses both sides of the interactive model. High-interest academic readings and activities provide students with opportunities to draw upon authentic life experience in their mastery of a wide variety of reading strategies and skills, including
+											<td>This is a four-credit-hour module of one semester in length. The module aims to help students become better readers of English texts and build their vocabulary. It focuses on expanding students’ reading skills and vocabulary use so that they can cope with different academic, professional and social situations effectively. The course applies the Interactive Reading model where reading is an active process in which readers draw upon top-down processing (bringing meaning to the text), as well as bottom-up processing (decoding words and other details of language). The top-down aspect of this construct suggests that reading is facilitated by interesting and relevant reading materials that activate a range of knowledge in a reader's mind. This knowledge is refined and extended during the act of reading. The bottom-up aspect of this model suggests that the students need to pay attention to language proficiency, including vocabulary. As an academic reading course, it addresses the teaching of higher level reading strategies without neglecting the need for language support. In addition, it addresses both sides of the interactive model. High-interest academic readings and activities provide students with opportunities to draw upon authentic life experience in their mastery of a wide variety of reading strategies and skills, including
 • previewing
 • outlining
 • skimming and scanning
@@ -1001,11 +4760,11 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p></p><div><table class="ms-formtable" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:8px;"><tbody><tr><td valign="top" class="ms-formbody" width="350px"><div aria-labelledby="ctl00_ctl39_g_44a2afab_1d6b_4771_bcfb_6d17c6b0e096_ctl00_ctl05_ctl07_ctl00_ctl00_ctl05_ctl00_label" style="display:inline;"><p>&ZeroWidthSpace;</p><p style="text-align:justify;"><em>The module aims to provide the learners with necessary skills trough:</em></p><p style="text-align:justify;">&nbsp;</p><p style="text-align:justify;">1. Providing the students with opportunities to draw upon life experience in their mastery of a wide variety of reading strategies and skills that include previewing, scanning, using contextual clues to get the meaning, finding the main idea, summarizing and making inferences.</p><p style="text-align:justify;">2. Improving the students' language proficiency and the students' ability to decode and process meaning.</p><p style="text-align:justify;">3. Helping the students become independent learners by taking the responsibility of building their own vocabulary repertoire</p><p style="text-align:justify;">4. Guiding the students to notice and effectively practice new vocabulary items as they encounter them.</p><p>5. Enhancing students' academic proficiency by highlighting the reciprocal relationship between reading comprehension and reflection writing.&ZeroWidthSpace;<br><br></p></div></td></tr></tbody></table></div><p>&ZeroWidthSpace;<br></p></td>
+											<td><p>&ZeroWidthSpace;</p><p style="text-align:justify;"><em>The module aims to provide the learners with necessary skills trough:</em></p><p style="text-align:justify;">&nbsp;</p><p style="text-align:justify;">1. Providing the students with opportunities to draw upon life experience in their mastery of a wide variety of reading strategies and skills that include previewing, scanning, using contextual clues to get the meaning, finding the main idea, summarizing and making inferences.</p><p style="text-align:justify;">2. Improving the students' language proficiency and the students' ability to decode and process meaning.</p><p style="text-align:justify;">3. Helping the students become independent learners by taking the responsibility of building their own vocabulary repertoire</p><p style="text-align:justify;">4. Guiding the students to notice and effectively practice new vocabulary items as they encounter them.</p><p>5. Enhancing students' academic proficiency by highlighting the reciprocal relationship between reading comprehension and reflection writing.<br><br></p><p>&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;</p><p style="text-align:justify;"><strong>A.</strong>&nbsp;&nbsp;&nbsp;<strong>Knowledge and understanding</strong></p><p style="text-align:justify;"><em>At the end of the module, learners will be expected to:</em></p><p style="text-align:justify;"><strong>A1.</strong>&nbsp;demonstrate understanding of any given reading passages by responding correctly to its tasks and activities individually or in groups.</p><p style="text-align:justify;"><strong>A2.</strong>&nbsp;show knowledge and understanding of the learned reading strategies.</p><p style="text-align:justify;"><strong>A3.</strong>&nbsp;show recognition of the various “meanings" of words to reach a better understanding of the context and the written word.</p><p style="text-align:justify;"><strong>A4.</strong>&nbsp;reveal awareness of appropriate language structures and vocabulary items suitable for different contexts and situations.</p><p style="text-align:justify;">&nbsp;</p><p><strong>B.</strong>&nbsp;&nbsp;&nbsp;<strong>Cognitive skills</strong><br><br><em>At the end of the module, learners will be expected to:</em><br><br><strong>B1.</strong>&nbsp;search for and collect specific data related to the topics under discussion.</p><p style="text-align:justify;"><strong>B2.</strong>&nbsp;draw conclusions for the discussed topics based on the collected data and analyzed information.</p><p style="text-align:justify;"><strong>B3.</strong>&nbsp;incorporate in writing the words learned in real life scenarios.</p><p style="text-align:justify;"><strong>B4</strong>. improve the analytical and critical thinking skills through the identification of possible “meanings".</p><p><strong>B5.</strong>&nbsp;analyze language functions used and identify useful language expressions.</p><p>&nbsp;</p><p><strong>C.</strong>&nbsp;&nbsp;&nbsp;<strong>Practical and professional skills</strong><br><br><em>At the end of the module, learners will be expected to:</em></p><p style="text-align:justify;"><strong>C1.</strong>&nbsp;communicate in English orally and in writing on diverse occasions.</p><p style="text-align:justify;">&nbsp;</p><p style="text-align:justify;"><strong>C2.</strong>&nbsp;identify problems in the given topics and provide creative solutions.</p><p style="text-align:justify;">&nbsp;</p><p style="text-align:justify;"><strong>C3.</strong>&nbsp;give oral presentations using power points, flipcharts, pictures, role plays, etc. to discuss what has been read orally.</p><p style="text-align:justify;">&nbsp;</p><p><strong>C4.</strong>&nbsp;assess the work done using self/peer-assessment.</p><p>&nbsp;</p><p><strong>D.</strong>&nbsp;&nbsp;&nbsp;<strong>&nbsp;</strong><strong>Key transferable skills</strong><br><br><strong>&nbsp;</strong></p><p style="text-align:justify;"><em>At the end of the module, learners will be expected to:</em><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p><p style="text-align:justify;"><strong>D1.</strong>&nbsp;enrich vocabulary repertoire through exploring new assigned topics and writing on those topics</p><p style="text-align:justify;"><strong>D2.</strong>&nbsp;develop communicative confidence (as reader and writer)</p><p style="text-align:justify;"><strong>D3.</strong>&nbsp;discuss all posed topics, problems, provided solutions and drawn conclusions.</p><p><strong>D4.</strong>&nbsp;develop effective presentation skills that would enhance self-confidence.&ZeroWidthSpace;&ZeroWidthSpace;<br><br></p><p><br></p></td>
+											<td><p>&ZeroWidthSpace;</p><p style="text-align:justify;"><strong>A.</strong>&nbsp;&nbsp;&nbsp;<strong>Knowledge and understanding</strong></p><p style="text-align:justify;"><em>At the end of the module, learners will be expected to:</em></p><p style="text-align:justify;"><strong>A1.</strong>&nbsp;demonstrate understanding of any given reading passages by responding correctly to its tasks and activities individually or in groups.</p><p style="text-align:justify;"><strong>A2.</strong>&nbsp;show knowledge and understanding of the learned reading strategies.</p><p style="text-align:justify;"><strong>A3.</strong>&nbsp;show recognition of the various “meanings" of words to reach a better understanding of the context and the written word.</p><p style="text-align:justify;"><strong>A4.</strong>&nbsp;reveal awareness of appropriate language structures and vocabulary items suitable for different contexts and situations.</p><p style="text-align:justify;">&nbsp;</p><p><strong>B.</strong>&nbsp;&nbsp;&nbsp;<strong>Cognitive skills</strong><br><br><em>At the end of the module, learners will be expected to:</em><br><br><strong>B1.</strong>&nbsp;search for and collect specific data related to the topics under discussion.</p><p style="text-align:justify;"><strong>B2.</strong>&nbsp;draw conclusions for the discussed topics based on the collected data and analyzed information.</p><p style="text-align:justify;"><strong>B3.</strong>&nbsp;incorporate in writing the words learned in real life scenarios.</p><p style="text-align:justify;"><strong>B4</strong>. improve the analytical and critical thinking skills through the identification of possible “meanings".</p><p><strong>B5.</strong>&nbsp;analyze language functions used and identify useful language expressions.</p><p>&nbsp;</p><p><strong>C.</strong>&nbsp;&nbsp;&nbsp;<strong>Practical and professional skills</strong><br><br><em>At the end of the module, learners will be expected to:</em></p><p style="text-align:justify;"><strong>C1.</strong>&nbsp;communicate in English orally and in writing on diverse occasions.</p><p style="text-align:justify;">&nbsp;</p><p style="text-align:justify;"><strong>C2.</strong>&nbsp;identify problems in the given topics and provide creative solutions.</p><p style="text-align:justify;">&nbsp;</p><p style="text-align:justify;"><strong>C3.</strong>&nbsp;give oral presentations using power points, flipcharts, pictures, role plays, etc. to discuss what has been read orally.</p><p style="text-align:justify;">&nbsp;</p><p><strong>C4.</strong>&nbsp;assess the work done using self/peer-assessment.</p><p>&nbsp;</p><p><strong>D.</strong>&nbsp;&nbsp;&nbsp;<strong>&nbsp;</strong><strong>Key transferable skills</strong><br><br><strong>&nbsp;</strong></p><p style="text-align:justify;"><em>At the end of the module, learners will be expected to:</em><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p><p style="text-align:justify;"><strong>D1.</strong>&nbsp;enrich vocabulary repertoire through exploring new assigned topics and writing on those topics</p><p style="text-align:justify;"><strong>D2.</strong>&nbsp;develop communicative confidence (as reader and writer)</p><p style="text-align:justify;"><strong>D3.</strong>&nbsp;discuss all posed topics, problems, provided solutions and drawn conclusions.</p><p><strong>D4.</strong>&nbsp;develop effective presentation skills that would enhance self-confidence.<br><br></p><p><br></p></td>
 										</tr>
 									</tbody>
 								</table>
@@ -1032,17 +4791,16 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
                 </div>
                 <div class="course-desc">
                     The course introduces the student to the basics of French. These include the alphabet, common everyday expressions, simple sentences, short dialogues and small paragraphs. The four skills of reading, writing, listening and speaking will be equally emphasized. However, as we live in the age of the image, students will have ample exposure to a variety of audio-visual material which boost their command of the language at the beginner’s level.  The communicative approach is to be adopted in face-to-face tutorials and the various methods of enabling students to learn on their own will be prioritized.
-
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_84">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_97">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_84" class="modal fade" role="dialog">
+				<div id="modal_97" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -1071,8 +4829,7 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>The course introduces the student to the basics of French. These include the alphabet, common everyday expressions, simple sentences, short dialogues and small paragraphs. The four skills of reading, writing, listening and speaking will be equally emphasized. However, as we live in the age of the image, students will have ample exposure to a variety of audio-visual material which boost their command of the language at the beginner’s level.  The communicative approach is to be adopted in face-to-face tutorials and the various methods of enabling students to learn on their own will be prioritized.
-</td>
+											<td>The course introduces the student to the basics of French. These include the alphabet, common everyday expressions, simple sentences, short dialogues and small paragraphs. The four skills of reading, writing, listening and speaking will be equally emphasized. However, as we live in the age of the image, students will have ample exposure to a variety of audio-visual material which boost their command of the language at the beginner’s level.  The communicative approach is to be adopted in face-to-face tutorials and the various methods of enabling students to learn on their own will be prioritized.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
@@ -1107,17 +4864,16 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
                 </div>
                 <div class="course-desc">
                     The course builds on what the student has learnt in level (1). Toward this end, it introduces the student to more everyday expressions, more widely-used short sentences, some compound and complex sentences, medium-size dialogues, and short passages. While the skills of listening and speaking will be receiving adequate attention, more emphasis is to be placed on the skills of reading and writing.  Face-to-face tutorials will be communicative and students will be empowered to learn on their own.
-
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_85">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_98">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_85" class="modal fade" role="dialog">
+				<div id="modal_98" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -1146,12 +4902,11 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>The course builds on what the student has learnt in level (1). Toward this end, it introduces the student to more everyday expressions, more widely-used short sentences, some compound and complex sentences, medium-size dialogues, and short passages. While the skills of listening and speaking will be receiving adequate attention, more emphasis is to be placed on the skills of reading and writing.  Face-to-face tutorials will be communicative and students will be empowered to learn on their own.
-</td>
+											<td>The course builds on what the student has learnt in level (1). Toward this end, it introduces the student to more everyday expressions, more widely-used short sentences, some compound and complex sentences, medium-size dialogues, and short passages. While the skills of listening and speaking will be receiving adequate attention, more emphasis is to be placed on the skills of reading and writing.  Face-to-face tutorials will be communicative and students will be empowered to learn on their own.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
@@ -1186,13 +4941,13 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_102">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_116">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_102" class="modal fade" role="dialog">
+				<div id="modal_116" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -1226,7 +4981,7 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p></p><p>&ZeroWidthSpace;<br></p></td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
@@ -1257,17 +5012,16 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
                 </div>
                 <div class="course-desc">
                     GR101 focuses on developing self-learning skills. It prepares students for university studying and specifically time management, good study habits, critical and analytic thinking styles.
-
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_79">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_91">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_79" class="modal fade" role="dialog">
+				<div id="modal_91" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -1296,12 +5050,11 @@ The course optimizes the reciprocal relationship between reading and vocabulary.
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>GR101 focuses on developing self-learning skills. It prepares students for university studying and specifically time management, good study habits, critical and analytic thinking styles.
-</td>
+											<td>GR101 focuses on developing self-learning skills. It prepares students for university studying and specifically time management, good study habits, critical and analytic thinking styles.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
@@ -1340,13 +5093,13 @@ Islamic Arts and Architecture.
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_86">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_93">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_86" class="modal fade" role="dialog">
+				<div id="modal_93" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -1384,7 +5137,7 @@ Islamic Arts and Architecture.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+											<td><p>&ZeroWidthSpace;<br><br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
@@ -1419,13 +5172,13 @@ Islamic Arts and Architecture.</td>
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_87">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_99">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_87" class="modal fade" role="dialog">
+				<div id="modal_99" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -1485,6 +5238,81 @@ Islamic Arts and Architecture.</td>
 
             <div class="course-item">
                 <div class="course-title">
+                    GR115&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Current International Affairs <span class="float-right">(3) Credit Hours</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="course-desc">
+                    GR115 examines current international concerns such as the interactions of civilizations, North and South relations, national and international civil societies, human rights and illegal immigration.
+
+                </div>
+				
+				<div class="course-details float-right">
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_100">View More Details</a>
+                </div>
+				
+				<div class="clear"></div>
+				
+				<!-- Modal -->
+				<div id="modal_100" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered">
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="modal-title">Current International Affairs</span>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+							<div class="modal-body">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>Course Code</td>
+											<td>GR115</td>
+										</tr>
+										<tr>
+											<td>Course Title</td>
+											<td>Current International Affairs</td>
+										</tr>
+										<tr>
+											<td>Pre-requisite</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Credit Hours</td>
+											<td>3</td>
+										</tr>
+										<tr>
+											<td>Course Description</td>
+											<td>GR115 examines current international concerns such as the interactions of civilizations, North and South relations, national and international civil societies, human rights and illegal immigration.
+</td>
+										</tr>
+										<tr>
+											<td>Course Objectives</td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+										</tr>
+										<tr>
+											<td>Course Outcomes</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+                
+                
+            </div>
+
+        
+
+            <div class="course-item">
+                <div class="course-title">
                     GR116&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Empowerment of Youth <span class="float-right">(3) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
@@ -1494,13 +5322,13 @@ Islamic Arts and Architecture.</td>
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_101">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_115">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_101" class="modal fade" role="dialog">
+				<div id="modal_115" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -1534,7 +5362,7 @@ Islamic Arts and Architecture.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p><p>&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
@@ -1568,13 +5396,13 @@ Islamic Arts and Architecture.</td>
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_103">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_117">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_103" class="modal fade" role="dialog">
+				<div id="modal_117" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -1642,13 +5470,13 @@ Islamic Arts and Architecture.</td>
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_104">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_118">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_104" class="modal fade" role="dialog">
+				<div id="modal_118" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -1717,13 +5545,13 @@ Islamic Arts and Architecture.</td>
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_90">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_114">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_90" class="modal fade" role="dialog">
+				<div id="modal_114" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -1783,1114 +5611,11 @@ Islamic Arts and Architecture.</td>
 
             <div class="course-item">
                 <div class="course-title">
-                    M105&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Programming Using Java <span class="float-right">(3) Credit Hours</span>
+                    LB170&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Communication Skills for Business and Management <span class="float-right">(8) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    This module is an introductory level programming module and it is meant to provide basic foundation in computer programming to students. Students will learn how to develop solutions (algorithms) using pseudocode to solve simple problems. Thereafter, they will learn how to implement these solutions using a programming language (Java). This module serves as foundation for second level programming modules.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_100">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_100" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Introduction to Programming Using Java</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>M105</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Introduction to Programming Using Java</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>EL111</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module is an introductory level programming module and it is meant to provide basic foundation in computer programming to students. Students will learn how to develop solutions (algorithms) using pseudocode to solve simple problems. Thereafter, they will learn how to implement these solutions using a programming language (Java). This module serves as foundation for second level programming modules.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;</p><div><table class="ms-formtable" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:8px;"><tbody><tr><td valign="top" class="ms-formbody" width="350px"><div aria-labelledby="ctl00_ctl39_g_eb7daa64_36cc_4108_a9f5_cc8a9db927e9_ctl00_ctl05_ctl07_ctl00_ctl00_ctl05_ctl00_label" style="display:inline;"><p>&ZeroWidthSpace;<strong>The module aims to:</strong></p><ul><li>Introduce the technique of solving simple problems using pseudocode.</li><li>Introduce Java programming via writing, compiling and executing simple programs.</li><li>Present how to store and deal with data including variables, constants, and expressions.</li><li>Cover deeply the concepts of program control structure and illustrate each concept with a diagrammatic notation using UML.</li><li>Present how these concepts are implemented in Java.</li><li>Introduce the concept of modularization and how to write Java methods.</li><li>Present how to deal with basic data structures like strings, arrays and two dimensional arrays.<br><br></li></ul></div></td></tr></tbody></table></div><p>&ZeroWidthSpace;<br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;</p><div><table class="ms-formtable" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:8px;"><tbody><tr><td valign="top" class="ms-formbody" width="350px"><div aria-labelledby="ctl00_ctl39_g_eb7daa64_36cc_4108_a9f5_cc8a9db927e9_ctl00_ctl05_ctl09_ctl00_ctl00_ctl05_ctl00_label" style="display:inline;"><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">A. Knowledge and understanding</span></strong><br></p><p><strong>After studying the module,&nbsp;</strong><strong>the student will be able to</strong><strong>:</strong></p><ol><li>Understanding of the design and programming processes</li><li>Knowledge of the main constructs and mechanisms in programming using Java language.</li><li>Understanding of the techniques used in developing a medium Java application.</li><li>Understanding of the basic data structures like strings, arrays and two dimensional arrays.</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;">B. Cognitive skills</span></strong><br></p><p><strong>After studying the module,&nbsp;</strong><strong>the student should be able to</strong><strong>:</strong></p><ol><li>Describe and apply key concepts and techniques in software design and development.</li><li>Analyse and abstract away from the details of a problem.</li><li>Design and formulate an appropriate solution to a problem and evaluate it.</li><li>Deal professionally with the basic data structures.</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;">C. Practical and professional skills</span></strong><br></p><p><strong>After studying the module,&nbsp;</strong><strong>the student should be able to</strong><strong>:</strong></p><ol><li>Create, develop and trace Java programs.</li><li>Use software tools such&nbsp;as a Java IDE and an On-line Java compiler.</li><li>Use appropriate programming skills.</li><li>Traverse data in the basic data structures in a professional way.&nbsp;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;">D. Key transferable skills&nbsp;</span></strong><br></p><p><strong>After studying the module,&nbsp;</strong><strong>the student should be able to</strong><strong>:</strong></p><ol><li>Find information from a range of sources to support a task.</li><li>Plan medium tasks.</li><li>Use Java libraries.</li><li>Use appropriate numerical, mathematical and abstraction skills.&nbsp;&ZeroWidthSpace;<br><br></li></ol></div></td></tr></tbody></table></div><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    M109 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .NET Programming <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module is intended to introduce and present the fundamental skills that are required to design and develop object-oriented programs and applications in .NET Framework
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_37">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_37" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title"> .NET Programming</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>M109 </td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td> .NET Programming</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module is intended to introduce and present the fundamental skills that are required to design and develop object-oriented programs and applications in .NET Framework</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>To understand the .NET framework architecture.</li><li>To provide students with a range of skills to analyze a problem and construct a .NET program that solves it.</li><li>To provide the principles of object oriented programming. </li><li>To implement object-oriented concepts in .NET environment.</li><li>To understand the Visual Studio Integrated Development Environment</li><li>To develop .NET applications using the selected programming language.</li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<span class="ms-rteThemeFontFace-1" lang="EN-GB" style="font-size:13px;"><span lang="EN-GB" style="line-height:107%;letter-spacing:-0.3pt;"><strong>A</strong></span><span lang="EN-GB" style="line-height:107%;"><strong>.</strong><span style="letter-spacing:0.1pt;"> </span><span style="letter-spacing:-0.05pt;"><strong>K</strong></span><strong>n</strong><span style="letter-spacing:-0.05pt;"><strong>o</strong></span><span style="letter-spacing:0.15pt;"><strong>w</strong></span><span style="letter-spacing:0.05pt;"><strong>l</strong></span><strong>e</strong><span style="letter-spacing:-0.05pt;"><strong>d</strong></span><strong>ge a</strong><span style="letter-spacing:-0.05pt;"><strong>n</strong></span><strong>d</strong><span style="letter-spacing:-0.1pt;"> </span><strong>u</strong><span style="letter-spacing:-0.05pt;"><strong>n</strong></span><span style="letter-spacing:-0.15pt;"><strong>d</strong></span><strong>erstan</strong><span style="letter-spacing:-0.05pt;"><strong>d</strong></span><span style="letter-spacing:0.05pt;"><strong>i</strong></span><strong>ng</strong></span><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain .NET Platform.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe data types, variables, constants, operators and built-in functions in the selected .NET programming language.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Discuss decision-making and looping statements.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain object oriented concepts such as classes, objects and methods.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the features of object oriented programming such as Inheritance and Polymorphism.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain the concept of arrays.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify errors and different types of exceptions in a .NET program. </span></li></span></ol><div><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br></span></div><div><br class="ms-rteThemeFontFace-1"></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop appropriate programs in .NET framework.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply object oriented concepts in .NET framework.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Test and debug a .NET program</span></li></span></ol><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>C. Practical and professional skills</strong></span><br class="ms-rteThemeFontFace-1"></span></div><div><br class="ms-rteThemeFontFace-1"></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop programming skills in .NET platform.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use variables, constants, operators, built-in functions, methods and arrays in a .NET program.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Write codes in a .NET programming language that make use of structured programming constructs of sequence, selection and repetition. </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply classes, objects and other object oriented concepts such as inheritance and polymorphism in a .NET program.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Test and debug .NET programs.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use the Visual Studio IDE to build .NET applications using the selected .NET programming language.</span></li></span></ol></span></div><div><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>D. Key transferable skills </strong><br></span></div><div><br class="ms-rteThemeFontFace-1"></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Collaborate effectively within a group using electronic conferencing techniques.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Facilitate discussions in a conference.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop self- learning and performance.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Discuss about testing strategies, design, and code.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use electronic media (the web and electronic conferencing) for information retrieval and communication.</span></li></span></ol><br></span></div></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    M131&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Discrete Mathematics <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    	
-This is an elementary level module which introduces various topics in discrete mathematics. It offers a clear and comprehensive survey of logic operations, predicates, quantifiers, sets, functions, relations. Also, the module provides the concept of permutations, combinations and counting techniques which are needed as prerequisite in most of technology and communication modules. Moreover, the module gives some knowledge of relevant algorithmic ideas in number theory and cryptography that are widely used in data structure, data base, programming, data communication and in scientific research.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_95">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_95" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Discrete Mathematics</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>M131</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Discrete Mathematics</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>EL111</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>	
-This is an elementary level module which introduces various topics in discrete mathematics. It offers a clear and comprehensive survey of logic operations, predicates, quantifiers, sets, functions, relations. Also, the module provides the concept of permutations, combinations and counting techniques which are needed as prerequisite in most of technology and communication modules. Moreover, the module gives some knowledge of relevant algorithmic ideas in number theory and cryptography that are widely used in data structure, data base, programming, data communication and in scientific research.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p></p><div><table class="ms-formtable" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:8px;"><tbody><tr><td valign="top" class="ms-formbody" width="350px"><div aria-labelledby="ctl00_ctl39_g_eb7daa64_36cc_4108_a9f5_cc8a9db927e9_ctl00_ctl05_ctl07_ctl00_ctl00_ctl05_ctl00_label" style="display:inline;"><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;The course aims to:<br></p><ul><li>Introduce basic notations used in&nbsp; discrete Mathematics associated with information and communication technology</li><li>Teach the rudiments of elementary mathematical reasoning.</li><li>Prepare students for the theoretical parts of further courses in information technology.</li><li>Explain logic from a mathematical perspective and relating it to computer applications.</li><li>Introduce set theory, relations, functions, graphs, equivalence relations, and partial orderings.</li><li>Provide concepts of permutation, combination and any other counting techniques.&ZeroWidthSpace;<br><br><br></li></ul></div></td></tr></tbody></table></div><p>&ZeroWidthSpace;<br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;</p><div><table class="ms-formtable" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:8px;"><tbody><tr><td valign="top" class="ms-formbody" width="350px"><div aria-labelledby="ctl00_ctl39_g_eb7daa64_36cc_4108_a9f5_cc8a9db927e9_ctl00_ctl05_ctl09_ctl00_ctl00_ctl05_ctl00_label" style="display:inline;"><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>Students will be able to:</p><ol><li>Identify propositional logic, logical equivalence, predicates and quantifiers.</li><li>Describe the Integers and division functions, prime number and prime factorization, least common multiple and highest common factors.</li><li>Define sets, functions and binary relations, their properties and representations. Know the major types of binary relations on a set, equivalence relations and partial orderings.</li><li>Use matrices to represent relations, graphs and trees.</li><li>Recognize basic properties of counting techniques using permutation and combination properties.&nbsp;&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>Students will be able to:</p><ol><li>Deal with mathematical and logical arguments and carry out mathematical and logical manipulations.</li><li>Acquire a good understanding of the concepts and methods of discrete mathematics described in detail in the syllabus.</li><li>Be familiar with mathematical notations related to computer science.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>Students will be able to:</p><ol><li>Prove any simple mathematical theory using logic laws</li><li>Use any or all of the previous tools in a significant information and communication technology application such as cryptography.</li><li>Apply combinatorial principles and discrete mathematical structures that are central to mathematics and information technology.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">D. Key transferable skills</span></strong><br></p><p>Students will be able to:</p><ol><li>Demonstrate study skills at a level appropriate to higher education, such as timetabling study; read critically for meaning and take effective notes; and use study aids such as dictionaries and glossaries;</li><li>Present &nbsp;and communicate basic mathematical and logical arguments; communicate appropriately with their tutor and other students using email and online conferences;</li><li>Locate information on a given subject from the World Wide Web&ZeroWidthSpace;&ZeroWidthSpace;<br><br></li></ol></div></td></tr></tbody></table></div><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    M132&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linear Algebra <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    	
-The course introduces a range of ideas concerning matrices and its applications, matrix operations that are widely used in data structure, programming, data communication, digital signal processing and in scientific research. The course shows algorithmic method to solve systems of linear equations. Moreover, it includes concept of vector spaces and subspace that are used to construct algebraic codes. Also, it introduces the meaning of basis and dimension of a subspace the vector space Rn. The concept of linear transformation between two vector spaces together with null space and rank are also included. Finally, the course introduce the idea of characteristic values/vectors and diagonalization.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_94">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_94" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Linear Algebra</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>M132</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Linear Algebra</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>	
-The course introduces a range of ideas concerning matrices and its applications, matrix operations that are widely used in data structure, programming, data communication, digital signal processing and in scientific research. The course shows algorithmic method to solve systems of linear equations. Moreover, it includes concept of vector spaces and subspace that are used to construct algebraic codes. Also, it introduces the meaning of basis and dimension of a subspace the vector space Rn. The concept of linear transformation between two vector spaces together with null space and rank are also included. Finally, the course introduce the idea of characteristic values/vectors and diagonalization.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;</p><ul><li>Extend the students' basic mathematical awareness and skills in matrices and matrix operations.</li><li>Give the study skills necessary for students to be able to solve system of linear equations.</li><li>Provide a range of useful ideas such as linear combinations and linear independence.</li><li>Present some important mathematical terms such as span, basis and dimensions.</li><li>Upgrade the concept of linear transformation necessary for other compulsory technology and communication modules.</li><li>Give a feeling for the mathematical approach to the study of computer science.&nbsp;<br><br></li></ul><p>&ZeroWidthSpace;<br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;</p><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>Student will be able to:</p><ol><li>Define and classify type of matrices and perform matrix operations.</li><li>Solve problems in information systems and communication using matrix techniques.</li><li>Use and apply linear algebra knowledge and concepts to information technologies and computing.</li><li>Be familiar with different terminologies in linear algebra and matrix transformation.</li><li>Acquire technical material, effectively present it and objectively evaluate other technical materials in linear algebra.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p style="text-align:justify;">Students should be able to demonstrate that they can:</p><ol><li>Produce descriptions and explanations of the different types of matrices and linear operations.</li><li>Apply their understanding of the studied ideas in linear algebra to coding problems, encryption and decryption.</li><li>Use knowledge gained from the module to help them to understand new unfamiliar matrix operations.&nbsp;&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p style="text-align:justify;">Students should be able to:</p><ol><li>Communicate effectively in English and Arabic in a variety of contexts and media.</li><li>Analyze a mass of information and carry out an appropriate analysis of the problem material.</li><li>Express a problem in mathematical terms and carry out an appropriate analysis.</li><li>Reason critically and interpret information in a manner that can be communicated effectively.</li><li>I&ZeroWidthSpace;ntegrate and link information across course components.</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>Students should be able to demonstrate that they can:</p><ol><li>Communicate complex information, arguments and ideas effectively and without plagiarism on a range of topics relating to linear operations.</li><li>Perform calculations to find inverse of a matrix, use and manipulate simple algebraic calculations to solve linear system of equations.</li><li>Use technology to find a span and a basis for a vector space.</li><li>Enhance existing numerical ability.</li><li>Work effectively as part of a group in solving any complicated mathematical problems.&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br><br></li></ol><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    M251&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Oriented Programming using Java <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module is intended to provide students a good understanding of object-oriented principles, including inheritance, polymorphism, class libraries, interacting objects, and the unified modelling language (UML). It uses the JAVA language to illustrate theses principles.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_11">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_11" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Object Oriented Programming using Java</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>M251</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Object Oriented Programming using Java</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module is intended to provide students a good understanding of object-oriented principles, including inheritance, polymorphism, class libraries, interacting objects, and the unified modelling language (UML). It uses the JAVA language to illustrate theses principles.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>&ZeroWidthSpace;Introduce all aspects of object-oriented principles</li><li>Identifying and implementing class relationships using abstract classes, interfaces and inheritance</li><li>Provide knowledge in using simple UML class diagrams</li><li>&nbsp;Describe how these concepts are implemented in java</li><li>Provide knowledge in how to explore the JAVA API and to develop your own</li><li>&nbsp;Provide the knowledge necessary to construct java programs</li><li>&nbsp;Describe a number of the advanced facilities of java including exceptions </li><li>Show how java can be used in developing non-trivial programs</li><li>Introduce good design and programming practice<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module, <strong>the student will be able to&nbsp;</strong>demonstrate:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">An understanding of the object-oriented principles</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Some knowledge of the main constructs and mechanisms in Java</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">An appreciation of the implications of object oriented software analysis and design</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">An understanding of the techniques used in developing a large Java program</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module, <span style="text-decoration:underline;"><strong>the student will be able to</strong></span>:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe and apply key concepts and techniques in software design and development</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyze and abstract away from the details of a problem</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Design and formulate an appropriate solution to a problem and evaluate it&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module, <strong>the student will be able to</strong>:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Assemble, program, develop, debug, test and evaluate software systems<br></span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use software tools such as a Java IDE </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use good design and programming practice</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop and implement class relationships&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module, <strong>the student will be able to</strong>:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Find information from a range of sources to support a task </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Plan complex tasks </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use new Java libraries </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use appropriate numerical, mathematical and abstraction skills </span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Progress to more advanced level studies&ZeroWidthSpace;&ZeroWidthSpace;</span><br><br></span></li></span></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    M257&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming using Java <span class="float-right">(5) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module is intended to provide students a good understanding of object-oriented principles, including inheritance, polymorphism, class libraries, interacting objects, and the unified modelling language (UML). It uses the JAVA language to illustrate theses principles.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_97">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_97" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Programming using Java</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>M257</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Programming using Java</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>M253</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>5</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module is intended to provide students a good understanding of object-oriented principles, including inheritance, polymorphism, class libraries, interacting objects, and the unified modelling language (UML). It uses the JAVA language to illustrate theses principles.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p></p><ul><li>&ZeroWidthSpace;Introduce all aspects of object-oriented principles</li><li>Identifying and implementing class relationships using abstract classes, interfaces and inheritance</li><li>Provide knowledge in using simple UML class diagrams</li><li>&nbsp;Describe how these concepts are implemented in java</li><li>Provide knowledge in how to explore the JAVA API and to develop your own</li><li>&nbsp;Provide the knowledge necessary to construct java programs</li><li>&nbsp;Describe a number of the advanced facilities of java including exceptions</li><li>Show how java can be used in developing non-trivial programs</li><li>Introduce good design and programming practice&ZeroWidthSpace;<br><br></li></ul><p>&ZeroWidthSpace;<br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;</p><div><table class="ms-formtable" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:8px;"><tbody><tr><td valign="top" class="ms-formbody" width="350px"><div aria-labelledby="ctl00_ctl39_g_eb7daa64_36cc_4108_a9f5_cc8a9db927e9_ctl00_ctl05_ctl09_ctl00_ctl00_ctl05_ctl00_label" style="display:inline;"><p><span class="ms-rteThemeFontFace-1">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1">After studying the module,&nbsp;<strong>the student will be able to&nbsp;</strong>demonstrate:</span></p><ol><li><span class="ms-rteThemeFontFace-1">An understanding of the object-oriented principles</span></li><li><span class="ms-rteThemeFontFace-1">Some knowledge of the main constructs and mechanisms in Java</span></li><li><span class="ms-rteThemeFontFace-1">An appreciation of the implications of object oriented software analysis and design</span></li><li><span class="ms-rteThemeFontFace-1">An understanding of the techniques used in developing a large Java program</span></li></ol><p><span class="ms-rteThemeFontFace-1"><strong>B. Cognitive skills</strong><br></span></p><p><span class="ms-rteThemeFontFace-1">After studying the module,&nbsp;<span style="text-decoration-line:underline;"><strong>the student will be able to</strong></span>:</span></p><ol><li><span class="ms-rteThemeFontFace-1">Describe and apply key concepts and techniques in software design and development</span></li><li><span class="ms-rteThemeFontFace-1">Analyze and abstract away from the details of a problem</span></li><li><span class="ms-rteThemeFontFace-1">Design and formulate an appropriate solution to a problem and evaluate it&ZeroWidthSpace;</span></li></ol><p><span class="ms-rteThemeFontFace-1"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1">After studying the module,&nbsp;<strong>the student will be able to</strong>:</span></p><ol><li><span class="ms-rteThemeFontFace-1">Assemble, program, develop, debug, test and evaluate software systems<br></span></li><li><span class="ms-rteThemeFontFace-1">Use software tools such as a Java IDE</span></li><li><span class="ms-rteThemeFontFace-1">Use good design and programming practice</span></li><li><span class="ms-rteThemeFontFace-1">Develop and implement class relationships&ZeroWidthSpace;</span></li></ol><p><span class="ms-rteThemeFontFace-1"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1">After studying the module,&nbsp;<strong>the student will be able to</strong>:</span></p><ol><li><span class="ms-rteThemeFontFace-1">Find information from a range of sources to support a task</span></li><li><span class="ms-rteThemeFontFace-1">Plan complex tasks</span></li><li><span class="ms-rteThemeFontFace-1">Use new Java libraries</span></li><li><span class="ms-rteThemeFontFace-1">Use appropriate numerical, mathematical and abstraction skills</span></li><li><span class="ms-rteThemeFontFace-1">Progress to more advanced level studies&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;</span></li></ol></div></td></tr></tbody></table></div><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    M269&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Algorithms, Data structures and Computability. <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    One of the basic pillars of advanced computing projects consists of the set of proper algorithms used to solve not only traditional but also unconventional IT problems. With the huge amount of data embedding the new data science, being skilled in setting proper data structure, managing and understanding computability techniques become a must nowadays. M269 is one of the most important modules for information technologies and computing related majors and tracks. The underlying concepts of this module are implemented using the python programming language.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_12">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_12" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Algorithms, Data structures and Computability.</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>M269</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Algorithms, Data structures and Computability.</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>One of the basic pillars of advanced computing projects consists of the set of proper algorithms used to solve not only traditional but also unconventional IT problems. With the huge amount of data embedding the new data science, being skilled in setting proper data structure, managing and understanding computability techniques become a must nowadays. M269 is one of the most important modules for information technologies and computing related majors and tracks. The underlying concepts of this module are implemented using the python programming language.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>&ZeroWidthSpace;Provide the students with the required skills to possess the computational thinking. These skills start by proper understanding and analyzing the problems to be solved and end by providing computer programs that solve these problems.</li><li>One of the important aspects of this module is to provide the students with the awareness of the limits of computation and the ability to decide which problems can and which cannot be solved efficiently with computers.&ZeroWidthSpace;<br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Identify and define the sets, functions and logic, and their application in the design, implementation and analysis of computer-based systems.</li><li>Define and recognize Data structure and computational problematic.&ZeroWidthSpace;</li></ol><p><strong>B. Cognitive skills</strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Explain, construct and use algorithms and data structures to solve computational problems. </li><li>Describe and assess the difficulty of computational problems. </li><li>A&ZeroWidthSpace;nalyse algorithms and computational problems making use of several informal proof techniques&nbsp;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Use the Python programming language to implement algorithms. </li><li>Write a short report which is based on one or more sources and which has a well-argued conclusion.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Apply appropriate computational problem-solving techniques to a range of problems;</li><li>Apply computational thinking skills to solve problems across a range of application areas.</li><li>Discuss the questions 'What is computation?' and 'What are its limits?', and explain how the answers to these questions have important implications for the practical use of computer-based systems.</li></ol><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    M298&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Operating Systems <span class="float-right">(4) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    The study of Operating Systems is essential since these are an integral part of modern IT systems. This is an introductory level module which introduces students to fundamental concepts of a variety of operating systems.
-
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_96">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_96" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Operating Systems</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>M298</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Operating Systems</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>T103</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>4</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>The study of Operating Systems is essential since these are an integral part of modern IT systems. This is an introductory level module which introduces students to fundamental concepts of a variety of operating systems.
-</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;</p><ul><li>Provide students extensive knowledge on OS in general, OS principles and modules and how their internals work and functions.</li><li>Provide key mechanisms in design of operating systems modules.</li><li>Introduce students to definitions of the Operating Systems such as OS control all of a computer's resources and present users with the equivalent of virtual machines that are easier to program than their underlying hardware.</li><li>Teach core operating systems concepts including operating system structure, process management, synchronization and concurrency, threads, memory management techniques, process scheduling and resource management, virtual memory concepts, deadlocks.</li><li>Give an overview of fundamental operating system principles, complemented with discussions of concrete modern systems to help students understand how these principles are applied in real OSs.</li><li>Enable students to compare performance of processor scheduling algorithms.</li><li>Teach students to produce algorithmic solutions to process synchronization problems.</li><li>Provide students with a good grasp of basic abstractions employed in system-level software (such as processes, threads, virtual memory, caching, etc.),</li><li>Teach students to use modern operating system calls such as Linux process and synchronization libraries.</li><li>Develop a sense in understand designing and implementing systems and working as part of a team.<br>&ZeroWidthSpace;&ZeroWidthSpace;<br><br></li></ul><p>&ZeroWidthSpace;<br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;</p><div><table class="ms-formtable" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:8px;"><tbody><tr><td valign="top" class="ms-formbody" width="350px"><div aria-labelledby="ctl00_ctl39_g_eb7daa64_36cc_4108_a9f5_cc8a9db927e9_ctl00_ctl05_ctl09_ctl00_ctl00_ctl05_ctl00_label" style="display:inline;"><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">A. Knowledge and understanding</span></strong><br></p><p>After completing this module, students will be able to:</p><ol><li>&nbsp;Identify and learn what operating systems are, what they do.</li><li>Describe How the Operating System are designed and constructed.</li><li>&nbsp;Show what the common features of an operating system are.</li><li>Explain what an operating system does for the user, and what it does&nbsp;&nbsp; for the computer-system operator.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">B. Cognitive skills</span></strong><br></p><p>After completing this module, students will be able to:</p><ol><li>Analyze the operating system design, constructor, building, internal&nbsp;&nbsp; works, usage variety, operations, and functions.</li><li>&nbsp;Demonstrate the basis for future work in other areas of OS: hacking Linux, i.e. contribute to the Open source OS, security and so on&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">C. Practical and professional skills</span></strong><br></p><p>After completing this module, students will be able to:</p><ol><li>Implement the design simple of Operating System structures.</li><li>Demonstrate basic skills to enable you to progress to more advanced level studies at the AOU or any other university.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>After completing this module, students will be able to:</p><ol><li>Demonstrate study skills at a level appropriate to higher education, such as timetabling study; read critically for meaning and take effective notes; and use study aids such as dictionaries and glossaries;</li><li>Identify and distinguish between number of concepts that inform the Operating system structure components.</li><li>&nbsp;Communicate appropriately with your tutor and other students using email, online conferences and forums;</li><li>&nbsp;Locate information on a given subject from the World Wide Web.&ZeroWidthSpace;&ZeroWidthSpace;<br><br></li></ol></div></td></tr></tbody></table></div><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    MS101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Physics <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    	
-An understanding of the physical phenomena underlying the operation of devices involved in information processing and transmission can lead to better understanding of those devices.    In addition, software developers of computer games frequently require knowledge of the behavior of physical objects in order to produce realistic games.  Finally, as a fundamental science, a good understanding of physics and its techniques will help students develop a better understanding of nature and how to approach studying it.  The module has implicit links to computer communication and software development modules, in addition to the final year project.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_91">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_91" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Physics</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>MS101</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Physics</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>	
-An understanding of the physical phenomena underlying the operation of devices involved in information processing and transmission can lead to better understanding of those devices.    In addition, software developers of computer games frequently require knowledge of the behavior of physical objects in order to produce realistic games.  Finally, as a fundamental science, a good understanding of physics and its techniques will help students develop a better understanding of nature and how to approach studying it.  The module has implicit links to computer communication and software development modules, in addition to the final year project.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;</p><ul><li>&ZeroWidthSpace;&ZeroWidthSpace;To impart knowledge and understanding of fundamental concepts of physics likely to be needed by the students for later modules and future careers.<br></li><li>To develop an appreciation of physics' tools and techniques for understanding the real world.</li><li>To develop transferrable problem-solving skills that can be applied in other areas.&ZeroWidthSpace;&ZeroWidthSpace;<br><br></li></ul><p>&ZeroWidthSpace;<br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;</p><div><table class="ms-formtable" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:8px;"><tbody><tr><td valign="top" class="ms-formbody" width="350px"><div aria-labelledby="ctl00_ctl39_g_eb7daa64_36cc_4108_a9f5_cc8a9db927e9_ctl00_ctl05_ctl09_ctl00_ctl00_ctl05_ctl00_label" style="display:inline;"><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong>&ZeroWidthSpace;&ZeroWidthSpace;</p><p>Upon completing this module, students will be able to:</p><ol><li><strong></strong>Explain the various important units of physics and the concept of dimensional analysis and the representation and manipulation of physical quantities</li><li>Outline the laws of classical mechanics</li><li>Contrast and differentiate among the different types of waves and summarize their properties</li><li>Explain electric forces and fields and summarize their properties</li><li><strong></strong>Illustrate and explain basic passive electric circuits<br><br></li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>Upon completing this module, students will be able to:<br></p><ol><li>&nbsp;Identify concepts and quantities in physics precisely beyond what is used in everyday language.</li><li>Apply strategies for solving problems in physics in different situations.</li><li>Use vector algebra to the study of mechanics in two dimensions.</li><li>Analyze passive electric circuits.</li><li>Analyze wave propagation in different materials.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>Upon completing this module, students will be able to:</p><ol><li>Use and interpret different types of graphs to display the relationship between variables</li><li>Analyze the forces of static and dynamic bodies in simple mechanical systems</li><li>Calculate the velocity and acceleration of bodies in different types of plane motion</li><li>Determine basic parameters of waves propagating in different materials</li><li>Calculate voltages and currents in passive electric circuits&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>Use the learning Management System (LMS) effectively to improve own learning performance.</p><ol><li>Demonstrate active participation and contribution to classroom discussions.</li><li>Improve own learning and performance through self-reflection.<br></li><li>Demonstrate effective communicate about technical matters.&ZeroWidthSpace;&ZeroWidthSpace;<br><br></li></ol></div></td></tr></tbody></table></div><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    MS102&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Physics <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    An understanding of the physical phenomena underlying the operation of devices involved in information processing and transmission can lead to better understanding of those devices.    In addition, software developers of computer games frequently require knowledge of the behavior of physical objects in order to produce realistic games.  Finally, as a fundamental science, a good understanding of physics and its techniques will help students develop a better understanding of nature and how to approach studying it.  The module has implicit links to computer communication and software development modules, in addition to the final year project.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_38">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_38" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Physics</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>MS102</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Physics</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>An understanding of the physical phenomena underlying the operation of devices involved in information processing and transmission can lead to better understanding of those devices.    In addition, software developers of computer games frequently require knowledge of the behavior of physical objects in order to produce realistic games.  Finally, as a fundamental science, a good understanding of physics and its techniques will help students develop a better understanding of nature and how to approach studying it.  The module has implicit links to computer communication and software development modules, in addition to the final year project.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>&ZeroWidthSpace;&ZeroWidthSpace;To impart knowledge and understanding of fundamental concepts of physics likely to be needed by the students for later modules and future careers.<br></li><li>To develop an appreciation of physics' tools and techniques for understanding the real world.</li><li>To develop transferrable problem-solving skills that can be applied in other areas.&ZeroWidthSpace;<br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong>&ZeroWidthSpace;&ZeroWidthSpace;</p><p>Upon completing this module, students will be able to: </p><ol><li><strong></strong>Explain the various important units of physics and the concept of dimensional analysis and the representation and manipulation of physical quantities</li><li>Outline the laws of classical mechanics</li><li>Contrast and differentiate among the different types of waves and summarize their properties</li><li>Explain electric forces and fields and summarize their properties</li><li><strong></strong>Illustrate and explain basic passive electric circuits<br><br></li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>Upon completing this module, students will be able to:<br></p><ol><li>&nbsp;Identify concepts and quantities in physics precisely beyond what is used in everyday language.</li><li>Apply strategies for solving problems in physics in different situations.</li><li>Use vector algebra to the study of mechanics in two dimensions.</li><li>Analyze passive electric circuits.</li><li>Analyze wave propagation in different materials.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Use and interpret different types of graphs to display the relationship between variables</li><li>Analyze the forces of static and dynamic bodies in simple mechanical systems</li><li>Calculate the velocity and acceleration of bodies in different types of plane motion</li><li>Determine basic parameters of waves propagating in different materials</li><li>Calculate voltages and currents in passive electric circuits&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>Use the learning Management System (LMS) effectively to improve own learning performance.</p><ol><li>Demonstrate active participation and contribution to classroom discussions.</li><li>Improve own learning and performance through self-reflection.<br></li><li>Demonstrate effective communicate about technical matters.&ZeroWidthSpace;<br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    MT101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;General Mathematics <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    General Mathematics provides students a college level academicexperience that emphasizestheuseofalgebraandfunctionsinproblemsolving andmodelling.It also provides a foundation in quantitative literacy,supplies the algebra and other mathematics needed in partner and subsequent disciplines. Thismodule isanintroductorylevelcoursewhich,inspecific, reviews various areas of college mathematicssuchaslinearequations, quadraticequations,rationalexpressions, analyticgeometry,solvingandgraphing inequalities, imaginarynumbers andsets.The coursealsointroduceselementary functionssuchas linear,quadratic,polynomial, exponential,and logarithmic.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_93">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_93" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">General Mathematics</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>MT101</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>General Mathematics</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>General Mathematics provides students a college level academicexperience that emphasizestheuseofalgebraandfunctionsinproblemsolving andmodelling.It also provides a foundation in quantitative literacy,supplies the algebra and other mathematics needed in partner and subsequent disciplines. Thismodule isanintroductorylevelcoursewhich,inspecific, reviews various areas of college mathematicssuchaslinearequations, quadraticequations,rationalexpressions, analyticgeometry,solvingandgraphing inequalities, imaginarynumbers andsets.The coursealsointroduceselementary functionssuchas linear,quadratic,polynomial, exponential,and logarithmic.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    MT129 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calculus and Probability <span class="float-right">(4) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module introduces the concepts of differentiation and integration as well as some applications of differential and integral calculus. Moreover, the module offers a clear and comprehensive survey of the of data sampling, measurements of central tendency and spread, organizing and visualizing categorical and numerical data. It also includes topics in the basic probability such as events, simple probability, conditional probability, and Bayes’ rule. Finally, it provides an introduction to fundamental basis and concepts of statistical inferences, normal distribution. The module has direct links to computing, programming and communication modules, in addition to the numerical analysis module.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_49">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_49" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Calculus and Probability</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>MT129 </td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Calculus and Probability</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>4</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module introduces the concepts of differentiation and integration as well as some applications of differential and integral calculus. Moreover, the module offers a clear and comprehensive survey of the of data sampling, measurements of central tendency and spread, organizing and visualizing categorical and numerical data. It also includes topics in the basic probability such as events, simple probability, conditional probability, and Bayes’ rule. Finally, it provides an introduction to fundamental basis and concepts of statistical inferences, normal distribution. The module has direct links to computing, programming and communication modules, in addition to the numerical analysis module.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;<span style="text-align:justify;">&ZeroWidthSpace;The module aims to:</span></p><ul><li>Apply the knowledge of elementary functions to calculus concepts.</li><li>To compute the derivative of polynomials, rational, radical, trigonometric, exponential, and logarithmic functions.</li><li>Evaluate the integrals of polynomials, rational, radical, trigonometric, exponential, and logarithmic functions.</li><li>Introduce the terms and concept of probability, and the idea of discrete and continuous random variables.</li><li>Ensure the understanding of mathematical expectations and moment generating functions concepts.</li><li>Equip students with some important discrete and continuous probability distributions in technology and communication modules.&ZeroWidthSpace;<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>Students will be able to:</p><ol><li>Use derivative rule to find derivatives of power, exponential, logarithmic and trigonometric functions.</li><li>Solve simple definite and indefinite integrals.</li><li>Use applications of differentiation and integration in sketching graphs, obtain area between curves and average value of functions.</li><li>Define and identify random variables for any well- defined probability problems.&nbsp; </li><li>Realize mathematical expectations and variances for different continuous and discrete distribution&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p style="text-align:justify;">Students should be able to:</p><ol><li>Produce descriptions and explanations of the different types of elementary functions and apply their understanding of the studied functions to information systems.</li><li>Display deep knowledge gained from the course and use it to solve optimization problems.</li><li>Utilize knowledge gained from the course to help them to understand new unfamiliar probability distributions.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>Students will be able to:</p><ol><li>Apply the practical skills gained from differential and integral calculus ITC problems. </li><li>Cultivate the capacity to be leaders in their professional and personal communities.</li><li>Develop some technical statistical materials; effectively present and objectively evaluate them.</li><li>Deal with statistical computer applications such as spread sheets and MATLAB statistics toolbox.&ZeroWidthSpace;</li></ol><div><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong></div><div><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;"></span></strong><font face="arial, sans-serif"><span style="font-size:16px;"><b><br></b></span></font><p>Students will be able to:</p><ol><li>Be aware of the implications of information technology in daily lives and on society as a whole, and the ability to utilize IT to communicate and solve problems.</li><li>Use information, reasoning, and creative processes to solve problems and achieve goals.</li><li>Implement global issues gained from module and their implications on their daily lives.&ZeroWidthSpace;<br><br></li></ol></div></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    MT131&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Discrete Mathematics <span class="float-right">(4) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This is an elementary level module which introduces various topics in discrete mathematics. It offers a clear and comprehensive survey of logic operations, predicates, quantifiers, sets, functions, relations. Also, the module provides the concept of permutations, combinations and counting techniques which are needed as prerequisite in most of technology and communication modules. Moreover, the module gives some knowledge of relevant algorithmic ideas in number theory and cryptography that are widely used in data structure, data base, programming, data communication and in scientific research.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_1">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_1" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Discrete Mathematics</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>MT131</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Discrete Mathematics</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>4</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This is an elementary level module which introduces various topics in discrete mathematics. It offers a clear and comprehensive survey of logic operations, predicates, quantifiers, sets, functions, relations. Also, the module provides the concept of permutations, combinations and counting techniques which are needed as prerequisite in most of technology and communication modules. Moreover, the module gives some knowledge of relevant algorithmic ideas in number theory and cryptography that are widely used in data structure, data base, programming, data communication and in scientific research.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;The course aims to:<br></p><ul><li>Introduce basic notations used in&nbsp; discrete Mathematics associated with information and communication technology</li><li>Teach the rudiments of elementary mathematical reasoning.</li><li>Prepare students for the theoretical parts of further courses in information technology.</li><li>Explain logic from a mathematical perspective and relating it to computer applications.</li><li>Introduce set theory, relations, functions, graphs, equivalence relations, and partial orderings.</li><li>Provide concepts of permutation, combination and any other counting techniques.&ZeroWidthSpace;<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>Students will be able to:</p><ol><li>Identify propositional logic, logical equivalence, predicates and quantifiers.</li><li>Describe the Integers and division functions, prime number and prime factorization, least common multiple and highest common factors.</li><li>Define sets, functions and binary relations, their properties and representations. Know the major types of binary relations on a set, equivalence relations and partial orderings.</li><li>Use matrices to represent relations, graphs and trees. </li><li>Recognize basic properties of counting techniques using permutation and combination properties.&nbsp;&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>Students will be able to:</p><ol><li>Deal with mathematical and logical arguments and carry out mathematical and logical manipulations.</li><li>Acquire a good understanding of the concepts and methods of discrete mathematics described in detail in the syllabus.</li><li>Be familiar with mathematical notations related to computer science.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>Students will be able to:</p><ol><li>Prove any simple mathematical theory using logic laws</li><li>Use any or all of the previous tools in a significant information and communication technology application such as cryptography. </li><li>Apply combinatorial principles and discrete mathematical structures that are central to mathematics and information technology.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">D. Key transferable skills</span></strong><br></p><p>Students will be able to:</p><ol><li>Demonstrate study skills at a level appropriate to higher education, such as timetabling study; read critically for meaning and take effective notes; and use study aids such as dictionaries and glossaries;</li><li>Present &nbsp;and communicate basic mathematical and logical arguments; communicate appropriately with their tutor and other students using email and online conferences;</li><li>Locate information on a given subject from the World Wide Web&ZeroWidthSpace;<br><br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    MT132&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linear Algebra <span class="float-right">(4) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    The course introduces a range of ideas concerning matrices and its applications, matrix operations that are widely used in data structure, programming, data communication, digital signal processing and in scientific research. The course shows algorithmic method to solve systems of linear equations. Moreover, it includes concept of vector spaces and subspace that are used to construct algebraic codes. Also, it introduces the meaning of basis and dimension of a subspace the vector space Rn. The concept of linear transformation between two vector spaces together with null space and rank are also included. Finally, the course introduce the idea of characteristic values/vectors and diagonalization.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_2">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_2" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Linear Algebra</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>MT132</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Linear Algebra</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>4</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>The course introduces a range of ideas concerning matrices and its applications, matrix operations that are widely used in data structure, programming, data communication, digital signal processing and in scientific research. The course shows algorithmic method to solve systems of linear equations. Moreover, it includes concept of vector spaces and subspace that are used to construct algebraic codes. Also, it introduces the meaning of basis and dimension of a subspace the vector space Rn. The concept of linear transformation between two vector spaces together with null space and rank are also included. Finally, the course introduce the idea of characteristic values/vectors and diagonalization.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;<span style="text-align:justify;">T</span><span style="text-align:justify;">he course aims to:</span></p><ul><li>Extend the students' basic mathematical awareness and skills in matrices and matrix operations.</li><li>Give the study skills necessary for students to be able to solve system of linear equations. </li><li>Provide a range of useful ideas such as linear combinations and linear independence. </li><li>Present some important mathematical terms such as span, basis and dimensions.</li><li>Upgrade the concept of linear transformation necessary for other compulsory technology and communication modules.</li><li>Give a feeling for the mathematical approach to the study of computer science.&nbsp;<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>Student will be able to:</p><ol><li>Define and classify type of matrices and perform matrix operations.</li><li>Solve problems in information systems and communication using matrix techniques.</li><li>Use and apply linear algebra knowledge and concepts to information technologies and computing.</li><li>Be familiar with different terminologies in linear algebra and matrix transformation.</li><li>Acquire technical material, effectively present it and objectively evaluate other technical materials in linear algebra.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p style="text-align:justify;">Students should be able to demonstrate that they can:</p><ol><li>Produce descriptions and explanations of the different types of matrices and linear operations.</li><li>Apply their understanding of the studied ideas in linear algebra to coding problems, encryption and decryption.</li><li>Use knowledge gained from the module to help them to understand new unfamiliar matrix operations.&nbsp;&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p style="text-align:justify;">Students should be able to:</p><ol><li>Communicate effectively in English and Arabic in a variety of contexts and media. </li><li>Analyze a mass of information and carry out an appropriate analysis of the problem material.</li><li>Express a problem in mathematical terms and carry out an appropriate analysis.</li><li>Reason critically and interpret information in a manner that can be communicated effectively.</li><li>I&ZeroWidthSpace;ntegrate and link information across course components.</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>Students should be able to demonstrate that they can:</p><ol><li>Communicate complex information, arguments and ideas effectively and without plagiarism on a range of topics relating to linear operations.</li><li>Perform calculations to find inverse of a matrix, use and manipulate simple algebraic calculations to solve linear system of equations.</li><li>Use technology to find a span and a basis for a vector space. </li><li>Enhance existing numerical ability.</li><li>Work effectively as part of a group in solving any complicated mathematical problems.&ZeroWidthSpace;&ZeroWidthSpace;<br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    MT372&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parallel Computing <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    The module is a comprehensive study of parallel computing techniques, parallel programming and performance tuning. Topics covered include: fundamentals of parallel, concurrent and distributed computing systems, performance and limitations of these systems, and parallelism paradigms. In addition to these topics the software needs and support for parallel processor systems are covered in details. This includes programming languages, simulation and tracing tools. Students will examine a range of topics involved in using parallel operations to improve computational performance, parallel architectures, parallel algorithms and parallel programming languages; Architectures covered include vector computers, multiprocessors, network computers, and data flow machines.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_39">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_39" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Parallel Computing</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>MT372</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Parallel Computing</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>The module is a comprehensive study of parallel computing techniques, parallel programming and performance tuning. Topics covered include: fundamentals of parallel, concurrent and distributed computing systems, performance and limitations of these systems, and parallelism paradigms. In addition to these topics the software needs and support for parallel processor systems are covered in details. This includes programming languages, simulation and tracing tools. Students will examine a range of topics involved in using parallel operations to improve computational performance, parallel architectures, parallel algorithms and parallel programming languages; Architectures covered include vector computers, multiprocessors, network computers, and data flow machines.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;<span style="text-align:justify;">&ZeroWidthSpace;The module aims to give solid understanding about the following:</span></p><ol><li>The fundamentals of parallel computing.</li><li>Parallel operation.</li><li>The different core concepts behind the hardware layer of a computer system.</li><li>Performance and limitations of parallel systems</li><li>The processor's architecture of parallel systems and its interconnection networks.</li><li>The parallel algorithms.&nbsp;&ZeroWidthSpace;<br></li></ol></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>Upon completing this module, students will be able to:</p><ol><li>&nbsp;Understand of the fundamental concept and issues of parallel computing </li><li>Recognize &nbsp;parallel programming experience solving computationally intensive problems in a variety of disciplines</li><li>Understand the related implementations and measurements of performance and constraints of parallel computing&ZeroWidthSpace;</li></ol><p><strong>B. Cognitive skills</strong><br></p><p>Upon completing this module, students will be able to:</p><ol><li>Practice Parallel programming platforms </li><li>Apply Principles of parallel algorithm design</li><li>Illustrate Basic communication operations</li><li>Perform Analytical modelling of parallel programs</li><li>Develop Programming using the message-passing paradigm (MPI)&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>Upon completing this module, students will be able to:</p><ol><li>Apply the techniques and theorems in real applications.</li><li>Analyze specific data and information to build the parallel models</li><li>Apply the tools studied concerning parallel computing to solve a real problem.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>Upon completing this module, students will be able to:<br></p><ol><li>Gather data from various sources, including the electronic media, such as internet.</li><li>Choose a case study from the real world and apply the techniques studied.</li><li>Show responsibility for the preparation of the case study and manage the presentation schedule of his/her work.</li><li>Exercise research skills, such as data collection, tabulation, analysis, report presentation and class discussions.&ZeroWidthSpace;<br><br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    MT380 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Service oriented architecture <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Service-Oriented Architecture (SOA) intends to explain the SOA and the related topics including Web Services and Cloud Computing. Web Services (such as KSOAP, REST) make use of the notion of a service- oriented architecture, they are independent of specific programming languages or operating systems. They rely on existing transport technologies, such as HTTP, and XML, for invoking the implementation. This outlines a range of new technologies for designing and implementing service-oriented applications that support machine-to-machine collaboration. It illustrates the rational of SOA in how to construct and to build web service oriented applications, such as ASP.NET Web Service, Windows Communication Foundation (WCF), etc. to make use of knowledge about the research topics in SOA, and to discover future development trends.
+                    Personal and corporate success in business relies on effective communication. Communication Skills for Business and Management will help you acquire skills to distinguish you from your peers. This key introductory Level 1 course is practical and will empower you to undertake more insightful case-study analysis, write successful essays, and produce powerful reports. From proposals to emails, you’ll work with a wide range of texts from business studies courses and the wider business world, deepening your knowledge and developing your written communication skills - helping you to succeed in both business studies and business generally. 
                 </div>
 				
 				<div class="course-details float-right">
@@ -2905,7 +5630,7 @@ An understanding of the physical phenomena underlying the operation of devices i
 						<!-- Modal content-->
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="modal-title">Service oriented architecture</span>
+								<span class="modal-title">Communication Skills for Business and Management</span>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
@@ -2913,31 +5638,77 @@ An understanding of the physical phenomena underlying the operation of devices i
 									<tbody>
 										<tr>
 											<td>Course Code</td>
-											<td>MT380 </td>
+											<td>LB170</td>
 										</tr>
 										<tr>
 											<td>Course Title</td>
-											<td>Service oriented architecture</td>
+											<td>Communication Skills for Business and Management</td>
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>EL 122: Intermediate English</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
-											<td>3</td>
+											<td>8</td>
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>Service-Oriented Architecture (SOA) intends to explain the SOA and the related topics including Web Services and Cloud Computing. Web Services (such as KSOAP, REST) make use of the notion of a service- oriented architecture, they are independent of specific programming languages or operating systems. They rely on existing transport technologies, such as HTTP, and XML, for invoking the implementation. This outlines a range of new technologies for designing and implementing service-oriented applications that support machine-to-machine collaboration. It illustrates the rational of SOA in how to construct and to build web service oriented applications, such as ASP.NET Web Service, Windows Communication Foundation (WCF), etc. to make use of knowledge about the research topics in SOA, and to discover future development trends.</td>
+											<td>Personal and corporate success in business relies on effective communication. Communication Skills for Business and Management will help you acquire skills to distinguish you from your peers. This key introductory Level 1 course is practical and will empower you to undertake more insightful case-study analysis, write successful essays, and produce powerful reports. From proposals to emails, you’ll work with a wide range of texts from business studies courses and the wider business world, deepening your knowledge and developing your written communication skills - helping you to succeed in both business studies and business generally. </td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;<span style="text-align:justify;">&ZeroWidthSpace;This Module discovers the concepts and technologies for the state of art topics: Service-Oriented Architecture (SOA) and Cloud Computing.&nbsp; It identify a comprehensive and systematic understanding to the latest SOA and Cloud Computing technologies. Moreover, it examine practical experience in designing large-scale composite web service applications.</span></p><p>After finishing successfully this Module you should be able to:<br></p><ul><li>Discover the benefit of using Service-Oriented Architecture to design modern software systems</li><li>Interpret the key features and building blocks of Web Service including WSDL, SOAP and UDDI</li><li>Develop programs using Microsoft .NET　and C# language</li><li>Apply service-based web application using ASP.NET and AJAX</li><li>Create service-oriented application using Windows Communication Foundation<br> build RESTful web service using Windows Communication Foundation</li><li>Outline the relationship between Cloud Computing and SOA; compare different cloud computing services&ZeroWidthSpace;<br></li></ul></td>
+											<td><p><span class="ms-rteFontSize-2" id="ms-rterangepaste-start"></span><span lang="EN-GB" style="font-family:&quot;times new roman&quot;,serif;font-size:13px;">LB170’s design will be
+relevant for students from OUBS Openings to Level 2 courses.&nbsp; Students’ confidence, performance and
+progression potentials will be enhanced and ultimately academic standards will
+be positively influenced as well as widening participation, retention and
+completion rates.&nbsp;&nbsp; The emphasis in the
+course is on processes and practices (the ‘skills’) of communication rather
+than on content in a ‘traditional’ academic sense. As such the course reverses
+the balance present in other OUBS courses where communication skills are fore
+grounded but are always at the service of the course content and consequently
+occupy a less significant position in the learning outcomes.&nbsp;&nbsp;&nbsp; The model of communication skill
+development outlined above is a positive rather than a deficit model. It draws
+on current thinking about literacy development in which a more traditional
+skills development model which treats communication as an all-purpose set of
+skills with universal application is overlain, firstly, with a model that
+places literacy in context and sees literacy practices as situated within particular
+spheres of activity (in this case, business, broadly, and business studies more
+specifically). Secondly it draws on a model that highlights the ideological and
+personal investment that come into play when individuals and organisations
+engage in communicative acts.</span>&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">A. Knowledge and understanding</span></strong><br></p><p>Upon completing this Module, students will be able to have:</p><ol><li>Construct a well-founded knowledge in the field of study.</li><li>Compare other disciplines that are related to the field of study.</li><li>Develop international perspective on the field of study.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">B. Cognitive skills</span></strong><br></p><p><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">Upon completing this Module, students will be able to:</span><br></p><ol><li>Collect, analyse and organise information and ideas and to convey those ideas clearly and fluently, in both written and spoken forms.&nbsp;&nbsp; </li><li>Interact effectively with others in order to work towards a common outcome.&nbsp; </li><li>Select and use the appropriate level, style and means of communication.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li><li>Engage effectively and appropriately with information and communication technologies.<br></li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;"><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">C. Practical and professional skills</span></strong><br></span></strong></p><p>Upon completing this Module, students will be able to:</p><ol><li>Develop programs using Microsoft .NET and C# and service-based web application using ASP.NET and AJAX</li><li>Build service-oriented application using Windows Communication Foundation</li><li>Build RESTful web service using Windows Communication Foundation<br></li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;"><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">D.&nbsp;Key transferable skills&nbsp;</span></strong><br></span></strong></p><p>Upon completing this Module, students will be able to:</p><ol><li>Work and learn independently.&nbsp;&nbsp;&nbsp; </li><li>Generate ideas and adapt innovatively to changing environments.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li><li>&ZeroWidthSpace;Identify problems creates solutions, innovate and improve current practices&ZeroWidthSpace;<br></li></ol></td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>A. Knowledge
+and understanding</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: Can understand and use familiar everyday expressions and
+Phrases aimed at the satisfaction of needs of a concrete type.The internal and
+external factors affecting business organisations and their stakeholders. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: understand sentences and frequently used expressions related
+to areas of most immediate relevance in one’s major such as the operation and
+management of the HR function of a business organisation. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3: Can produce clear, detailed text on a wide range of subjects
+and explain a viewpoint on a topical issue giving the advantages and
+disadvantages of various options.<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4: Can
+understand a wide range of demanding, longer texts, and recognize implicit
+meaning. Such as the operation and management of the marketing function of a
+business organisation. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1 After studying the course, the student will have developed the
+language they need to exercise the following thinking and communication skills
+and have developed a critical perspective on this language in the light of a
+range of alternative, available language and communication practices: </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: recognize, compare and contrast different ways of analysing
+business case studies and other material about contemporary business practice. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: apply their knowledge in the analysis of practical business
+problems and issues. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4: recognize, compare and contrast different interpretations of
+and approaches to practical business problems and issues. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: analyse work-related cases and situations to identify problems
+in the organization and management of a functional area. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: identify and communicate potential solutions based on
+knowledge of theory and apply it to their own work situation.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: related the communication skills needed for academic study to
+those needed in the workplace. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Read and précis written text materials for key salient points.
+</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2:<span>&nbsp; </span>communicate effectively
+in writing, showing recognition of audience and purpose. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: select data, information and ideas from different sources and
+present in an appropriate fashion to support an argument. </span></p>
+
+<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:13px;">D4: identify some of the
+key strengths and needs of their own communication skills development and
+identify opportunities to address these in the light of their critique of the
+language and literacy practices they have encountered.</span><br></td>
 										</tr>
 									</tbody>
 								</table>
@@ -2959,11 +5730,16 @@ An understanding of the physical phenomena underlying the operation of devices i
 
             <div class="course-item">
                 <div class="course-title">
-                    MT390&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Image Processing <span class="float-right">(3) Credit Hours</span>
+                    MKT331&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Digital Marketing <span class="float-right">(4) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    Image Processing is an important field of study and MT390 is meant to provide students with the basic knowledge of this field.  Along with the importance of Image Processing in traditional areas such as Medical Diagnosis, Industrial Inspections, Security Systems, Robotics etc., the pervasiveness of smart phones equipped with powerful cameras has increased the need for Image Processing due to the availability of large amount of image data. This module is intended to provide students the opportunity to study the basics of the important field of Image Processing.
+                    The proliferation of the internet across the globe has increased the use of mobile internet devices, tablets, smart phones etc., and improved customer reach, therefore increasing the importance and relevancy of E-marketing for marketing managers.  The internet produced many interesting and innovative methods to offer better customer value. This includes Web sites for marketing communication and customer support; one-to-one communication to many different receiving devices; and consumer behavior insights based on offline and online data combination and inventory optimization through CRM-SCM integration. More recently the development of different social media outlets provided perfect platforms for connecting with today’s consumer: High readership blogs, social networks (such as Facebook and LinkedIn), and online communities (such as YouTube, Twitter and Second Life). Such mediums offer consumers in groups a platform to voice their needs, concerns, and feedback. Intelligent marketers have learned how to take advantage of the great access enabled through social media to improve their products and marketing communication. Today, a balanced and effective marketing strategy must rely greatly upon- online marketing and social media.  
+ 
+Electronic Marketing (E- Marketing) involves the use of electronic means to reach marketing objectives. Since the 1980s, this has included database marketing, Customer Relationship Management, and loyalty programs. In addition, the increased reliance of consumers on the internet for their purchases and for information gathering has transformed the direction towards online marketing and social media strategy. 
+ 
+In this course, students get an introduction to the fundamental principles of online marketing (e marketing and social-media) both with theory and with practical trainings. Students will build upon pre-acquired knowledge from other marketing courses.   
+
                 </div>
 				
 				<div class="course-details float-right">
@@ -2978,7 +5754,7 @@ An understanding of the physical phenomena underlying the operation of devices i
 						<!-- Modal content-->
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="modal-title"> Image Processing</span>
+								<span class="modal-title">Digital Marketing</span>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
@@ -2986,31 +5762,67 @@ An understanding of the physical phenomena underlying the operation of devices i
 									<tbody>
 										<tr>
 											<td>Course Code</td>
-											<td>MT390</td>
+											<td>MKT331</td>
 										</tr>
 										<tr>
 											<td>Course Title</td>
-											<td> Image Processing</td>
+											<td>Digital Marketing</td>
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>B 120: An Introduction to Business Study</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
-											<td>3</td>
+											<td>4</td>
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>Image Processing is an important field of study and MT390 is meant to provide students with the basic knowledge of this field.  Along with the importance of Image Processing in traditional areas such as Medical Diagnosis, Industrial Inspections, Security Systems, Robotics etc., the pervasiveness of smart phones equipped with powerful cameras has increased the need for Image Processing due to the availability of large amount of image data. This module is intended to provide students the opportunity to study the basics of the important field of Image Processing.</td>
+											<td>The proliferation of the internet across the globe has increased the use of mobile internet devices, tablets, smart phones etc., and improved customer reach, therefore increasing the importance and relevancy of E-marketing for marketing managers.  The internet produced many interesting and innovative methods to offer better customer value. This includes Web sites for marketing communication and customer support; one-to-one communication to many different receiving devices; and consumer behavior insights based on offline and online data combination and inventory optimization through CRM-SCM integration. More recently the development of different social media outlets provided perfect platforms for connecting with today’s consumer: High readership blogs, social networks (such as Facebook and LinkedIn), and online communities (such as YouTube, Twitter and Second Life). Such mediums offer consumers in groups a platform to voice their needs, concerns, and feedback. Intelligent marketers have learned how to take advantage of the great access enabled through social media to improve their products and marketing communication. Today, a balanced and effective marketing strategy must rely greatly upon- online marketing and social media.  
+ 
+Electronic Marketing (E- Marketing) involves the use of electronic means to reach marketing objectives. Since the 1980s, this has included database marketing, Customer Relationship Management, and loyalty programs. In addition, the increased reliance of consumers on the internet for their purchases and for information gathering has transformed the direction towards online marketing and social media strategy. 
+ 
+In this course, students get an introduction to the fundamental principles of online marketing (e marketing and social-media) both with theory and with practical trainings. Students will build upon pre-acquired knowledge from other marketing courses.   
+</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;The aims of this module are to:<br></p><ul><li>Introduce students to the important field of Image Processing.</li><li>Teach students the fundamental concepts related to image Representations and Enhancements.</li><li>Impart to the students knowledge about Intensity Transformations and Spatial Domain Filtering.</li><li>Introduce students to the concepts of 2-D Fourier Transform and the basics of Frequency Domain Filtering.</li><li>Introduce students to the topics of Image Segmentation, Image Coding and their related techniques.</li><li>Enable students to implement basic image processing algorithms using the Matlab Programming environment.<br></li></ul></td>
+											<td>&ZeroWidthSpace;&ZeroWidthSpace;This is a compulsory module in the Marketing track. This course provides students with a comprehensive introduction into the field of online marketing. It is designed in a way, which builds on students' pre-existing knowledge in general marketing management to elaborate the concepts of digital marketing. After completing this course students should be able to: <p>&nbsp;</p><ul><li>Understand the nature and concepts of online marketing and apply online marketing tools, instruments and principles through theory and case studies. </li><li>Understand the importance of online marketing and social media to a company's' overall marketing plan in contemporary marketing. </li><li>Understand internet users and identify profitable E-Marketing strategies.</li><li>Understand the design and evaluation of multimedia applications for marketing strategy.&nbsp; </li><li>Review current practices in electronic marketing.  Understand the marketing effectiveness of web-based marketing approaches. </li><li>Learn how to use the internet as a research method and learn and practice how to publish information on the internet. </li><li>Be able to develop effective strategies for generating traffic, optimizing conversion, achieving customer satisfaction, optimizing profitability, generating social media strategies and continuous innovation within online marketing environment. </li><li>Understand the E-Marketing context: e-business models, performance metrics, and role of strategic planning. </li><li>Describe E-marketing strategies of segmenting, targeting, positioning, and differentiation.</li><li>Know how to use marketing functions of product, pricing, distribution, and marketing communication for a firm's E-Marketing strategy.&ZeroWidthSpace;&ZeroWidthSpace;<br></li></ul></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p style="text-align:justify;">On successful completion of this course, the student will be able to demonstrate knowledge and understanding of:</p><ol><li>Basic image representation concepts.</li><li>Spatial domain image processing techniques of intensity transformation and filtering.</li><li>Frequency domain image processing techniques of filtering and masking.</li><li>Data reduction and image coding methods.</li><li>Basic image segmentation concepts and techniques.<br></li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p style="text-align:justify;">On successful completion of this course, the student will be able to:<br></p><ol><li>Critically evaluate and suggest spatial domain processing techniques for image enhancement purposes.</li><li>Analyse and suggest appropriate frequency domain filtering techniques suitable for image processing tasks.</li><li>Critically interpret histogram data of images and suggest appropriate image processing techniques for image enhancement.</li><li>Analyze various image coding techniques and select the appropriate one for a particular task.</li><li>Evaluate and interpret image segmentation results.</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>On successful completion of this course, the student will be able to:</p><ol><li>Apply skills and concepts from the course to develop practical image processing projects.</li><li>Develop, Interpret and Implement image enhancement techniques both in the spatial and frequency domains.</li><li>Perform Matlab simulations of practical image processing algorithms including image enhancement, coding and segmentation.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>On successful completion of this course, the student will be able to:</p><ol><li>Apply the mathematical and algorithmic skills acquired in this course to other areas of study and work.</li><li>Carry out independent learning on topics related to image processing and computing.</li><li>Communicate ideas and concepts about image processing techniques effectively both in writing as well as in any group discussion or environment.&ZeroWidthSpace;<br><br></li></ol></td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&ZeroWidthSpace;<strong>A. Knowledge
+and understanding</strong></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1: Evaluate
+the role and implications of digital methods within marketing.&nbsp; </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: Evaluate
+examples of contemporary electronic marketing methods such as microsites and
+banner ads and compare them to conventional approaches.&nbsp; </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3:
+Appreciate the marketing implications of the design and application of
+multimedia/Web based products and evaluate them from an e- marketing
+perspective.&nbsp; </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4: Evaluate
+the advantages and limitations of different approaches to Web based marketing
+including text and information based pages, virtual worlds, interactive
+graphics and animation&nbsp; </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A5: Evaluate
+the impact of web based innovations on marketing and consumer behavior. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A6: Consider
+the impact that modern technology has (Internet, social media, etc.) on
+marketing innovation. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A7: Consider
+what new ways of thinking are needed in E-marketing </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Use critical analysis to evaluate e-marketing tactics within a
+business perspective </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Provide a theoretical and practical basis for critically
+assessing the range of e-marketing tools as well as their advantages and
+disadvantages </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Explore the impact of online communities and evaluate their
+uses in E-marketing. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4: Evaluate the utility of concepts, tools and frameworks to
+solve ebusiness problems. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5: Evaluate the advantages and limitations of virtual worlds,
+interactive graphics, animations and social media. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B6: Evaluate the impact of digital marketing strategies on
+consumer decision making.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Have developed market awareness of E-marketing issues&nbsp; </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Analyse e-marketing cases and identify organizational
+challenges in developing responses relevant to the environment. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Apply course concepts to students’ own interactions with
+organisations and life experiences. C4: Build upon important workplace skills
+(e.g. cooperative, teamwork, meeting deadlines, report writing) through
+cooperative learning activities </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C5: Appreciate multicultural influences on the e-marketplace, on
+ebusiness ethics, and on socially responsible E-marketing. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D Key transferable skills </strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Make Decisions and solve problems in a viable approach
+engaging with data analysis, interpretation and extrapolation. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Work independently, communicate effectively, planning,
+monitoring, reflecting on and improving their own learning. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Find, assess and apply information from a variety of sources,
+using information technology where necessary Immerse in related information,
+arguments and ideas.<span> &nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>D4: Identify some of the key strengths and needs of their own learning and identify opportunities to address these.&ZeroWidthSpace;</span></span></p></td>
 										</tr>
 									</tbody>
 								</table>
@@ -3032,11 +5844,16 @@ An understanding of the physical phenomena underlying the operation of devices i
 
             <div class="course-item">
                 <div class="course-title">
-                    MT395&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Applied Cyber Security <span class="float-right">(3) Credit Hours</span>
+                    MKT332&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Service Marketing <span class="float-right">(4) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    In today’s world, organizations must be prepared to defend against threats in cyberspace. Decision makers must be familiar with the basic principles and best practices of cyber security to best protect their enterprises.
+                    The services sector is gaining increased importance as a contributor to GDP and employment growth in both developed and developing countries. Developments in information technology and innovation are leading to the creation of new services and opportunities continuously, to offer better value to clients and at affordable prices. In addition, organizations from all sectors  
+ 
+including technological and industrial are realizing the importance of providing distinguished quality services to gain competitive advantage. Consequently, learning about services marketing has become essential despite the sector of employment one chooses to follow, since services have infiltrated the world around us.  The majority of business activity today relates to services. This has changed the marketing worldview. This module builds on the concepts covered in the basic marketing courses. It addresses the distinctive challenges integral to the marketing of services in a variety of modern business  
+ 
+Settings emphasis on distinctive features of service management and marketing, in addition to the theories, instruments, and strategies required to tackle them. Aspects of relationship marketing and the new service‐dominant logic of marketing will also be covered.
+
                 </div>
 				
 				<div class="course-details float-right">
@@ -3051,7 +5868,7 @@ An understanding of the physical phenomena underlying the operation of devices i
 						<!-- Modal content-->
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="modal-title">Applied Cyber Security</span>
+								<span class="modal-title">Service Marketing</span>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
@@ -3059,31 +5876,75 @@ An understanding of the physical phenomena underlying the operation of devices i
 									<tbody>
 										<tr>
 											<td>Course Code</td>
-											<td>MT395</td>
+											<td>MKT332</td>
 										</tr>
 										<tr>
 											<td>Course Title</td>
-											<td>Applied Cyber Security</td>
+											<td>Service Marketing</td>
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>B324</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
-											<td>3</td>
+											<td>4</td>
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>In today’s world, organizations must be prepared to defend against threats in cyberspace. Decision makers must be familiar with the basic principles and best practices of cyber security to best protect their enterprises.</td>
+											<td>The services sector is gaining increased importance as a contributor to GDP and employment growth in both developed and developing countries. Developments in information technology and innovation are leading to the creation of new services and opportunities continuously, to offer better value to clients and at affordable prices. In addition, organizations from all sectors  
+ 
+including technological and industrial are realizing the importance of providing distinguished quality services to gain competitive advantage. Consequently, learning about services marketing has become essential despite the sector of employment one chooses to follow, since services have infiltrated the world around us.  The majority of business activity today relates to services. This has changed the marketing worldview. This module builds on the concepts covered in the basic marketing courses. It addresses the distinctive challenges integral to the marketing of services in a variety of modern business  
+ 
+Settings emphasis on distinctive features of service management and marketing, in addition to the theories, instruments, and strategies required to tackle them. Aspects of relationship marketing and the new service‐dominant logic of marketing will also be covered.
+</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;The aims and objectives of this module are to:<br></p><ul><li>Describe and discuss a range of topics in cyber security management.</li><li>Describe cyber security governance and the implementation of an integrated security mechanism.</li><li>Identify cyber security threats and explain risk analysis and management.</li><li>Allow students to perform independent research in the area and to critically read and analyse third party material.<br></li></ul></td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;This is a compulsory module in the marketing track. The module is designed to give learners a broad understanding of the key concepts and business practices in service marketing. The module provides an overview of the nature and scope of services marketing and its role in achieving business objectives. The module aims to: <br></p><ul><li>Provide learners with a clear understanding of the concepts and business functions of services marketing&nbsp; </li><li>Give learners an overview of the environmental factors which influence services marketing decisions</li><li>Introduce learners to the need to develop an appropriate services marketing mix and identify and analyze the various components of the services marketing mix </li><li>Familiarize learners with the role of marketing to service providers. </li><li>Appreciate the challenges embedded in marketing and managing services and study the tools and processes to respond to these challenges. </li><li>Evaluate the key issues required in managing customer satisfaction and service quality </li><li>Appreciate the role of employees and customers in service delivery, customer satisfaction and service quality.&nbsp;</li><li>Understand the critical aspects of service businesses such as managing supply and demand, relationship management, and the overlap in marketing/operations/human resource systems. &ZeroWidthSpace;<br></li></ul></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>After studying the module you will be able to:<br></p><ol><li>Describe cyber security fundamentals </li><li>Explain cyber security management and its importance to organizations</li><li>Evaluate the principles of cyber security governance to sustain and improve the security posture of an organisation</li><li>&nbsp;Interpret the importance of risk analysis and management in protecting an organization from cyber threats</li><li>&nbsp;Evaluate cyber security management policies, standards, and processes</li><li>Define the most common cyber security threats and analyse appropriate countermeasures</li><li>Describe and discuss the application of an integrated security mechanism&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><ol><li>Recognise and define the main issues and challenges related to protecting and safeguarding organisations from cyber security risks</li><li>Read, evaluate, and critically review technical documents and extract useful information from these documents on topics related to cyber security, risk management, threat detection and countermeasures<br></li></ol><div><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></div><div><p>After studying the module you will be able to:</p><ol><li>&nbsp;Use the studied concepts to analyse and assess the cyber security risks</li><li>Identify the threats to information security and take appropriate countermeasures&nbsp;&ZeroWidthSpace;</li></ol><strong>D. Key transferable skills</strong><br></div><div><ol><li>Demonstrate independent self-learning capabilities in order to tackle more advanced topics and remain up-to-date in the field of cyber security<br></li><li>Employ your technical writing skills on topics related to cyber security and cyber security management<br></li></ol></div></td>
+											<td><b>&ZeroWidthSpace;<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A. Knowledge
+and understanding</span></b><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1.
+Differentiate between product and service characteristics, and know how this
+can be used to establish competitive advantage for a firm. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2.
+Understand why the application of the marketing mix in a service environment is
+built up from the interaction between customers and their suppliers. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3. Develop
+an understanding of the links between the service providers (people), the
+procedures (processes), and the physical evidence of the service offering. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4.
+Understand service quality management as the basis for developing customer
+satisfaction and develop skills in service quality problem diagnosis and
+service improvement. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A5.
+Understand the importance of customer retention, service recovery, relationship
+development, and the role of internal marketing. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A6. Consider
+the impact that modern technology has (Internet, social media, etc.) on
+service(s) marketing innovation. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A7. Consider
+what new ways of marketing thinking are needed in service dominant modern
+economies.</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1. Use critical analysis to perceive service shortcomings in
+reference to create service excellence;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2. Provide a theoretical and practical basis for assessing
+service performance using company examples;<span>&nbsp;
+</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3. Identify and discuss characteristics and challenges of
+managing service firms in the modern world using cultural implications;<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4. Discuss key linkages between marketing and other business
+functions in the context of designing and operating an effective service
+system.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5. Explain the unique challenges of services marketing, including
+the elements of product, price, place, promotion, processes, physical evidence,
+and people.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Integrate course concepts into individual performance to
+become better customer service representatives in the service environment. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Analyse work-related cases and situations and identify
+organizational challenges in developing responses related to the environment. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Apply course concepts to students’ own interactions with
+organisations and life experiences. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4: Build upon important workplace skills (e.g. cooperative,
+teamwork, meeting deadlines, report writing) through cooperative learning
+activities </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C5: Discuss the influences of the multicultural marketplace,
+business ethics, and socially responsible marketing on services marketing </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C6: Describe how customer relationship marketing (CRM), including
+retention strategies, creates an environment that achieves excellence in
+customer service</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&ZeroWidthSpace;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Make Decisions and solve problems in a viable approach
+engaging with data analysis, interpretation and extrapolation. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Work independently, communicate effectively, planning,
+monitoring, reflecting on and improving their own learning</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Find, assess and apply information from a variety of sources,
+using information technology where necessary Immerse in related information,
+arguments and ideas.</span><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span><span style="text-align:left;color:#444444;text-transform:none;text-indent:0px;letter-spacing:normal;font-size:13px;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;white-space:normal;orphans:2;"></span><span style="text-align:left;color:#444444;text-transform:none;text-indent:0px;letter-spacing:normal;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;word-spacing:0px;display:inline;white-space:normal;orphans:2;float:none;">D4: Identify some of the
+key strengths and needs of their own learning and identify opportunities to
+address these</span></span></span></p><br></td>
 										</tr>
 									</tbody>
 								</table>
@@ -3109,18 +5970,17 @@ An understanding of the physical phenomena underlying the operation of devices i
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    	
-The course introduces the student to the basics of Spanish. These include the alphabet, common everyday expressions, simple sentences, short dialogues and small paragraphs. The four skills of reading, writing, listening and speaking will be equally emphasized. However, as we live in the age of the image, students will have ample exposure to a variety of audio-visual material which boost their command of the language at the beginner’s level. The communicative approach is to be adopted in face-to-face tutorials and the various methods of enabling students to learn on their own will be prioritized.
+                    The course introduces the student to the basics of Spanish. These include the alphabet, common everyday expressions, simple sentences, short dialogues and small paragraphs. The four skills of reading, writing, listening and speaking will be equally emphasized. However, as we live in the age of the image, students will have ample exposure to a variety of audio-visual material which boost their command of the language at the beginner’s level. The communicative approach is to be adopted in face-to-face tutorials and the various methods of enabling students to learn on their own will be prioritized.
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_88">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_101">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_88" class="modal fade" role="dialog">
+				<div id="modal_101" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -3149,8 +6009,7 @@ The course introduces the student to the basics of Spanish. These include the al
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>	
-The course introduces the student to the basics of Spanish. These include the alphabet, common everyday expressions, simple sentences, short dialogues and small paragraphs. The four skills of reading, writing, listening and speaking will be equally emphasized. However, as we live in the age of the image, students will have ample exposure to a variety of audio-visual material which boost their command of the language at the beginner’s level. The communicative approach is to be adopted in face-to-face tutorials and the various methods of enabling students to learn on their own will be prioritized.</td>
+											<td>The course introduces the student to the basics of Spanish. These include the alphabet, common everyday expressions, simple sentences, short dialogues and small paragraphs. The four skills of reading, writing, listening and speaking will be equally emphasized. However, as we live in the age of the image, students will have ample exposure to a variety of audio-visual material which boost their command of the language at the beginner’s level. The communicative approach is to be adopted in face-to-face tutorials and the various methods of enabling students to learn on their own will be prioritized.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
@@ -3185,17 +6044,16 @@ The course introduces the student to the basics of Spanish. These include the al
                 </div>
                 <div class="course-desc">
                     The course builds on what the student has learnt in level (1). Toward this end, it introduces the student to more everyday expressions, more widely-used short sentences, some compound and complex sentences, medium-size dialogues, and short passages. While the skills of listening and speaking will be receiving adequate attention, more emphasis is to be placed on the skills of reading and writing. Face-to-face tutorials will be communicative and students will be empowered to learn on their own.
-
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_89">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_102">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_89" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
+				<div id="modal_102" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -3224,8 +6082,7 @@ The course introduces the student to the basics of Spanish. These include the al
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>The course builds on what the student has learnt in level (1). Toward this end, it introduces the student to more everyday expressions, more widely-used short sentences, some compound and complex sentences, medium-size dialogues, and short passages. While the skills of listening and speaking will be receiving adequate attention, more emphasis is to be placed on the skills of reading and writing. Face-to-face tutorials will be communicative and students will be empowered to learn on their own.
-</td>
+											<td>The course builds on what the student has learnt in level (1). Toward this end, it introduces the student to more everyday expressions, more widely-used short sentences, some compound and complex sentences, medium-size dialogues, and short passages. While the skills of listening and speaking will be receiving adequate attention, more emphasis is to be placed on the skills of reading and writing. Face-to-face tutorials will be communicative and students will be empowered to learn on their own.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
@@ -3255,1168 +6112,17 @@ The course introduces the student to the basics of Spanish. These include the al
 
             <div class="course-item">
                 <div class="course-title">
-                    T103&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer Organization and Architecture <span class="float-right">(3) Credit Hours</span>
+                    SYS210&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Managing Technologies and Innovation <span class="float-right">(8) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    This module offers a clear and comprehensive survey about computer organization and architecture. It introduces the inner workings of a modern digital computer through an integrated presentation of fundamental concepts and principles
+                    Technology plays a significant and invaluable role in the different aspects of human societies. It is a key resource of profound importance for a nation’s security and economic development. In addition, it is viewed as an important strategic factor and fundamental element for economic growth and as an instrumental means of controlling nature and resources. It also exerts a powerful influence on standards of living and quality of life. New knowledge, innovations and professional skills are an intrinsic part of new technology. Because technology is continuously changing, with new processes and products being developed or improved regularly, the need to manage technology is also continuous, and one that grows with the expansion of economic activities. Management of technology is a difficult and complex process, but it is an issue that faces all firms today. It involves the handling of technical and social issues in a broad spectrum of functional areas including manufacturing, design, development, information, processing, construction, pollution, violence, and so forth. Management of technology and innovation is concerned with developing and enhancing the capabilities of individuals and the characteristics of institutions to match the potential benefits, to contain the hazards resulting from technological change and also to find new ways to compete and survive. The role of MTI (Managing Technology and Innovation) is to ensure the proper execution of the following functions: 
+   Selection of technology, or rather technological products 
+   Effective negotiation and contracting for their acquisition 
+   To integrate strategy and technology 
+   Adaptation to local conditions (environmental, human, etc.). 
+   Insights into MTI (Managing Technology and Innovation)
 
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_99">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_99" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Computer Organization and Architecture</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>T103</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Computer Organization and Architecture</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>EL111</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module offers a clear and comprehensive survey about computer organization and architecture. It introduces the inner workings of a modern digital computer through an integrated presentation of fundamental concepts and principles
-</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;</p><div><table class="ms-formtable" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top:8px;"><tbody><tr><td valign="top" class="ms-formbody" width="350px"><div aria-labelledby="ctl00_ctl39_g_eb7daa64_36cc_4108_a9f5_cc8a9db927e9_ctl00_ctl05_ctl07_ctl00_ctl00_ctl05_ctl00_label" style="display:inline;"><p>&ZeroWidthSpace;To emphasize on the concept of computer organization.<br></p><p>To emphasize on the concept computer architecture.</p><p>To comprehend the different core concepts behind the hardware layer of a computer system.</p><p>To recognize the mathematical concepts of the low level computer structure (circuits and gates).</p><p>To know the processor's instruction sets architecture and implementation.</p><p>To recognize the memory organization concept and methods<br><br></p></div></td></tr></tbody></table></div><p>&ZeroWidthSpace;<br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;</p><p><span class="ms-rteThemeFontFace-1">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1">The module provides student with an understanding of:</span></p><ol><li><span class="ms-rteThemeFontFace-1">Historical developments of computers.</span></li><li><span class="ms-rteThemeFontFace-1">The Von-Neumann Model.</span></li><li><span class="ms-rteThemeFontFace-1">Data representation and arithmetic in Computer Systems.</span></li><li><span class="ms-rteThemeFontFace-1">Boolean Algebra and Digital Logic.</span></li><li><span class="ms-rteThemeFontFace-1">Assembly language of an intuitive architecture (MARIE).</span></li><li><span class="ms-rteThemeFontFace-1">Memory organization and addressing modes.</span></li><li><span class="ms-rteThemeFontFace-1">Cache memory mapping Schemes.</span></li></ol><p><span class="ms-rteThemeFontFace-1"><strong>B. Cognitive skills</strong><br></span></p><p><span class="ms-rteThemeFontFace-1"><strong>To be able to</strong><br></span></p><ol><li><span class="ms-rteThemeFontFace-1">Identify the different parts of any computer system and understand their roles.</span></li><li><span class="ms-rteThemeFontFace-1">Understand the instruction set of any modern computer system.</span></li><li><span class="ms-rteThemeFontFace-1">&ZeroWidthSpace;Evaluate the performance of modern computer systems.</span></li></ol><p><span class="ms-rteThemeFontFace-1"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1"><strong>To be able to</strong><br></span></p><ol><li><span class="ms-rteThemeFontFace-1">Have an awareness of the process of designing, writing and testing&nbsp; MARIE assembly programs.</span></li><li><span class="ms-rteThemeFontFace-1">Use low level programming skills appropriate to a task.</span></li><li><span class="ms-rteThemeFontFace-1">Ability to use the MARIE and data path simulator software.</span></li></ol><p><span class="ms-rteThemeFontFace-1"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1"><strong>To be able to</strong></span></p><ol><li><span class="ms-rteThemeFontFace-1">Interact effectively within a group using electronic conferencing techniques.</span></li><li><span class="ms-rteThemeFontFace-1">Contribute to discussions on a conference.</span></li><li><span class="ms-rteThemeFontFace-1">Improve own learning and performance.</span></li><li><span class="ms-rteThemeFontFace-1">Communicate effectively about testing strategies, design and low level codes.</span></li><li>Use electronic media (the web and electronic conferencing) for information retrieval and communication.&ZeroWidthSpace;&ZeroWidthSpace;<br><br></li></ol><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    T215A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Communication and Information Technologies A <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Students will begin with Communication and information technologies (T215) – learning about the core principles upon which new technologies are built. They will gain an understanding of the ways in which data is stored, manipulated and transmitted; and discover how new processes and services are transforming our lives.
-
-Digital communication and information technologies have become fundamental to the operation of modern societies. New products and services are rapidly transforming our lives, both at work and at play. 
-	
-This module will help students learn more about these developments, and will equip them with the understanding and skills to continue learning about new developments in the future. Students will study the core principles on which the technologies are built and, through a range of online and offline activities, investigate new topics and technologies. 
-
-After studying this module, students will be in a better position to appreciate the potential of developments in communication and information technologies.
-
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_13">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_13" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Communication and Information Technologies A</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>T215A</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Communication and Information Technologies A</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Students will begin with Communication and information technologies (T215) – learning about the core principles upon which new technologies are built. They will gain an understanding of the ways in which data is stored, manipulated and transmitted; and discover how new processes and services are transforming our lives.
-
-Digital communication and information technologies have become fundamental to the operation of modern societies. New products and services are rapidly transforming our lives, both at work and at play. 
-	
-This module will help students learn more about these developments, and will equip them with the understanding and skills to continue learning about new developments in the future. Students will study the core principles on which the technologies are built and, through a range of online and offline activities, investigate new topics and technologies. 
-
-After studying this module, students will be in a better position to appreciate the potential of developments in communication and information technologies.
-</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>&ZeroWidthSpace;To introduce students to modern topics in ICTs.</li><li>To develop student's skills in managing technologies of data storage and computer networks.</li><li>To develop students skills in the technologies of mobile communication systems with an emphasis on mobile telephony.&ZeroWidthSpace;<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>Upon completing this module, students should be able to: </p><ol><li>Describe key principles and concepts of digital communication and information systems and their component devices, including such topics as LANs, WLANs, mobile communication networks, encoding, modulation, multiplexing, routing, and standards.</li><li>Explain key principles and concepts relating to digital data including the storage, manipulation and transmission of digital data.</li><li>Identify major trends in communication and information technologies.</li><li>Enhance their scientific reading and writing skills for writing short reports.<br></li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>Upon completing this module, students should be able to:</p><ol><li>Produce descriptions and explanations of the communication and information systems that feature in the module and of their underlying technologies and component devices</li><li>Apply their understanding of the communication and information systems that feature in the module, their underlying technologies and component devices in specified contexts, updating themselves about the systems, technologies and devices as necessary.</li><li>Use knowledge gained from the module to help them to figure out new or unfamiliar communication and information systems in specified situations; describe and explain such systems and their technologies and devices; apply their understanding in specified contexts.</li><li>Analyze and discuss some of the technological, social, legal, ethical and personal issues that relate to communication and information systems, technologies and devices.</li><li>Realize an overview of the way in which mobile telephone systems have developed from its first generation till LTE stage.&ZeroWidthSpace;<br></li></ol><div><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></div><div><br></div><p>Upon completing this module, students should be able to:</p><ol><li>Critique draft materials in order to improve them</li><li>Use standard office and communication software effectively to support their work</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>Upon completing this module, students should be able to:</p><ol><li>Communicate complex information, arguments and ideas effectively and without plagiarism on a range of topics relating to communication and information systems through a variety of different media, using styles, language and images appropriate to purpose, audience and medium</li><li>Perform simple calculations relating to communication and information systems, use and manipulate simple algebraic equations and interpret and produce graphical and tabular data</li><li>Use information technology to find information from various sources and evaluate that information</li><li>Develop a range of skills as an independent learner to support them in learning through the module materials and through other resources that they seek out for themselves.&ZeroWidthSpace;<br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    T215B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Communication and Information Technologies B <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Digital communication and information technologies have become fundamental to the operation of modern societies. New products and services are rapidly transforming our lives, both at work and at play. This module will help you to learn more about these developments through studying the core principles on which the technologies are built and, through a range of online and offline activities, investigate new topics and technologies.
-
-This module will also help you to raise students’ awareness of some of the technologies and issues associated with safeguarding the privacy of digital information and the people who are affected by its use – hence the themes ‘protecting’ and ‘prying’.
-
-These themes are explored through case studies and practical examples. A recurring approach is the use of an analytical framework that uses five themes to examine the technologies and issues: convenience, identity, reliability, acceptability and consequences.
-
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_14">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_14" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Communication and Information Technologies B</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>T215B</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Communication and Information Technologies B</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Digital communication and information technologies have become fundamental to the operation of modern societies. New products and services are rapidly transforming our lives, both at work and at play. This module will help you to learn more about these developments through studying the core principles on which the technologies are built and, through a range of online and offline activities, investigate new topics and technologies.
-
-This module will also help you to raise students’ awareness of some of the technologies and issues associated with safeguarding the privacy of digital information and the people who are affected by its use – hence the themes ‘protecting’ and ‘prying’.
-
-These themes are explored through case studies and practical examples. A recurring approach is the use of an analytical framework that uses five themes to examine the technologies and issues: convenience, identity, reliability, acceptability and consequences.
-</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>Increase the knowledge of the basic principles of communication and information systems and technologies, and the issues relating to their use</li><li>Develop the ability to apply the understanding of communication and information technologies to learn about new or unfamiliar systems and technologies</li><li>Enable students to explore how personal and private data can be protected.</li><li>Help students develop an understanding of audio and video encoding and editing.</li><li>Develop a variety of skills appropriate to a practitioner in communication and information technologies.&ZeroWidthSpace;</li></ul><p><br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students should be able to: </span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe key principles and concepts relating to digital data including the availability of, mechanisms for protecting digital personal data, and the associated privacy and security issues related to it.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain major trends of the fastest expanding areas of ICT, that of audio and video production and its potential for entertaining us.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand key concepts, issues and technologies associated with online communication.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Enhance the scientific reading and writing skills for writing long reports.<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students should be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Produce descriptions and explanations of the fundamental building block of all modern security systems which is encryption.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply their understanding of the themes of security framework for communication and information systems that feature in the module, their underlying technologies and component devices for applying biometrics as a measurement of human beings used to identify them in the context of authentication. </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use knowledge gained from the module to help them to figure out new or unfamiliar topics; conveying information in audio and visual format, introduction for some tools that will assist in obtaining a simple digital video from a number of digital still images.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe and discuss some of the technological, social, legal, ethical and personal issues that relate to securing personal data like preventing unauthorized people from having access to private information.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Evaluate or compare communication and information systems suggested for a particular need and give a justified recommendation on their appropriateness&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students should be able to:</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Critique draft materials in order to improve them</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Experiment with some fingerprint recognition tools and evaluate the system using the given data set.</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use specialised software tools as AviSynth script language to provide the students with basic skills required to produce video from still images.&ZeroWidthSpace;</span><br></span></li></span></ol><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    T216A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cisco networking (CCNA)-A <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Students will begin with Cisco networking (CCNA) (T216). This will give them
-the knowledge, understanding, and skills needed to configure a LAN/WAN using Cisco equipment (which should also leave you well prepared for the industry-standard CCNA certification examination) They will also gain hands-on practical experience of configuring networks at four compulsory day schools. 
-
-Cisco Systems are market leaders in supplying networking equipment for the internet. They also have a well-established educational programme for network professionals. 
-
-The Arab Open University offers the Cisco Certified Network Associate “CCNA” (ICND1) Version 5 curriculum, which provides the knowledge, understanding, and skills needed to configure a LAN/WAN using Cisco equipment.
-
-The module is composed of two modules:
-•	Introduction to Networks 
-•	Routing and switching essentials
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_15">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_15" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title"> Cisco networking (CCNA)-A</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>T216A</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td> Cisco networking (CCNA)-A</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Students will begin with Cisco networking (CCNA) (T216). This will give them
-the knowledge, understanding, and skills needed to configure a LAN/WAN using Cisco equipment (which should also leave you well prepared for the industry-standard CCNA certification examination) They will also gain hands-on practical experience of configuring networks at four compulsory day schools. 
-
-Cisco Systems are market leaders in supplying networking equipment for the internet. They also have a well-established educational programme for network professionals. 
-
-The Arab Open University offers the Cisco Certified Network Associate “CCNA” (ICND1) Version 5 curriculum, which provides the knowledge, understanding, and skills needed to configure a LAN/WAN using Cisco equipment.
-
-The module is composed of two modules:
-•	Introduction to Networks 
-•	Routing and switching essentials</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>&ZeroWidthSpace;Provide the student with the knowledge, understanding, and skills needed to configure a LAN/WAN using Cisco equipment.</li><li>Provide the student with hands-on experience of configuring networks.<br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>After studying the module the student will be able to:<br></p><ol><li>Describe the role of protocol layers in data networks, and describe the devices and services used to support communications in data networks and the Internet&nbsp;</li><li>Describe the importance of addressing and naming schemes at various layers of data networks in IPv4 and IPv6 environments<br></li><li>Describe Ethernet and basic switching concepts, as well as the operation of Cisco switches<br></li><li>Explain enhanced switching technologies such as VLANs, VLAN Trunking Protocol (VTP), Rapid Spanning Tree Protocol (RSTP), Per VLAN Spanning Tree Protocol (PVSTP), and 802.1q<br></li><li>Describe the purpose, nature, and operations of a router, routing tables, and the route lookup process<br></li><li>Describe how VLANs create logically separate networks and how routing occurs between them<br></li><li>Describe dynamic routing protocols, distance vector routing protocols, and link-state routing protocols<br></li><li>Describe the operations and benefits of access control lists (ACLs) Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS), and Network Address Translation (NAT)</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>After studying the module the student will be able to:</p><ol><li>Design, calculate, and apply subnet masks and addresses to fulfil given requirements in IPv4 and IPv6 network</li><li>Build simple Ethernet network using routers and switches</li><li>Troubleshoot and monitor networks&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;"><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></span></strong></p><p>After studying the module the student will be able to:</p><ol><li>Build a simple Ethernet network using routers and switches&nbsp;</li><li>Use Cisco command-line interface (CLI) commands to perform basic router and switch configurations</li><li>Utilize common network utilities to verify small network operations and analyze data traffic</li><li>&nbsp;Configure, monitor and troubleshoot: basic operations of a small switched network, static routing, default routing, basic operations of routers in a small routed network (RIPv1, RIPv2 and OSPF protocols (single-area OSPF)), VLANs, inter-VLAN routing, ACLs for IPv4 and IPv6, and NAT&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;"><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></span></strong></p><p>After studying the module the student will be able to:</p><p></p><ol><li>Build simple LANs, perform basic configurations for routers and switches, and implement IP addressing schemes.<br></li><li>Configure and troubleshoot routers and switches, and resolve common issues with RIPv1, RIPv2, virtual LANs, and inter-VLAN routing in both IPv4 and IPv6 networks.&ZeroWidthSpace;<br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    T216B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cisco networking (CCNA)-B <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Cisco Systems are market leaders in supplying networking equipment for the internet. They also have a well-established educational programme for network professionals. 
-
-The Arab Open University offers the Cisco Certified Network Associate “CCNA” (ICND2) Version 5 curriculum, which provides the knowledge, understanding, and skills needed to configure a LAN/WAN using Cisco equipment.
-
-The module is composed of two modules:
-•	Scaling Networks 
-•	Connecting networks 
-
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_16">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_16" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title"> Cisco networking (CCNA)-B</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>T216B</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td> Cisco networking (CCNA)-B</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Cisco Systems are market leaders in supplying networking equipment for the internet. They also have a well-established educational programme for network professionals. 
-
-The Arab Open University offers the Cisco Certified Network Associate “CCNA” (ICND2) Version 5 curriculum, which provides the knowledge, understanding, and skills needed to configure a LAN/WAN using Cisco equipment.
-
-The module is composed of two modules:
-•	Scaling Networks 
-•	Connecting networks 
-</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>Provide the student with knowledge, understanding, and skills needed to configure a LAN/WAN using Cisco equipment.</li><li>Provide the student with hands-on experience of configuring networks.<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB">A. Knowledge and understanding</span></strong></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module the student will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Describe the operations and benefits of the Spanning Tree Protocol (STP)</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the operations and benefits of link aggregation and Cisco VLAN Trunk Protocol (VTP)</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the operations and benefits of EtherChannel and HSRP.&nbsp;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain the operations and benefits of Open Shortest Path First (OSPF) protocol (single-area OSPF and multi-area OSPF)&nbsp;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain the operations and benefits of Enhanced Interior Gateway Routing Protocol (EIGRP)</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Describe the different WAN technologies and their benefits</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Explain the operations and benefits of Standard and Extended Access control list (ACL).</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">xplain the common LAN security threats and how to mitigate them&ZeroWidthSpace;<br></span></li></span></ol><div><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">B. Cognitive skills</span></strong><br></span></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module the student will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Troubleshoot networks<br></span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Design network architectures for borderless networks, data centers and virtualization, and collaboration technology and solutions.&nbsp;&ZeroWidthSpace;</span></li></span></ol><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB">C. Practical and professional skills</span></strong><br class="ms-rteThemeFontFace-1"></span></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module the student will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Configure and troubleshoot STP, RSTP, VTP, Extended VLAN, DTP, EtherChannel, HSRP, First Hop Redundancy Protocol, basic operations of routers in a complex routed network for IPv4 and IPv6, advanced operations of routers for IPv4 and IPv6, OSPF, and EIGRP .</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Configure and troubleshoot serial connections, broadband connections, ACL and IPSec tunnelling operations</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Monitor and troubleshoot network operations using syslog, SNMP, and NetFlow&ZeroWidthSpace;</span></li></span></ol><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br class="ms-rteThemeFontFace-1"></span></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module the student will be able to:</span></p><p>&nbsp;</p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Configure and troubleshoot routers and switches. He will also resolve common issues with OSPF, EIGRP, STP, and VTP in both IPv4 and IPv6 networks. In addition, he will also develop the knowledge and skills needed to implement an EtherChannel. </span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand the selection criteria of network devices and WAN technologies to meet network requirements. Furthermore, he will learn how to configure and troubleshoot network devices and resolve common issues with data link protocols. Finally, he will also develop the knowledge and skills needed to implement IPSec and virtual private network (VPN) operations in a complex network.</span><br></span></li></span></ol></span></div></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    T227&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Change, strategy and projects at work <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module will improve students’ understanding of the origins, nature and consequences of change in the workplace. It also equips them with the knowledge, skills and competencies needed to successfully plan real practical projects. Besides, it allows students to gain an understanding of how ICTs both drive and enable change in the workplace. Moreover, it develops their knowledge, understanding and skills in project working and helps them to apply their new skills and knowledge to the planning of their own project involving the use of ICTs and associated business systems in their workplace.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_17">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_17" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title"> Change, strategy and projects at work</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>T227</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td> Change, strategy and projects at work</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module will improve students’ understanding of the origins, nature and consequences of change in the workplace. It also equips them with the knowledge, skills and competencies needed to successfully plan real practical projects. Besides, it allows students to gain an understanding of how ICTs both drive and enable change in the workplace. Moreover, it develops their knowledge, understanding and skills in project working and helps them to apply their new skills and knowledge to the planning of their own project involving the use of ICTs and associated business systems in their workplace.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>Gain an understanding of how social, technological, economic, environmental, political, legislative and ethical factors drive and enable change in the workplace.</li><li>Develop knowledge, understanding, confidence and &ZeroWidthSpace;competence in project working and related employability skills</li><li>Evaluate, develop and review personal, academic and professional skills</li><li>Apply skills and knowledge to planning and presenting a project proposal that is capable of being implemented in their workplace.<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify, analyse and explain the factors driving change in the workplace and the opportunities for introducing change, along with the associated challenges and consequences in terms of human and other factors.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand and explain the processes involved in designing, planning, monitoring, implementing and reviewing work-based projects.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Make effective use of appropriate information and communication technologies, and understand and explain their role in planning and communicating information relating to a work-based project designed to implement some aspect of workplace change.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply knowledge and understanding effectively to a range of issues, questions and problems arising from the planning of a work-based project.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explore, analyse and evaluate practical ways of improving workplace practices using appropriate information and communication technologies to develop components of a personal work-based project.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use the workplace to learn, practise and develop your professional competence.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use appropriate information and communication technologies in a professional context.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Plan, organise your time and work effectively.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Review, analyse and record ongoing learning needs to maintain and develop skills in the context of the workplace using appropriate information and communication technologies.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Develop an awareness of ethical issues relevant to the workplace.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Plan, monitor and evaluate your study as an independent learner.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use appropriate information and communication technologies to support your own learning.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify, critically assess and use information or data accurately in a range of contexts.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate information, arguments and ideas effectively using technologies, styles and language appropriate to purpose and audience.</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Critically compare, analyse and use a variety of approaches appropriate to understanding issues or problems arising in the context of workplace change and projects.&ZeroWidthSpace;</span><br><br></span></li></span></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    T316&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Advanced Networking <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    With the continuous advancements in the networking field, the need arises for teaching advanced networking concepts. This advanced undergraduate course aims to meet this objective by discussing advanced networking topics complementing those introduced in T216A/B. 
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_22">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_22" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title"> Advanced Networking</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>T316</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td> Advanced Networking</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>With the continuous advancements in the networking field, the need arises for teaching advanced networking concepts. This advanced undergraduate course aims to meet this objective by discussing advanced networking topics complementing those introduced in T216A/B. </td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>&ZeroWidthSpace;Describe the various wireless networks along with their coexistence, cooperation, and interaction, while introducing a system level approach and providing an overview of recent research topics.</li><li>Describe the concepts of sensor networks along with their underlying challenges, including power efficiency, routing, and multihop communications</li><li>Discuss the challenges related to massive machine type communications inherent in large sensor networks deployments under the internet of things (IoT) paradigm).</li><li>Explain the concepts of software defined networks (SDN) and network function virtualization (NFV).</li><li>Define big data and describe its use in cloud computing.</li><li>Discuss cloud computing issues, and analyse the role of mobile clouds. </li><li>Define and discuss quality of experience (QoE) requirements, and compare and contrast QoE with quality of service (QoS).</li><li>Teach students the concepts of large data centres, data mining, their relation to big data, and explain data management and backup techniques.</li><li>Explain advanced network management and administration topics, such as: self-organizing networks, network planning and design, and advanced routing. </li><li>Equip students with advanced skills in personal updating and researching in the field of advanced networking. Students will be taught how to use third-party material in order to extract useful information for their personal and professional development<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the course you will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Describe and analyse the operation of co-existing wireless networks and the possibilities of cooperation and interaction between these networks</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Discuss the role of sensor networks and machine-to-machine communications (M2M) in the internet of things (IoT) and describe the underlying challenges</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Describe the concepts of software defined networks (SDN) and network function virtualization (NFV), and discuss their role in advanced network management and administration</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Discuss advanced routing concepts, such as the Border Gateway Protocol (BGP)</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Discuss Cloud Computing and Big Data concepts</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Differentiate between QoE and QoS, and discuss QoE metrics for specific applications, e.g. voice (VoIP) and video</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the operation of self-organizing networks (SON), and differentiate between self-configuration, self-optimization, and self-healing&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">B. Cognitive skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the course you will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse the interaction between different technologies and networks in a complex setup involving multiple networks<br></span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse the challenges faced by the different networks and assess the required techniques for enhancing the performance metrics (QoS, QoE, energy efficiency, security, etc.) of the various network types studied in the course<br></span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Read, evaluate, and critically review advanced technical documents and extract useful information from these documents on a specific networking topic&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the course you will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use the studied concepts to analyse and assess the operation of complex networks<br></span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Design and plan basic implementations of the advanced networks studied, and assess the management and operation of these networks, including the use of self-organization techniques<br></span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Design QoE measurement and resource allocation techniques for enhancing QoE performance of networks using the studied concepts</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB">Be ready to tackle complex
-networking scenarios through self-learning and research skills coupled with the
-learned course material</span>&ZeroWidthSpace;<br></span></li></span></ol><div><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></div><div><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB"><br></span></strong></span></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the course you will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Become an independent self-learner in order to remain up-to-date with the continuous advancements in the field of advanced networking<br></span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Improve your technical writing skills on topics related to networking and advanced networking</span></li></span></ol><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;"><br></span></strong></span></div><p></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    T318&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Applied Network Security <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    People, organizations, and enterprises are becoming increasingly dependent on digital services. Therefore, the need arises to protect information from being maliciously intercepted, disrupted, or misused. 
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_23">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_23" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Applied Network Security</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>T318</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Applied Network Security</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>People, organizations, and enterprises are becoming increasingly dependent on digital services. Therefore, the need arises to protect information from being maliciously intercepted, disrupted, or misused. </td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>Define the threats to network security, and describe the differences between them.</li><li>Describe encryption techniques, including symmetric and asymmetric encryption methods.</li><li>Explain the most widely used encryption algorithms and standards, with focus on wireless, cloud, and internet security.</li><li>Equip students to be able to assess and manage network security risks, and implement appropriate countermeasures.</li><li>Allow students to perform independent research in the area and to critically read and analyse third party material.<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>After studying the course you will be able to:<br><br></p><ol><li>Describe the operation of encryption techniques: symmetric and asymmetric ciphers, block and stream ciphers<br></li><li>&nbsp;Define and explain the differences between different encryption algorithms and standards<br></li><li>Analyse and compare the performance of different encryption methods<br></li><li>Design and implement encryption algorithms</li><li>Describe the protocols for physical, network, and transport level security</li><li>Define the most common threats to network and internet security, explain their operation, and discuss their differences</li><li>&nbsp;Describe the protocols and countermeasures used for protecting network and internet traffic&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>After studying the course you will be able to:<br></p><ol><li>Recognise the threats to network security and assess their inherent risks&nbsp;</li><li>Read, evaluate, and critically review technical documents and extract useful information from these documents on topics related to network security and cryptography algorithms<br></li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>After studying the course you will be able to:<br></p><ol><li>Use the studied concepts to implement, analyse, and assess different encryption algorithms and techniques<br></li><li>Identify the threats to network security and take appropriate countermeasures&nbsp;<br></li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>After studying the course you will be able to:<br></p><ol><li>Become an independent self-learner in order to tackle more advanced topics and remain up-to-date in the field of network security<br></li><li>Improve your technical writing skills on topics related to cryptography and network security<br></li></ol><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    T390&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer Networks and Network Security <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    In today’s world, organizations must be prepared to defend against threats in cyberspace. Decision makers must be familiar with the basic principles and best practices of cyber security to best protect their enterprises.
-
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_92">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_92" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Computer Networks and Network Security</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>T390</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Computer Networks and Network Security</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td></td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>In today’s world, organizations must be prepared to defend against threats in cyberspace. Decision makers must be familiar with the basic principles and best practices of cyber security to best protect their enterprises.
-</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM103&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer Organization and Architecture <span class="float-right">(4) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module offers a clear and comprehensive survey about computer organization and architecture. It introduces the inner workings of a modern digital computer through an integrated presentation of fundamental concepts and principles
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_3">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_3" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Computer Organization and Architecture</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM103</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Computer Organization and Architecture</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>4</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module offers a clear and comprehensive survey about computer organization and architecture. It introduces the inner workings of a modern digital computer through an integrated presentation of fundamental concepts and principles</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;To emphasize on the concept of computer organization.<br></p><p>To emphasize on the concept computer architecture.</p><p>To comprehend the different core concepts behind the hardware layer of a computer system.</p><p>To recognize the mathematical concepts of the low level computer structure (circuits and gates).</p><p>To know the processor's instruction sets architecture and implementation.</p><p>To recognize the memory organization concept and methods<br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">The module provides student with an understanding of: </span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Historical developments of computers.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">The Von-Neumann Model.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Data representation and arithmetic in Computer Systems.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Boolean Algebra and Digital Logic.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Assembly language of an intuitive architecture (MARIE).</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Memory organization and addressing modes. </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Cache memory mapping Schemes.</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>To be able to</strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify the different parts of any computer system and understand their roles.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand the instruction set of any modern computer system.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;Evaluate the performance of modern computer systems.</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>To be able to</strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Have an awareness of the process of designing, writing and testing&nbsp; MARIE assembly programs.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use low level programming skills appropriate to a task.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Ability to use the MARIE and data path simulator software.</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>To be able to</strong></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Interact effectively within a group using electronic conferencing techniques.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Contribute to discussions on a conference.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Improve own learning and performance.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate effectively about testing strategies, design and low level codes.</span></li></span><li>Use electronic media (the web and electronic conferencing) for information retrieval and communication.&ZeroWidthSpace;</li></ol><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM105&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Programming <span class="float-right">(4) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module is an introductory level programming module and it is meant to provide basic foundation in computer programming to students. Students will learn how to develop solutions (algorithms) using pseudocode to solve simple problems. Thereafter, they will learn how to implement these solutions using a programming language (Java). This module serves as foundation for second level programming modules. 
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_4">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_4" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Introduction to Programming</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM105</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Introduction to Programming</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>4</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module is an introductory level programming module and it is meant to provide basic foundation in computer programming to students. Students will learn how to develop solutions (algorithms) using pseudocode to solve simple problems. Thereafter, they will learn how to implement these solutions using a programming language (Java). This module serves as foundation for second level programming modules. </td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;<strong>The module aims to:</strong></p><ul><li>Introduce the technique of solving simple problems using pseudocode.</li><li>Introduce Java programming via writing, compiling and executing simple programs.</li><li>Present how to store and deal with data including variables, constants, and expressions.</li><li>Cover deeply the concepts of program control structure and illustrate each concept with a diagrammatic notation using UML.</li><li>Present how these concepts are implemented in Java.</li><li>Introduce the concept of modularization and how to write Java methods.</li><li>Present how to deal with basic data structures like strings, arrays and two dimensional arrays.<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">A. Knowledge and understanding</span></strong><br></p><p><strong>After studying the module, </strong><strong>the student will be able to</strong><strong>:</strong></p><ol><li>Understanding of the design and programming processes </li><li>Knowledge of the main constructs and mechanisms in programming using Java language. </li><li>Understanding of the techniques used in developing a medium Java application. </li><li>Understanding of the basic data structures like strings, arrays and two dimensional arrays.</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;">B. Cognitive skills</span></strong><br></p><p><strong>After studying the module, </strong><strong>the student should be able to</strong><strong>: </strong></p><ol><li>Describe and apply key concepts and techniques in software design and development.</li><li>Analyse and abstract away from the details of a problem.</li><li>Design and formulate an appropriate solution to a problem and evaluate it.</li><li>Deal professionally with the basic data structures.</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;">C. Practical and professional skills</span></strong><br></p><p><strong>After studying the module, </strong><strong>the student should be able to</strong><strong>: </strong></p><ol><li>Create, develop and trace Java programs. </li><li>Use software tools such as a Java IDE and an On-line Java compiler. </li><li>Use appropriate programming skills. </li><li>Traverse data in the basic data structures in a professional way.&nbsp;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;">D. Key transferable skills&nbsp;</span></strong><br></p><p><strong>After studying the module, </strong><strong>the student should be able to</strong><strong>: </strong></p><ol><li>Find information from a range of sources to support a task. </li><li>Plan medium tasks.</li><li>Use Java libraries.</li><li>Use appropriate numerical, mathematical and abstraction skills.&nbsp;<br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM111 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Computing and Information Technology 1 <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This is an introductory level 1 module, which provides students with a broad introduction to Computing and Information Technology concepts, principles and theories.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_5">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_5" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Introduction to Computing and Information Technology 1</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM111 </td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Introduction to Computing and Information Technology 1</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This is an introductory level 1 module, which provides students with a broad introduction to Computing and Information Technology concepts, principles and theories.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul style="list-style-type:disc;"><li>Help students to develop their understanding about the significant role of computers in our lives.</li><li>Explore some processes by which sound and images in the real world are captured and stored and may be shared with peers and the wider world through social networking sites.</li><li>Introduce students to algorithmic thinking and problem-solving skills using examples from everyday life. </li><li>Enhance student's knowledge about implementing solutions to simple problems in a visual programming.</li><li>Introduce students to the key concepts and technologies underpinning the communication networks.</li><li>Prepare the student for further academic study by helping him develop his study skills.<br></li></ul><p><br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand the fundamental principles, concepts and techniques underlying Computing and IT.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explore various situations in which Computing and IT systems are used, the ways in which people interact with them, and the possibilities and limitations of such systems </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Be aware of the ethical, social and legal issues that can be associated with the development and deployment of Computing &amp; IT systems.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Demonstrate an understanding of algorithmic thinking and problem-solving skills using examples from everyday life. </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand the general principles, roles of various components, and the challenges involved in sending data across communication networks.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Know how to find, rank and reference information; how to build your information literacy skills and how to interpret data in different forms.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Evaluate key computing and IT concepts in a range of contexts.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply appropriate techniques and tools for abstracting, modelling, problem solving, designing and testing computing and IT systems.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Compare, contrast, critically analyze and refine specifications and implementations of software systems and/or simple hardware systems.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify situations in which different network technologies may be used.<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate information, arguments, ideas and issues clearly and in appropriate ways, bearing in mind the audience for and the purpose of your communication.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use appropriate numerical and mathematical skills to carry out calculations and analyze data.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Work independently, planning, monitoring, reflecting on and improving your own learning</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Demonstrate study skills at a level appropriate to higher education, such as study planning, learning from feedback and reading actively&nbsp;<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D Key transferable skills&nbsp;</span></strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Evaluate computing and IT systems, using appropriate simulation and modelling tools where appropriate</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use a range of resources to help you develop as an independent learner.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use information literacy skills, computers and software packages appropriate to the workplace.</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate appropriately with your tutor and other students using email, online conferences and forums.&ZeroWidthSpace;&ZeroWidthSpace;</span><br></span></li></span></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM112&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Computing and Information Technology 2 <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module will further develop and extend the skills and knowledge that students will have built up by studying its partner module TM111. The overall focus of TM112 is on developing the students’ problem solving skills.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_6">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_6" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Introduction to Computing and Information Technology 2</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM112</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Introduction to Computing and Information Technology 2</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module will further develop and extend the skills and knowledge that students will have built up by studying its partner module TM111. The overall focus of TM112 is on developing the students’ problem solving skills.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul style="list-style-type:disc;"><li>&ZeroWidthSpace;Help students to practice the use of computing and information technologies to solve problems.</li><li>Explore a variety of information technologies, from basic computer architecture, cloud computing, mobile/wireless and location-based computing Introduces the students to algorithmic thinking and problem-solving skills using examples from everyday life. </li><li>Enhance student's knowledge about implementing solutions to simple problems in a visual programming.</li><li>Focus on how to examine computing and information technology problems and solutions in their real-world context, with a focus on information security </li><li>&ZeroWidthSpace;Develop numeracy skills (including algebra) in the context of information technologies and programming activities</li><li>Prepare the student for further academic study by helping him develop his study skills<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand the fundamental principles, concepts and techniques underlying Computing and IT.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify &nbsp;a range of models to support the analysis and design of Computing and IT systems</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Know how to implement solutions to simple problems using Python programming language.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Be aware of the of the range of situations in which Computing and IT systems are used, the ways in which people interact with them, and the possibilities and limitations of such systems </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand&nbsp; the ethical, social and legal issues that can be associated with the development and deployment of Computing &amp; IT systems</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe major trends in Computing and IT and of the implications of these trends&nbsp;&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Evaluate key computing and IT concepts in a range of contexts.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply appropriate techniques and tools for abstracting, modelling, problem solving, designing and testing computing and IT systems.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Compare, contrast, critically analyze and refine specifications and implementations of software systems and/or simple hardware systems.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Carry out a project in computing and IT that applies and extends student's knowledge and understanding, and critically reflect on the processes involved and the outcomes of student's work.<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate information, arguments, ideas and issues clearly and in appropriate ways, bearing in mind the audience for and the purpose of your communication.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use appropriate numerical and mathematical skills to carry out calculations and analyze data.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Work independently, planning, monitoring, reflecting on and improving your own learning</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Demonstrate study skills at a level appropriate to higher education, such as study planning, learning from feedback and reading actively&nbsp;<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Evaluate computing and IT systems, using appropriate simulation and modelling tools where appropriate</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use a range of resources to help you develop as an independent learner.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use information literacy skills, computers and software packages appropriate to the workplace.</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate appropriately with your tutor and other students using email, online conferences and forums.</span><br><br></span></li></span></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Computer Graphics and Multimedia <span class="float-right">(4) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module targets to cope with the current advances in computer graphics and multimedia and providing clear and concise explanations of the basic concepts of computer graphics and multimedia. This module is expected to enable students to gain understanding of basics of modelling, viewing, animation principles in both 2D and 3D and the impact of such topics on modern multimedia aspects.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_18">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_18" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title"> Computer Graphics and Multimedia</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM240</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td> Computer Graphics and Multimedia</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>4</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module targets to cope with the current advances in computer graphics and multimedia and providing clear and concise explanations of the basic concepts of computer graphics and multimedia. This module is expected to enable students to gain understanding of basics of modelling, viewing, animation principles in both 2D and 3D and the impact of such topics on modern multimedia aspects.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>&ZeroWidthSpace;Introduce all aspects of the hardware and software components of computer graphics.</li><li>Provide Knowledge to perform 2D and 3D geometric transformations.</li><li>&nbsp;Describe the algorithms for projection, viewing and clipping of graphs.</li><li>Identify how to graphics software and hardware.</li><li>&nbsp;Provide Knowledge to evaluate the performance of graphics systems.&ZeroWidthSpace;<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, <span lang="EN-GB"><strong>student should be able to:</strong></span></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the basic principles of computer graphics.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain the different operations in graphics systems such as transformations, projects, views, texturing, lighting, shading, animation and clipping.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Select the suitable hardware and software of a graphics system for a specific application.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain graphics algorithms. </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop graphics applications in Java.</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, <span lang="EN-GB"><strong>student should be able to:</strong></span></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Evaluate graphics hardware and software.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Compare the different computer graphics applications.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Select the suitable graphics hardware for different applications.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Evaluate 3D modelling techniques.</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, <span lang="EN-GB"><strong>student should be able to:</strong></span></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop graphics applications using advanced APIs</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply computer graphics concepts and techniques to develop graphics and visualization applications</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Model 3D objects.<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, <span lang="EN-GB"><strong>student should be able to:</strong></span></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Effectively communicate oral and written.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Work in a team.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;Effectively manage resources and time.</span></li></span></ol><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM260 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Security, ethics and privacy in IT and Computing <span class="float-right">(4) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    The ITC specialists must conduct ethically by adhering to the ITC code of conduct  and understand the social, professional and legal context of IT and computing,
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_50">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_50" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Security, ethics and privacy in IT and Computing</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM260 </td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Security, ethics and privacy in IT and Computing</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>4</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>The ITC specialists must conduct ethically by adhering to the ITC code of conduct  and understand the social, professional and legal context of IT and computing,</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;The module aims to:&nbsp; increase students awareness of the ethical, professional and legal issues of IT and computing and the responsible use of ITC.<br></p><p>Upon the successful completion of this module students will be able to:</p><ol style="list-style-type:decimal;"><li>Consider the ethical issues related to ITC systems.</li><li>Act ethically while making any profession related decisions.</li><li>Apply all legal principles to intellectual property and ITC related situation.</li><li>understand the emerging issues related to ethics in cyberspace</li><li>Develop a sound methodology in resolving ethical conflicts and crisis.</li><li>Understand the social and ethical issues in the professional practice of computing and technology and their impact on the society..</li><li>Look up relevant ethical standards as developed by the ACM.</li><li>State several examples of important ethical principles as they apply to computer science related situations.</li><li>Identify the ethical issues that relate to computer science in real situations they may encounter and decide whether a given action is ethical as regards computer science professional ethics, and justify that decision.</li><li>Research and write a professional-quality paper about a topic relating to social, legal, and ethical implications of computer science.&ZeroWidthSpace;<br><br></li></ol></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">A. Knowledge and understanding</span></strong><br></p><p>After completing this module, students will be able to: </p><ol><li>Understand how ITC could raise social issues and ethical dilemmas</li><li>Understand the historical background of some social, legal, philosophical, political, constitutional and economical issues related to ITC </li><li>&nbsp;Describe current social and legal developments related to computers and computer crime</li><li>Recognize the existence of computer abuse cases , laws pertaining to them </li><li>Appreciate the value of technology and identify the ethical and moral situations that must be faced and dealt with. </li><li>Deepen their understanding of technology and its effects on society.&ZeroWidthSpace;</li></ol><p><strong>B. Cognitive skills</strong><br></p><p>After completing this module, students will be able to:</p><ol><li>Evaluate the legal and professional impact of ITC in real life contexts</li><li>Analyse the effect of ethical issues on IT industry and society&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">C. Practical and professional skills</span></strong><br></p><p>After completing this module, students will be able to:</p><ol><li>Effectively identify and analyze professional and legal issues; </li><li>Promote an ethics of computing in practice;</li><li>Resolve dilemmas related to ethical, professional and legal ITC issues&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>After completing this module, students will be able to: </p><ol><li>Communicate effectively in writing about ethical, legal and professional issues in the ITC context</li><li>&ZeroWidthSpace;Become an independent learner.<br><br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM287&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Applications Development <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module provides key skills in using JavaScript/AJAX, PHP, and MySQL through demonstrating the vast possibilities they offer in developing robust code that complies with all modern web browsers. The module clarifies the roles of each of the client vs the server in web development and the importance of being able to have asynchronous calls and information exchange with focus on developing Web 2.0 applications.
                 </div>
 				
 				<div class="course-details float-right">
@@ -4431,7 +6137,7 @@ learned course material</span>&ZeroWidthSpace;<br></span></li></span></ol><div><
 						<!-- Modal content-->
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="modal-title">Web Applications Development</span>
+								<span class="modal-title">Managing Technologies and Innovation</span>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
@@ -4439,31 +6145,92 @@ learned course material</span>&ZeroWidthSpace;<br></span></li></span></ol><div><
 									<tbody>
 										<tr>
 											<td>Course Code</td>
-											<td>TM287</td>
+											<td>SYS210</td>
 										</tr>
 										<tr>
 											<td>Course Title</td>
-											<td>Web Applications Development</td>
+											<td>Managing Technologies and Innovation</td>
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>B123</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
-											<td>3</td>
+											<td>8</td>
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>This module provides key skills in using JavaScript/AJAX, PHP, and MySQL through demonstrating the vast possibilities they offer in developing robust code that complies with all modern web browsers. The module clarifies the roles of each of the client vs the server in web development and the importance of being able to have asynchronous calls and information exchange with focus on developing Web 2.0 applications.</td>
+											<td>Technology plays a significant and invaluable role in the different aspects of human societies. It is a key resource of profound importance for a nation’s security and economic development. In addition, it is viewed as an important strategic factor and fundamental element for economic growth and as an instrumental means of controlling nature and resources. It also exerts a powerful influence on standards of living and quality of life. New knowledge, innovations and professional skills are an intrinsic part of new technology. Because technology is continuously changing, with new processes and products being developed or improved regularly, the need to manage technology is also continuous, and one that grows with the expansion of economic activities. Management of technology is a difficult and complex process, but it is an issue that faces all firms today. It involves the handling of technical and social issues in a broad spectrum of functional areas including manufacturing, design, development, information, processing, construction, pollution, violence, and so forth. Management of technology and innovation is concerned with developing and enhancing the capabilities of individuals and the characteristics of institutions to match the potential benefits, to contain the hazards resulting from technological change and also to find new ways to compete and survive. The role of MTI (Managing Technology and Innovation) is to ensure the proper execution of the following functions: 
+   Selection of technology, or rather technological products 
+   Effective negotiation and contracting for their acquisition 
+   To integrate strategy and technology 
+   Adaptation to local conditions (environmental, human, etc.). 
+   Insights into MTI (Managing Technology and Innovation)
+</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;The module aims to:<br></p><div><ol><li>Provide students with a full understanding the main components of web applications.</li><li>Introduce key technologies used for building dynamic web 2.0 applications (JavaScript/AJAX, PHP, and MySQL).</li><li>Emphasize the importance of using client-side technology (AJAX) to create asynchronous web applications.</li><li>Prepare the students for further academic study.&ZeroWidthSpace;<br></li></ol></div></td>
+											<td><span lang="EN-GB">&ZeroWidthSpace;The aim of this
+module, after accomplishing both parts of it, is to familiarize students with
+an integrative approach to the management of technology and innovation.<span>&nbsp; </span>It introduces the concept of MTI and examines
+internal innovation planning, implementation and evaluation and control. It
+also introduces building the capabilities necessary for MTI success.<span>&nbsp; </span></span><p style="text-align:justify;"><span lang="EN-GB">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB">At the end of
+both parts of the module, students are expected to attain the following
+objectives: </span></p><p style="margin:6pt 0in 0pt 20.9pt;text-align:justify;line-height:115%;"><span lang="EN-GB">Understand the significance of technology, innovation and their
+management </span></p><p style="margin:6pt 0in 0pt 20.9pt;text-align:justify;line-height:115%;"><span lang="EN-GB">Identify the key MTI concerns in strategy </span></p><p style="margin:6pt 0in 0pt 20.9pt;text-align:justify;line-height:115%;"><span lang="EN-GB">Understand both product and process innovation<span>&nbsp;&nbsp; </span></span></p><p style="margin:6pt 0in 0pt 20.9pt;text-align:justify;line-height:115%;"><span lang="EN-GB">Recognize the foundations of internal innovation and its
+implementation </span></p><p style="margin:6pt 0in 0pt 20.9pt;text-align:justify;line-height:115%;"><span lang="EN-GB">Determine if the firm has achieved the desired outcomes and design a
+proper tool for evaluation and control</span></p><p style="margin:6pt 0in 0pt 20.9pt;text-align:justify;line-height:115%;"><span lang="EN-GB">Identify elements for planning for acquiring, implementing and
+evaluating technology </span></p><p style="margin:6pt 0in 0pt 20.9pt;text-align:justify;line-height:115%;"><span lang="EN-GB">Understand the core capabilities for a sustainable competitive
+advantage </span></p><p style="margin:6pt 0in 0pt 20.9pt;text-align:justify;line-height:115%;"><span lang="EN-GB">Determine what information the firm actually has and to turn this
+information into knowledge<span> &nbsp;&nbsp;</span></span></p><p style="margin:6pt 0in 0pt 20.9pt;text-align:justify;line-height:115%;"><span lang="EN-GB" style="font-family:ody;font-size:13px;">&nbsp;&nbsp;</span></p><span style="font-family:ody;font-size:13px;">
+
+</span><span lang="EN-GB" style="font-family:ody;font-size:13px;">The course will prepare students with practical
+skills through numerous realistic settings that are in line with the Quality
+Assurance Agency’s benchmark statement expectations for business studies. It
+also aims to enhance employability as the curriculum is of benefit to students
+in the employment market and also relevant to many studying for their own
+personal development. In so doing, the course provides students with a clear
+understanding and appreciation of innovation dynamics both within and across
+firm’s boundaries. By drawing from state of the art innovation literatures as
+well as the extensive use of in-depth case study materials, the course analyses
+opportunities and challenges related to creating, sustaining , managing
+innovation and most of all integrating strategy and technology, with a specific
+focus on technology-based organizations.</span>&ZeroWidthSpace;<p>&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">A. Knowledge and understanding</span></strong><br></p><p>After studying this module, the student will be able to:</p><ol><li>Provide a solid understanding of how JavaScript is written and the possibilities it offers.</li><li>Develop the understanding to use JavaScript to improve the user experience.</li><li>Appreciate the importance of data validation before processing it.</li><li>Demonstrate how to use AJAX to post data to servers and process the feedback of the server.</li><li>Construct interactive web applications that integrate client-side and server-side programming using AJAX and PHP.</li><li>Learn the basics of MySQL and how to create tables to store, update and retrieve data that can be presented to the user using web technologies.</li><li>Use PHP on the server side to communicate with MySQL and generate dynamic content for the web.</li><li>Assess basic issues related to web design and how to improve the style of the generated web content.</li><li>Be able to combine all the technologies presented (JavaScript/AJAX, PHP, MySQL) into a single project that integrates all the components into one fully functional interactive web application.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">B. Cognitive skills</span></strong><br></p><p>After studying this module, the student will be able to:</p><ol><li>Evaluate websites based on the technologies they employ.</li><li>Analyse the performance of web applications.</li><li>Describe the importance of data validation specifically at the user-interface level of a computer system.</li><li>Describe the roles of each of the client and the server as used for web applications.</li><li>Design and build an appropriate system as a solution to data-centric problems.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;"><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">C. Practical and professional skills</span></strong><br></span></strong></p><p>After studying this module, the student will be able to:</p><ol><li>Develop robust and compact code that runs reliably in all modern Web browsers.</li><li>Develop the major components required for building modern web applications.</li><li>Demonstrate proficiency in applying the acquired programming skills to develop complex systems.</li><li>Develop simple user interfaces that collect data from the user to be validated and processed by computer systems.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;"><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">D. Key transferable skills&nbsp;</span></strong><br></span></strong></p><p>After studying this module, the student will be able to:</p><ol><li>Find, select and use information from a range of resources to support a specific task.</li><li>Develop and improve previously learnt programing skills to solve more complex tasks.</li><li>Plan and produce a modern system to satisfy the user needs whilst making sure to provide good stability and performance.</li><li>Plan and manage effort and progress whilst undertaking a substantial project.&ZeroWidthSpace;<br></li></ol></td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>&ZeroWidthSpace;A. Knowledge
+and understanding</b></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1:
+Understand how organisations manage the internal process of innovation,
+including effective search and knowledge acquisition, implementation, learning
+and re–innovation </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2:
+Appreciate the links between Innovation and competitive advantage, the different
+kinds of innovations (radical vs. incremental, continuous vs. discontinuous,
+etc.) </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3:
+Understand innovation as a core business process and how it can be managed. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4:
+Information gathering, Analyzing the external environment using management
+models </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A5:
+Conducting proper evaluation and control in innovation </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Develop an awareness of the range, scope, and complexity of
+the issues and problems related to the strategic management of technology and
+innovation. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Develop an understanding of the “state of the art’ of the
+strategic management of technology and innovation. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3: Expose students to tools and concepts used by organisations
+engaged in technology intensive industries. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4: Designing Organizational structure based on the degree of
+innovation needed B5: Develop appropriate capabilities for a sustainable
+competitive advantage</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Learn the basic skills necessary to construct a technology
+strategy for an organisation. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Offer some practice in defining and working out strategic
+management problems related to technological innovation and corporate
+entrepreneurship. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Develop skills in leadership and engagement for a proper
+implementation of an innovation strategy </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Effective communication, both orally and in writing, of
+information, arguments and ideas, using language and styles appropriate for a
+business context and audience. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2:<span>&nbsp; </span>Problem-solving and
+decision-making using appropriate quantitative and qualitative skills including
+data analysis, interpretation and extrapolation. </span></p>
+
+<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:13px;">D3:&nbsp; Effective performance in a team environment
+both in face-to-face and/or virtual contexts. D4: self-appraisal and reflective
+thinking in the areas of creativity, teamwork, leadership, career selection.</span><br></td>
 										</tr>
 									</tbody>
 								</table>
@@ -4485,11 +6252,18 @@ learned course material</span>&ZeroWidthSpace;<br></span></li></span></ol><div><
 
             <div class="course-item">
                 <div class="course-title">
-                    TM290&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cryptography and Internet Security <span class="float-right">(3) Credit Hours</span>
+                    SYS280&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Principles and Practice of Systems’ Thinking <span class="float-right">(8) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    Nowadays, people shop online, work online, play online. As our lives become increasingly dependent on digital services, the need arises to protect our personal information from being maliciously intercepted, disrupted, or misused.
+                    Traditionally, problems are frequently tackled by employing simple and convenient methods to achieve simple solutions. Such simple and popular approaches are not effective in solving complex, dynamic and diverse problems.  Regardless of the preliminary seemingly simple and easy application, the emphasis seems to be on the elements of the problem, rather than the “bigger picture”. Thus, no attention is given to the interaction between the elements, with the belief that there is one best solution.  As program failures intensify there is a growing need to develop and generate improved outcomes through systems thinking.  Systems’ thinking is a discipline of seeing the “whole”, recognizing patterns and interrelationships, and learning how to innovate a more effective, efficient and creative system/holistic solution(s).  
+ 
+Holistic Systems Thinking considers the interdependent, inter-relational, and contextual aspects of phenomena and applies an integrated, inclusive mindset to problem solving.  Holistic approaches are preoccupied with the assumptions, knowledge, methods, and implications of various disciplines and treats them as an integrated whole, or system. Systems can be ecological, social, institutional, or a combination of all three, and relationships, within and between systems are recognized as complex with cyclical interdependencies, or  feedbacks. Higher-order, or emergent, properties become evident when systems are considered in this integrated fashion. 
+ 
+A holistic systems world-view is grounded in people taking responsibility for their own actions and being receptive to transformational change. Fundamental to this philosophy are personal beliefs that sustainability is a conscious choice by people to aspire to a purposeful and equitable integration of a systems view of life. Holism can be referred to using different terminology including ecological systems thinking, and ‘joined-up’ mindset. 
+ 
+This course will acquaint students with the basic concepts of systems thinking.  The primary emphasis will be the introduction of basic systems thinking fundamentals, i.e. defining a systems perspective about any situation or problem, solving problems with that perspective, drawing appropriate diagrams to illustrate the problem, describing and modeling a problem, and designing and improving upon system solutions.  
+
                 </div>
 				
 				<div class="course-details float-right">
@@ -4504,7 +6278,7 @@ learned course material</span>&ZeroWidthSpace;<br></span></li></span></ol><div><
 						<!-- Modal content-->
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="modal-title">Cryptography and Internet Security</span>
+								<span class="modal-title">Principles and Practice of Systems’ Thinking</span>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
@@ -4512,31 +6286,59 @@ learned course material</span>&ZeroWidthSpace;<br></span></li></span></ol><div><
 									<tbody>
 										<tr>
 											<td>Course Code</td>
-											<td>TM290</td>
+											<td>SYS280</td>
 										</tr>
 										<tr>
 											<td>Course Title</td>
-											<td>Cryptography and Internet Security</td>
+											<td>Principles and Practice of Systems’ Thinking</td>
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>B207B</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
-											<td>3</td>
+											<td>8</td>
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>Nowadays, people shop online, work online, play online. As our lives become increasingly dependent on digital services, the need arises to protect our personal information from being maliciously intercepted, disrupted, or misused.</td>
+											<td>Traditionally, problems are frequently tackled by employing simple and convenient methods to achieve simple solutions. Such simple and popular approaches are not effective in solving complex, dynamic and diverse problems.  Regardless of the preliminary seemingly simple and easy application, the emphasis seems to be on the elements of the problem, rather than the “bigger picture”. Thus, no attention is given to the interaction between the elements, with the belief that there is one best solution.  As program failures intensify there is a growing need to develop and generate improved outcomes through systems thinking.  Systems’ thinking is a discipline of seeing the “whole”, recognizing patterns and interrelationships, and learning how to innovate a more effective, efficient and creative system/holistic solution(s).  
+ 
+Holistic Systems Thinking considers the interdependent, inter-relational, and contextual aspects of phenomena and applies an integrated, inclusive mindset to problem solving.  Holistic approaches are preoccupied with the assumptions, knowledge, methods, and implications of various disciplines and treats them as an integrated whole, or system. Systems can be ecological, social, institutional, or a combination of all three, and relationships, within and between systems are recognized as complex with cyclical interdependencies, or  feedbacks. Higher-order, or emergent, properties become evident when systems are considered in this integrated fashion. 
+ 
+A holistic systems world-view is grounded in people taking responsibility for their own actions and being receptive to transformational change. Fundamental to this philosophy are personal beliefs that sustainability is a conscious choice by people to aspire to a purposeful and equitable integration of a systems view of life. Holism can be referred to using different terminology including ecological systems thinking, and ‘joined-up’ mindset. 
+ 
+This course will acquaint students with the basic concepts of systems thinking.  The primary emphasis will be the introduction of basic systems thinking fundamentals, i.e. defining a systems perspective about any situation or problem, solving problems with that perspective, drawing appropriate diagrams to illustrate the problem, describing and modeling a problem, and designing and improving upon system solutions.  
+</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;The aims and objectives of this module are to:<br></p><ul><li>Define the threats to network security, and describe the differences between them.</li><li>Describe encryption techniques, including symmetric and asymmetric encryption methods.</li><li>Explain the most widely used encryption algorithms and standards, with focus on internet security.</li><li>Allow students to perform independent research in the area and to critically read and analyse third party material.<br></li></ul></td>
+											<td><p style="text-align:justify;">&ZeroWidthSpace;&ZeroWidthSpace;SYS280 is a compulsory course in Business Studies/Systems' track.&nbsp; Systems thinking is an inquiry-based method of learning that uses the technique of perspective-taking, fosters holistic thinking, and engages in belief-testing. Systems theory identifies and analyzes the linkages among various elements in a system. For those new to systems theory, it is important to note that “systems" is plural. Thus, systems theory does not presume that there is one grand system to be studied. One intellectual thread of systems theory is the field of systems thinking. Systems thinking is a methodology for understanding and managing complex feedback systems such as the ones at work in business and other social systems. Systems thinking uses mapping of interrelationships as a mean to improve decision-maker understanding of how to intervene and improve system performance.&nbsp; <br></p><p style="text-align:justify;">Understanding the interworking of a system, or the relationships between the various actors of a system, is useful because it improves understanding of the outcomes of the system. For example, to understand why communities experience traffic congestion in a road system despite extensive road building requires an understanding of the relationships between the actors in the system. Students must understand how governments decide where to build or expand roads and how individuals select driving routes. If a government widens a congested road, it is likely to become congested again even if the destinations of current drivers, employment patterns, location of entertainment and service venues, and other determinants of driving patterns have not changed. The systems thinking approach builds theories for how the system works and uses them to develop insights about the behavior of the system over time, with the goal of improving system performance. The primary tools of systems thinking include system diagramming.&nbsp; </p><p style="text-align:justify;">After completing this course student will have opportunities to conduct inquire into, and represent their learning about holistic systems. Learning objectives might include: </p><ul><li>Provide an overview of the history, research and perspectives into systems thinking. </li><li>Understand and document system thinking objectives. </li><li>Demonstrate a capacity to appreciate that all actions have consequences within, between and among systems. </li><li>Establish a basic understanding of systems thinking terminology, theories, processes, methods, language and tools. </li><li>Understand how tipping points, interdependencies, feedback loops, and emergent properties impact a variety of social, economic and ecological systems. </li><li>Describe and model solutions that will enable system thinking ex. (mind maps, feedback &amp; causal loops, behavior over time diagrams, etc.) </li><li>Apply systems analysis to various problems (socio - technical, supply chain, value chain / lean, etc.). </li><li>Comprehend systemic limits such as carrying capacity and the ways humans can and do impact ecological systems. </li><li>Develop a set of diagramming techniques. This help in exploring your perceptions and understanding of a situation and in communicating this understanding to others. Specifically, you will:<br></li><li>Recognize how diagrams can be used to support thinking about complex situations.<br></li><li>Understand how diagrams can be used to develop and represent systems of interest within a complex situation.&nbsp;</li><li>Know the main types of diagrams which are most frequently used in systems thinking and practice, the purpose they serve and the conventions they use.&ZeroWidthSpace;&ZeroWidthSpace;<br></li></ul></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>Upon completing this module, students will be able to:<br></p><ol><li>Describe the operation of symmetric ciphers<br></li><li>Define and explain the differences between different encryption algorithms and standards</li><li>Describe the operation of asymmetric ciphers</li><li>Analyse and compare the performance of different encryption methods</li><li>Design and implement simple encryption algorithms</li><li>Define the most common threats to internet security, explain their operation, and discuss their differences</li><li>&nbsp;Describe the protocols and countermeasures used for protecting internet traffic&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Recognise the threats to online security&ZeroWidthSpace;</li><li>Read, evaluate, and critically review technical documents and extract useful information from these documents on topics related to cryptography and internet security</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>&nbsp;Use the studied concepts to analyse and assess the efficiency of different encryption standards</li><li>Identify the threats to internet security and take appropriate countermeasures&nbsp;&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>Upon completing this module, students will be able to:</p><ol><li>Demonstrate independent self-learning capabilities in order to tackle more advanced topics and remain up-to-date in the field of cryptography and internet security</li><li>Employ your technical writing skills on topics related to cryptography and internet security&ZeroWidthSpace;<br><br></li></ol></td>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>A. Knowledge
+and understanding</b></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1:<span>&nbsp; </span>Systemic thinking and the systems concepts
+and language. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2: The
+various ways to think about the messes they are analyzing, helping them
+understand one another, appreciate one another’s viewpoints and reduce
+conflicts and misapprehensions. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3: How they
+might function more effectively in a group by improving their working
+relationships. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4: Different
+diagrams that are mostly used in systems thinking and practice.<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><span>&nbsp;</span><span>&nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1: Critically assess the differences between being a manager and
+a systems practitioner.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2: Better think about their relationships with others and thus
+better understand the dynamics of these relationships.<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3. Develop a mentality to work as systems practitioners </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4. Recognize the importance of building explicit and implicit
+models and drawing diagrams to facilitate the understanding of complex
+situations. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1: Learn how to learn and reflect on their learning journey.<span>&nbsp;&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2: Develop techniques and practical skills that can often help to
+improve relationships and understandings with other people. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3: Develop teamwork and leadership skills</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4: Become a systems thinker and practitioner who is able to link
+theory to practice focusing on the context.<span>&nbsp;
+</span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1: Better handle complex and messy situations. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2: Develop their learning abilities and reflection skills </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3: Hone their critical and systemic skills and thus be able to
+have a helicopter view of each situation and thus better understand it and
+better cope with it. </span></p>
+
+<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:13px;">D4: Understand people
+and some aspects of organizational behaviour.</span><br></td>
 										</tr>
 									</tbody>
 								</table>
@@ -4558,11 +6360,13 @@ learned course material</span>&ZeroWidthSpace;<br></span></li></span></ol><div><
 
             <div class="course-item">
                 <div class="course-title">
-                    TM291&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Management Information System <span class="float-right">(3) Credit Hours</span>
+                    SYS380&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Managing Systems Complexity <span class="float-right">(8) Credit Hours</span>
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    This module introduces the use and relevance of information systems to managers and enterprises. Rather than providing an in depth technological treatment of information systems, this module prepares students as future managers to assess the impact of information systems on a particular enterprise. This module also introduces students to a range of skills required to manage information systems projects. It explores current Information Systems concepts and technologies. Students learn how information systems give a business or organization a competitive edge by providing technologies that help managers to plan, control and make decisions. 
+                    Engage students  with an awareness of the issues involved in managing change, moving them beyond "one-best way" approaches and providing them with access to multiple perspectives that they can draw upon in order to enhance their success in producing organizational change. These multiple perspectives provide a theme for the text as well as a framework for the way each chapter outlines different options open to managers in helping them to identify, in a reflective way, the actions and choices open to them. Multiple perspectives ensure that change managers are not trapped by a "one-best way" of approaching change that limits their options for action. Changing organizations is as messy as it is exhilarating, as frustrating as it is satisfying, as muddling-through and creative a process as it is a rational one. The module provides the student with an exploration into the tensions for those involved in managing organizational change. Rather than pretend that they do not exist it confronts them head on, identifying why they are there, how they can be managed and the limits they create for what the manager of organizational change can achieve.
+
+
                 </div>
 				
 				<div class="course-details float-right">
@@ -4577,7 +6381,7 @@ learned course material</span>&ZeroWidthSpace;<br></span></li></span></ol><div><
 						<!-- Modal content-->
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="modal-title"> Management Information System</span>
+								<span class="modal-title">Managing Systems Complexity</span>
 								<button type="button" class="close" data-dismiss="modal">×</button>
 							</div>
 							<div class="modal-body">
@@ -4585,1218 +6389,58 @@ learned course material</span>&ZeroWidthSpace;<br></span></li></span></ol><div><
 									<tbody>
 										<tr>
 											<td>Course Code</td>
-											<td>TM291</td>
+											<td>SYS380</td>
 										</tr>
 										<tr>
 											<td>Course Title</td>
-											<td> Management Information System</td>
+											<td>Managing Systems Complexity</td>
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>SYS280</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
-											<td>3</td>
+											<td>8</td>
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>This module introduces the use and relevance of information systems to managers and enterprises. Rather than providing an in depth technological treatment of information systems, this module prepares students as future managers to assess the impact of information systems on a particular enterprise. This module also introduces students to a range of skills required to manage information systems projects. It explores current Information Systems concepts and technologies. Students learn how information systems give a business or organization a competitive edge by providing technologies that help managers to plan, control and make decisions. </td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;Aspects of business that were once seen in isolation – the people, organisation, process, information and technology – are now expected to operate as part of a seamless whole, both within and across enterprises. Information systems managers are responsible for delivering this seamless integration efficiency. This module aims to:<br></p><p>1. Explain basic concepts for IT/IS management </p><p>2. Discuss organizational, business and strategic issues surrounding IT/IS, and </p><p>3. Analyse and evaluate uses of strategic IT/IS in practice.<br><br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">A. Knowledge and understanding</span></strong><br></p><p>Upon completing this module, students should be able to: </p><ol><li>Define information, strategy and customer-facing (user-centred) design theories.</li><li>Compare the impact of different types of information technologies and systems in the enterprise and competitive environment.</li><li>Select information systems as a basis for sustainable competitive advantage.</li><li>Identify the issues that must be addressed in managing information systems projects and processes across various boundaries (organisational, cultural, legal and geographical).</li><li>Describe the life cycle methodologies and methods involved in developing and managing information systems in a global competitive environment.<br></li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">B. Cognitive skills</span></strong><br></p><p>Upon completing this module, students should be able to: </p><ol><li>Demonstrate a conceptual grasp of information, strategy and user-centred (customer-facing) design theories.</li><li>Distinguish between different types of information systems and recognise enterprise-wide, innovative methods of reducing costs and improving service through management information systems.</li><li>Compare and contrast the implications on the efficiency and effectiveness of different IT competitive strategies and their sustainability in the long term.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">C. Practical and professional skills</span></strong></p><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;"></span></strong></p><p>Upon completing this module, students should be able to: </p><ol><li>Reflect, analyse and interpret information on contemporary information systems management issues.</li><li>Debate controversial issues relating to information systems deployment in organisations&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>Upon completing this module, students should be able to: </p><ol><li>Develop skills to effectively participate in a group. </li><li>Synthesise data and use application of concepts from other modules.</li><li>Improve case analysis skills.&ZeroWidthSpace;<br><br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
+											<td>Engage students  with an awareness of the issues involved in managing change, moving them beyond "one-best way" approaches and providing them with access to multiple perspectives that they can draw upon in order to enhance their success in producing organizational change. These multiple perspectives provide a theme for the text as well as a framework for the way each chapter outlines different options open to managers in helping them to identify, in a reflective way, the actions and choices open to them. Multiple perspectives ensure that change managers are not trapped by a "one-best way" of approaching change that limits their options for action. Changing organizations is as messy as it is exhilarating, as frustrating as it is satisfying, as muddling-through and creative a process as it is a rational one. The module provides the student with an exploration into the tensions for those involved in managing organizational change. Rather than pretend that they do not exist it confronts them head on, identifying why they are there, how they can be managed and the limits they create for what the manager of organizational change can achieve.
 
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM295 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System Modelling <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    System modelling is used as an essential part of the software development process; it also referred to as software modelling in this context. Models are built and analysed prior to the implementation of the system, and are used to direct the subsequent implementation. Modelling can be defined as considering the system from different views (or perspectives) in order to provide a better understanding of it. These views include (among others) requirements models, static models, and dynamic models of the software system. These different views can be further developed, understood, and communicated through the use of graphical modelling languages such as the Unified Modelling Language (UML).
-The module focuses on how to use adequate models to express software at all levels of development; from the initial specification to implementation, with a special attention paid to UML.
-
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_46">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_46" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">System Modelling</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM295 </td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>System Modelling</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>System modelling is used as an essential part of the software development process; it also referred to as software modelling in this context. Models are built and analysed prior to the implementation of the system, and are used to direct the subsequent implementation. Modelling can be defined as considering the system from different views (or perspectives) in order to provide a better understanding of it. These views include (among others) requirements models, static models, and dynamic models of the software system. These different views can be further developed, understood, and communicated through the use of graphical modelling languages such as the Unified Modelling Language (UML).
-The module focuses on how to use adequate models to express software at all levels of development; from the initial specification to implementation, with a special attention paid to UML.
 </td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><p><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;&ZeroWidthSpace;</span><span class="ms-rteThemeFontFace-1" lang="EN-GB" style="font-size:13px;">&ZeroWidthSpace;This
-module aims to introduce students to the software development process in
-general with emphasis on the software modelling and analysis phase. The unified
-modelling language is used throughout the module to illustrate the different
-models.&nbsp; &nbsp;</span><br></span></p></td>
+											<td><ul><li>Develop students with &nbsp;a multiple perspectives approach to managing change</li><li>Recognizes the variety of strategies to facilitate change interventions </li><li>Reinforce students approach for the need for a tailored and creative approach to fit different contexts</li><li>Introduce the student to new and emerging trends, developments, themes, debates, and practices in organizational development and change interventions<br><br></li></ul></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Describe the software engineering lifecycle and in particular the role of analysis and design phase in the lifecycle</li><li>Discuss the different software lifecycle models including (e.g., waterfall, agile)</li><li>Define the requirements elicitation and structuring</li><li>Explain how to use the UML models to develop and document software analysis and design artefacts.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Specify, analyse and organise requirements for a software product</li><li>Model, analyse and validate software requirements using UML and set-theoretic notations<br></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB">Apply
-appropriate UML design patterns and notations to the design of components of a
-product</span>&ZeroWidthSpace;</span></li></ol><div><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></div><div><p>Upon completing this module, students will be able to: </p><ol><li>Apply an appropriate software engineering process and tools to the task of structuring, modelling and validating requirements for a software product</li><li>Work independently, planning, monitoring, reflecting on and improving your own learning and working practices</li><li>work in a group, communicating computing ideas effectively in speech and in writing</li><li>&ZeroWidthSpace;Find, assess and apply information from a variety of sources, using information technology where necessary, in a number of assignments, including at least one significant piece of work&ZeroWidthSpace;</li></ol><strong><span lang="EN-GB" style="font-size:12pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></div><div><p>Upon completing this module, students will be able to: </p><ol><li>Design software systems</li><li>Use modern software tools, both within and outside your workplace </li><li>Communicate effectively about software modelling and design</li><li>Be able to learn independently from third-party materials, in order to keep up to date in software engineering in general and software modelling in particular<br></li></ol></div><p></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
+											<td><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><b>A. Knowledge
+and understanding</b></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A1. Modern
+trends in information systems and systems practice&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A2. The key concepts of
+software development and maintenance, including principles of design, and the
+representation and meaning of data<span> &nbsp;</span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A3.
+Systemic methods of analysis, based on diagramming, modelling and other tools,
+and how these can be used to improve computing practice and management decision
+making<span>&nbsp; </span></span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">A4. The range
+of situations in which information systems are used, the ways in which people
+interact with them and the ethical, social and legal problems that information
+systems can create. </span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p style="text-align:justify;"><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>B. Cognitive
+skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B1. Apply systems thinking to academic literature and to
+organisations, identifying suitable areas for systemic analysis and
+appreciating the technical, economic and other factors at work<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B2. Analyse complex systems, and design and evaluate strategies or
+software solutions for improving them<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B3. Describe, compare and contrast a variety of methods and tools,
+identifying the best choices and applying them to specific problems<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B4. Develop and apply suitable analytical and management
+techniques<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">B5. Explain the various roles, functions and interactions of
+Members of a workplace team. </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>C. Practical and professional skills</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C1. Design, test and evaluate information systems </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C2. Use modern approaches and tools </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C3. Identify and handle the ethical, social and legal issues that
+may arise during the design and use of information systems </span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">C4. Use diagramming and modelling tools to analyse complex
+Systems.</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">&nbsp;</span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;"><strong>D. Key transferable skills.</strong></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D1. Work independently, planning, monitoring, reflecting on and
+improving their own learning<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D2. Work in a group, communicating effectively<span>&nbsp; </span></span></p><p><span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;">D3. Find, assess and apply information from a variety of sources,
+using information technology where necessary<span>&nbsp;
+</span></span></p>
 
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM297&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Compression Methods for Multimedia <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Data compression aims at finding new ways of representing data so that it takes very little storage, while still being able to reconstruct the original data from the compressed version. Compression is applied namely when storage space is at a premium or when data needs to be transmitted and bandwidth is at a premium (which always is the case). The most important thing about compression is that it is not ``one size fits all'' approach: essentially, compression aims at specifying the characteristics of the data that needs to be compressed (mainly looking for patterns to be explored in order to achieve compact data representation). This module defines a variety of data modeling and representation techniques, which is at the heart of compression. Recently, the convergence in the field of communications, computing and entertainment industries enabled data compression to be a part of everyday life (e.g. MP3, DVD and Digital TV) and has created a number of exciting new opportunities for new applications of compression technologies.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_47">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_47" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Compression Methods for Multimedia</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM297</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Compression Methods for Multimedia</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Data compression aims at finding new ways of representing data so that it takes very little storage, while still being able to reconstruct the original data from the compressed version. Compression is applied namely when storage space is at a premium or when data needs to be transmitted and bandwidth is at a premium (which always is the case). The most important thing about compression is that it is not ``one size fits all'' approach: essentially, compression aims at specifying the characteristics of the data that needs to be compressed (mainly looking for patterns to be explored in order to achieve compact data representation). This module defines a variety of data modeling and representation techniques, which is at the heart of compression. Recently, the convergence in the field of communications, computing and entertainment industries enabled data compression to be a part of everyday life (e.g. MP3, DVD and Digital TV) and has created a number of exciting new opportunities for new applications of compression technologies.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;The aims of this module are to illustrate methods for handling and compressing different kinds of data, such as text, images, audio and video data and show data compression techniques for multimedia and other applications, especially the once used in the Internet.<br></p><p>After finishing successfully this Module you should be able to:</p><ol style="list-style-type:decimal;"><li>Compute basic statistics of data.</li><li>Apply nontrivial algorithms to real-world problems.</li><li>Outline the principles of data compression.</li><li>Discover different compression methods for text, image, audio, and video data.</li><li>Extend different compression methods and their applications in different aspects of computing.<br><br></li></ol></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">A. Knowledge and understanding</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Develop a well-founded knowledge in the field of study.</li><li>Relate other disciplines to the field of study.</li><li>Develop an international perspective on the field of study.&ZeroWidthSpace;&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">B. Cognitive skills</span></strong><br></p><p><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" lang="EN-GB" style="font-size:13px;">Upon completing this module, students will be able to:&nbsp;</span><br></span></p><ol><li>Analyse and explore information and ideas and to convey those ideas clearly and fluently, in both written and spoken forms.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li><li>&ZeroWidthSpace;Experiment effectively with others in order to work towards a common outcome.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li><li>Select and make use of appropriate level, style and means of communication.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li><li>Experiment appropriately with information and communication technologies.</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">C. Practical and professional skills</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Apply different compression methods for text, image, audio, and video data</li><li>Examine nontrivial algorithms to real-world problems</li><li>Extend different compression methods and their applications in different aspects of computing.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>Upon completing this module, students will be able to: </p><ol><li>Analyse and conclude independently.&nbsp;&nbsp;&nbsp;&nbsp; </li><li>Develop ideas and adapt innovatively to changing environments.</li><li>&nbsp;Identify problems constructs solutions, innovate and improve current practices&ZeroWidthSpace;<br><br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM298&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Operating Systems <span class="float-right">(4) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    The study of Operating Systems is essential since these are an integral part of modern IT systems. This is an introductory level module which introduces students to fundamental concepts of a variety of operating systems.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_19">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_19" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title"> Operating Systems</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM298</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td> Operating Systems</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>4</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>The study of Operating Systems is essential since these are an integral part of modern IT systems. This is an introductory level module which introduces students to fundamental concepts of a variety of operating systems.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>Provide students extensive knowledge on OS in general, OS principles and modules and how their internals work and functions.</li><li>Provide key mechanisms in design of operating systems modules.</li><li>Introduce students to definitions of the Operating Systems such as OS control all of a computer's resources and present users with the equivalent of virtual machines that are easier to program than their underlying hardware.</li><li>Teach core operating systems concepts including operating system structure, process management, synchronization and concurrency, threads, memory management techniques, process scheduling and resource management, virtual memory concepts, deadlocks.</li><li>Give an overview of fundamental operating system principles, complemented with discussions of concrete modern systems to help students understand how these principles are applied in real OSs.</li><li>Enable students to compare performance of processor scheduling algorithms.</li><li>Teach students to produce algorithmic solutions to process synchronization problems.</li><li>Provide students with a good grasp of basic abstractions employed in system-level software (such as processes, threads, virtual memory, caching, etc.),</li><li>Teach students to use modern operating system calls such as Linux process and synchronization libraries.</li><li>Develop a sense in understand designing and implementing systems and working as part of a team.<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">A. Knowledge and understanding</span></strong><br></p><p>After completing this module, students will be able to:</p><ol><li>&nbsp;Identify and learn what operating systems are, what they do.</li><li>Describe How the Operating System are designed and constructed.</li><li>&nbsp;Show what the common features of an operating system are. </li><li>Explain what an operating system does for the user, and what it does&nbsp;&nbsp; for the computer-system operator.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">B. Cognitive skills</span></strong><br></p><p>After completing this module, students will be able to:</p><ol><li>Analyze the operating system design, constructor, building, internal&nbsp;&nbsp; works, usage variety, operations, and functions.</li><li>&nbsp;Demonstrate the basis for future work in other areas of OS: hacking Linux, i.e. contribute to the Open source OS, security and so on&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">C. Practical and professional skills</span></strong><br></p><p>After completing this module, students will be able to:</p><ol><li>Implement the design simple of Operating System structures.</li><li>Demonstrate basic skills to enable you to progress to more advanced level studies at the AOU or any other university.&ZeroWidthSpace;</li></ol><p><strong><span lang="EN-GB" style="font-size:12pt;font-family:&quot;times new roman&quot;, serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>After completing this module, students will be able to:</p><ol><li>Demonstrate study skills at a level appropriate to higher education, such as timetabling study; read critically for meaning and take effective notes; and use study aids such as dictionaries and glossaries;</li><li>Identify and distinguish between number of concepts that inform the Operating system structure components.</li><li>&nbsp;Communicate appropriately with your tutor and other students using email, online conferences and forums;</li><li>&nbsp;Locate information on a given subject from the World Wide Web.&ZeroWidthSpace;<br><br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM351&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data management and analysis <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Data management and analysis (TM351) – an overview of the concepts, techniques, and tools of modern data management and analysis. The requirements of data management continually evolve.  Recently those requirements have surpassed the capabilities of traditional data management.  So, in order to better prepare our graduates for the new demands of the job market, it is necessary to address both the traditional concepts of data management as well as the increasingly important area of data analytics.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_24">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_24" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Data management and analysis</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM351</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Data management and analysis</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Data management and analysis (TM351) – an overview of the concepts, techniques, and tools of modern data management and analysis. The requirements of data management continually evolve.  Recently those requirements have surpassed the capabilities of traditional data management.  So, in order to better prepare our graduates for the new demands of the job market, it is necessary to address both the traditional concepts of data management as well as the increasingly important area of data analytics.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;<span class="ms-rteThemeFontFace-1" style="font-size:13px;">This module aims to address some of the key concepts required for the traditionally important area of data management, and the increasingly important area of data analytics. The module will compare traditional relational databases with an alternate model (a NoSQL database), and will enable students to choose between the alternatives to select an appropriate means of storing and managing data, depending on the size and structure of a particular dataset and the use to which that data will be put. Students will be introduced to preliminary techniques in data analysis, starting from the position that data is used to answer a question, and introduced to a range of data visualisation and visual analysis techniques that will instil an understanding of how to start exploring a new data set.</span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">To ensure that students are comfortable with handling datasets, they will explore a range of openly licensed real-world datasets (either downloaded from their host websites, or provided as snapshots) to illustrate the key concepts in the course. Sources such as data.gov.uk, the World Bank, and a range of other national and international agencies will be used to provide appropriate data.&nbsp; The module will aim to divide approximately equally between issues in data management (technical and socio-legal issues in storing and maintaining datasets), and issues in data analytics (using data to answer questions). Students are not expected to have a background in statistics, but should be comfortable working with mathematical concepts and will need to be competent programmers.</span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">The module will be framed around a narrative that looks at how to manage and extract value and insight from a range of increasingly large data collections. At each stage, a comparison will be drawn between different ways of representing the data (for example, using different sorts of charts or geographical mapping techniques), and limitations of the mechanisms presented. To enable students to get a feel for the use of data, each stage will also include an overview of some data analysis techniques, including summary reporting and exploratory data visualisation. The module will be driven by Richard Hamming's famous quote: The purpose of computing is insight, not numbers.</span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Some of the key ideas are:</span></p><ul><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Introducing data analysis. Starting with a text based data file such as comma separated variable (CSV) document, this unit will provide a brief introduction to some basic operations on simple data files. This will give an opportunity to provide an outline of the key ideas in the module, to ensure that the students have installed the module software correctly, and to begin to familiarise themselves with that software.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Concepts in data management. The module will look at three key areas in data management: data architectures and data access (CRUD), data integrity, and transaction management (ACID). Each of these will be illustrated using a relational database, and one non-relational alternative, and the advantages and limitations of each model discussed.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Legal and ethical issues. The module will consider the legal and ethical issues involved in managing data collections. Students will be required to obtain and read (parts of) the Data Protection Act and the Freedom of Information Act, and demonstrate how these apply to issues in data management. They will also consider privacy, ownership, intellectual property and licensing issues in data collection, management, retrieval and reuse.</span></li></span></ul><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Concepts in data analytics. These sections will focus on using data to answer a real question; the focus will be on exploratory techniques (such as visualisation) and formulating a question into a form which can realistically be answered using the data that is available. Issues in processing techniques for large and real-time streamed data collections will also be addressed along with techniques and technologies (such as mapreduce) for handling them. This part will use a statistical package such as the python scientific libraries and/or ggplot to visualise the data and carry out appropriate analyses. It is not anticipated that students will need to understand statistical methods in depth.&ZeroWidthSpace;<br></span></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Discuss and describe the similarities and differences between at least two different database models, and how they are used to manage data collections.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify and explain the legal issues surrounding data collection, usage and retention.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain the stages and process of database design&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">B. Cognitive skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Select an appropriate database model for a data collection.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use data to answer a practical question.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse a simple scenario to produce a conceptual model.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use a query language to extract information from a database.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use a statistical package to explore a data set</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Present an analysis of a dataset to a variety of audiences.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Write a report detailing a systematic approach to analysing a data set.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Gain Active listening to the stakeholders regarding their data analysis needs</span></li></span></ol><p><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate the results of data analysis to stakeholders at appropriate level</span><br></span></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM352 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web, mobile and cloud technologies <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Cloud computing and mobile technologies offer new possibilities for the production and distribution of IT applications and services. Rapid, elastic and scalable provisioning of IT resources allows organisations to be more innovative, agile and cost effective. In our personal lives, cloud and mobile technologies allow us to store, access and share information online. Storing and processing information with no clear physical location or legal authority raises important concerns around governance and security. In this module students will learn about the technical and social aspects of cloud computing and mobile technologies, and they will gain hands-on experience of these technologies.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_25">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_25" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Web, mobile and cloud technologies</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM352 </td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Web, mobile and cloud technologies</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Cloud computing and mobile technologies offer new possibilities for the production and distribution of IT applications and services. Rapid, elastic and scalable provisioning of IT resources allows organisations to be more innovative, agile and cost effective. In our personal lives, cloud and mobile technologies allow us to store, access and share information online. Storing and processing information with no clear physical location or legal authority raises important concerns around governance and security. In this module students will learn about the technical and social aspects of cloud computing and mobile technologies, and they will gain hands-on experience of these technologies.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>Provide knowledge to students about foundations of the internet and the mechanisms of web services and applications provisioning.</li><li>Teach students about the cloud model and the associated resources of a cloud infrastructure.</li><li>Impart knowledge to students about the business case for cloud and the different ways to distributing the cloud infrastructure.</li><li>Create awareness in students concerning the various challenges involved in mobile application development and the combined use of mobile technology and cloud technology.</li><li>Enable students to develop and deploy web services to an application server and perform exploration of toolkits for developing mobile applications.<br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Knowledge and understanding of:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">The different approaches to providing network applications and services including the architectures and protocols involved.<br></span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">The security and legal issues related to the adoption and use of cloud services, data and applications.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">The risks and benefits of adopting cloud and mobile technology for a range of business models.</span></li></span></ol><div><font class="ms-rteThemeFontFace-1" style="font-size:13px;"><b><strong><span lang="EN-GB">B. Cognitive skills</span></strong><br></b></font></div><div><font class="ms-rteThemeFontFace-1" style="font-size:13px;"><b><strong><span lang="EN-GB"><br></span></strong></b></font></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse and critique an organisation's approach to IT infrastructure and delivery of applications and services.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Design an effective approach to IT infrastructure for an organisation utilising cloud technology appropriately.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Create prototypes of cloud services and mobile applications.<br></span></li></span></ol><font class="ms-rteThemeFontFace-1" style="font-size:13px;"><b><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></b></font></span></div><div><font class="ms-rteThemeFontFace-1" style="font-size:13px;"><b><strong><span lang="EN-GB"><br></span></strong></b></font></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Implement IT solutions to address legal, ethical and security issues related to cloud based resources and access to data, applications and services.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Deploy, demonstrate and utilise a cloud infrastructure</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Create a mobile application and adapt this to utilise cloud based resources.<br></span></li></span></ol><font class="ms-rteThemeFontFace-1" style="font-size:13px;"><b><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></b></font></span></div><div><font class="ms-rteThemeFontFace-1" style="font-size:13px;"><b><strong><span lang="EN-GB"><br></span></strong></b></font></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Research and analyse an organisation's IT infrastructure and identify opportunities for cloud technology adoption.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Plan and produce a structured technical report detailing an approach for an organisation which is adopting cloud and mobile technologies.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;Produce a presentation to convey the means, risks and benefits for an organisation to adopt cloud and mobile technologies&ZeroWidthSpace;</span></li></span></ol></span></div></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM354&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software Engineering <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Software engineering (TM354) – the intellectual tools needed to design, build, and test software systems. This module aims to provide you with an understanding of software engineering concepts and a view of practical software development. It follows a disciplined approach to the development of software systems to meet specified requirements. You will become familiar with a wide range of techniques to support the dialogue between software engineers and an organisation’s stakeholders, and the work of the developers. You will also develop a good understanding of the different approaches to, and practices of, software development, including those followed by agile methods.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_26">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_26" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Software Engineering</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM354</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Software Engineering</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Software engineering (TM354) – the intellectual tools needed to design, build, and test software systems. This module aims to provide you with an understanding of software engineering concepts and a view of practical software development. It follows a disciplined approach to the development of software systems to meet specified requirements. You will become familiar with a wide range of techniques to support the dialogue between software engineers and an organisation’s stakeholders, and the work of the developers. You will also develop a good understanding of the different approaches to, and practices of, software development, including those followed by agile methods.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>&ZeroWidthSpace;To understand the business domain for a problem requiring a software solution or a change to an existing solution</li><li>To acquire the tools and knowledge to analyse and design such a solution or change</li><li>To understand how any chosen software architecture will impact on the satisfaction of all users requirements and expectations</li><li>To apply and reuse design expertise from a set of design patterns</li><li>To develop the skills for testing outputs of all activities throughout the development process.&ZeroWidthSpace;<br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand concepts of software development and maintenance, specialising in such topics as Web and Internet design and programming, advanced database techniques or human computer interaction</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Acquire the methods and tools used to develop a range of software systems</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify a range of situations in which computer systems are used, the ways in which people interact with them, and the ethical, social and legal problems that computer software can create.<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">B. Cognitive skills</span></strong><br></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students will be able to:</span></p><p style="text-align:justify;">&nbsp;</p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain advanced software development concepts and apply them to practical problems, including in an extended piece of work</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse problems, and design and evaluate realistic solutions to them</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Compare and contrast a variety of computing methods and tools, identifying the best choices to apply to specific problems</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain the various roles, functions and interactions of members of a software development team.<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Work independently, planning, monitoring, reflecting on and improving your own learning and working practices</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Work in a group, communicating computing ideas effectively in speech and in writing</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Find, assess and apply information from a variety of sources, using information technology where necessary, in a number of assignments, including at least one significant piece of work</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use numerical and analytical techniques confidently to solve complex problems.</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p style="text-align:justify;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this module, students will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Design, program, test and evaluate software systems</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Use modern software tools, both within and outside your workplace</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify and handle the ethical, social and legal issues that may arise during software development and use.&ZeroWidthSpace;&ZeroWidthSpace;</span><br><br></span></li></span></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM355&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Communications Technology <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Communications technology (TM355) – looks at the underlying technologies of modern electronic communications, such as mobile data and telephony, broadband, Wi-Fi, and optical fiber. Electronic communication is ubiquitous in homes, offices and urban environments. This module gives students an insight into these and other questions, by looking at the fundamental principles of communications technologies. Through these principles students will gain an insight into the possibilities and constraints of modern communications technology. This module complements other modules relating to networking (e.g., T215A/B, T216A/B and T316). 
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_27">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_27" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Communications Technology</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM355</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Communications Technology</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Communications technology (TM355) – looks at the underlying technologies of modern electronic communications, such as mobile data and telephony, broadband, Wi-Fi, and optical fiber. Electronic communication is ubiquitous in homes, offices and urban environments. This module gives students an insight into these and other questions, by looking at the fundamental principles of communications technologies. Through these principles students will gain an insight into the possibilities and constraints of modern communications technology. This module complements other modules relating to networking (e.g., T215A/B, T216A/B and T316). </td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;TM355 is framed fairly precisely by its areas of interest: layers 1 and 2 of the OSI seven-layer model, that is the Physical Layer (layer 1) and the Data Link Layer (layer 2); and the three access technologies of optical fibre, DSL broadband and wireless.</span></p><p><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Within this framing, TM355 is concerned to reveal and explore commonalities that cut across these technologies, such as Shannon's law, multiple access (which increasingly means orthogonal frequency division multiple access, or OFDMA), modulation techniques (in the digital world, almost synonymous with quadrature amplitude modulation, or QAM), error detection and correction, and coding. A thorough understanding of the principles of these common technologies will equip students to understand a range of communication technologies, and to understand their potential and limitations</span><br></span></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB" style="color:black;">A. Knowledge and
-understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Have a sound grasp of the essential vocabulary of communications technology, be able to deploy it appropriately, and be able to explain them</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand the main principles and constraints of digital communications technology at the physical and data link layers, and employ them to analyse and assess communication scenarios.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand the essential limits and trade-offs that are inherent in practical communication systems&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="color:black;">B. Cognitive skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use relevant data related to a communication system to model its behaviour and assess performance and resource requirements.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain how and why particular communications configurations and systems are used, discuss their potential and limitations.<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="color:black;">C. Practical and
-professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Write a short report or essay discussing applications of communications technology.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Be able to use third-party material critically.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Be able to incorporate copyrighted material appropriately&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB" style="color:black;">D Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Assess and synthesise information from a range of sources in order to offer an informed judgement on applications of communication technology.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Develop your own learning skills in topics related to communications technology.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;Be able to learn independently from third-party materials, in order to keep up to date in communications technology.&ZeroWidthSpace;&ZeroWidthSpace;</span></li></span></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM356 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Interaction design and user experience <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Interaction design and the user experience (TM356) – in this module the students will learn the importance of user-centred design, and acquire practical skills for designing the interactive products for everyday life.
-From apps, phones and business systems to wearables, the web and the Internet of Things, interactive products are the stuff of everyday life. But how can interactions be designed to best meet their purposes, offer good user experiences, and be easy, satisfying and enjoyable to use? How can interactions be evaluated effectively when their users, purposes and contexts of use vary so widely? In this module we take a user-centred approach through which the student will learn about the factors, techniques, tools and theories that affect interaction design and acquire practical skills that will equip the student to analyse, design, and evaluate the interactive products of everyday life. Why are some interactive products so popular? How do you create products that everybody wants? One of the fundamental things the student will learn in this module is the importance of user-centred design. In this context, this module complements the rest of Web Development modules.
-
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_28">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_28" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title"> Interaction design and user experience</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM356 </td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td> Interaction design and user experience</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Interaction design and the user experience (TM356) – in this module the students will learn the importance of user-centred design, and acquire practical skills for designing the interactive products for everyday life.
-From apps, phones and business systems to wearables, the web and the Internet of Things, interactive products are the stuff of everyday life. But how can interactions be designed to best meet their purposes, offer good user experiences, and be easy, satisfying and enjoyable to use? How can interactions be evaluated effectively when their users, purposes and contexts of use vary so widely? In this module we take a user-centred approach through which the student will learn about the factors, techniques, tools and theories that affect interaction design and acquire practical skills that will equip the student to analyse, design, and evaluate the interactive products of everyday life. Why are some interactive products so popular? How do you create products that everybody wants? One of the fundamental things the student will learn in this module is the importance of user-centred design. In this context, this module complements the rest of Web Development modules.
-</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;The student will learn the value of moving away from his/her desk and 'stepping out into the world' to involve potential users in his/her early design ideas for interactive products. It is all too easy to assume that other people think, feel and behave in the same way as the designer or developer, do. It is essential to take into account the diversity among users and their different perspectives and getting their feedback will help to avoid any errors and misunderstandings that may not have thought of. Involving users in the process is vital to creating great products and makes good business sense.</span></p><p><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Through hands-on activities the student will work through the design process on a topic chosen by himself/herself (with tutor's guidance). The student will develop skills that will be important to him/her in a variety of employment settings – whether working as a developer as part of a large software development team, as a partner in a small start-up, or in some other role involved in the managing of, or decision making around interactive products that will be used by people</span><br></span></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module students will have knowledge and understanding of:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">What interaction design is about and the importance of user centred design and methods that take into account activities and tasks, context of use and user experiences; </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;The sensory, cognitive and physical capabilities of users and how these inform the design of interactive products;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;The process of interaction design including requirements elicitation, prototyping, evaluation and the need for iteration.<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">B. Cognitive skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Analyse and critique the design of interactive products;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Select, adapt and apply suitable interaction design approaches and techniques towards the design of an interactive product;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Construct prototypes for diverse purposes using appropriate materials or tools;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Analyse and critique how interaction design activities have been conducted.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module students will be able to:</span></p><ol><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Define a suitable programme of user involvement that treats users ethically and fairly.<br></span></li></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the module students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Construct and convey an argument from a variety of sources to persuade a non-specialist audience of the importance of user-centred design when designing interactive products;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;Communicate effectively about requirements, design, and evaluation activities relating to interactive products;</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;&nbsp;To progress your own learning independently using materials and publications from a wide variety of sources</span>.&ZeroWidthSpace;<br></span></li></span></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM366&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Artificial intelligence <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Basic concepts in artificial intelligence are being used in huge research projects all over the world for the last three decades. This includes research and development at the industrial and academic levels. The module introduces the students to the basics natural intelligence where AI has been inspired and presents the AI concepts and techniques that are being used in advanced AI projects. 
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_29">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_29" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Artificial intelligence</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM366</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Artificial intelligence</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Basic concepts in artificial intelligence are being used in huge research projects all over the world for the last three decades. This includes research and development at the industrial and academic levels. The module introduces the students to the basics natural intelligence where AI has been inspired and presents the AI concepts and techniques that are being used in advanced AI projects. </td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;T</span><span class="ms-rteThemeFontFace-1" style="font-size:13px;">o provide the students
-with an understanding of the fundamental concepts involved in natural and
-artificial intelligence (ASO, PSO, neural networks, evolutionary computing,
-robotics and genetic computing).</span><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;</span><br></span></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completion of this module the student will gain knowledge and &nbsp;understanding of: </span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">The aims of, and motivations for, artificial intelligence;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">The principal techniques used in traditional approaches to artificial intelligence, i.e. knowledge representation and search;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">The four key principles of nouvelle AI: interaction, emergence, adaptation and selection;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">The biological basis of modern techniques in AI;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Key concepts and methods in artificial neural networks;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Key concepts and methods in evolutionary computation.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">B. Cognitive skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completion of this module the student will be able to: </span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse a problem in terms of its amenability to solution by various computational methods;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Formulate computational solutions to diverse problems;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Select and use appropriate mathematical representations for a range of problem solving systems;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Compare, contrast and evaluate competing approaches to computational problem solving and the simulation of intelligence;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Synthesise the main concepts of the module into a clear and critical view of the strengths, weaknesses and future direction of AI.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completion of this module the student will be able to:<span style="text-decoration:underline;"><strong> </strong></span></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse, design and evaluate computer simulations;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Construct computer systems using an appropriate tool;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Carry out experiments, with careful recording, analysis and evaluation of results;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use basic research techniques&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completion of this module the student will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply appropriate computational problem-solving techniques to a range of problems;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate computational ideas relating to AI in clear and concise written English;</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use appropriate graphical, logical and mathematical representations to characterize various types of AI system;</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Exercise general numeracy and problem-solving skills</span>.&ZeroWidthSpace;&ZeroWidthSpace;<br><br></span></li></span></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM391&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-Commerce <span class="float-right">(3) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Technologies of the Internet are essential for conducting businesses in this information age and this module is meant to provide the foundations for e-Commerce Technologies, help in selecting appropriate technology infrastructure and security measures.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_48">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_48" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">E-Commerce</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM391</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>E-Commerce</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Technologies of the Internet are essential for conducting businesses in this information age and this module is meant to provide the foundations for e-Commerce Technologies, help in selecting appropriate technology infrastructure and security measures.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;The module aims to provide an understanding of e-business and its associated technologies. The basics of online commerce will be introduced along with the elements that are particular to an electronic marketplace.<br></p><p>The module aims to provide students with:</p><ol><li>An understanding and the nature of e-Commerce, recognize the business impact and potential of e-Commerce.</li><li>Basic understanding of internet technologies and network infrastructure.</li><li>Major business and revenue models and how to do marketing online, communicating with different market segments.</li><li>Strategies that business uses to improve purchasing, logistics and other support activities, including how Electronic Data Interchange (EDI) works.</li><li>Understanding key characteristics of different major auction types, strategies for web auction sites and auction-related businesses.</li><li>Web server basics, software for web servers and web server hardware.</li><li>Finding and evaluating web hosting services, basic and advance functions of e-commerce software.</li><li>Online security issues, security for communication channels between computers, networks and major servers offering web and e-commerce services.</li><li>The basic function of online payment systems, the use of payment cards in electronic commerce. History and function of electronic cash, including electronic wallets and other internet payment technologies and the banking industry.&ZeroWidthSpace;</li></ol><p><br></p></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong><br></p><p>On completion of the module students will be able to:<br></p><ol><li>Discuss the relationships between e-business and technological developments on the Internet, familiarity with e-business models, B2B, B2C, C2C, comprehend Supply-Chain and Value-Chain concepts.</li><li>Describe a set of e-business models, relationships and strategic issues that arise from the deployment of e-business systems </li><li>Describe various revenue models and how to market on the web, and what e-marketers are doing in the real world.</li><li>Describe the function of protocols and standards used in data exchange</li><li>Describe various auction models; perform virtual communications and interacting with web portals.</li><li>Describe the use of HTML, XML, syntax, properties and processing of XML documents, DTDs and schemas</li><li>Describe the architecture, operation, standards, protocols, and technologies used in the construction, discovery, and use of web services.</li><li>Describe the key dimension of e-commerce security.</li><li>Describe the features of e-commerce payment systems in use.<br></li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></p><p>On completion of the module students will be able to:<br></p><ol><li>Relate the business with the technology opportunities and challenges afforded by e-business.</li><li>Critically evaluate an e-business strategy using a suitable framework, appropriate models and current terminology.</li><li>Construct a sound argument that makes use of an appropriate vocabulary with critical use of relevant supporting references.</li><li>Analyse design, develop, implement and manage secure e-commerce systems using a range of tools and techniques, across a range of business contexts to meet various stakeholders requirements.</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>On completion of the module students will be able to:<br></p><ol><li>Utilize the key protocols of the Internet (especially http, ftp and email), create and edit, HTML XML documents, basics of scripting languages such as PHP, able to create web based data driven applications.</li><li>Choose hardware and software, required for setting up e-commerce business.</li><li>Apply the various e-commerce models and on-line marketing, including auctions and web selling.</li><li>Compare the various on-line payment systems.</li><li>Utilize the various security mechanisms to protect e-commerce systems.<br></li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></p><p>On completion of the module students will be able to:<br></p><ol><li>Plan, monitor and evaluate own learning and seek ways to improve the performance.</li><li>Develop secure, flexible, information and communication architectures that support the changing needs of the business.</li><li>Evaluate, and use information or data accurately in complex contexts.&ZeroWidthSpace;<br></li></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM471&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Telematics project CS <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    The objective of this module is to provide the students with the opportunity to apply the theoretical and the practical concepts they have learnt during the lower level courses to a real and tangible project. During their last year, students are required in this module to submit a project proposal consistent with the computer science track. They need to use the skills they have acquired in order to accomplish their presumptive proposal.  Beside the deliverable and the assessments, each student has to submit a report that sums up the plan-do-review cycle of his/her work and has to present the findings in front of a faculty committee. 
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_30">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_30" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">The Telematics project CS</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM471</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>The Telematics project CS</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>The objective of this module is to provide the students with the opportunity to apply the theoretical and the practical concepts they have learnt during the lower level courses to a real and tangible project. During their last year, students are required in this module to submit a project proposal consistent with the computer science track. They need to use the skills they have acquired in order to accomplish their presumptive proposal.  Beside the deliverable and the assessments, each student has to submit a report that sums up the plan-do-review cycle of his/her work and has to present the findings in front of a faculty committee. </td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;On successful completion of this course, students will be able to:</p><ul><li>Undertake practical projects to solve problems in the area of ITC.</li><li>Perform literature search on a selected topic of interest.</li><li>Apply what they have learnt to plan a project and develop a deliverable.</li><li>Produce project plans for successful undertaking of practical projects.</li><li>Write a detailed project report and communicate their ideas clearly.</li><li>Present their ideas and work formatively before an audience while progressing in their project.</li><li>Present their findings, outcome and deliverable before an audience&ZeroWidthSpace;<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Demonstrate understanding of the fundamental technical concepts and principles relevant to their project</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply a systematic approach towards the practical implementation of their project</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Plan a project while preparing a detailed schedule of the project tasks and milestones for 8 months.<br></span></li></span></ol><p><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB"><strong><span lang="EN-GB">B. Cognitive skills</span></strong><br></span></strong></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify and refine the goals and content of their project</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify, list and justify the resources, skills and activities needed to carry out the project successfully</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Conduct a proper literature search. Gather, analyse and evaluate relevant information to complete the project successfully</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Critically review how they have tackled the project<br></span></li></span></ol><p><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></strong></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Plan and organize their project work appropriately, and keep systematic records of plans, progress and outcomes</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify and address the ethical, social and legal issues that may arise during the development and use of Computing and IT systems</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse a practical problem and devise and implement a solution building on the knowledge and skills developed throughout their earlier OU studies and experience.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Provide a tangible solution by accomplishing their deliverable according to their project requirements.</span></li></span></ol><p><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></strong></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Make effective use of a variety of information sources,&nbsp;including the internet, e-library and demonstrating awareness of the credibility of the source</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate information, ideas, problems and solutions clearly</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Learn independently and reflect on what has been done, with a view to improving skills and knowledge</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;Present their work in a professional manner while addressing the audience in the domain.&ZeroWidthSpace;</span><br></span></li></span></ol></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM471&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Telematics project CwB <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    TM471 is a final year projects course. Students are expected to select topics of their projects consistent with their track that is, directly related to the computing with business track, and also, make use of the skills they have learnt throughout their studies in lower level modules to plan a project, develop it and submit a report on completion of the project. They are expected to do a presentation and perform a working demonstration of their selected project.  
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_31">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_31" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">The Telematics project CwB</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM471</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>The Telematics project CwB</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>TM471 is a final year projects course. Students are expected to select topics of their projects consistent with their track that is, directly related to the computing with business track, and also, make use of the skills they have learnt throughout their studies in lower level modules to plan a project, develop it and submit a report on completion of the project. They are expected to do a presentation and perform a working demonstration of their selected project.  </td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;On successful completion of this course, students will be able to:<br></p><ol><li>Undertake practical computing projects to solve problems in the area of business.</li><li>Perform literature search on a selected topic of interest.</li><li>Apply what they have learnt to plan a project and develop a deliverable.</li><li>Produce project plans for successful undertaking of practical projects.</li><li>Write a detailed project report and communicate their ideas clearly.</li><li>Present their ideas and work formatively before an audience while progressing in their project.</li><li>Present their findings, outcome and deliverable before an audience<br><br></li></ol></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p>&ZeroWidthSpace;<strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">A. Knowledge and understanding</span></strong>&ZeroWidthSpace;<br></p><p>Upon completing this course, students will be able to:</p><ol><li>Demonstrate understanding of the fundamental technical concepts and principles relevant to their project</li><li>Apply a systematic approach towards the practical implementation of their project</li><li>Plan a project while preparing a detailed schedule of the project tasks and milestones for 8 months.<br></li></ol><p><strong>B. Cognitive skills</strong><br></p><p>Upon completing this course, students will be able to:</p><ol><li>Identify and refine the goals and content of their project</li><li>Identify, list and justify the resources, skills and activities needed to carry out the project successfully</li><li>Conduct a proper literature search. Gather, analyse and evaluate relevant information to complete the project successfully</li><li>Critically review how they have tackled the project<br></li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></p><p>Upon completing this course, students will be able to:<br></p><ol><li>Plan and organize their project work appropriately, and keep systematic records of plans, progress and outcomes</li><li>Identify and address the ethical, social and legal issues that may arise during the development and use of Computing and IT systems</li><li>Analyse a practical problem and devise and implement a solution building on the knowledge and skills developed throughout their earlier OU studies and experience.</li><li>Provide a tangible solution by accomplishing their deliverable according to their project requirements.</li></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;">D. Key transferable skills</span></strong>&ZeroWidthSpace;<br></p><p>Upon completing this course, students will be able to:</p><ol><li>Make effective use of a variety of information sources,&nbsp;including the internet, e-library and demonstrating awareness of the credibility of the source</li><li>Communicate information, ideas, problems and solutions clearly</li><li>Learn independently and reflect on what has been done, with a view to improving skills and knowledge</li><li>Present their work in a professional manner while addressing the audience in the domain&ZeroWidthSpace;</li></ol><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM471&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Telematics project ITC <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    TM471 is a final year projects course. Students are expected to select topics of their projects consistent with their track that is, directly related to the information technology and computing track, and also, make use of the skills they have learnt throughout their studies in lower level modules to plan a project, develop it and submit a report on completion of the project. They are expected to do a presentation and perform a working demonstration of their selected project.  
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_32">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_32" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title"> The Telematics project ITC</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM471</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td> The Telematics project ITC</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>TM471 is a final year projects course. Students are expected to select topics of their projects consistent with their track that is, directly related to the information technology and computing track, and also, make use of the skills they have learnt throughout their studies in lower level modules to plan a project, develop it and submit a report on completion of the project. They are expected to do a presentation and perform a working demonstration of their selected project.  </td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;On successful completion of this course, students will be able to:</span></p><ul><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Undertake practical projects to solve problems in the area of ITC.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Perform literature search on a selected topic of interest.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply what they have learnt to plan a project and develop a deliverable.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Produce project plans for successful undertaking of practical projects.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Write a detailed project report and communicate their ideas clearly.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Present their ideas and work formatively before an audience while progressing in their project.</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Present their findings, outcome and deliverable before an audience</span><br></span></li></span></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong>A. Knowledge and understanding&ZeroWidthSpace;</strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Demonstrate understanding of the fundamental technical concepts and principles relevant to their project</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply a systematic approach towards the practical implementation of their project</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Plan a project while preparing a detailed schedule of the project tasks and milestones for 8 months.<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify and refine the goals and content of their project</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify, list and justify the resources, skills and activities needed to carry out the project successfully</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Conduct a proper literature search. Gather, analyse and evaluate relevant information to complete the project successfully</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Critically review how they have tackled the project<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Plan and organize their project work appropriately, and keep systematic records of plans, progress and outcomes</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify and address the ethical, social and legal issues that may arise during the development and use of Computing and IT systems</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse a practical problem and devise and implement a solution building on the knowledge and skills developed throughout their earlier OU studies and experience.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Provide a tangible solution by accomplishing their deliverable according to their project requirements.</span></li></span></ol><p><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong></p><p><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB"></span></strong></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Make effective use of a variety of information sources,&nbsp;including the internet, e-library and demonstrating awareness of the credibility of the source</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate information, ideas, problems and solutions clearly</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Learn independently and reflect on what has been done, with a view to improving skills and knowledge</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;Present their work in a professional manner while addressing the audience in the domain.&ZeroWidthSpace;</span></li></span></ol><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM471&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Telematics project NS <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    Networking track students need to develop projects where they can integrate what they have seen throughout their study in lower level module in on project. This can be achieved through the TM471 module where practical proposals are to be developed during two semesters that solve or at least simulate real life networking projects. The module is assessed through formative assessments where supervisors provide their students with feedback on their progress, and, through formative assessments where the students have to defend their finding in front of a faculty committee where the presentation skills and the project deliverable are evaluated. The students are required as well to provide a scientific project report.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_33">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_33" class="modal fade" role="dialog" style="display: none;" aria-hidden="true">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">The Telematics project NS</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM471</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>The Telematics project NS</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>Networking track students need to develop projects where they can integrate what they have seen throughout their study in lower level module in on project. This can be achieved through the TM471 module where practical proposals are to be developed during two semesters that solve or at least simulate real life networking projects. The module is assessed through formative assessments where supervisors provide their students with feedback on their progress, and, through formative assessments where the students have to defend their finding in front of a faculty committee where the presentation skills and the project deliverable are evaluated. The students are required as well to provide a scientific project report.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;&ZeroWidthSpace;On successful completion of this course, students will be able to:</span></p><ul><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Undertake practical projects to solve problems in the area of ITC.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Perform literature search on a selected topic of interest.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Apply what they have learnt to plan a project and develop a deliverable.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Produce project plans for successful undertaking of practical projects.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Write a detailed project report and communicate their ideas clearly.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Present their ideas and work formatively before an audience while progressing in their project.</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Present their findings, outcome and deliverable before an audience</span><br></span></li></span></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span style="font-size:13px;">&ZeroWidthSpace;<strong>A. Knowledge and understanding</strong><br></span></p><p>Upon completing this course, students will be able to:</p><ol><span style="font-size:13px;"><li>demonstrate understanding of the fundamental technical concepts and principles relevant to their project</li><li>Students should be able to apply a systematic approach towards the practical implementation of their project</li><li>Students should be able to plan a project while preparing a detailed schedule of the project tasks and milestones for 8 months.<br></li></span></ol><div><span style="font-size:13px;"><strong><span lang="EN-GB" style="font-family:arial, sans-serif;">B. Cognitive skills</span></strong><br></span></div><p>&nbsp;</p><p>Upon completing this course, students will be able to:</p><ol><span style="font-size:13px;"><li>Identify and refine the goals and content of their project</li><li>Identify, list and justify the resources, skills and activities needed to carry out the project successfully</li><li>Conduct a proper literature search. Gather, analyse and evaluate relevant information to complete the project successfully</li><li>Critically review how they have tackled the project<br></li></span></ol><p><span style="font-size:13px;"><strong><span lang="EN-GB" style="font-family:arial, sans-serif;">C. Practical and professional skills</span></strong><br></span></p><p>Upon completing this course, students will be able to:</p><ol><span style="font-size:13px;"><li>Plan and organize their project work appropriately, and keep systematic records of plans, progress and outcomes</li><li>Identify and address the ethical, social and legal issues that may arise during the development and use of Computing and IT systems</li><li>Analyse a practical problem and devise and implement a solution building on the knowledge and skills developed throughout their earlier OU studies and experience.</li><li>Provide a tangible solution by accomplishing their deliverable according to their project requirements.</li></span></ol><p><span style="font-size:13px;"><strong><span lang="EN-GB" style="font-family:arial, sans-serif;">D. Key transferable skills&nbsp;</span></strong><br></span></p><p>Upon completing this course, students will be able to:</p><ol><span style="font-size:13px;"><li>Make effective use of a variety of information sources,&nbsp;including the internet, e-library and demonstrating awareness of the credibility of the source</li><li>Communicate information, ideas, problems and solutions clearly</li><li>Learn independently and reflect on what has been done, with a view to improving skills and knowledge</li><li>Present their work in a professional manner while addressing the audience in the domain.&ZeroWidthSpace;<br></li></span></ol><p><strong><span lang="EN-GB" style="font-size:11pt;font-family:arial, sans-serif;"><br></span></strong></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TM471&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Telematics project WD <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    In this module, students will have the opportunity to develop a project and learn to produce the professional documentation accompanying any project implementation. Focusing on web development, this module will help students to be more prepared for the market, because, they are required to plan and implement a web development project that is, at the same level, or higher, than the web systems based on latest web development techniques. Students work is assessed through tutor marked assessments where continuous feedback is provided from the students’ supervisor, and, the final product will be judged by a faculty committee. Students are required to work on their project presentation skill as well, because, this skill will be evaluated by the faculty committee as well during the project defense.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_34">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_34" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">The Telematics project WD</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TM471</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>The Telematics project WD</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>In this module, students will have the opportunity to develop a project and learn to produce the professional documentation accompanying any project implementation. Focusing on web development, this module will help students to be more prepared for the market, because, they are required to plan and implement a web development project that is, at the same level, or higher, than the web systems based on latest web development techniques. Students work is assessed through tutor marked assessments where continuous feedback is provided from the students’ supervisor, and, the final product will be judged by a faculty committee. Students are required to work on their project presentation skill as well, because, this skill will be evaluated by the faculty committee as well during the project defense.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><p>&ZeroWidthSpace;On successful completion of this course, students will be able to:</p><ul><li>Undertake practical projects to solve problems in the area of ITC.</li><li>Perform literature search on a selected topic of interest.</li><li>Apply what they have learnt to plan a project and develop a deliverable.</li><li>Produce project plans for successful undertaking of practical projects.</li><li>Write a detailed project report and communicate their ideas clearly.</li><li>Present their ideas and work formatively before an audience while progressing in their project.</li><li>Present their findings, outcome and deliverable before an audience&ZeroWidthSpace;<br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">demonstrate understanding of the fundamental technical concepts and principles relevant to their project</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Students should be able to apply a systematic approach towards the practical implementation of their project</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Students should be able to plan a project while preparing a detailed schedule of the project tasks and milestones for 8 months.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify and refine the goals and content of their project</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify, list and justify the resources, skills and activities needed to carry out the project successfully</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Conduct a proper literature search. Gather, analyse and evaluate relevant information to complete the project successfully</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Critically review how they have tackled the project</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&nbsp;<strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Plan and organize their project work appropriately, and keep systematic records of plans, progress and outcomes</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Identify and address the ethical, social and legal issues that may arise during the development and use of Computing and IT systems</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse a practical problem and devise and implement a solution building on the knowledge and skills developed throughout their earlier OU studies and experience.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Provide a tangible solution by accomplishing their deliverable according to their project requirements.&ZeroWidthSpace;</span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Upon completing this course, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Make effective use of a variety of information sources,&nbsp;including the internet, e-library and demonstrating awareness of the credibility of the source</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate information, ideas, problems and solutions clearly</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Learn independently and reflect on what has been done, with a view to improving skills and knowledge</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;Present their work in a professional manner while addressing the audience in the domain&ZeroWidthSpace;</span></li></span></ol><p><br></p></td>
-										</tr>
-									</tbody>
-								</table>
-								
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-                
-                
-            </div>
-
-        
-
-            <div class="course-item">
-                <div class="course-title">
-                    TT284&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web technologies <span class="float-right">(8) Credit Hours</span>
-                    <div class="clear"></div>
-                </div>
-                <div class="course-desc">
-                    This module is meant to introduce students to the foundations of web applications, including protocols, standards and content handling.
-                </div>
-				
-				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_20">View More Details</a>
-                </div>
-				
-				<div class="clear"></div>
-				
-				<!-- Modal -->
-				<div id="modal_20" class="modal fade" role="dialog">
-					<div class="modal-dialog modal-lg modal-dialog-centered">
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="modal-title">Web technologies</span>
-								<button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-							<div class="modal-body">
-								<table class="table table-striped">
-									<tbody>
-										<tr>
-											<td>Course Code</td>
-											<td>TT284</td>
-										</tr>
-										<tr>
-											<td>Course Title</td>
-											<td>Web technologies</td>
-										</tr>
-										<tr>
-											<td>Pre-requisite</td>
-											<td>-</td>
-										</tr>
-										<tr>
-											<td>Credit Hours</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>Course Description</td>
-											<td>This module is meant to introduce students to the foundations of web applications, including protocols, standards and content handling.</td>
-										</tr>
-										<tr>
-											<td>Course Objectives</td>
-											<td><ul><li>give students an insight into architectures, protocols, standards, languages, tools and techniques;</li><li>give students an understanding of approaches to more dynamic and mobile content;&ZeroWidthSpace;<br><br></li></ul></td>
-										</tr>
-										<tr>
-											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After completing this module, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe how the development of the Web has enabled the creation of new forms of information systems and impacted commerce and public services.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain different architectural approaches to application design and contrast traditional approaches with the underlying client–server model of Web applications.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the roles of the range of protocols and standards associated with Web applications and their communications, for the development of web applications.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain the operation and properties of service, distributed and mobile approaches to web architecture.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Demonstrate knowledge of a range of different programming languages and explain their differing roles and properties for web applications.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Discuss issues of web design including, accessibility, usability, localisation and globalisation and the nature of static and dynamic content and different content delivery approaches</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain a range of security issues including secure protocols, use of certificates, authentication, authorisation, and firewalls&ZeroWidthSpace;</span></li></span></ol><p><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB"><strong>B. Cognitive skills</strong><br></span></strong></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After completing this module, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Analyse requirements to produce a design for a simple web application, applying an understanding of requirements for aspects such as usability and accessibility.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe a suitable architecture, components and standards as the basis for implementation of a web application for a public or business organisation.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Construct, using appropriate code, a simple web application selecting and reusing code etc where appropriate. , transforms content and integrates services to produce a mobile application&ZeroWidthSpace;</span></li></span></ol><p><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></strong></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After completing this module, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Outline the importance of standards and standardisation bodies.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Maintain an up-to-date view of ongoing developments in web technology including standards and techniques.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Produce and manage design and development plans for a specific technical solution to a challenge in Web application development.&ZeroWidthSpace;</span></li></span></ol><p><strong class="ms-rteThemeFontFace-1" style="font-size:13px;"><span lang="EN-GB"><strong><span lang="EN-GB">D. Key transferable skills&nbsp;</span></strong><br></span></strong></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After completing this module, students will be able to:</span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Find, select and use information from a range of sources to support analysis, design and implementation tasks.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Plan and produce a well-structured and researched quality report as part of a project.</span></li><li><span style="font-size:13px;"><span class="ms-rteThemeFontFace-1" style="font-size:13px;">&ZeroWidthSpace;Plan and manage effort and progress whilst undertaking a substantial project.&ZeroWidthSpace;</span><br></span></li></span></ol></td>
+<span lang="EN-GB" style="font-family:&quot;calibri&quot;,sans-serif;font-size:13px;">D4. Use numerical and
+analytical techniques to solve problems.</span><br></td>
 										</tr>
 									</tbody>
 								</table>
@@ -5822,17 +6466,17 @@ robotics and genetic computing).</span><span class="ms-rteThemeFontFace-1" style
                     <div class="clear"></div>
                 </div>
                 <div class="course-desc">
-                    This is an introductory course which introduces students to the essential concepts related to computing essentials. This is a fundamental course for all students enrolled in AOU.
+                    TU170 introduces students to the essential concepts related to using computers with confidence. This is a fundamental course that familiarizes students with basic concepts of information technology, internet and web. The course also introduces students to practical skills for using computers as well as basic software and hardware applications.
                 </div>
 				
 				<div class="course-details float-right">
-                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_36">View More Details</a>
+                    <a class="btn btn-sm" href="#" data-toggle="modal" data-target="#modal_92">View More Details</a>
                 </div>
 				
 				<div class="clear"></div>
 				
 				<!-- Modal -->
-				<div id="modal_36" class="modal fade" role="dialog">
+				<div id="modal_92" class="modal fade" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered">
 						<!-- Modal content-->
 						<div class="modal-content">
@@ -5853,7 +6497,7 @@ robotics and genetic computing).</span><span class="ms-rteThemeFontFace-1" style
 										</tr>
 										<tr>
 											<td>Pre-requisite</td>
-											<td>-</td>
+											<td>EF003</td>
 										</tr>
 										<tr>
 											<td>Credit Hours</td>
@@ -5861,15 +6505,15 @@ robotics and genetic computing).</span><span class="ms-rteThemeFontFace-1" style
 										</tr>
 										<tr>
 											<td>Course Description</td>
-											<td>This is an introductory course which introduces students to the essential concepts related to computing essentials. This is a fundamental course for all students enrolled in AOU.</td>
+											<td>TU170 introduces students to the essential concepts related to using computers with confidence. This is a fundamental course that familiarizes students with basic concepts of information technology, internet and web. The course also introduces students to practical skills for using computers as well as basic software and hardware applications.</td>
 										</tr>
 										<tr>
 											<td>Course Objectives</td>
-											<td><ul><li>To develop basic skills of “<em>Learning"</em></li><li>To know e-Learning: meaning, accessibility, skills, and resources</li><li>To familiarize with the basic concepts of Information Technology: Internet, Web, and Systems</li><li>To familiarize with basic computer system applications: software and hardware</li><li>To learn some practical skills for using computers</li><li>To introduce the concepts of: Security and Ethics<br><br></li></ul></td>
+											<td><p>&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;<br></p></td>
 										</tr>
 										<tr>
 											<td>Course Outcomes</td>
-											<td><p><span class="ms-rteThemeFontFace-1 ms-rteFontSize-3" style="font-size:13px;">&ZeroWidthSpace;<strong><span lang="EN-GB">A. Knowledge and understanding</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the course, the student will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand terminologies related to IT and computer</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand the different learning styles</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the difference between Conventional and blended-learning education systems</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand how to read and take notes in the process of learning</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the social media types and facilities</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Have a background about the Web and Internet inventions</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand and explain what is information system and technology</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Know the types of applications</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the e-commerce</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain different part in computer system (Hardware such as system unite, input and output, memory and processor)</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Explain different terms in communication such as network, connectivity, wireless, server, client)</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Understand clearly what is the difference between privacy and security)</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe what are computer ethics and computer crime&nbsp;<br></span></li></span></ol><div><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong>B. Cognitive skills</strong><br><br></span></div><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">After studying the course, the student will be able to:<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Learn by himself</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Deal with computer problems</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the difference between different learning styles</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Describe the web and search engines<br></span></li></span></ol><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;"><strong><span lang="EN-GB">C. Practical and professional skills</span></strong><br></span></p><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">To be able to<br></span></p><ol><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Operate the computer system properly</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Interact with applications and programs such as (MS office) confidently</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Communicate with others electronically (Email, instant messaging, blogs, micro-blogs and wikis)</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Read analytically and critically for the purpose of learning </span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Avoid plagiarisms</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Initiate a transaction electronically (e-commerce) in a secure way</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use the social media in the process of learning and communication with others.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Connect and surf the internet</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Search using the search engines.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Send and receive email, and share files in a secure way.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Avoid computer crime</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Use com&ZeroWidthSpace;puter ethically&ZeroWidthSpace;</span></li></span></ol><strong class="ms-rteThemeFontFace-1" style="font-size:13px;">D Key transferable skills&nbsp;</strong><br class="ms-rteThemeFontFace-1" style="font-size:13px;"><div><br class="ms-rteThemeFontFace-1"></div><div><span style="font-size:13px;"><p><span class="ms-rteThemeFontFace-1" style="font-size:13px;">To be able to</span></p><ol style="list-style-type:decimal;"><span style="font-size:13px;"><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Interact effectively within a group using social media and electronic conferencing techniques.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Working in groups using the LMS system and course forum online.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Contribute to discussions on a conference using instant messaging.</span></li><li><span class="ms-rteThemeFontFace-1" style="font-size:13px;">Improve own learning and performance</span></li></span></ol><br></span></div></td>
+											<td></td>
 										</tr>
 									</tbody>
 								</table>
@@ -5890,10 +6534,9 @@ robotics and genetic computing).</span><span class="ms-rteThemeFontFace-1" style
         
 </div>
 """
-
 soup = BeautifulSoup(html_content, "html.parser")
 
-# Create a list to store course details
+# List to store course details
 courses = []
 
 # Find all course items
@@ -5915,8 +6558,8 @@ for item in course_items:
     course['credit_hours'] = credit_hours
 
     # Extract course description
-    course_desc = item.find("div", class_="course-desc").get_text(strip=True)
-    course['course_description'] = course_desc
+    course_desc = item.find("div", class_="course-desc").get_text(strip=True).replace('\n', ' ').strip()
+    course['course_desc'] = course_desc
 
     # Extract modal details if available
     modal = item.find("div", class_="modal-body")
@@ -5928,16 +6571,22 @@ for item in course_items:
                 cols = row.find_all("td")
                 if len(cols) == 2:
                     key = cols[0].get_text(strip=True).lower().replace(" ", "_")
-                    value = cols[1].get_text(strip=True)
+                    value = cols[1].get_text(strip=True).replace('\n', ' ').strip()
                     course[key] = value
 
-    courses.append(course)
+    # Keep only the fields defined in the headers
+    course_filtered = {key: course.get(key, '') for key in
+                       ["course_code", "course_title", "credit_hours", "course_desc", "pre-requisite",
+                        "course_objectives", "course_outcomes"]}
+
+    courses.append(course_filtered)
 
 # Specify the CSV file name
-csv_file = "scrappedCourses.csv"
+csv_file = "scrappedCoursesBusiness.csv"
 
 # Define the header for the CSV
-headers = ["course_code", "course_title", "credit_hours", "course_description", "pre-requisite", "course_objectives", "course_outcomes"]
+headers = ["course_code", "course_title", "credit_hours", "course_desc", "pre-requisite", "course_objectives",
+           "course_outcomes"]
 
 # Write the data to CSV
 with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
