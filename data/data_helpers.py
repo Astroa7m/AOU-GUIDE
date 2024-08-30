@@ -1,10 +1,16 @@
-import json
 import csv
+import json
+
 from deep_translator import GoogleTranslator
 
 
+def translate_to_arabic(text):
+    translator = GoogleTranslator(source='auto', target='ar')
+    return translator.translate(text)
+
+
 # todo: Make sure of the prompts in helpers before use
-class AcademicStaffDataHelper:
+class AcademicStaffDataHelpers:
 
     @staticmethod
     def create_academic_staff_prompts():
@@ -219,10 +225,6 @@ class ModulesDataHelpers:
     @staticmethod
     def write_modules_csv_from_scrapped_data(in_file, out_file, faculty):
 
-        def translate_to_arabic(text):
-            translator = GoogleTranslator(source='auto', target='ar')
-            return translator.translate(text)
-
         # reading existing data from the output file to check if modules to be added already exist
         existing_data = {}
         try:
@@ -254,8 +256,8 @@ class ModulesDataHelpers:
             rowsCount = 1
 
             for i, row in enumerate(reader):
-                id = f"T{(i+1):04d}"
-                rowsCount+=1
+                id = f"T{(i + 1):04d}"
+                rowsCount += 1
                 # checking if modules to be written from in_file are already within out_file
                 # writing the common rows
                 if row['course_code'] in existing_data.keys():
@@ -302,11 +304,69 @@ class ModulesDataHelpers:
             print(f"Solved {conflictCount} conflicted rows")
 
 
-ModulesDataHelpers.write_modules_csv_from_scrapped_data(
-    in_file="scrapping/scrappedCoursesBusiness.csv",
-    out_file="aou_data/csv/Module.csv",
-    faculty="Faculty of Business Studies"
+# ModulesDataHelpers.write_modules_csv_from_scrapped_data(
+#     in_file="scrapping/scrappedCoursesBusiness.csv",
+#     out_file="aou_data/csv/Module.csv",
+#     faculty="Faculty of Business Studies"
+# )
+
+
+class RequirementDataHelpers:
+    @staticmethod
+    def write_requirement_data_to_csv():
+        file = "aou_data/csv/Requirement.csv"
+        field_names = ['id', 'requiredFor', 'requiredForArabic', 'requirement', 'requirementArabic']
+
+        with open(file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=field_names)
+
+            writer.writeheader()
+
+            i = 1
+            while True:
+                requiredFor = input("Enter required for (-1 to stop): ")
+                requirement = input("Enter requirement (-1 to stop): ")
+
+                if any([requiredFor, requiredFor]) == "-1":
+                    break
+
+                item = {
+                    "id": f"T{(i):02d}",
+                    "requiredFor": requiredFor,
+                    "requiredForArabic": translate_to_arabic(requiredFor),
+                    "requirement": requirement,
+                    "requirementArabic": translate_to_arabic(requirement),
+                }
+                i += 1
+                writer.writerow(item)
+
+
+class FeeDataHelpers:
+
+    @staticmethod
+    def write_fee_data_to_csv(file, field_names):
+        with open(file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=field_names)
+
+            writer.writeheader()
+
+            while True:
+                value = input(f"Enter {field_names[0]}: ")
+                value_translated = translate_to_arabic(value)
+                amount = float(input("Enter amount: "))
+
+                row = {
+                    field_names[0]: value,
+                    field_names[1]: value_translated,
+                    field_names[2]: amount
+                }
+
+                writer.writerow(row)
+
+                # no need for break statement I will just terminate
+
+
+FeeDataHelpers.write_fee_data_to_csv(
+    file="aou_data/csv/FullTimeLearningFees.csv",
+    field_names=["Major","MajorArabic", "Amount (R.O)"]
 )
-
-
-# class RequirementDataHelpers():
