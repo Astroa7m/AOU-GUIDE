@@ -263,7 +263,7 @@ class ModulesDataHelpers:
                     targetRow = dict(existing_data[row['course_code']])
                     # updating the ids so we have old and new modules sorted in place by ids
                     targetRow['id'] = id
-                    targetRow['offeredByFaculty'] = targetRow['offeredByFaculty'] + f', ${faculty}'
+                    targetRow['offeredByFaculty'] = targetRow['offeredByFaculty'] + f', {faculty}'
                     writer.writerow(targetRow)
 
                     # removing the common row from the existing data of the outputfile
