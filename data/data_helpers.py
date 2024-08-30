@@ -251,16 +251,16 @@ class ModulesDataHelpers:
 
             # to properly order the ids after adding
             # new data
-            rowsCount = 0
+            rowsCount = 1
 
             for i, row in enumerate(reader):
-                id = f"T{(i):04d}"
-                rowsCount = i
-                # checking if modules be written from in_file are already within out_file
+                id = f"T{(i+1):04d}"
+                rowsCount+=1
+                # checking if modules to be written from in_file are already within out_file
                 # writing the common rows
                 if row['course_code'] in existing_data.keys():
                     conflictCount += 1
-                    targetRow = dict(existing_data[row['course_code']])
+                    targetRow = existing_data[row['course_code']]
                     # updating the ids so we have old and new modules sorted in place by ids
                     targetRow['id'] = id
                     targetRow['offeredByFaculty'] = targetRow['offeredByFaculty'] + f', {faculty}'
@@ -287,7 +287,7 @@ class ModulesDataHelpers:
                         'offeredByFaculty': faculty
                     }
                     writer.writerow(new_row)
-                    print(f"Wrote {row['course_code']} module")
+                print(f"Wrote {row['course_code']} module")
 
             print("Done writing new data and solving conflicts")
             print("writing existing data")
@@ -304,6 +304,9 @@ class ModulesDataHelpers:
 
 ModulesDataHelpers.write_modules_csv_from_scrapped_data(
     in_file="scrapping/scrappedCoursesBusiness.csv",
-    out_file="aou_data/csv/Modules.csv",
-    faculty="Faculty"
+    out_file="aou_data/csv/Module.csv",
+    faculty="Faculty of Business Studies"
 )
+
+
+# class RequirementDataHelpers():
