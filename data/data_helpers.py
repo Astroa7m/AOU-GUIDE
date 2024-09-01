@@ -10,31 +10,67 @@ def translate_to_arabic(text):
 
 
 # todo: Make sure of the prompts in helpers before use
+# todo: Make sure of the modes of appending and writing of the data
 class AcademicStaffDataHelpers:
 
     @staticmethod
     def create_academic_staff_prompts_from_csv():
-        academicStaffNameEn = input("Enter academic staff name in English: ")
-        academicStaffNameAr = input("Enter academic staff name in Arabic: ")
+        prompts_and_completion = []
 
-        prompts = [
-            f"Who is {academicStaffNameEn}?",
-            f"من هو {academicStaffNameAr}؟",
-            f"Tell me more about {academicStaffNameEn}",
-            f"اخبرني المزيد عن {academicStaffNameAr}؟",
-            f"What is doctor {academicStaffNameEn} email",
-            f"ما هو البريد الالكتروني او الايميل الخاص {academicStaffNameAr}؟",
-            f"What is the speciality of {academicStaffNameEn}",
-            f"ما هو تخصص الدكتور {academicStaffNameAr}؟"
-        ]
+        with open("aou_data/csv/AcademicStaff.csv", 'r', newline='', encoding='utf-8') as f:
+            reader = (csv.DictReader(f))
 
-        print(prompts)
+            academic_staff = {}
+
+            for row in reader:
+                academic_staff[row['name']] = row
+
+            for name, info in academic_staff.items():
+                print(f"Creating English prompts for {name}")
+                prompts_en_with_completion = [
+                    (f"Who is {name}?", info["position"]),
+                    (f"Can you tell me more about {name}?", info["biography"]),
+                    (f"Tell me about {name}?", info["biography"]),
+                    (f"Do you know who is {name}?", info["biography"]),
+                    (f"What is the specialization of {name}?", info["specialization"]),
+                    (f"What is the Major of {name}?", info["specialization"]),
+                    (f"What does {name} specialize in?", info["specialization"]),
+                    (f"What is the position(title, post) of {name}?",info["position"]),
+                    (f"What does {name} teach?", info["teaches"]),
+                    (f"What modules does {name} teach?", info["teaches"]),
+                    (f"What is the profile url of {name}?", "Here " + info["link"]),
+                    (f"What is the profile link of {name}?", "Here " + info["link"]),
+                    (f"Where can I know more about {name}?", "Here " + info["link"])
+                ]
+                print(f"Creating Arabic prompts for {name}")
+                prompts_ar_with_completion = [(translate_to_arabic(p), translate_to_arabic(c)) for p, c in prompts_en_with_completion]
+
+                prompts_and_completion.append(prompts_en_with_completion + prompts_ar_with_completion)
+
+        with open("training_data/aou_training_dataset.json", mode='r', encoding="utf8") as f:
+            data = json.load(f)
+
+            print("Adding prompts to trainin data")
+            for tutor_pc in prompts_and_completion:
+                for pc in tutor_pc:
+                    data.append(
+                        {
+                            "prompt": pc[0],
+                            "completion": pc[1]
+                        }
+                    )
+
+        with open("training_data/aou_training_dataset.json", mode='w', encoding='utf8') as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+
+
+
 
         # for prompt in prompts:
         #     completion = input(prompt + " ")
         #
         #     # Open and read the existing JSON file
-        #     with open("retrieval_data/aou_training_dataset.json", mode="r", encoding="utf8") as f:
+        #     with open("training_data/aou_training_dataset.json", mode="r", encoding="utf8") as f:
         #         data = json.load(f)
         #
         #         # New record to append (assuming `prompts` and `completion` are defined)
@@ -44,12 +80,11 @@ class AcademicStaffDataHelpers:
         #         data.append(new_record)
         #
         #     # Write the updated list back to a new JSON file
-        #     with open('retrieval_data/aou_training_dataset.json', mode='w', encoding="utf8") as file:
+        #     with open('training_data/aou_training_dataset.json', mode='w', encoding="utf8") as file:
         #         json.dump(data, file, indent=4, ensure_ascii=False)
 
     @staticmethod
     def write_academic_staff_data_to_csv():
-
         # Function to get user input and translate Arabic fields
         def get_user_input():
             id = input("Enter id: ")
@@ -105,6 +140,7 @@ class AcademicStaffDataHelpers:
             # Write the data
             for row in data:
                 writer.writerow(row)
+
 
 class MajorDataHelpers:
 
@@ -191,6 +227,7 @@ class MajorDataHelpers:
             for row in data:
                 writer.writerow(row)
 
+
 class ModulesDataHelpers:
 
     @staticmethod
@@ -274,6 +311,7 @@ class ModulesDataHelpers:
             print("Done writing to file")
             print(f"Solved {conflictCount} conflicted rows")
 
+
 class RequirementDataHelpers:
     @staticmethod
     def write_requirement_data_to_csv():
@@ -303,6 +341,7 @@ class RequirementDataHelpers:
                 i += 1
                 writer.writerow(item)
 
+
 class FeeDataHelpers:
 
     @staticmethod
@@ -326,6 +365,7 @@ class FeeDataHelpers:
                 writer.writerow(row)
 
                 # no need for break statement I will just terminate
+
 
 class GenericDataHelpers:
 
@@ -352,6 +392,40 @@ class GenericDataHelpers:
                 writer.writerow(row)
                 i += 1
 
+
+class PassedTutorHelpers:
+    @staticmethod
+    def write_passed_tutor_data_to_csv():
+        field_names = ["id", "name", "nameArabic", "email", "moduleTaught", "major"]
+
+        openingMode = input("writing(w) or appending(a)?")
+
+        with open("aou_data/csv/PassedTutor.csv", openingMode, newline='', encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=field_names)
+
+            if openingMode == 'w':
+                writer.writeheader()
+
+            # change it for the latest id in the file
+            i = 1
+            while True:
+                name = input("Enter passed tutor name: ")
+                name_ar = translate_to_arabic(name)
+                email = input("Enter passed tutor email: ")
+                modules_taught = input("Enter passed tutor taught modules codes (separated by commas): ")
+                major = input("Enter passed tutor major id: ")
+
+                row = {
+                    field_names[0]: f"T{(i):02d}",
+                    field_names[1]: name,
+                    field_names[2]: name_ar,
+                    field_names[3]: email,
+                    field_names[4]: modules_taught,
+                    field_names[5]: major
+                }
+
+                writer.writerow(row)
+                i += 1
 
 
 AcademicStaffDataHelpers.create_academic_staff_prompts_from_csv()
