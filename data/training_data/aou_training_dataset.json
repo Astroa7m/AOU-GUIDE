@@ -2833,7 +2833,7 @@
     },
     {
         "prompt": "من هي السيدة بشرى علي مبارك البلوشي؟",
-        "completion": "محاضر"
+        "completion": "محاضرة"
     },
     {
         "prompt": "هل يمكنك أن تخبرني المزيد عن السيدة بشرى علي مبارك البلوشي؟",
@@ -2882,5 +2882,1229 @@
     {
         "prompt": "أين يمكنني معرفة المزيد عن الأستاذة بشرى علي مبارك البلوشي؟",
         "completion": "هنا https://www.aou.edu.om/faculties/business/Pages/portfolio.aspx?iid=bushra.m%40aou.edu.om"
+    },
+    {
+        "prompt": "What is Bachelor in Information Technology and Computing - ITC program?",
+        "completion": "The Bachelor in Information Technology and Computing equips students with the knowledge and skills necessary to excel in the rapidly evolving field of IT. This program covers core subjects such as programming, databases, networking, and cybersecurity, preparing graduates for careers in software development, system administration, and IT consulting. With a strong focus on both theoretical and practical learning, this major provides a comprehensive understanding of technology's role in business and society."
+    },
+    {
+        "prompt": "Tell me more about Bachelor in Information Technology and Computing - ITC program?",
+        "completion": "The Bachelor in Information Technology and Computing equips students with the knowledge and skills necessary to excel in the rapidly evolving field of IT. This program covers core subjects such as programming, databases, networking, and cybersecurity, preparing graduates for careers in software development, system administration, and IT consulting. With a strong focus on both theoretical and practical learning, this major provides a comprehensive understanding of technology's role in business and society."
+    },
+    {
+        "prompt": "Can you tell me about the Bachelor in Information Technology and Computing - ITC program?",
+        "completion": "The Bachelor in Information Technology and Computing equips students with the knowledge and skills necessary to excel in the rapidly evolving field of IT. This program covers core subjects such as programming, databases, networking, and cybersecurity, preparing graduates for careers in software development, system administration, and IT consulting. With a strong focus on both theoretical and practical learning, this major provides a comprehensive understanding of technology's role in business and society."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Bachelor in Information Technology and Computing - ITC program?",
+        "completion": "The Bachelor in Information Technology and Computing equips students with the knowledge and skills necessary to excel in the rapidly evolving field of IT. This program covers core subjects such as programming, databases, networking, and cybersecurity, preparing graduates for careers in software development, system administration, and IT consulting. With a strong focus on both theoretical and practical learning, this major provides a comprehensive understanding of technology's role in business and society."
+    },
+    {
+        "prompt": "What is the study plan of Bachelor in Information Technology and Computing - ITC program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20Information%20Technology%20and%20Computing%202024%20-%20%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Bachelor in Information Technology and Computing - ITC program?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "What is the degree level of Bachelor in Information Technology and Computing - ITC program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Bachelor in Information Technology and Computing - ITC program?",
+        "completion": "131"
+    },
+    {
+        "prompt": "What faculty is Bachelor in Information Technology and Computing - ITC part of?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "ما هو برنامج البكالوريوس في تكنولوجيا المعلومات والحوسبة - ITC؟",
+        "completion": "تزود درجة البكالوريوس في تكنولوجيا المعلومات والحوسبة الطلاب بالمعرفة والمهارات اللازمة للتفوق في مجال تكنولوجيا المعلومات سريع التطور. يغطي هذا البرنامج المواد الأساسية مثل البرمجة وقواعد البيانات والشبكات والأمن السيبراني، مما يعد الخريجين لمهن في تطوير البرمجيات وإدارة النظام والاستشارات في مجال تكنولوجيا المعلومات. مع التركيز القوي على التعلم النظري والعملي، يوفر هذا التخصص فهمًا شاملاً لدور التكنولوجيا في الأعمال والمجتمع."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج البكالوريوس في تكنولوجيا المعلومات والحوسبة - ITC؟",
+        "completion": "تزود درجة البكالوريوس في تكنولوجيا المعلومات والحوسبة الطلاب بالمعرفة والمهارات اللازمة للتفوق في مجال تكنولوجيا المعلومات سريع التطور. يغطي هذا البرنامج المواد الأساسية مثل البرمجة وقواعد البيانات والشبكات والأمن السيبراني، مما يعد الخريجين لمهن في تطوير البرمجيات وإدارة النظام والاستشارات في مجال تكنولوجيا المعلومات. مع التركيز القوي على التعلم النظري والعملي، يوفر هذا التخصص فهمًا شاملاً لدور التكنولوجيا في الأعمال والمجتمع."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج البكالوريوس في تكنولوجيا المعلومات والحوسبة - ITC؟",
+        "completion": "تزود درجة البكالوريوس في تكنولوجيا المعلومات والحوسبة الطلاب بالمعرفة والمهارات اللازمة للتفوق في مجال تكنولوجيا المعلومات سريع التطور. يغطي هذا البرنامج المواد الأساسية مثل البرمجة وقواعد البيانات والشبكات والأمن السيبراني، مما يعد الخريجين لمهن في تطوير البرمجيات وإدارة النظام والاستشارات في مجال تكنولوجيا المعلومات. مع التركيز القوي على التعلم النظري والعملي، يوفر هذا التخصص فهمًا شاملاً لدور التكنولوجيا في الأعمال والمجتمع."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج البكالوريوس في تكنولوجيا المعلومات والحوسبة - ITC؟",
+        "completion": "تزود درجة البكالوريوس في تكنولوجيا المعلومات والحوسبة الطلاب بالمعرفة والمهارات اللازمة للتفوق في مجال تكنولوجيا المعلومات سريع التطور. يغطي هذا البرنامج المواد الأساسية مثل البرمجة وقواعد البيانات والشبكات والأمن السيبراني، مما يعد الخريجين لمهن في تطوير البرمجيات وإدارة النظام والاستشارات في مجال تكنولوجيا المعلومات. مع التركيز القوي على التعلم النظري والعملي، يوفر هذا التخصص فهمًا شاملاً لدور التكنولوجيا في الأعمال والمجتمع."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج البكالوريوس في تكنولوجيا المعلومات والحوسبة - ITC؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20Information%20Technology%20and%20Computing%202024%20-%20%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج البكالوريوس في تكنولوجيا المعلومات والحوسبة؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "ما هو مستوى درجة البكالوريوس في تكنولوجيا المعلومات والحوسبة - برنامج ITC؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج البكالوريوس في تكنولوجيا المعلومات والحوسبة - ITC؟",
+        "completion": "131"
+    },
+    {
+        "prompt": "ما هي الكلية التي ينتمي إليها برنامج بكالوريوس تكنولوجيا المعلومات والحوسبة - ITC؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "What is Bachelor in Networking and Security program?",
+        "completion": "The Bachelor in Networking and Security program focuses on the design, implementation, and management of secure networks. Students gain expertise in network architecture, cybersecurity, ethical hacking, and information assurance. This major prepares graduates for roles in network administration, security analysis, and IT infrastructure management, ensuring they can protect organizational data and systems from potential threats."
+    },
+    {
+        "prompt": "Tell me more about Bachelor in Networking and Security program?",
+        "completion": "The Bachelor in Networking and Security program focuses on the design, implementation, and management of secure networks. Students gain expertise in network architecture, cybersecurity, ethical hacking, and information assurance. This major prepares graduates for roles in network administration, security analysis, and IT infrastructure management, ensuring they can protect organizational data and systems from potential threats."
+    },
+    {
+        "prompt": "Can you tell me about the Bachelor in Networking and Security program?",
+        "completion": "The Bachelor in Networking and Security program focuses on the design, implementation, and management of secure networks. Students gain expertise in network architecture, cybersecurity, ethical hacking, and information assurance. This major prepares graduates for roles in network administration, security analysis, and IT infrastructure management, ensuring they can protect organizational data and systems from potential threats."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Bachelor in Networking and Security program?",
+        "completion": "The Bachelor in Networking and Security program focuses on the design, implementation, and management of secure networks. Students gain expertise in network architecture, cybersecurity, ethical hacking, and information assurance. This major prepares graduates for roles in network administration, security analysis, and IT infrastructure management, ensuring they can protect organizational data and systems from potential threats."
+    },
+    {
+        "prompt": "What is the study plan of Bachelor in Networking and Security program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20in%20Networking%20and%20Security%202024%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Bachelor in Networking and Security program?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "What is the degree level of Bachelor in Networking and Security program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Bachelor in Networking and Security program?",
+        "completion": "131"
+    },
+    {
+        "prompt": "What faculty is Bachelor in Networking and Security part of?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "ما هو برنامج البكالوريوس في الشبكات والأمن؟",
+        "completion": "يركز برنامج البكالوريوس في الشبكات والأمن على تصميم وتنفيذ وإدارة الشبكات الآمنة. يكتسب الطلاب الخبرة في هندسة الشبكات والأمن السيبراني والاختراق الأخلاقي وضمان المعلومات. يعمل هذا التخصص على إعداد الخريجين لأدوار في إدارة الشبكات وتحليل الأمان وإدارة البنية التحتية لتكنولوجيا المعلومات، مما يضمن قدرتهم على حماية البيانات والأنظمة التنظيمية من التهديدات المحتملة."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج البكالوريوس في الشبكات والأمن؟",
+        "completion": "يركز برنامج البكالوريوس في الشبكات والأمن على تصميم وتنفيذ وإدارة الشبكات الآمنة. يكتسب الطلاب الخبرة في هندسة الشبكات والأمن السيبراني والاختراق الأخلاقي وضمان المعلومات. يعمل هذا التخصص على إعداد الخريجين لأدوار في إدارة الشبكات وتحليل الأمان وإدارة البنية التحتية لتكنولوجيا المعلومات، مما يضمن قدرتهم على حماية البيانات والأنظمة التنظيمية من التهديدات المحتملة."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج البكالوريوس في الشبكات والأمن؟",
+        "completion": "يركز برنامج البكالوريوس في الشبكات والأمن على تصميم وتنفيذ وإدارة الشبكات الآمنة. يكتسب الطلاب الخبرة في هندسة الشبكات والأمن السيبراني والاختراق الأخلاقي وضمان المعلومات. يعمل هذا التخصص على إعداد الخريجين لأدوار في إدارة الشبكات وتحليل الأمان وإدارة البنية التحتية لتكنولوجيا المعلومات، مما يضمن قدرتهم على حماية البيانات والأنظمة التنظيمية من التهديدات المحتملة."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج البكالوريوس في الشبكات والأمن؟",
+        "completion": "يركز برنامج البكالوريوس في الشبكات والأمن على تصميم وتنفيذ وإدارة الشبكات الآمنة. يكتسب الطلاب الخبرة في هندسة الشبكات والأمن السيبراني والاختراق الأخلاقي وضمان المعلومات. يعمل هذا التخصص على إعداد الخريجين لأدوار في إدارة الشبكات وتحليل الأمان وإدارة البنية التحتية لتكنولوجيا المعلومات، مما يضمن قدرتهم على حماية البيانات والأنظمة التنظيمية من التهديدات المحتملة."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج البكالوريوس في الشبكات والأمن؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20in%20Networking%20and%20Security%202024%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج البكالوريوس في الشبكات والأمن؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "ما هو مستوى درجة البكالوريوس في برنامج الشبكات والأمن؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج البكالوريوس في الشبكات والأمن؟",
+        "completion": "131"
+    },
+    {
+        "prompt": "ما هي الكلية التي يعد بكالوريوس الشبكات والأمن جزءًا منها؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "What is Bachelor in Computer Science program?",
+        "completion": "The Bachelor in Computer Science provides a solid foundation in software development, algorithms, and computational theory. Students learn to solve complex problems using various programming languages and methodologies. This major prepares graduates for careers in software engineering, data analysis, and research, equipping them with the skills needed to innovate in the tech industry."
+    },
+    {
+        "prompt": "Tell me more about Bachelor in Computer Science program?",
+        "completion": "The Bachelor in Computer Science provides a solid foundation in software development, algorithms, and computational theory. Students learn to solve complex problems using various programming languages and methodologies. This major prepares graduates for careers in software engineering, data analysis, and research, equipping them with the skills needed to innovate in the tech industry."
+    },
+    {
+        "prompt": "Can you tell me about the Bachelor in Computer Science program?",
+        "completion": "The Bachelor in Computer Science provides a solid foundation in software development, algorithms, and computational theory. Students learn to solve complex problems using various programming languages and methodologies. This major prepares graduates for careers in software engineering, data analysis, and research, equipping them with the skills needed to innovate in the tech industry."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Bachelor in Computer Science program?",
+        "completion": "The Bachelor in Computer Science provides a solid foundation in software development, algorithms, and computational theory. Students learn to solve complex problems using various programming languages and methodologies. This major prepares graduates for careers in software engineering, data analysis, and research, equipping them with the skills needed to innovate in the tech industry."
+    },
+    {
+        "prompt": "What is the study plan of Bachelor in Computer Science program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20in%20Computer%20Science%202024%20-%20%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Bachelor in Computer Science program?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "What is the degree level of Bachelor in Computer Science program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Bachelor in Computer Science program?",
+        "completion": "131"
+    },
+    {
+        "prompt": "What faculty is Bachelor in Computer Science part of?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "ما هو برنامج البكالوريوس في علوم الكمبيوتر؟",
+        "completion": "توفر درجة البكالوريوس في علوم الكمبيوتر أساسًا قويًا في تطوير البرمجيات والخوارزميات ونظرية الحوسبة. يتعلم الطلاب كيفية حل المشكلات المعقدة باستخدام لغات ومنهجيات برمجة مختلفة. يعمل هذا التخصص على إعداد الخريجين لمهن في هندسة البرمجيات وتحليل البيانات والبحث، وتزويدهم بالمهارات اللازمة للابتكار في صناعة التكنولوجيا."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج البكالوريوس في علوم الكمبيوتر؟",
+        "completion": "توفر درجة البكالوريوس في علوم الكمبيوتر أساسًا قويًا في تطوير البرمجيات والخوارزميات ونظرية الحوسبة. يتعلم الطلاب كيفية حل المشكلات المعقدة باستخدام لغات ومنهجيات برمجة مختلفة. يعمل هذا التخصص على إعداد الخريجين لمهن في هندسة البرمجيات وتحليل البيانات والبحث، وتزويدهم بالمهارات اللازمة للابتكار في صناعة التكنولوجيا."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج البكالوريوس في علوم الكمبيوتر؟",
+        "completion": "توفر درجة البكالوريوس في علوم الكمبيوتر أساسًا قويًا في تطوير البرمجيات والخوارزميات ونظرية الحوسبة. يتعلم الطلاب كيفية حل المشكلات المعقدة باستخدام لغات ومنهجيات برمجة مختلفة. يعمل هذا التخصص على إعداد الخريجين لمهن في هندسة البرمجيات وتحليل البيانات والبحث، وتزويدهم بالمهارات اللازمة للابتكار في صناعة التكنولوجيا."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج البكالوريوس في علوم الكمبيوتر؟",
+        "completion": "توفر درجة البكالوريوس في علوم الكمبيوتر أساسًا قويًا في تطوير البرمجيات والخوارزميات ونظرية الحوسبة. يتعلم الطلاب كيفية حل المشكلات المعقدة باستخدام لغات ومنهجيات برمجة مختلفة. يعمل هذا التخصص على إعداد الخريجين لمهن في هندسة البرمجيات وتحليل البيانات والبحث، وتزويدهم بالمهارات اللازمة للابتكار في صناعة التكنولوجيا."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج البكالوريوس في علوم الكمبيوتر؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20in%20Computer%20Science%202024%20-%20%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج البكالوريوس في علوم الكمبيوتر؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "ما هو مستوى درجة البكالوريوس في برنامج علوم الكمبيوتر؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج البكالوريوس في علوم الكمبيوتر؟",
+        "completion": "131"
+    },
+    {
+        "prompt": "ما هي الكلية التي ينتمي إليها برنامج بكالوريوس علوم الكمبيوتر؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "What is Bachelor in Computing with Business Studies program?",
+        "completion": "The Bachelor in Computing with Business Studies integrates IT knowledge with business acumen. Students study subjects like software development, database management, and business management principles. This major prepares graduates to bridge the gap between technology and business, making them ideal candidates for roles in IT management, business analysis, and consulting."
+    },
+    {
+        "prompt": "Tell me more about Bachelor in Computing with Business Studies program?",
+        "completion": "The Bachelor in Computing with Business Studies integrates IT knowledge with business acumen. Students study subjects like software development, database management, and business management principles. This major prepares graduates to bridge the gap between technology and business, making them ideal candidates for roles in IT management, business analysis, and consulting."
+    },
+    {
+        "prompt": "Can you tell me about the Bachelor in Computing with Business Studies program?",
+        "completion": "The Bachelor in Computing with Business Studies integrates IT knowledge with business acumen. Students study subjects like software development, database management, and business management principles. This major prepares graduates to bridge the gap between technology and business, making them ideal candidates for roles in IT management, business analysis, and consulting."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Bachelor in Computing with Business Studies program?",
+        "completion": "The Bachelor in Computing with Business Studies integrates IT knowledge with business acumen. Students study subjects like software development, database management, and business management principles. This major prepares graduates to bridge the gap between technology and business, making them ideal candidates for roles in IT management, business analysis, and consulting."
+    },
+    {
+        "prompt": "What is the study plan of Bachelor in Computing with Business Studies program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20in%20Computing%20with%20Business%20Studies%202024%20-%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Bachelor in Computing with Business Studies program?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "What is the degree level of Bachelor in Computing with Business Studies program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Bachelor in Computing with Business Studies program?",
+        "completion": "131"
+    },
+    {
+        "prompt": "What faculty is Bachelor in Computing with Business Studies part of?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "ما هو برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال؟",
+        "completion": "يجمع برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال بين المعرفة بتكنولوجيا المعلومات ومهارات الأعمال. يدرس الطلاب مواد مثل تطوير البرمجيات وإدارة قواعد البيانات ومبادئ إدارة الأعمال. يعمل هذا التخصص على إعداد الخريجين لسد الفجوة بين التكنولوجيا والأعمال، مما يجعلهم مرشحين مثاليين لأدوار في إدارة تكنولوجيا المعلومات وتحليل الأعمال والاستشارات."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال؟",
+        "completion": "يجمع برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال بين المعرفة بتكنولوجيا المعلومات ومهارات الأعمال. يدرس الطلاب مواد مثل تطوير البرمجيات وإدارة قواعد البيانات ومبادئ إدارة الأعمال. يعمل هذا التخصص على إعداد الخريجين لسد الفجوة بين التكنولوجيا والأعمال، مما يجعلهم مرشحين مثاليين لأدوار في إدارة تكنولوجيا المعلومات وتحليل الأعمال والاستشارات."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال؟",
+        "completion": "يجمع برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال بين المعرفة بتكنولوجيا المعلومات ومهارات الأعمال. يدرس الطلاب مواد مثل تطوير البرمجيات وإدارة قواعد البيانات ومبادئ إدارة الأعمال. يعمل هذا التخصص على إعداد الخريجين لسد الفجوة بين التكنولوجيا والأعمال، مما يجعلهم مرشحين مثاليين لأدوار في إدارة تكنولوجيا المعلومات وتحليل الأعمال والاستشارات."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال؟",
+        "completion": "يجمع برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال بين المعرفة بتكنولوجيا المعلومات ومهارات الأعمال. يدرس الطلاب مواد مثل تطوير البرمجيات وإدارة قواعد البيانات ومبادئ إدارة الأعمال. يعمل هذا التخصص على إعداد الخريجين لسد الفجوة بين التكنولوجيا والأعمال، مما يجعلهم مرشحين مثاليين لأدوار في إدارة تكنولوجيا المعلومات وتحليل الأعمال والاستشارات."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20in%20Computing%20with%20Business%20Studies%202024%20-%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "ما هو مستوى درجة البكالوريوس في علوم الكمبيوتر مع برنامج دراسات الأعمال؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال؟",
+        "completion": "131"
+    },
+    {
+        "prompt": "ما هي الكلية التي ينتمي إليها برنامج البكالوريوس في علوم الكمبيوتر مع دراسات الأعمال؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "What is Bachelor in Artificial Intelligence program?",
+        "completion": "The Bachelor in Artificial Intelligence program focuses on machine learning, data analysis, and AI algorithms. Students learn to develop intelligent systems that can analyze data, make decisions, and solve problems autonomously. This major prepares graduates for careers in AI development, data science, and innovation, driving the future of technology. (New Major)"
+    },
+    {
+        "prompt": "Tell me more about Bachelor in Artificial Intelligence program?",
+        "completion": "The Bachelor in Artificial Intelligence program focuses on machine learning, data analysis, and AI algorithms. Students learn to develop intelligent systems that can analyze data, make decisions, and solve problems autonomously. This major prepares graduates for careers in AI development, data science, and innovation, driving the future of technology. (New Major)"
+    },
+    {
+        "prompt": "Can you tell me about the Bachelor in Artificial Intelligence program?",
+        "completion": "The Bachelor in Artificial Intelligence program focuses on machine learning, data analysis, and AI algorithms. Students learn to develop intelligent systems that can analyze data, make decisions, and solve problems autonomously. This major prepares graduates for careers in AI development, data science, and innovation, driving the future of technology. (New Major)"
+    },
+    {
+        "prompt": "What am I going to study and learn in the Bachelor in Artificial Intelligence program?",
+        "completion": "The Bachelor in Artificial Intelligence program focuses on machine learning, data analysis, and AI algorithms. Students learn to develop intelligent systems that can analyze data, make decisions, and solve problems autonomously. This major prepares graduates for careers in AI development, data science, and innovation, driving the future of technology. (New Major)"
+    },
+    {
+        "prompt": "What is the study plan of Bachelor in Artificial Intelligence program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20AI%202024%20-%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Bachelor in Artificial Intelligence program?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "What is the degree level of Bachelor in Artificial Intelligence program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Bachelor in Artificial Intelligence program?",
+        "completion": "131"
+    },
+    {
+        "prompt": "What faculty is Bachelor in Artificial Intelligence part of?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "ما هو برنامج البكالوريوس في الذكاء الاصطناعي؟",
+        "completion": "يركز برنامج البكالوريوس في الذكاء الاصطناعي على التعلم الآلي وتحليل البيانات وخوارزميات الذكاء الاصطناعي. يتعلم الطلاب كيفية تطوير أنظمة ذكية يمكنها تحليل البيانات واتخاذ القرارات وحل المشكلات بشكل مستقل. يعد هذا التخصص الخريجين لمهن في تطوير الذكاء الاصطناعي وعلوم البيانات والابتكار، مما يقود مستقبل التكنولوجيا. (تخصص جديد)"
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج البكالوريوس في الذكاء الاصطناعي؟",
+        "completion": "يركز برنامج البكالوريوس في الذكاء الاصطناعي على التعلم الآلي وتحليل البيانات وخوارزميات الذكاء الاصطناعي. يتعلم الطلاب كيفية تطوير أنظمة ذكية يمكنها تحليل البيانات واتخاذ القرارات وحل المشكلات بشكل مستقل. يعد هذا التخصص الخريجين لمهن في تطوير الذكاء الاصطناعي وعلوم البيانات والابتكار، مما يقود مستقبل التكنولوجيا. (تخصص جديد)"
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج البكالوريوس في الذكاء الاصطناعي؟",
+        "completion": "يركز برنامج البكالوريوس في الذكاء الاصطناعي على التعلم الآلي وتحليل البيانات وخوارزميات الذكاء الاصطناعي. يتعلم الطلاب كيفية تطوير أنظمة ذكية يمكنها تحليل البيانات واتخاذ القرارات وحل المشكلات بشكل مستقل. يعد هذا التخصص الخريجين لمهن في تطوير الذكاء الاصطناعي وعلوم البيانات والابتكار، مما يقود مستقبل التكنولوجيا. (تخصص جديد)"
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج البكالوريوس في الذكاء الاصطناعي؟",
+        "completion": "يركز برنامج البكالوريوس في الذكاء الاصطناعي على التعلم الآلي وتحليل البيانات وخوارزميات الذكاء الاصطناعي. يتعلم الطلاب كيفية تطوير أنظمة ذكية يمكنها تحليل البيانات واتخاذ القرارات وحل المشكلات بشكل مستقل. يعد هذا التخصص الخريجين لمهن في تطوير الذكاء الاصطناعي وعلوم البيانات والابتكار، مما يقود مستقبل التكنولوجيا. (تخصص جديد)"
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج البكالوريوس في الذكاء الاصطناعي؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20AI%202024%20-%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج البكالوريوس في الذكاء الاصطناعي؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "ما هو مستوى درجة البكالوريوس في برنامج الذكاء الاصطناعي؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج البكالوريوس في الذكاء الاصطناعي؟",
+        "completion": "131"
+    },
+    {
+        "prompt": "ما هي الكلية التي ينتمي إليها برنامج البكالوريوس في الذكاء الاصطناعي؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "What is Bachelor in Cyber Security program?",
+        "completion": "The Bachelor in Cyber Security program is dedicated to protecting digital systems from threats and vulnerabilities. Students learn about cryptography, network security, ethical hacking, and risk management. This major prepares graduates to safeguard organizations' data and systems, making them vital players in the field of information security. (New Major)"
+    },
+    {
+        "prompt": "Tell me more about Bachelor in Cyber Security program?",
+        "completion": "The Bachelor in Cyber Security program is dedicated to protecting digital systems from threats and vulnerabilities. Students learn about cryptography, network security, ethical hacking, and risk management. This major prepares graduates to safeguard organizations' data and systems, making them vital players in the field of information security. (New Major)"
+    },
+    {
+        "prompt": "Can you tell me about the Bachelor in Cyber Security program?",
+        "completion": "The Bachelor in Cyber Security program is dedicated to protecting digital systems from threats and vulnerabilities. Students learn about cryptography, network security, ethical hacking, and risk management. This major prepares graduates to safeguard organizations' data and systems, making them vital players in the field of information security. (New Major)"
+    },
+    {
+        "prompt": "What am I going to study and learn in the Bachelor in Cyber Security program?",
+        "completion": "The Bachelor in Cyber Security program is dedicated to protecting digital systems from threats and vulnerabilities. Students learn about cryptography, network security, ethical hacking, and risk management. This major prepares graduates to safeguard organizations' data and systems, making them vital players in the field of information security. (New Major)"
+    },
+    {
+        "prompt": "What is the study plan of Bachelor in Cyber Security program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20in%20Cyber%20Security%202024%20-%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Bachelor in Cyber Security program?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "What is the degree level of Bachelor in Cyber Security program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Bachelor in Cyber Security program?",
+        "completion": "131"
+    },
+    {
+        "prompt": "What faculty is Bachelor in Cyber Security part of?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "ما هو برنامج البكالوريوس في الأمن السيبراني؟",
+        "completion": "برنامج البكالوريوس في الأمن السيبراني مخصص لحماية الأنظمة الرقمية من التهديدات والثغرات الأمنية. يتعلم الطلاب عن التشفير وأمن الشبكات والاختراق الأخلاقي وإدارة المخاطر. هذا التخصص يعد الخريجين لحماية بيانات وأنظمة المؤسسات، مما يجعلهم لاعبين حيويين في مجال أمن المعلومات. (تخصص جديد)"
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج البكالوريوس في الأمن السيبراني؟",
+        "completion": "برنامج البكالوريوس في الأمن السيبراني مخصص لحماية الأنظمة الرقمية من التهديدات والثغرات الأمنية. يتعلم الطلاب عن التشفير وأمن الشبكات والاختراق الأخلاقي وإدارة المخاطر. هذا التخصص يعد الخريجين لحماية بيانات وأنظمة المؤسسات، مما يجعلهم لاعبين حيويين في مجال أمن المعلومات. (تخصص جديد)"
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج البكالوريوس في الأمن السيبراني؟",
+        "completion": "برنامج البكالوريوس في الأمن السيبراني مخصص لحماية الأنظمة الرقمية من التهديدات والثغرات الأمنية. يتعلم الطلاب عن التشفير وأمن الشبكات والاختراق الأخلاقي وإدارة المخاطر. هذا التخصص يعد الخريجين لحماية بيانات وأنظمة المؤسسات، مما يجعلهم لاعبين حيويين في مجال أمن المعلومات. (تخصص جديد)"
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج البكالوريوس في الأمن السيبراني؟",
+        "completion": "برنامج البكالوريوس في الأمن السيبراني مخصص لحماية الأنظمة الرقمية من التهديدات والثغرات الأمنية. يتعلم الطلاب عن التشفير وأمن الشبكات والاختراق الأخلاقي وإدارة المخاطر. هذا التخصص يعد الخريجين لحماية بيانات وأنظمة المؤسسات، مما يجعلهم لاعبين حيويين في مجال أمن المعلومات. (تخصص جديد)"
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج البكالوريوس في الأمن السيبراني؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Bachelor%20in%20Cyber%20Security%202024%20-%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج البكالوريوس في الأمن السيبراني؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "ما هو مستوى درجة البكالوريوس في برنامج الأمن السيبراني؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج البكالوريوس في الأمن السيبراني؟",
+        "completion": "131"
+    },
+    {
+        "prompt": "ما هي الكلية التي يعد بكالوريوس الأمن السيبراني جزءًا منها؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "What is Diploma in Cyber Security program?",
+        "completion": "The Diploma in Cyber Security program equips students with fundamental knowledge of securing digital environments. Students learn about cyber threats, ethical hacking, and basic network security. This program prepares them for entry-level roles in cybersecurity, focusing on protecting data and systems from unauthorized access. (New Major)\r\n"
+    },
+    {
+        "prompt": "Tell me more about Diploma in Cyber Security program?",
+        "completion": "The Diploma in Cyber Security program equips students with fundamental knowledge of securing digital environments. Students learn about cyber threats, ethical hacking, and basic network security. This program prepares them for entry-level roles in cybersecurity, focusing on protecting data and systems from unauthorized access. (New Major)\r\n"
+    },
+    {
+        "prompt": "Can you tell me about the Diploma in Cyber Security program?",
+        "completion": "The Diploma in Cyber Security program equips students with fundamental knowledge of securing digital environments. Students learn about cyber threats, ethical hacking, and basic network security. This program prepares them for entry-level roles in cybersecurity, focusing on protecting data and systems from unauthorized access. (New Major)\r\n"
+    },
+    {
+        "prompt": "What am I going to study and learn in the Diploma in Cyber Security program?",
+        "completion": "The Diploma in Cyber Security program equips students with fundamental knowledge of securing digital environments. Students learn about cyber threats, ethical hacking, and basic network security. This program prepares them for entry-level roles in cybersecurity, focusing on protecting data and systems from unauthorized access. (New Major)\r\n"
+    },
+    {
+        "prompt": "What is the study plan of Diploma in Cyber Security program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Diploma%20in%20Cyber%20Security%202024%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Diploma in Cyber Security program?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "What is the degree level of Diploma in Cyber Security program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Diploma in Cyber Security program?",
+        "completion": "64"
+    },
+    {
+        "prompt": "What faculty is Diploma in Cyber Security part of?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "ما هو برنامج الدبلوم في الأمن السيبراني؟",
+        "completion": "يزود برنامج دبلوم الأمن السيبراني الطلاب بالمعرفة الأساسية لتأمين البيئات الرقمية. يتعلم الطلاب عن التهديدات السيبرانية والاختراق الأخلاقي وأمن الشبكات الأساسي. يعدهم هذا البرنامج لأدوار المستوى الأول في مجال الأمن السيبراني، مع التركيز على حماية البيانات والأنظمة من الوصول غير المصرح به. (تخصص جديد)"
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج دبلوم الأمن السيبراني؟",
+        "completion": "يزود برنامج دبلوم الأمن السيبراني الطلاب بالمعرفة الأساسية لتأمين البيئات الرقمية. يتعلم الطلاب عن التهديدات السيبرانية والاختراق الأخلاقي وأمن الشبكات الأساسي. يعدهم هذا البرنامج لأدوار المستوى الأول في مجال الأمن السيبراني، مع التركيز على حماية البيانات والأنظمة من الوصول غير المصرح به. (تخصص جديد)"
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج دبلوم الأمن السيبراني؟",
+        "completion": "يزود برنامج دبلوم الأمن السيبراني الطلاب بالمعرفة الأساسية لتأمين البيئات الرقمية. يتعلم الطلاب عن التهديدات السيبرانية والاختراق الأخلاقي وأمن الشبكات الأساسي. يعدهم هذا البرنامج لأدوار المستوى الأول في مجال الأمن السيبراني، مع التركيز على حماية البيانات والأنظمة من الوصول غير المصرح به. (تخصص جديد)"
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج دبلوم الأمن السيبراني؟",
+        "completion": "يزود برنامج دبلوم الأمن السيبراني الطلاب بالمعرفة الأساسية لتأمين البيئات الرقمية. يتعلم الطلاب عن التهديدات السيبرانية والاختراق الأخلاقي وأمن الشبكات الأساسي. يعدهم هذا البرنامج لأدوار المستوى الأول في مجال الأمن السيبراني، مع التركيز على حماية البيانات والأنظمة من الوصول غير المصرح به. (تخصص جديد)"
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج دبلوم الأمن السيبراني؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Diploma%20in%20Cyber%20Security%202024%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج الدبلوم في الأمن السيبراني؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "ما هو مستوى درجة دبلوم برنامج الأمن السيبراني؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج دبلوم الأمن السيبراني؟",
+        "completion": "64"
+    },
+    {
+        "prompt": "ما هي الكلية التي تضم دبلوم الأمن السيبراني؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "What is Diploma Information Technology and Computing program?",
+        "completion": "The Diploma in Information Technology and Computing covers essential IT skills, including software development, hardware management, and network basics. This program provides a strong foundation for students aiming to pursue advanced studies or start a career in the IT industry."
+    },
+    {
+        "prompt": "Tell me more about Diploma Information Technology and Computing program?",
+        "completion": "The Diploma in Information Technology and Computing covers essential IT skills, including software development, hardware management, and network basics. This program provides a strong foundation for students aiming to pursue advanced studies or start a career in the IT industry."
+    },
+    {
+        "prompt": "Can you tell me about the Diploma Information Technology and Computing program?",
+        "completion": "The Diploma in Information Technology and Computing covers essential IT skills, including software development, hardware management, and network basics. This program provides a strong foundation for students aiming to pursue advanced studies or start a career in the IT industry."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Diploma Information Technology and Computing program?",
+        "completion": "The Diploma in Information Technology and Computing covers essential IT skills, including software development, hardware management, and network basics. This program provides a strong foundation for students aiming to pursue advanced studies or start a career in the IT industry."
+    },
+    {
+        "prompt": "What is the study plan of Diploma Information Technology and Computing program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Diploma%20Information%20Technology%20and%20Computing%202024%20-%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Diploma Information Technology and Computing program?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "What is the degree level of Diploma Information Technology and Computing program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Diploma Information Technology and Computing program?",
+        "completion": "61"
+    },
+    {
+        "prompt": "What faculty is Diploma Information Technology and Computing part of?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "ما هو برنامج دبلوم تكنولوجيا المعلومات والحوسبة؟",
+        "completion": "تغطي دبلومة تكنولوجيا المعلومات والحوسبة المهارات الأساسية في تكنولوجيا المعلومات، بما في ذلك تطوير البرمجيات وإدارة الأجهزة وأساسيات الشبكات. يوفر هذا البرنامج أساسًا قويًا للطلاب الذين يهدفون إلى متابعة الدراسات المتقدمة أو بدء مهنة في صناعة تكنولوجيا المعلومات."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج دبلوم تكنولوجيا المعلومات والحوسبة؟",
+        "completion": "تغطي دبلومة تكنولوجيا المعلومات والحوسبة المهارات الأساسية في تكنولوجيا المعلومات، بما في ذلك تطوير البرمجيات وإدارة الأجهزة وأساسيات الشبكات. يوفر هذا البرنامج أساسًا قويًا للطلاب الذين يهدفون إلى متابعة الدراسات المتقدمة أو بدء مهنة في صناعة تكنولوجيا المعلومات."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج دبلوم تكنولوجيا المعلومات والحوسبة؟",
+        "completion": "تغطي دبلومة تكنولوجيا المعلومات والحوسبة المهارات الأساسية في تكنولوجيا المعلومات، بما في ذلك تطوير البرمجيات وإدارة الأجهزة وأساسيات الشبكات. يوفر هذا البرنامج أساسًا قويًا للطلاب الذين يهدفون إلى متابعة الدراسات المتقدمة أو بدء مهنة في صناعة تكنولوجيا المعلومات."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج دبلوم تكنولوجيا المعلومات والحوسبة؟",
+        "completion": "تغطي دبلومة تكنولوجيا المعلومات والحوسبة المهارات الأساسية في تكنولوجيا المعلومات، بما في ذلك تطوير البرمجيات وإدارة الأجهزة وأساسيات الشبكات. يوفر هذا البرنامج أساسًا قويًا للطلاب الذين يهدفون إلى متابعة الدراسات المتقدمة أو بدء مهنة في صناعة تكنولوجيا المعلومات."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج دبلوم تكنولوجيا المعلومات والحوسبة؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Diploma%20Information%20Technology%20and%20Computing%202024%20-%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج دبلوم تكنولوجيا المعلومات والحوسبة؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "ما هو مستوى درجة دبلوم برنامج تكنولوجيا المعلومات والحوسبة؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج دبلوم تكنولوجيا المعلومات والحوسبة؟",
+        "completion": "61"
+    },
+    {
+        "prompt": "ما هي الكلية التي ينتمي إليها دبلوم تكنولوجيا المعلومات والحوسبة؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "What is Diploma in Artificial Intelligence program?",
+        "completion": "The Diploma in Artificial Intelligence introduces students to basic AI concepts, including machine learning, data analysis, and AI applications. This program is designed to provide a solid grounding for further study or entry-level positions in AI-related fields. (New Major)\r\n"
+    },
+    {
+        "prompt": "Tell me more about Diploma in Artificial Intelligence program?",
+        "completion": "The Diploma in Artificial Intelligence introduces students to basic AI concepts, including machine learning, data analysis, and AI applications. This program is designed to provide a solid grounding for further study or entry-level positions in AI-related fields. (New Major)\r\n"
+    },
+    {
+        "prompt": "Can you tell me about the Diploma in Artificial Intelligence program?",
+        "completion": "The Diploma in Artificial Intelligence introduces students to basic AI concepts, including machine learning, data analysis, and AI applications. This program is designed to provide a solid grounding for further study or entry-level positions in AI-related fields. (New Major)\r\n"
+    },
+    {
+        "prompt": "What am I going to study and learn in the Diploma in Artificial Intelligence program?",
+        "completion": "The Diploma in Artificial Intelligence introduces students to basic AI concepts, including machine learning, data analysis, and AI applications. This program is designed to provide a solid grounding for further study or entry-level positions in AI-related fields. (New Major)\r\n"
+    },
+    {
+        "prompt": "What is the study plan of Diploma in Artificial Intelligence program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Diploma%20in%20Artificial%20Intelligence%202024%20-%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Diploma in Artificial Intelligence program?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "What is the degree level of Diploma in Artificial Intelligence program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Diploma in Artificial Intelligence program?",
+        "completion": "64"
+    },
+    {
+        "prompt": "What faculty is Diploma in Artificial Intelligence part of?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "ما هو برنامج الدبلوم في الذكاء الاصطناعي؟",
+        "completion": "يقدم دبلوم الذكاء الاصطناعي للطلاب مفاهيم الذكاء الاصطناعي الأساسية، بما في ذلك التعلم الآلي، وتحليل البيانات، وتطبيقات الذكاء الاصطناعي. تم تصميم هذا البرنامج لتوفير أساس متين لمزيد من الدراسة أو المناصب الأولية في المجالات المتعلقة بالذكاء الاصطناعي. (تخصص جديد)"
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج الدبلوم في الذكاء الاصطناعي؟",
+        "completion": "يقدم دبلوم الذكاء الاصطناعي للطلاب مفاهيم الذكاء الاصطناعي الأساسية، بما في ذلك التعلم الآلي، وتحليل البيانات، وتطبيقات الذكاء الاصطناعي. تم تصميم هذا البرنامج لتوفير أساس متين لمزيد من الدراسة أو المناصب الأولية في المجالات المتعلقة بالذكاء الاصطناعي. (تخصص جديد)"
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج دبلوم الذكاء الاصطناعي؟",
+        "completion": "يقدم دبلوم الذكاء الاصطناعي للطلاب مفاهيم الذكاء الاصطناعي الأساسية، بما في ذلك التعلم الآلي، وتحليل البيانات، وتطبيقات الذكاء الاصطناعي. تم تصميم هذا البرنامج لتوفير أساس متين لمزيد من الدراسة أو المناصب الأولية في المجالات المتعلقة بالذكاء الاصطناعي. (تخصص جديد)"
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج الدبلوم في الذكاء الاصطناعي؟",
+        "completion": "يقدم دبلوم الذكاء الاصطناعي للطلاب مفاهيم الذكاء الاصطناعي الأساسية، بما في ذلك التعلم الآلي، وتحليل البيانات، وتطبيقات الذكاء الاصطناعي. تم تصميم هذا البرنامج لتوفير أساس متين لمزيد من الدراسة أو المناصب الأولية في المجالات المتعلقة بالذكاء الاصطناعي. (تخصص جديد)"
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج الدبلوم في الذكاء الاصطناعي؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Diploma%20in%20Artificial%20Intelligence%202024%20-%20Study%20Plan.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج الدبلوم في الذكاء الاصطناعي؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "ما هو مستوى درجة الدبلوم في برنامج الذكاء الاصطناعي؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج الدبلوم في الذكاء الاصطناعي؟",
+        "completion": "64"
+    },
+    {
+        "prompt": "ما هي الكلية التي تضم دبلوم الذكاء الاصطناعي؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "What is Master in Cyber Security and Forensics program?",
+        "completion": "The Master in Cyber Security and Forensics program offers advanced training in protecting and investigating digital systems. Students delve into cybersecurity strategies, forensic analysis, and legal aspects of digital crime. This program prepares graduates for specialized roles in cybersecurity and digital forensics, safeguarding organizations against cyber threats. (New Major)\r\n"
+    },
+    {
+        "prompt": "Tell me more about Master in Cyber Security and Forensics program?",
+        "completion": "The Master in Cyber Security and Forensics program offers advanced training in protecting and investigating digital systems. Students delve into cybersecurity strategies, forensic analysis, and legal aspects of digital crime. This program prepares graduates for specialized roles in cybersecurity and digital forensics, safeguarding organizations against cyber threats. (New Major)\r\n"
+    },
+    {
+        "prompt": "Can you tell me about the Master in Cyber Security and Forensics program?",
+        "completion": "The Master in Cyber Security and Forensics program offers advanced training in protecting and investigating digital systems. Students delve into cybersecurity strategies, forensic analysis, and legal aspects of digital crime. This program prepares graduates for specialized roles in cybersecurity and digital forensics, safeguarding organizations against cyber threats. (New Major)\r\n"
+    },
+    {
+        "prompt": "What am I going to study and learn in the Master in Cyber Security and Forensics program?",
+        "completion": "The Master in Cyber Security and Forensics program offers advanced training in protecting and investigating digital systems. Students delve into cybersecurity strategies, forensic analysis, and legal aspects of digital crime. This program prepares graduates for specialized roles in cybersecurity and digital forensics, safeguarding organizations against cyber threats. (New Major)\r\n"
+    },
+    {
+        "prompt": "What is the study plan of Master in Cyber Security and Forensics program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Master%20in%20Cybersecurity%20Semester%20Plan.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Master in Cyber Security and Forensics program?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "What is the degree level of Master in Cyber Security and Forensics program?",
+        "completion": "Postgraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Master in Cyber Security and Forensics program?",
+        "completion": "48"
+    },
+    {
+        "prompt": "What faculty is Master in Cyber Security and Forensics part of?",
+        "completion": "Faculty of Computer Studies"
+    },
+    {
+        "prompt": "ما هو برنامج الماجستير في الأمن السيبراني والطب الشرعي؟",
+        "completion": "يقدم برنامج الماجستير في الأمن السيبراني والطب الشرعي تدريبًا متقدمًا في حماية الأنظمة الرقمية والتحقيق فيها. يتعمق الطلاب في استراتيجيات الأمن السيبراني والتحليل الجنائي والجوانب القانونية للجرائم الرقمية. يعد هذا البرنامج الخريجين لأدوار متخصصة في الأمن السيبراني والطب الشرعي الرقمي، وحماية المؤسسات من التهديدات السيبرانية. (تخصص جديد)"
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج الماجستير في الأمن السيبراني والطب الشرعي؟",
+        "completion": "يقدم برنامج الماجستير في الأمن السيبراني والطب الشرعي تدريبًا متقدمًا في حماية الأنظمة الرقمية والتحقيق فيها. يتعمق الطلاب في استراتيجيات الأمن السيبراني والتحليل الجنائي والجوانب القانونية للجرائم الرقمية. يعد هذا البرنامج الخريجين لأدوار متخصصة في الأمن السيبراني والطب الشرعي الرقمي، وحماية المؤسسات من التهديدات السيبرانية. (تخصص جديد)"
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج الماجستير في الأمن السيبراني والطب الشرعي؟",
+        "completion": "يقدم برنامج الماجستير في الأمن السيبراني والطب الشرعي تدريبًا متقدمًا في حماية الأنظمة الرقمية والتحقيق فيها. يتعمق الطلاب في استراتيجيات الأمن السيبراني والتحليل الجنائي والجوانب القانونية للجرائم الرقمية. يعد هذا البرنامج الخريجين لأدوار متخصصة في الأمن السيبراني والطب الشرعي الرقمي، وحماية المؤسسات من التهديدات السيبرانية. (تخصص جديد)"
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج الماجستير في الأمن السيبراني والطب الشرعي؟",
+        "completion": "يقدم برنامج الماجستير في الأمن السيبراني والطب الشرعي تدريبًا متقدمًا في حماية الأنظمة الرقمية والتحقيق فيها. يتعمق الطلاب في استراتيجيات الأمن السيبراني والتحليل الجنائي والجوانب القانونية للجرائم الرقمية. يعد هذا البرنامج الخريجين لأدوار متخصصة في الأمن السيبراني والطب الشرعي الرقمي، وحماية المؤسسات من التهديدات السيبرانية. (تخصص جديد)"
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج الماجستير في الأمن السيبراني والطب الشرعي؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Master%20in%20Cybersecurity%20Semester%20Plan.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج الماجستير في الأمن السيبراني والطب الشرعي؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "ما هو مستوى درجة الماجستير في برنامج الأمن السيبراني والطب الشرعي؟",
+        "completion": "دراسات عليا"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج الماجستير في الأمن السيبراني والطب الشرعي؟",
+        "completion": "48"
+    },
+    {
+        "prompt": "ما هي الكلية التي ينتمي إليها برنامج الماجستير في الأمن السيبراني والطب الشرعي؟",
+        "completion": "كلية دراسات الحاسوب"
+    },
+    {
+        "prompt": "What is Business Studies - Accounting Track program?",
+        "completion": "This program focuses on developing strong accounting skills, covering financial accounting, management accounting, taxation, auditing, and financial reporting. Graduates will be equipped to manage and interpret financial data, ensuring the financial health of organizations."
+    },
+    {
+        "prompt": "Tell me more about Business Studies - Accounting Track program?",
+        "completion": "This program focuses on developing strong accounting skills, covering financial accounting, management accounting, taxation, auditing, and financial reporting. Graduates will be equipped to manage and interpret financial data, ensuring the financial health of organizations."
+    },
+    {
+        "prompt": "Can you tell me about the Business Studies - Accounting Track program?",
+        "completion": "This program focuses on developing strong accounting skills, covering financial accounting, management accounting, taxation, auditing, and financial reporting. Graduates will be equipped to manage and interpret financial data, ensuring the financial health of organizations."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Business Studies - Accounting Track program?",
+        "completion": "This program focuses on developing strong accounting skills, covering financial accounting, management accounting, taxation, auditing, and financial reporting. Graduates will be equipped to manage and interpret financial data, ensuring the financial health of organizations."
+    },
+    {
+        "prompt": "What is the study plan of Business Studies - Accounting Track program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Business%20Studies%20-%20Accounting%20Track.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Business Studies - Accounting Track program?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "What is the degree level of Business Studies - Accounting Track program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Business Studies - Accounting Track program?",
+        "completion": "135"
+    },
+    {
+        "prompt": "What faculty is Business Studies - Accounting Track part of?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "ما هو برنامج دراسات الأعمال - مسار المحاسبة؟",
+        "completion": "يركز هذا البرنامج على تطوير مهارات المحاسبة القوية، والتي تغطي المحاسبة المالية، والمحاسبة الإدارية، والضرائب، والتدقيق، والتقارير المالية. سيكون الخريجون مجهزين لإدارة وتفسير البيانات المالية، وضمان الصحة المالية للمؤسسات."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج دراسات الأعمال - المسار المحاسبي؟",
+        "completion": "يركز هذا البرنامج على تطوير مهارات المحاسبة القوية، والتي تغطي المحاسبة المالية، والمحاسبة الإدارية، والضرائب، والتدقيق، والتقارير المالية. سيكون الخريجون مجهزين لإدارة وتفسير البيانات المالية، وضمان الصحة المالية للمؤسسات."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج دراسات الأعمال - المسار المحاسبي؟",
+        "completion": "يركز هذا البرنامج على تطوير مهارات المحاسبة القوية، والتي تغطي المحاسبة المالية، والمحاسبة الإدارية، والضرائب، والتدقيق، والتقارير المالية. سيكون الخريجون مجهزين لإدارة وتفسير البيانات المالية، وضمان الصحة المالية للمؤسسات."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج دراسات الأعمال - مسار المحاسبة؟",
+        "completion": "يركز هذا البرنامج على تطوير مهارات المحاسبة القوية، والتي تغطي المحاسبة المالية، والمحاسبة الإدارية، والضرائب، والتدقيق، والتقارير المالية. سيكون الخريجون مجهزين لإدارة وتفسير البيانات المالية، وضمان الصحة المالية للمؤسسات."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج دراسات الأعمال - مسار المحاسبة؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Business%20Studies%20-%20Accounting%20Track.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج دراسات الأعمال - مسار المحاسبة؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "ما هو المستوى الدراسي لبرنامج دراسات الأعمال - مسار المحاسبة؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الوحدات الدراسية المتضمنة في برنامج دراسات الأعمال - مسار المحاسبة؟",
+        "completion": "135"
+    },
+    {
+        "prompt": "ما هي الكلية التي يتبعها قسم دراسات الأعمال - مسار المحاسبة؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "What is Business Studies - Economics Track program?",
+        "completion": "The Economics track offers a deep understanding of economic principles, including microeconomics, macroeconomics, and econometrics. Students learn to analyze market behavior, economic policies, and global economic trends, preparing them for roles in policy analysis, consulting, and economic research."
+    },
+    {
+        "prompt": "Tell me more about Business Studies - Economics Track program?",
+        "completion": "The Economics track offers a deep understanding of economic principles, including microeconomics, macroeconomics, and econometrics. Students learn to analyze market behavior, economic policies, and global economic trends, preparing them for roles in policy analysis, consulting, and economic research."
+    },
+    {
+        "prompt": "Can you tell me about the Business Studies - Economics Track program?",
+        "completion": "The Economics track offers a deep understanding of economic principles, including microeconomics, macroeconomics, and econometrics. Students learn to analyze market behavior, economic policies, and global economic trends, preparing them for roles in policy analysis, consulting, and economic research."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Business Studies - Economics Track program?",
+        "completion": "The Economics track offers a deep understanding of economic principles, including microeconomics, macroeconomics, and econometrics. Students learn to analyze market behavior, economic policies, and global economic trends, preparing them for roles in policy analysis, consulting, and economic research."
+    },
+    {
+        "prompt": "What is the study plan of Business Studies - Economics Track program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Business%20Studies%20-%20Economics%20Track.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Business Studies - Economics Track program?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "What is the degree level of Business Studies - Economics Track program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Business Studies - Economics Track program?",
+        "completion": "135"
+    },
+    {
+        "prompt": "What faculty is Business Studies - Economics Track part of?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "ما هو برنامج دراسات الأعمال - المسار الاقتصادي؟",
+        "completion": "يقدم مسار الاقتصاد فهمًا عميقًا للمبادئ الاقتصادية، بما في ذلك الاقتصاد الجزئي والاقتصاد الكلي والاقتصاد القياسي. يتعلم الطلاب كيفية تحليل سلوك السوق والسياسات الاقتصادية والاتجاهات الاقتصادية العالمية، مما يعدهم لأدوار في تحليل السياسات والاستشارات والبحوث الاقتصادية."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج دراسات الأعمال - المسار الاقتصادي؟",
+        "completion": "يقدم مسار الاقتصاد فهمًا عميقًا للمبادئ الاقتصادية، بما في ذلك الاقتصاد الجزئي والاقتصاد الكلي والاقتصاد القياسي. يتعلم الطلاب كيفية تحليل سلوك السوق والسياسات الاقتصادية والاتجاهات الاقتصادية العالمية، مما يعدهم لأدوار في تحليل السياسات والاستشارات والبحوث الاقتصادية."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج دراسات الأعمال - المسار الاقتصادي؟",
+        "completion": "يقدم مسار الاقتصاد فهمًا عميقًا للمبادئ الاقتصادية، بما في ذلك الاقتصاد الجزئي والاقتصاد الكلي والاقتصاد القياسي. يتعلم الطلاب كيفية تحليل سلوك السوق والسياسات الاقتصادية والاتجاهات الاقتصادية العالمية، مما يعدهم لأدوار في تحليل السياسات والاستشارات والبحوث الاقتصادية."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج دراسات الأعمال - المسار الاقتصادي؟",
+        "completion": "يقدم مسار الاقتصاد فهمًا عميقًا للمبادئ الاقتصادية، بما في ذلك الاقتصاد الجزئي والاقتصاد الكلي والاقتصاد القياسي. يتعلم الطلاب كيفية تحليل سلوك السوق والسياسات الاقتصادية والاتجاهات الاقتصادية العالمية، مما يعدهم لأدوار في تحليل السياسات والاستشارات والبحوث الاقتصادية."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج دراسات الأعمال - المسار الاقتصادي؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Business%20Studies%20-%20Economics%20Track.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج دراسات الأعمال - المسار الاقتصادي؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "ما هو المستوى الدراسي لبرنامج دراسات الأعمال - المسار الاقتصادي؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج دراسات الأعمال - المسار الاقتصادي؟",
+        "completion": "135"
+    },
+    {
+        "prompt": "ما هي الكلية التي يتبعها قسم دراسات الأعمال - المسار الاقتصادي؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "What is Business Studies - Management Track program?",
+        "completion": "This program is designed to develop leadership and management skills. Students learn about organizational behavior, strategic management, human resource management, and operations management, preparing them for managerial roles in various industries."
+    },
+    {
+        "prompt": "Tell me more about Business Studies - Management Track program?",
+        "completion": "This program is designed to develop leadership and management skills. Students learn about organizational behavior, strategic management, human resource management, and operations management, preparing them for managerial roles in various industries."
+    },
+    {
+        "prompt": "Can you tell me about the Business Studies - Management Track program?",
+        "completion": "This program is designed to develop leadership and management skills. Students learn about organizational behavior, strategic management, human resource management, and operations management, preparing them for managerial roles in various industries."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Business Studies - Management Track program?",
+        "completion": "This program is designed to develop leadership and management skills. Students learn about organizational behavior, strategic management, human resource management, and operations management, preparing them for managerial roles in various industries."
+    },
+    {
+        "prompt": "What is the study plan of Business Studies - Management Track program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Business%20Studies%20-%20Management%20Track.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Business Studies - Management Track program?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "What is the degree level of Business Studies - Management Track program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Business Studies - Management Track program?",
+        "completion": "135"
+    },
+    {
+        "prompt": "What faculty is Business Studies - Management Track part of?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "ما هو برنامج دراسات الأعمال - المسار الإداري؟",
+        "completion": "تم تصميم هذا البرنامج لتنمية مهارات القيادة والإدارة. يتعلم الطلاب عن السلوك التنظيمي والإدارة الاستراتيجية وإدارة الموارد البشرية وإدارة العمليات، مما يؤهلهم لأدوار إدارية في مختلف الصناعات."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج دراسات الأعمال - المسار الإداري؟",
+        "completion": "تم تصميم هذا البرنامج لتنمية مهارات القيادة والإدارة. يتعلم الطلاب عن السلوك التنظيمي والإدارة الاستراتيجية وإدارة الموارد البشرية وإدارة العمليات، مما يؤهلهم لأدوار إدارية في مختلف الصناعات."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج دراسات الأعمال - المسار الإداري؟",
+        "completion": "تم تصميم هذا البرنامج لتنمية مهارات القيادة والإدارة. يتعلم الطلاب عن السلوك التنظيمي والإدارة الاستراتيجية وإدارة الموارد البشرية وإدارة العمليات، مما يؤهلهم لأدوار إدارية في مختلف الصناعات."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج دراسات الأعمال - المسار الإداري؟",
+        "completion": "تم تصميم هذا البرنامج لتنمية مهارات القيادة والإدارة. يتعلم الطلاب عن السلوك التنظيمي والإدارة الاستراتيجية وإدارة الموارد البشرية وإدارة العمليات، مما يؤهلهم لأدوار إدارية في مختلف الصناعات."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج دراسات الأعمال - المسار الإداري؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Business%20Studies%20-%20Management%20Track.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج دراسات الأعمال - المسار الإداري؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "ما هو المستوى الدراسي لبرنامج دراسات الأعمال - المسار الإداري؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج دراسات الأعمال - المسار الإداري؟",
+        "completion": "135"
+    },
+    {
+        "prompt": "ما هي الكلية التي ينتمي إليها برنامج دراسات الأعمال - المسار الإداري؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "What is Business Studies - Systems Track program?",
+        "completion": "The Systems Track emphasizes the integration of business processes and information systems. Students learn about information management, systems analysis, and design, and how to implement technology solutions to optimize business operations."
+    },
+    {
+        "prompt": "Tell me more about Business Studies - Systems Track program?",
+        "completion": "The Systems Track emphasizes the integration of business processes and information systems. Students learn about information management, systems analysis, and design, and how to implement technology solutions to optimize business operations."
+    },
+    {
+        "prompt": "Can you tell me about the Business Studies - Systems Track program?",
+        "completion": "The Systems Track emphasizes the integration of business processes and information systems. Students learn about information management, systems analysis, and design, and how to implement technology solutions to optimize business operations."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Business Studies - Systems Track program?",
+        "completion": "The Systems Track emphasizes the integration of business processes and information systems. Students learn about information management, systems analysis, and design, and how to implement technology solutions to optimize business operations."
+    },
+    {
+        "prompt": "What is the study plan of Business Studies - Systems Track program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Business%20Studies%20-%20Systems%20Track.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Business Studies - Systems Track program?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "What is the degree level of Business Studies - Systems Track program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Business Studies - Systems Track program?",
+        "completion": "135"
+    },
+    {
+        "prompt": "What faculty is Business Studies - Systems Track part of?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "ما هو برنامج دراسات الأعمال - المسار النظمي؟",
+        "completion": "يركز مسار النظم على تكامل العمليات التجارية وأنظمة المعلومات. يتعلم الطلاب عن إدارة المعلومات وتحليل النظم وتصميمها وكيفية تنفيذ الحلول التكنولوجية لتحسين العمليات التجارية."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج دراسات الأعمال - المسار النظمي؟",
+        "completion": "يركز مسار النظم على تكامل العمليات التجارية وأنظمة المعلومات. يتعلم الطلاب عن إدارة المعلومات وتحليل النظم وتصميمها وكيفية تنفيذ الحلول التكنولوجية لتحسين العمليات التجارية."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج دراسات الأعمال - المسار النظمي؟",
+        "completion": "يركز مسار النظم على تكامل العمليات التجارية وأنظمة المعلومات. يتعلم الطلاب عن إدارة المعلومات وتحليل النظم وتصميمها وكيفية تنفيذ الحلول التكنولوجية لتحسين العمليات التجارية."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج دراسات الأعمال - المسار النظمي؟",
+        "completion": "يركز مسار النظم على تكامل العمليات التجارية وأنظمة المعلومات. يتعلم الطلاب عن إدارة المعلومات وتحليل النظم وتصميمها وكيفية تنفيذ الحلول التكنولوجية لتحسين العمليات التجارية."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج دراسات الأعمال - مسار النظم؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Business%20Studies%20-%20Systems%20Track.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج دراسات الأعمال - المسار النظمي؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "ما هو المستوى الدراسي لبرنامج دراسات الأعمال - مسار النظم؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الوحدات الدراسية المتضمنة في برنامج دراسات الأعمال - المسار النظمي؟",
+        "completion": "135"
+    },
+    {
+        "prompt": "ما هي الكلية التي ينتمي إليها قسم دراسات الأعمال - مسار النظم؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "What is Business Studies -Marketing Track program?",
+        "completion": "This program focuses on developing marketing expertise, including market research, consumer behavior, branding, and digital marketing strategies. Graduates will be prepared to create and execute marketing campaigns that effectively reach target audiences."
+    },
+    {
+        "prompt": "Tell me more about Business Studies -Marketing Track program?",
+        "completion": "This program focuses on developing marketing expertise, including market research, consumer behavior, branding, and digital marketing strategies. Graduates will be prepared to create and execute marketing campaigns that effectively reach target audiences."
+    },
+    {
+        "prompt": "Can you tell me about the Business Studies -Marketing Track program?",
+        "completion": "This program focuses on developing marketing expertise, including market research, consumer behavior, branding, and digital marketing strategies. Graduates will be prepared to create and execute marketing campaigns that effectively reach target audiences."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Business Studies -Marketing Track program?",
+        "completion": "This program focuses on developing marketing expertise, including market research, consumer behavior, branding, and digital marketing strategies. Graduates will be prepared to create and execute marketing campaigns that effectively reach target audiences."
+    },
+    {
+        "prompt": "What is the study plan of Business Studies -Marketing Track program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Business%20Studies%20-Marketing%20Track.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Business Studies -Marketing Track program?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "What is the degree level of Business Studies -Marketing Track program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Business Studies -Marketing Track program?",
+        "completion": "135"
+    },
+    {
+        "prompt": "What faculty is Business Studies -Marketing Track part of?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "ما هو برنامج دراسات الأعمال - مسار التسويق؟",
+        "completion": "يركز هذا البرنامج على تطوير الخبرة التسويقية، بما في ذلك أبحاث السوق وسلوك المستهلك وبناء العلامات التجارية واستراتيجيات التسويق الرقمي. سيكون الخريجون مستعدين لإنشاء وتنفيذ حملات تسويقية تصل بفعالية إلى الجماهير المستهدفة."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج دراسات الأعمال - مسار التسويق؟",
+        "completion": "يركز هذا البرنامج على تطوير الخبرة التسويقية، بما في ذلك أبحاث السوق وسلوك المستهلك وبناء العلامات التجارية واستراتيجيات التسويق الرقمي. سيكون الخريجون مستعدين لإنشاء وتنفيذ حملات تسويقية تصل بفعالية إلى الجماهير المستهدفة."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج دراسات الأعمال - مسار التسويق؟",
+        "completion": "يركز هذا البرنامج على تطوير الخبرة التسويقية، بما في ذلك أبحاث السوق وسلوك المستهلك وبناء العلامات التجارية واستراتيجيات التسويق الرقمي. سيكون الخريجون مستعدين لإنشاء وتنفيذ حملات تسويقية تصل بفعالية إلى الجماهير المستهدفة."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج دراسات الأعمال - مسار التسويق؟",
+        "completion": "يركز هذا البرنامج على تطوير الخبرة التسويقية، بما في ذلك أبحاث السوق وسلوك المستهلك وبناء العلامات التجارية واستراتيجيات التسويق الرقمي. سيكون الخريجون مستعدين لإنشاء وتنفيذ حملات تسويقية تصل بفعالية إلى الجماهير المستهدفة."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج دراسات الأعمال - مسار التسويق؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Business%20Studies%20-Marketing%20Track.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج دراسات الأعمال - مسار التسويق؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "ما هو المستوى الدراسي لبرنامج دراسات الأعمال - مسار التسويق؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج دراسات الأعمال - مسار التسويق؟",
+        "completion": "135"
+    },
+    {
+        "prompt": "ما هي الكلية التي ينتمي إليها قسم دراسات الأعمال - مسار التسويق؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "What is Diploma in Business Studies Study program?",
+        "completion": "The diploma program provides foundational knowledge in business principles, including accounting, management, marketing, and economics. It is ideal for students seeking a solid introduction to business studies before pursuing further education or entry-level positions."
+    },
+    {
+        "prompt": "Tell me more about Diploma in Business Studies Study program?",
+        "completion": "The diploma program provides foundational knowledge in business principles, including accounting, management, marketing, and economics. It is ideal for students seeking a solid introduction to business studies before pursuing further education or entry-level positions."
+    },
+    {
+        "prompt": "Can you tell me about the Diploma in Business Studies Study program?",
+        "completion": "The diploma program provides foundational knowledge in business principles, including accounting, management, marketing, and economics. It is ideal for students seeking a solid introduction to business studies before pursuing further education or entry-level positions."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Diploma in Business Studies Study program?",
+        "completion": "The diploma program provides foundational knowledge in business principles, including accounting, management, marketing, and economics. It is ideal for students seeking a solid introduction to business studies before pursuing further education or entry-level positions."
+    },
+    {
+        "prompt": "What is the study plan of Diploma in Business Studies Study program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Diploma%20in%20Business%20Studies%20Study.pdf"
+    },
+    {
+        "prompt": "What faculty offers the Diploma in Business Studies Study program?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "What is the degree level of Diploma in Business Studies Study program?",
+        "completion": "Undergraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Diploma in Business Studies Study program?",
+        "completion": "64"
+    },
+    {
+        "prompt": "What faculty is Diploma in Business Studies Study part of?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "ما هو برنامج دراسة الدبلوم في دراسات الأعمال؟",
+        "completion": "يوفر برنامج الدبلومة المعرفة الأساسية في مبادئ الأعمال، بما في ذلك المحاسبة والإدارة والتسويق والاقتصاد. وهو مثالي للطلاب الذين يسعون إلى الحصول على مقدمة قوية لدراسات الأعمال قبل متابعة التعليم العالي أو المناصب الأولية."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج دراسة الدبلوم في دراسات الأعمال؟",
+        "completion": "يوفر برنامج الدبلومة المعرفة الأساسية في مبادئ الأعمال، بما في ذلك المحاسبة والإدارة والتسويق والاقتصاد. وهو مثالي للطلاب الذين يسعون إلى الحصول على مقدمة قوية لدراسات الأعمال قبل متابعة التعليم العالي أو المناصب الأولية."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج دراسة الدبلوم في دراسات الأعمال؟",
+        "completion": "يوفر برنامج الدبلومة المعرفة الأساسية في مبادئ الأعمال، بما في ذلك المحاسبة والإدارة والتسويق والاقتصاد. وهو مثالي للطلاب الذين يسعون إلى الحصول على مقدمة قوية لدراسات الأعمال قبل متابعة التعليم العالي أو المناصب الأولية."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج دراسة دبلوم الدراسات التجارية؟",
+        "completion": "يوفر برنامج الدبلومة المعرفة الأساسية في مبادئ الأعمال، بما في ذلك المحاسبة والإدارة والتسويق والاقتصاد. وهو مثالي للطلاب الذين يسعون إلى الحصول على مقدمة قوية لدراسات الأعمال قبل متابعة التعليم العالي أو المناصب الأولية."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج دبلوم الدراسات التجارية؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Diploma%20in%20Business%20Studies%20Study.pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج دراسة الدبلوم في دراسات الأعمال؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "ما هو مستوى درجة برنامج دراسة الدبلوم في دراسات الأعمال؟",
+        "completion": "المرحلة الجامعية"
+    },
+    {
+        "prompt": "كم عدد الساعات المعتمدة المتضمنة في برنامج دراسة الدبلوم في دراسات الأعمال؟",
+        "completion": "64"
+    },
+    {
+        "prompt": "ما هي الكلية التي يدرس فيها دبلوم الدراسات التجارية؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "What is Master of Business Administration (MBA) program?",
+        "completion": "The MBA program is designed for professionals seeking advanced leadership roles. It covers strategic management, finance, marketing, and operations, with an emphasis on global business practices. Students develop critical thinking and decision-making skills, preparing them to lead organizations in a dynamic business environment."
+    },
+    {
+        "prompt": "Tell me more about Master of Business Administration (MBA) program?",
+        "completion": "The MBA program is designed for professionals seeking advanced leadership roles. It covers strategic management, finance, marketing, and operations, with an emphasis on global business practices. Students develop critical thinking and decision-making skills, preparing them to lead organizations in a dynamic business environment."
+    },
+    {
+        "prompt": "Can you tell me about the Master of Business Administration (MBA) program?",
+        "completion": "The MBA program is designed for professionals seeking advanced leadership roles. It covers strategic management, finance, marketing, and operations, with an emphasis on global business practices. Students develop critical thinking and decision-making skills, preparing them to lead organizations in a dynamic business environment."
+    },
+    {
+        "prompt": "What am I going to study and learn in the Master of Business Administration (MBA) program?",
+        "completion": "The MBA program is designed for professionals seeking advanced leadership roles. It covers strategic management, finance, marketing, and operations, with an emphasis on global business practices. Students develop critical thinking and decision-making skills, preparing them to lead organizations in a dynamic business environment."
+    },
+    {
+        "prompt": "What is the study plan of Master of Business Administration (MBA) program?",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Study%20Plan-%20MBA%20General(2021).pdf"
+    },
+    {
+        "prompt": "What faculty offers the Master of Business Administration (MBA) program?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "What is the degree level of Master of Business Administration (MBA) program?",
+        "completion": "Postgraduate"
+    },
+    {
+        "prompt": "How many credits are included within the Master of Business Administration (MBA) program?",
+        "completion": "48"
+    },
+    {
+        "prompt": "What faculty is Master of Business Administration (MBA) part of?",
+        "completion": "Faculty of Business Studies"
+    },
+    {
+        "prompt": "ما هو برنامج الماجستير في إدارة الأعمال (MBA)؟",
+        "completion": "تم تصميم برنامج ماجستير إدارة الأعمال للمحترفين الذين يسعون إلى أدوار قيادية متقدمة. وهو يغطي الإدارة الاستراتيجية والتمويل والتسويق والعمليات، مع التركيز على ممارسات الأعمال العالمية. يطور الطلاب مهارات التفكير النقدي واتخاذ القرار، مما يؤهلهم لقيادة المنظمات في بيئة عمل ديناميكية."
+    },
+    {
+        "prompt": "أخبرني المزيد عن برنامج الماجستير في إدارة الأعمال (MBA)؟",
+        "completion": "تم تصميم برنامج ماجستير إدارة الأعمال للمحترفين الذين يسعون إلى أدوار قيادية متقدمة. وهو يغطي الإدارة الاستراتيجية والتمويل والتسويق والعمليات، مع التركيز على ممارسات الأعمال العالمية. يطور الطلاب مهارات التفكير النقدي واتخاذ القرار، مما يؤهلهم لقيادة المنظمات في بيئة عمل ديناميكية."
+    },
+    {
+        "prompt": "هل يمكنك أن تخبرني عن برنامج الماجستير في إدارة الأعمال (MBA)؟",
+        "completion": "تم تصميم برنامج ماجستير إدارة الأعمال للمحترفين الذين يسعون إلى أدوار قيادية متقدمة. وهو يغطي الإدارة الاستراتيجية والتمويل والتسويق والعمليات، مع التركيز على ممارسات الأعمال العالمية. يطور الطلاب مهارات التفكير النقدي واتخاذ القرار، مما يؤهلهم لقيادة المنظمات في بيئة عمل ديناميكية."
+    },
+    {
+        "prompt": "ماذا سأدرس وأتعلم في برنامج الماجستير في إدارة الأعمال (MBA)؟",
+        "completion": "تم تصميم برنامج ماجستير إدارة الأعمال للمحترفين الذين يسعون إلى أدوار قيادية متقدمة. وهو يغطي الإدارة الاستراتيجية والتمويل والتسويق والعمليات، مع التركيز على ممارسات الأعمال العالمية. يطور الطلاب مهارات التفكير النقدي واتخاذ القرار، مما يؤهلهم لقيادة المنظمات في بيئة عمل ديناميكية."
+    },
+    {
+        "prompt": "ما هي الخطة الدراسية لبرنامج الماجستير في إدارة الأعمال (MBA)؟",
+        "completion": "https://www.aou.edu.om/faculties/Documents/Study%20Plan-%20MBA%20جنرال(2021).pdf"
+    },
+    {
+        "prompt": "ما هي الكلية التي تقدم برنامج الماجستير في إدارة الأعمال (MBA)؟",
+        "completion": "كلية الدراسات التجارية"
+    },
+    {
+        "prompt": "ما هو مستوى درجة برنامج الماجستير في إدارة الأعمال (MBA)؟",
+        "completion": "دراسات عليا"
+    },
+    {
+        "prompt": "كم عدد الوحدات الدراسية المتضمنة في برنامج الماجستير في إدارة الأعمال (MBA)؟",
+        "completion": "48"
+    },
+    {
+        "prompt": "ما هي الكلية التي تضم ماجستير إدارة الأعمال (MBA)؟",
+        "completion": "كلية الدراسات التجارية"
     }
 ]

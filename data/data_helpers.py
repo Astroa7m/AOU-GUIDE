@@ -14,7 +14,7 @@ def translate_to_arabic(text):
 class AcademicStaffDataHelpers:
 
     @staticmethod
-    def create_academic_staff_prompts_from_csv():
+    def create_academic_staff_prompts_and_completion_from_csv():
         prompts_and_completion = []
 
         with open("aou_data/csv/AcademicStaff.csv", 'r', newline='', encoding='utf-8') as f:
@@ -35,7 +35,7 @@ class AcademicStaffDataHelpers:
                     (f"What is the specialization of {name}?", info["specialization"]),
                     (f"What is the Major of {name}?", info["specialization"]),
                     (f"What does {name} specialize in?", info["specialization"]),
-                    (f"What is the position(title, post) of {name}?",info["position"]),
+                    (f"What is the position(title, post) of {name}?", info["position"]),
                     (f"What does {name} teach?", info["teaches"]),
                     (f"What modules does {name} teach?", info["teaches"]),
                     (f"What is the profile url of {name}?", "Here " + info["link"]),
@@ -43,45 +43,12 @@ class AcademicStaffDataHelpers:
                     (f"Where can I know more about {name}?", "Here " + info["link"])
                 ]
                 print(f"Creating Arabic prompts for {name}")
-                prompts_ar_with_completion = [(translate_to_arabic(p), translate_to_arabic(c)) for p, c in prompts_en_with_completion]
+                prompts_ar_with_completion = [(translate_to_arabic(p), translate_to_arabic(c)) for p, c in
+                                              prompts_en_with_completion]
 
                 prompts_and_completion.append(prompts_en_with_completion + prompts_ar_with_completion)
 
-        with open("training_data/aou_training_dataset.json", mode='r', encoding="utf8") as f:
-            data = json.load(f)
-
-            print("Adding prompts to trainin data")
-            for tutor_pc in prompts_and_completion:
-                for pc in tutor_pc:
-                    data.append(
-                        {
-                            "prompt": pc[0],
-                            "completion": pc[1]
-                        }
-                    )
-
-        with open("training_data/aou_training_dataset.json", mode='w', encoding='utf8') as f:
-            json.dump(data, f, indent=4, ensure_ascii=False)
-
-
-
-
-        # for prompt in prompts:
-        #     completion = input(prompt + " ")
-        #
-        #     # Open and read the existing JSON file
-        #     with open("training_data/aou_training_dataset.json", mode="r", encoding="utf8") as f:
-        #         data = json.load(f)
-        #
-        #         # New record to append (assuming `prompts` and `completion` are defined)
-        #         new_record = {"prompt": prompt, "completion": completion}
-        #
-        #         # Append the new record to the list
-        #         data.append(new_record)
-        #
-        #     # Write the updated list back to a new JSON file
-        #     with open('training_data/aou_training_dataset.json', mode='w', encoding="utf8") as file:
-        #         json.dump(data, file, indent=4, ensure_ascii=False)
+        GenericDataHelpers.write_prompts_to_training_data(prompts_and_completion)
 
     @staticmethod
     def write_academic_staff_data_to_csv():
@@ -145,42 +112,43 @@ class AcademicStaffDataHelpers:
 class MajorDataHelpers:
 
     @staticmethod
-    def write_major_prompts():
-        # add arabic prompt and completion for each prompt
-        faculty = ""
+    def create_major_prompts_and_completion_from_csv():
 
-        programs = []
 
-        programs_prompts = []
+        with open("aou_data/csv/Major.csv", "r", newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
 
-        for program in programs:
-            programs_prompts.append(
-                f"What is BA Hons in {program}?",
-            )
+            prompts_and_completion = []
 
-            programs_prompts.append(
-                f"Can you tell me more about {program} program?"
-            )
 
-            programs_prompts.append(
-                f"Where can I find the academic plan for {programs}"
-            )
+            majors = {}
 
-            programs_prompts.append(
-                f"I want the academic plan for {programs} program"
-            )
+            for row in reader:
+                majors[row['name']] = row
 
-        prompts = [
-            f"What is the Faculty of {faculty} in AOU?"
-            f"What is the Faculty of {faculty} at the university?",
-            f"What are the offered courses by the {faculty} in AOU?",
-            f"What programs are offered by {faculty}?"
-            f"If I chose {faculty} to study in, what programs are offered by it?"
-        ]
+            for major_name, info in majors.items():
+                print(f"Creating English prompts for {major_name}")
+                prompts_en_with_completion = [
+                    (f"What is {major_name} program?", info['description']),
+                    (f"Tell me more about {major_name} program?", info['description']),
+                    (f"Can you tell me about the {major_name} program?", info['description']),
+                    (f"What am I going to study and learn in the {major_name} program?", info['description']),
+                    (f"What is the study plan of {major_name} program?", info['studyPlan']),
+                    (f"What faculty offers the {major_name} program?",  GenericDataHelpers.get_faculty_name_from_id(info["offeredByFaculty"])),
+                    (f"What is the degree level of {major_name} program?", info['degreeLevel']),
+                    (f"How many credits are included within the {major_name} program?", info['requiredCredits']),
+                    (f"What faculty is {major_name} part of?", GenericDataHelpers.get_faculty_name_from_id(info["offeredByFaculty"]))
+                ]
+                print(f"Creating Arabic prompts for {major_name}")
+                prompts_ar_with_completion = [(translate_to_arabic(p), translate_to_arabic(c)) for p, c in
+                                              prompts_en_with_completion]
+
+                prompts_and_completion.append(prompts_en_with_completion + prompts_ar_with_completion)
+
+        GenericDataHelpers.write_prompts_to_training_data(prompts_and_completion)
 
     @staticmethod
     def write_major_data_to_csv():
-
         # Function to get user input and translate Arabic fields
         def get_user_input():
             id = input("Enter id: ")
@@ -392,6 +360,32 @@ class GenericDataHelpers:
                 writer.writerow(row)
                 i += 1
 
+    @staticmethod
+    def write_prompts_to_training_data(prompts_and_completion):
+        with open("training_data/aou_training_dataset.json", mode='r', encoding="utf8") as f:
+            data = json.load(f)
+
+            print("Adding prompts to training data")
+            for tutor_pc in prompts_and_completion:
+                for pc in tutor_pc:
+                    data.append(
+                        {
+                            "prompt": pc[0],
+                            "completion": pc[1]
+                        }
+                    )
+        with open("training_data/aou_training_dataset.json", mode='w', encoding='utf8') as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+
+    @staticmethod
+    def get_faculty_name_from_id(faculty_id):
+        with open("aou_data/csv/Faculty.csv", "r", newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            id_column_name = "\ufeffid"
+            for row in reader:
+                if row[id_column_name] == faculty_id:
+                    return row['name']
+
 
 class PassedTutorHelpers:
     @staticmethod
@@ -428,4 +422,4 @@ class PassedTutorHelpers:
                 i += 1
 
 
-AcademicStaffDataHelpers.create_academic_staff_prompts_from_csv()
+MajorDataHelpers.create_major_prompts_and_completion_from_csv()
