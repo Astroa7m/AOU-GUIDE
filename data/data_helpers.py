@@ -13,7 +13,7 @@ def translate_to_arabic(text):
 class AcademicStaffDataHelpers:
 
     @staticmethod
-    def create_academic_staff_prompts():
+    def create_academic_staff_prompts_from_csv():
         academicStaffNameEn = input("Enter academic staff name in English: ")
         academicStaffNameAr = input("Enter academic staff name in Arabic: ")
 
@@ -28,51 +28,24 @@ class AcademicStaffDataHelpers:
             f"ما هو تخصص الدكتور {academicStaffNameAr}؟"
         ]
 
-        for prompt in prompts:
-            completion = input(prompt + " ")
+        print(prompts)
 
-            # Open and read the existing JSON file
-            with open("retrieval_data/aou_training_dataset.json", mode="r", encoding="utf8") as f:
-                data = json.load(f)
-
-                # New record to append (assuming `prompts` and `completion` are defined)
-                new_record = {"prompt": prompt, "completion": completion}
-
-                # Append the new record to the list
-                data.append(new_record)
-
-            # Write the updated list back to a new JSON file
-            with open('retrieval_data/aou_training_dataset.json', mode='w', encoding="utf8") as file:
-                json.dump(data, file, indent=4, ensure_ascii=False)
-
-    @staticmethod
-    def enter_academic_staff_data_from_csv():
-        import csv
-        import json
-
-        # Path to your CSV and JSON files
-        csv_file_path = 'path_to_your_csv_file.csv'
-        json_file_path = 'path_to_your_json_file.json'
-
-        # Read the last row of the CSV file
-        with open(csv_file_path, mode='r', encoding='utf-8') as csv_file:
-            reader = csv.DictReader(csv_file)
-            last_row = None
-            for row in reader:
-                last_row = row
-
-        # Open and read the existing JSON file
-        with open(json_file_path, mode='r', encoding='utf-8') as json_file:
-            data = json.load(json_file)
-
-        # Append the last row from CSV as a new record in JSON format
-        if last_row:
-            new_record = {"prompt": last_row["prompt_column_name"], "completion": last_row["completion_column_name"]}
-            data.append(new_record)
-
-        # Write the updated list back to the JSON file
-        with open(json_file_path, mode='w', encoding='utf-8') as json_file:
-            json.dump(data, json_file, indent=4, ensure_ascii=False)
+        # for prompt in prompts:
+        #     completion = input(prompt + " ")
+        #
+        #     # Open and read the existing JSON file
+        #     with open("retrieval_data/aou_training_dataset.json", mode="r", encoding="utf8") as f:
+        #         data = json.load(f)
+        #
+        #         # New record to append (assuming `prompts` and `completion` are defined)
+        #         new_record = {"prompt": prompt, "completion": completion}
+        #
+        #         # Append the new record to the list
+        #         data.append(new_record)
+        #
+        #     # Write the updated list back to a new JSON file
+        #     with open('retrieval_data/aou_training_dataset.json', mode='w', encoding="utf8") as file:
+        #         json.dump(data, file, indent=4, ensure_ascii=False)
 
     @staticmethod
     def write_academic_staff_data_to_csv():
@@ -132,7 +105,6 @@ class AcademicStaffDataHelpers:
             # Write the data
             for row in data:
                 writer.writerow(row)
-
 
 class MajorDataHelpers:
 
@@ -219,7 +191,6 @@ class MajorDataHelpers:
             for row in data:
                 writer.writerow(row)
 
-
 class ModulesDataHelpers:
 
     @staticmethod
@@ -303,14 +274,6 @@ class ModulesDataHelpers:
             print("Done writing to file")
             print(f"Solved {conflictCount} conflicted rows")
 
-
-# ModulesDataHelpers.write_modules_csv_from_scrapped_data(
-#     in_file="scrapping/scrappedCoursesBusiness.csv",
-#     out_file="aou_data/csv/Module.csv",
-#     faculty="Faculty of Business Studies"
-# )
-
-
 class RequirementDataHelpers:
     @staticmethod
     def write_requirement_data_to_csv():
@@ -340,7 +303,6 @@ class RequirementDataHelpers:
                 i += 1
                 writer.writerow(item)
 
-
 class FeeDataHelpers:
 
     @staticmethod
@@ -365,8 +327,31 @@ class FeeDataHelpers:
 
                 # no need for break statement I will just terminate
 
+class GenericDataHelpers:
 
-FeeDataHelpers.write_fee_data_to_csv(
-    file="aou_data/csv/FullTimeLearningFees.csv",
-    field_names=["Major","MajorArabic", "Amount (R.O)"]
-)
+    @staticmethod
+    def write_faq_to_csv():
+        i = 1
+        with open("aou_data/csv/FAQ.csv", 'w', newline='', encoding='utf-8') as f:
+            field_names = ["id", "question", "questionArabic", "answer", "answerArabic"]
+            writer = csv.DictWriter(f, fieldnames=field_names)
+            while True:
+                q = input("Enter question: ")
+                q_ar = translate_to_arabic(q)
+                a = input("Enter answer: ")
+                a_ar = translate_to_arabic(a)
+
+                row = {
+                    "id": f"T{(i):01d}",
+                    field_names[1]: q,
+                    field_names[2]: q_ar,
+                    field_names[3]: a,
+                    field_names[4]: a_ar,
+                }
+
+                writer.writerow(row)
+                i += 1
+
+
+
+AcademicStaffDataHelpers.create_academic_staff_prompts_from_csv()
