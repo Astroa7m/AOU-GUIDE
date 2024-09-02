@@ -7,9 +7,16 @@ id_column_name = "\ufeffid"
 
 
 def translate_to_arabic(text):
-    translator = GoogleTranslator(source='auto', target='ar')
-    return translator.translate(text)
-
+    try:
+        if text:
+            translator = GoogleTranslator(source='auto', target='ar')
+            return translator.translate(text)
+        return ""
+    except Exception as ex:
+        print(f"Failed with at\n{text}")
+        template = "An exception of type {0} occurred. Arguments:\n{1!r}"
+        message = template.format(type(ex).__name__, ex.args)
+        print(message)
 
 # todo: Make sure of the prompts in helpers before use
 # todo: Make sure of the modes of appending and writing of the data
@@ -298,36 +305,48 @@ class ModulesDataHelpers:
                 prompts_en_with_completion = [
                     (f"What is {module_name} module?", info["description"]),
                     (f"What is {info['code']} module?", info["description"]),
-                    (f"can you tell me about {module_name}?", info["description"]),
-                    (f"can you tell me about {info['code']}?", info["description"]),
+                    (f"Can you tell me about {module_name}?", info["description"]),
+                    (f"Can you tell me about {info['code']}?", info["description"]),
                     (f"What am I going to learn in {module_name} course?", info["description"]),
                     (f"What am I going to learn in {info['code']} course?", info["description"]),
-                    (f"What is the {module_name} course name in Arabic?", info["nameArabicd"]),
-                    (f"What is the {info['code']} course name in Arabic?", info["nameArabicd"]),
+                    (f"What is the {module_name} course name in Arabic?", info["nameArabic"]),
+                    (f"What is the {info['code']} course name in Arabic?", info["nameArabic"]),
                     (f"What is the benefit of studying {module_name}?", info["objectives"]),
                     (f"What is the benefit of studying {info['code']}?", info["objectives"]),
                     (f"What is the benefit of studying {module_name}?", info["outcomes"]),
                     (f"What is the benefit of studying {info['code']}?", info["outcomes"]),
-                    (f"What am I going to learn in {module_name}? moudle", info["objectives"]),
-                    (f"What am I going to learn in {info['code']}? moudle", info["objectives"]),
-                    (f"What am I going to learn in {module_name}? moudle", info["outcomes"]),
-                    (f"What am I going to learn in {info['code']}? moudle", info["outcomes"]),
+                    (f"What am I going to learn in {module_name}? module", info["objectives"]),
+                    (f"What am I going to learn in {info['code']}? module", info["objectives"]),
+                    (f"What am I going to learn in {module_name}? module", info["outcomes"]),
+                    (f"What am I going to learn in {info['code']}? module", info["outcomes"]),
                     (f"What are the outcomes I am going to get after taking {module_name}? course", info["outcomes"]),
                     (f"What are the outcomes I am going to get after taking {info['code']}? course", info["outcomes"]),
-                    (f"What is the objective of taking the {module_name}? course", info["objective"]),
-                    (f"What is the objective of taking the {info['code']}? course", info["objective"]),
+                    (f"What is the objective of taking the {module_name}? course", info["objectives"]),
+                    (f"What are the objectives of taking the {module_name}? course", info["objectives"]),
+                    (f"What is the objective of taking the {info['code']}? course", info["objectives"]),
+                    (f"What are the objectives of taking the {info['code']}? course", info["objectives"]),
                     (f"What is the module code of {module_name}?", info["code"]),
                     (f"What is the code of {module_name}?", info["code"]),
+                    (f"What is the id of {module_name}?", info["code"]),
                     (f"What is {info['code']} module?", info["name"]),
                     (f"What is {info['code']}?", info["name"]),
                     (f"How many credits does the {info['code']}? have", info["creditsHours"]),
+                    (f"How many hours does the {info['code']}? have", info["creditsHours"]),
+                    (f"How many hours does the {info['name']}? have", info["creditsHours"]),
                     (f"How many credits does the {info['name']}? have", info["creditsHours"]),
-                    (f"By which faculty is {info['name']} offered by?", info["offeredByFaculty"]),
-                    (f"By which faculty is {info['code']} offered by?", info["offeredByFaculty"]),
-                    (f"What is the name of the faculty that {info['name']} is offered by?", info["offeredByFaculty"]),
-                    (f"What is the name of the faculty that {info['code']} is offered by?", info["offeredByFaculty"]),
-
+                    (f"By which faculty is {info['name']} offered by?", GenericDataHelpers.get_faculty_name_from_id(info["offeredByFaculty"])),
+                    (f"By which faculty is {info['code']} offered by?", GenericDataHelpers.get_faculty_name_from_id(info["offeredByFaculty"])),
+                    (f"What is the name of the faculty that {info['name']} is offered by?", GenericDataHelpers.get_faculty_name_from_id(info["offeredByFaculty"])),
+                    (f"What are the prerequisite of the {info['name']}?", info["prerequisite"]),
+                    (f"What are the prerequisite of the {info['code']}?", info["prerequisite"]),
                 ]
+                print(f"Creating Arabic prompts for {module_name}")
+                prompts_ar_with_completion = [(translate_to_arabic(p), translate_to_arabic(c)) for p, c in
+                                              prompts_en_with_completion]
+
+                prompts_and_completion.append(prompts_en_with_completion + prompts_ar_with_completion)
+        GenericDataHelpers.write_prompts_to_training_data(prompts_and_completion)
+
 
 class RequirementDataHelpers:
     @staticmethod
@@ -472,4 +491,4 @@ class PassedTutorHelpers:
 
 
 if __name__ == '__main__':
-    pass
+    ModulesDataHelpers.create_modules_prompts_and_completion_from_csv()
