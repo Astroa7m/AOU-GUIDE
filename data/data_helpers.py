@@ -3,6 +3,8 @@ import json
 
 from deep_translator import GoogleTranslator
 
+id_column_name = "\ufeffid"
+
 
 def translate_to_arabic(text):
     translator = GoogleTranslator(source='auto', target='ar')
@@ -200,7 +202,6 @@ class ModulesDataHelpers:
 
     @staticmethod
     def write_modules_csv_from_scrapped_data(in_file, out_file, faculty):
-
         # reading existing data from the output file to check if modules to be added already exist
         existing_data = {}
         try:
@@ -217,11 +218,10 @@ class ModulesDataHelpers:
             reader = csv.DictReader(infile)
 
             fieldnames = ['id', 'name', 'nameArabic', 'code', 'creditsHours', 'description', 'descriptionArabic',
-                          'objectives', 'objectivesArabic', 'outcomes', 'outcomesArabic', 'offeredByFaculty']
+                          'objectives', 'objectivesArabic', 'outcomes', 'outcomesArabic', 'prerequisite','offeredByFaculty']
 
             writer = csv.DictWriter(outfile, fieldnames=fieldnames)
 
-            # headers already written since we are appending
             writer.writeheader()
 
             # keeping track of number of conflicts
@@ -229,11 +229,11 @@ class ModulesDataHelpers:
 
             # to properly order the ids after adding
             # new data
-            rowsCount = 1
+            rowsCount = 0
 
             for i, row in enumerate(reader):
-                id = f"T{(i + 1):04d}"
                 rowsCount += 1
+                id = f"T{(rowsCount):04d}"
                 # checking if modules to be written from in_file are already within out_file
                 # writing the common rows
                 if row['course_code'] in existing_data.keys():
@@ -261,6 +261,7 @@ class ModulesDataHelpers:
                         'objectivesArabic': translate_to_arabic(row['course_objectives']),
                         'outcomes': row['course_outcomes'],
                         'outcomesArabic': translate_to_arabic(row['course_outcomes']),
+                        'prerequisite': row['pre-requisite'],
                         # change according to the faculty
                         'offeredByFaculty': faculty
                     }
@@ -272,13 +273,61 @@ class ModulesDataHelpers:
 
             # writing the remaining rows from existing data
             for i, row in enumerate(existing_data.values()):
-                row["id"] = f"T{(i + rowsCount):04d}"
+                row["id"] = f"T{(i + rowsCount + 1):04d}"
                 writer.writerow(row)
                 print(f"Wrote {row['code']} module")
 
             print("Done writing to file")
             print(f"Solved {conflictCount} conflicted rows")
 
+
+    @staticmethod
+    def create_modules_prompts_and_completion_from_csv():
+        with open("aou_data/csv/Module.csv", "r", newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+
+            prompts_and_completion = []
+
+            modules = {}
+
+            for row in reader:
+                modules[row['name']] = row
+
+            for module_name, info in modules.items():
+                print(f"Creating English prompts for {module_name}")
+                prompts_en_with_completion = [
+                    (f"What is {module_name} module?", info["description"]),
+                    (f"What is {info['code']} module?", info["description"]),
+                    (f"can you tell me about {module_name}?", info["description"]),
+                    (f"can you tell me about {info['code']}?", info["description"]),
+                    (f"What am I going to learn in {module_name} course?", info["description"]),
+                    (f"What am I going to learn in {info['code']} course?", info["description"]),
+                    (f"What is the {module_name} course name in Arabic?", info["nameArabicd"]),
+                    (f"What is the {info['code']} course name in Arabic?", info["nameArabicd"]),
+                    (f"What is the benefit of studying {module_name}?", info["objectives"]),
+                    (f"What is the benefit of studying {info['code']}?", info["objectives"]),
+                    (f"What is the benefit of studying {module_name}?", info["outcomes"]),
+                    (f"What is the benefit of studying {info['code']}?", info["outcomes"]),
+                    (f"What am I going to learn in {module_name}? moudle", info["objectives"]),
+                    (f"What am I going to learn in {info['code']}? moudle", info["objectives"]),
+                    (f"What am I going to learn in {module_name}? moudle", info["outcomes"]),
+                    (f"What am I going to learn in {info['code']}? moudle", info["outcomes"]),
+                    (f"What are the outcomes I am going to get after taking {module_name}? course", info["outcomes"]),
+                    (f"What are the outcomes I am going to get after taking {info['code']}? course", info["outcomes"]),
+                    (f"What is the objective of taking the {module_name}? course", info["objective"]),
+                    (f"What is the objective of taking the {info['code']}? course", info["objective"]),
+                    (f"What is the module code of {module_name}?", info["code"]),
+                    (f"What is the code of {module_name}?", info["code"]),
+                    (f"What is {info['code']} module?", info["name"]),
+                    (f"What is {info['code']}?", info["name"]),
+                    (f"How many credits does the {info['code']}? have", info["creditsHours"]),
+                    (f"How many credits does the {info['name']}? have", info["creditsHours"]),
+                    (f"By which faculty is {info['name']} offered by?", info["offeredByFaculty"]),
+                    (f"By which faculty is {info['code']} offered by?", info["offeredByFaculty"]),
+                    (f"What is the name of the faculty that {info['name']} is offered by?", info["offeredByFaculty"]),
+                    (f"What is the name of the faculty that {info['code']} is offered by?", info["offeredByFaculty"]),
+
+                ]
 
 class RequirementDataHelpers:
     @staticmethod
@@ -381,7 +430,6 @@ class GenericDataHelpers:
     def get_faculty_name_from_id(faculty_id):
         with open("aou_data/csv/Faculty.csv", "r", newline="", encoding="utf-8") as f:
             reader = csv.DictReader(f)
-            id_column_name = "\ufeffid"
             for row in reader:
                 if row[id_column_name] == faculty_id:
                     return row['name']
@@ -422,4 +470,6 @@ class PassedTutorHelpers:
                 i += 1
 
 
-MajorDataHelpers.create_major_prompts_and_completion_from_csv()
+
+if __name__ == '__main__':
+    pass
