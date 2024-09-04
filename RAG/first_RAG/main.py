@@ -1,11 +1,13 @@
 import langchain
 from langchain_chroma import Chroma
+from langchain_community.chat_models import ChatOllama
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import SystemMessagePromptTemplate, PromptTemplate, HumanMessagePromptTemplate, \
     ChatPromptTemplate
 from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_ollama import OllamaLLM
 
 
 # initialize prompt
@@ -40,19 +42,15 @@ context: {context}"""
     return prompt_template
 
 
-# using chatGroq for faster model inference
-# api key is provide in env vars
-model = ChatGroq(model_name="llama3-70b-8192", temperature=0)
-
+model = OllamaLLM(model="llama3")
 
 # loading the previously created retriever in create_retrieval.py
 
 # Initialize HuggingFace embeddings
 embeddings = HuggingFaceEmbeddings()
-db = Chroma(
-    persist_directory="uni_vectorstore_chroma",
-    embedding_function=HuggingFaceEmbeddings()
-)
+
+db = FAISS.load_local("uni_vectorstore", embeddings=embeddings, allow_dangerous_deserialization=True)
+
 retriever = db.as_retriever()
 
 result = RunnableParallel(context=retriever, question=RunnablePassthrough())
@@ -60,10 +58,10 @@ chain = result | get_prompt_template() | model
 while True:
 
     question = input("Enter your prompt: ")
+    print(f"Testing retriever before running:\n{retriever.invoke(question)}")
+    print()
+    print("AI:")
     if question == "0":
         break
     answer = chain.invoke(question)
     print(answer)
-
-
-

@@ -1,4 +1,4 @@
-id,question, questionArabic, answer, answerArabic
+id,question,questionArabic,answer,answerArabic
 T1,Are fees paid every semester?,هل يتم دفع الرسوم كل فصل دراسي؟,Fees are connected to the registration of courses. Students pay fees according to credit hours.,الرسوم مرتبطة بتسجيل المقررات الدراسية، حيث يقوم الطالب بدفع الرسوم حسب الساعات المعتمدة.
 T2,Are old General diploma and General diplomas from other countries accepted?,هل يتم قبول الشهادات العامة القديمة والشهادات العامة من دول أخرى؟,Passing the high school General Diploma or its equivalent from other countries. Years of experience cannot be regarded equal to high school General Diploma.,الحصول على شهادة الثانوية العامة أو ما يعادلها من دول أخرى، ولا يمكن اعتبار سنوات الخبرة مساوية لشهادة الثانوية العامة.
 T3,Are the lectures uploaded online?,هل يتم رفع المحاضرات على الانترنت؟,"Lectures are not uploaded online. However, there are online resources and activities done through the e-learning forum.",لا يتم تحميل المحاضرات على الإنترنت، ولكن هناك موارد وأنشطة متاحة على الإنترنت من خلال منتدى التعلم الإلكتروني.
