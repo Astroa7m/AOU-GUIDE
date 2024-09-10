@@ -536,7 +536,7 @@ class GenericDataHelpers:
                 i += 1
 
     @staticmethod
-    def create_prompts_and_completion_from_input():
+    def create_prompts_and_completion_from_input_with_translations():
         prompts_en_with_completion = []
 
         count = int(input("How many prompts and completion pairs? "))
@@ -564,6 +564,7 @@ class GenericDataHelpers:
         with open("training_data/aou_training_dataset.json", mode='w', encoding='utf8') as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
 
+        print(f"Created total {count*2} prompts with {count} English and {count} Arabic translated pairs")
     @staticmethod
     def create_faq_prompts_and_completion_from_csv():
         with open("aou_data/csv/FAQ.csv", newline="", encoding="utf-8") as f:
@@ -652,4 +653,4 @@ class PassedTutorHelpers:
 
 
 if __name__ == '__main__':
-    GenericDataHelpers.create_prompts_and_completion_from_input()
+    GenericDataHelpers.create_prompts_and_completion_from_input_with_translations()
