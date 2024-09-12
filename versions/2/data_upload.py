@@ -1,5 +1,5 @@
-from RAG._helpers.neo4j_connection import get_driver
-from RAG._helpers.logger import LOGGER
+from versions._helpers.neo4j_connection import get_driver
+from versions._helpers.logger import LOGGER
 
 # getting neo4j python driver instance
 driver = get_driver()

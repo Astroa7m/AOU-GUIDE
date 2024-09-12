@@ -3,11 +3,11 @@ from langchain_community.chains.graph_qa.cypher import GraphCypherQAChain
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 
-from RAG._helpers.neo4j_connection import get_graph
+from versions._helpers.neo4j_connection import get_graph
 
 graph = get_graph()
 
-llm = ChatGroq(model_name="llama3-70b-8192", temperature=0)
+llm = ChatGroq(model_name="Llama3-8b-8192", temperature=0)
 
 CYPHER_GENERATION_TEMPLATE = """You are an expert Neo4j Developer translating user questions into Cypher to answer 
 questions about Arab Open University and provide information. Convert the user's question based on the schema.

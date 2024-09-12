@@ -1,5 +1,11 @@
-from gpt4all import GPT4All
+import random
 
-model = GPT4All("C:\\llama-3-8b-full-chat-aou-Q4_K_M\\llama-3-8b-full-chat-aou-Q4_K_M.gguf", device='gpu')  # device='amd', device='intel'
-with model.chat_session():
-    print(model.generate("كم يوسف تعرف؟", max_tokens=100))
+from langchain_community.chat_models import ChatOllama
+from langchain_community.llms.ollama import Ollama
+
+llm = ChatOllama(model="llama3-aou",  temperature=1, top_k=25, top_p=1, seed=random.randint(0, 10000000))
+
+res = llm.stream("can you provide the profile of doctor Abrar?")
+
+for chunk in res:
+    print(chunk.content, end="")
