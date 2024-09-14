@@ -10,8 +10,8 @@ from langchain_groq import ChatGroq
 @cache
 def get_singleton_general_llm():
     callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
-    return ChatOllama(model="llama3-aou", callbacks=callback_manager, max_predict=2, temperature=1, top_k=25,
-                      top_p=1)
+    return ChatOllama(model="mistral-7b-aou", temperature=0, top_k=100, top_p=100,num_predict=50, callbacks=callback_manager)
+
 
 
 def get_chat_groq_llm():

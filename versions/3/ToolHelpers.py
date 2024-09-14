@@ -1,4 +1,5 @@
 import json
+from typing import Any
 
 from langchain_community.chains.graph_qa.cypher import GraphCypherQAChain
 from langchain_core.tools import Tool
@@ -14,7 +15,7 @@ class Descriptions:
     user_info = """
     Used when the user asks about himself/herself, like who am I or what is my current GPA or academic 
     performance (if the user is student) etc Note: That tutors might also might ask you questions about themselves or 
-    their students, in this case this function is also useful."""
+    their students, in this case this function is also useful. The input should be empty"""
 
     validate_url = """Must be used when you provide a url to the user within the response or if the user asks for a 
     certain url. Only use it to validate the url if it is actually works and if the web page is valid, a good result 
@@ -32,7 +33,7 @@ class Functions:
         return response.status_code
 
     @staticmethod
-    def get_current_user_info():
+    def get_current_user_info(_: Any):
         ## will be replaced later by an API call
         with open("../../data/user_info/user_info_sample.json", 'r', encoding='utf-8') as f:
             data = json.load(f)

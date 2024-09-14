@@ -34,10 +34,10 @@ uni_info_cypher_chain = GraphCypherQAChain.from_llm(
 )
 
 
-answer = uni_info_cypher_chain.invoke({"query": "Who is doctor alaa"})
+# answer = uni_info_cypher_chain.invoke({"query": "Who is doctor alaa"})
 
 
-for chunk in answer:
-    print(chunk.content, end="")
+# for chunk in answer:
+#     print(chunk.content, end="")
 
 

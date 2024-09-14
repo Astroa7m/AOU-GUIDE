@@ -27,11 +27,11 @@ SESSION_ID = str(uuid4())
 
 # tools prep used by agent
 current_tools = [
-    Tool.from_function(
-        name="General",
-        func=llm.invoke,
-        description=ToolHelpers.Descriptions.general
-    ),
+    # Tool.from_function(
+    #     name="General",
+    #     func=llm.invoke,
+    #     description=ToolHelpers.Descriptions.general
+    # ),
     Tool.from_function(
         name="Graph",
         func=uni_info_cypher_chain.invoke,

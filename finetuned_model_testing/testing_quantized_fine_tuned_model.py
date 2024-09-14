@@ -3,9 +3,11 @@ import random
 from langchain_community.chat_models import ChatOllama
 from langchain_community.llms.ollama import Ollama
 
-llm = ChatOllama(model="llama3-aou",  temperature=1, top_k=25, top_p=1, seed=random.randint(0, 10000000))
+models = ["mistral-7b-aou", "llama3-aou"]
 
-res = llm.stream("can you provide the profile of doctor Abrar?")
+llm = ChatOllama(model=models[0],  temperature=0, top_k=100, top_p=100,num_predict=50)
+
+res = llm.stream("Can you help me knowing some modules?")
 
 for chunk in res:
     print(chunk.content, end="")
