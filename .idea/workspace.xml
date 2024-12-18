@@ -4,21 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51e1784b-2b35-40b4-876b-7b2e42b2007e" name="Changes" comment="Second version">
-      <change afterPath="$PROJECT_DIR$/RAG/_helpers/data_prep.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RAG/_helpers/output.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RAG/third_RAG/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RAG/third_RAG/run_tutor_embeddings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data_helpers.py" afterDir="false" />
+    <list default="true" id="51e1784b-2b35-40b4-876b-7b2e42b2007e" name="Changes" comment="Added mistral llm, created and modified agents and neo4j graph, created orpo dataset pipeline conversion, refactored the code.">
+      <change afterPath="$PROJECT_DIR$/current_user.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/agent_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions/3/sentenceTransformerWrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions/3/vector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions/4/fake_api_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions/4/fake_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions/4/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions/4/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions/4/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions/4/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RAG/first_RAG/create_retrieval.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/create_retrieval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RAG/first_RAG/use_retrieval.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/first_RAG/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RAG/helpers/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/_helpers/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RAG/helpers/neo4j_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/_helpers/neo4j_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RAG/second_RAG/aou_chatbot_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/second_RAG/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RAG/second_RAG/data_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/RAG/second_RAG/data_upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/retrieval_data/retrieval_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/retrieval_data/aou_retrieval_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/dataset_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/dataset_counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/orpo_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/orpo_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/training_data/aou_training_dataset.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/training_data/aou_training_dataset.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finetuned_model_testing/testing_quantized_fine_tuned_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/finetuned_model_testing/testing_quantized_fine_tuned_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/1/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/1/main1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/1/semantic_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/1/semantic_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/2/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/2/main2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/3/LLMsHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/3/LLMsHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/3/graphLLM.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/3/graphLLM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/3/main3.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/3/main3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/_helpers/neo4j_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/_helpers/neo4j_connection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +44,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Astroa7m"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Astroa7m&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Astroa7m/AOU-GUIDE.git",
-    "accountId": "0b31d310-c2f0-4566-923b-29b07f9fe4a3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Astroa7m/AOU-GUIDE.git&quot;,
+    &quot;accountId&quot;: &quot;0b31d310-c2f0-4566-923b-29b07f9fe4a3&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../TryingLangChain/.venv/Lib/site-packages/langchain_community/llms/gpt4all.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -58,36 +73,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.aou_chatbot_api.executor": "Run",
-    "Python.create_embeddings.executor": "Run",
-    "Python.create_retrieval.executor": "Run",
-    "Python.data_helpers.executor": "Run",
-    "Python.data_prep.executor": "Run",
-    "Python.data_upload.executor": "Run",
-    "Python.dataset_counter.executor": "Run",
-    "Python.first_retrieval.executor": "Run",
-    "Python.run_tutor_embeddings.executor": "Run",
-    "Python.simple_scrapping.executor": "Run",
-    "Python.use_retrieval (1).executor": "Run",
-    "Python.use_retrieval.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ahmed/PycharmProjects/AOU Guide/data",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.LLMsHelper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ToolHelpers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aou_chatbot_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chekcing_gpu_existence.executor&quot;: &quot;Run&quot;,
+    &quot;Python.create_embeddings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.create_retrieval.executor&quot;: &quot;Run&quot;,
+    &quot;Python.create_retrieval2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_helpers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_prep.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_upload.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataset_counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.first_retrieval.executor&quot;: &quot;Run&quot;,
+    &quot;Python.graphLLM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.helpers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_scrapping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.neo4j_connection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.orpo_helper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_tutor_embeddings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.semantic_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_scrapping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing_fine-tuned_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing_finetuned_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing_finetuned_model2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing_quantized_fine_tuned_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing_quantized_fine_tuned_model_gpt4all.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing_vector_index.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trying_models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.use_retrieval (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.use_retrieval.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ahmed/PycharmProjects/M269&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\data\training_data" />
+      <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\finetuned_model_testing" />
+      <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\data\aou_data\csv" />
       <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\versions\4" />
+      <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\data\aou_data\csv" />
+      <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\data\aou_data" />
+      <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\data\aou_data\xlsx" />
       <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\retrievals\first_RAG" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_helpers">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="create_embeddings" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
@@ -106,28 +152,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RAG/_helpers/create_embeddings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="create_retrieval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AOU Guide" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/retrievals/first_RAG" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/retrievals/first_RAG/create_retrieval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,29 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_prep" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AOU Guide" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RAG/_helpers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RAG/_helpers/data_prep.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="data_upload" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="graphLLM" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,15 +191,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="NEO4J_USERNAME" value="neo4j" />
         <env name="NEO4J_PASSWORD" value="thzlUv46pM7WlBgvR_4p5-gCz9aHl257ZWA_1g7b25I" />
-        <env name="NEO4J_URI" value="neo4j+ssc://b9111ef5.databases.neo4j.io:7687 " />
+        <env name="NEO4J_URI" value="neo4j+ssc://b9111ef5.databases.neo4j.io:7687" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (TryingLangChain)" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RAG/second_RAG/data_upload.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versions/3/graphLLM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +207,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="graphLLM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AOU Guide" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="NEO4J_USERNAME" value="neo4j" />
+        <env name="NEO4J_PASSWORD" value="thzlUv46pM7WlBgvR_4p5-gCz9aHl257ZWA_1g7b25I" />
+        <env name="NEO4J_URI" value="neo4j+ssc://b9111ef5.databases.neo4j.io:7687" />
+        <env name="GROQ_API_KEY" value="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" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versions/3/graphLLM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="helpers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,11 +242,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versions/4/helpers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AOU Guide" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versions/4/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,24 +303,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_tutor_embeddings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="neo4j_connection" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="GROQ_API_KEY" value="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" />
         <env name="NEO4J_USERNAME" value="neo4j" />
         <env name="NEO4J_PASSWORD" value="thzlUv46pM7WlBgvR_4p5-gCz9aHl257ZWA_1g7b25I" />
-        <env name="NEO4J_URI" value="neo4j+ssc://b9111ef5.databases.neo4j.io:7687" />
+        <env name="NEO4J_URI" value="neo4j+ssc://b9111ef5.databases.neo4j.io:7687 " />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RAG/third_RAG" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_NAME" value="Python 3.12 (TryingLangChain)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RAG/third_RAG/run_tutor_embeddings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versions/_helpers/neo4j_connection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,21 +329,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="use_retrieval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="GROQ_API_KEY" value="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" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/retrievals" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/retrievals/first_RAG/use_retrieval.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing_quantized_fine_tuned_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AOU Guide" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finetuned_model_testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finetuned_model_testing/testing_quantized_fine_tuned_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,21 +375,22 @@
     </configuration>
     <list>
       <item itemvalue="Python.create_embeddings" />
+      <item itemvalue="Python.graphLLM" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.data_upload" />
+      <item itemvalue="Python.neo4j_connection" />
+      <item itemvalue="Python.helpers" />
+      <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.data_helpers" />
-      <item itemvalue="Python.data_prep" />
-      <item itemvalue="Python.run_tutor_embeddings" />
-      <item itemvalue="Python.create_retrieval" />
-      <item itemvalue="Python.use_retrieval" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.testing_quantized_fine_tuned_model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.helpers" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.testing_quantized_fine_tuned_model" />
         <item itemvalue="Python.data_helpers" />
-        <item itemvalue="Python.data_prep" />
-        <item itemvalue="Python.run_tutor_embeddings" />
-        <item itemvalue="Python.use_retrieval" />
-        <item itemvalue="Python.create_retrieval" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +435,151 @@
       <option name="project" value="LOCAL" />
       <updated>1724426787937</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added neo4j connection, added data upload, added data helpers and other helpers">
+      <option name="closed" value="true" />
+      <created>1724732174947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724732174947</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created data functions to easily enter data, and keep them in one standard form, added xlsx and csv files">
+      <option name="closed" value="true" />
+      <created>1724780643129</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724780643129</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added xlsx and csv files, organized data helpers, scrapped course from uni site">
+      <option name="closed" value="true" />
+      <created>1724821719634</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724821719634</updated>
+    </task>
+    <task id="LOCAL-00008" summary="scrapped business courses, added script to combine scrapped data and existing data and format them properly and solve conflicts and faculty, add more fields to csv files">
+      <option name="closed" value="true" />
+      <created>1724943489546</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724943489546</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed faculty in extraction problem">
+      <option name="closed" value="true" />
+      <created>1725041477914</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725041477914</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed scrapped data extraction bug">
+      <option name="closed" value="true" />
+      <created>1725044058896</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725044058896</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Created Fees &amp; Requirement helpers, added fees data and req">
+      <option name="closed" value="true" />
+      <created>1725052270430</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725052270431</updated>
+    </task>
+    <task id="LOCAL-00012" summary="small modification">
+      <option name="closed" value="true" />
+      <created>1725169890206</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725169890206</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Created AcademicStaff prompts generator script">
+      <option name="closed" value="true" />
+      <created>1725186978966</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725186978966</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Created Major prompts generator script">
+      <option name="closed" value="true" />
+      <created>1725190003291</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1725190003291</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fixed module merging and adding bug">
+      <option name="closed" value="true" />
+      <created>1725286780555</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725286780555</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fixed module merging and adding bug, added prerequsite for Module.csv">
+      <option name="closed" value="true" />
+      <created>1725286797748</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725286797748</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Created script to generate modules prompts">
+      <option name="closed" value="true" />
+      <created>1725294386381</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725294386381</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Created the rest of the prompts and completion, finalized the data for training">
+      <option name="closed" value="true" />
+      <created>1725489781968</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725489781968</updated>
+    </task>
+    <task id="LOCAL-00019" summary="First trial of fine-tuned model">
+      <option name="closed" value="true" />
+      <created>1725945347061</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1725945347061</updated>
+    </task>
+    <task id="LOCAL-00020" summary="First trial of fine-tuned model">
+      <option name="closed" value="true" />
+      <created>1725945386151</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725945386151</updated>
+    </task>
+    <task id="LOCAL-00021" summary="agent setup">
+      <option name="closed" value="true" />
+      <created>1726156396574</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726156396574</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added mistral llm, created and modified agents and neo4j graph, created orpo dataset pipeline conversion, refactored the code.">
+      <option name="closed" value="true" />
+      <created>1726325587096</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726325587096</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -395,15 +610,32 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First version" />
     <MESSAGE value="Second version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second version" />
+    <MESSAGE value="added neo4j connection, added data upload, added data helpers and other helpers" />
+    <MESSAGE value="created data functions to easily enter data, and keep them in one standard form, added xlsx and csv files" />
+    <MESSAGE value="added xlsx and csv files, organized data helpers, scrapped course from uni site" />
+    <MESSAGE value="scrapped business courses, added script to combine scrapped data and existing data and format them properly and solve conflicts and faculty, add more fields to csv files" />
+    <MESSAGE value="fixed faculty in extraction problem" />
+    <MESSAGE value="fixed scrapped data extraction bug" />
+    <MESSAGE value="Created Fees &amp; Requirement helpers, added fees data and req" />
+    <MESSAGE value="small modification" />
+    <MESSAGE value="Created AcademicStaff prompts generator script" />
+    <MESSAGE value="Created Major prompts generator script" />
+    <MESSAGE value="Fixed module merging and adding bug" />
+    <MESSAGE value="Fixed module merging and adding bug, added prerequsite for Module.csv" />
+    <MESSAGE value="Created script to generate modules prompts" />
+    <MESSAGE value="Created the rest of the prompts and completion, finalized the data for training" />
+    <MESSAGE value="First trial of fine-tuned model" />
+    <MESSAGE value="agent setup" />
+    <MESSAGE value="Added mistral llm, created and modified agents and neo4j graph, created orpo dataset pipeline conversion, refactored the code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mistral llm, created and modified agents and neo4j graph, created orpo dataset pipeline conversion, refactored the code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/versions/1/main1.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

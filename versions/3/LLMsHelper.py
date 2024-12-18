@@ -10,12 +10,12 @@ from langchain_groq import ChatGroq
 @cache
 def get_singleton_general_llm():
     callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
-    return ChatOllama(model="mistral-7b-aou", temperature=0, top_k=100, top_p=100,num_predict=50, callbacks=callback_manager)
+    return ChatOllama(model="llama3", callbacks=callback_manager)
 
 
 
 def get_chat_groq_llm():
-    return ChatGroq(model_name="Llama3-8b-8192", temperature=0)
+    return ChatGroq(model_name="Llama3-8b-8192", temperature=0, groq_api_key = "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")
 
 # cypher specialized llm
 # llm = Ollam(....)

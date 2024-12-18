@@ -5,9 +5,12 @@ from langchain_community.llms.ollama import Ollama
 
 models = ["mistral-7b-aou", "llama3-aou"]
 
-llm = ChatOllama(model=models[0],  temperature=0, top_k=100, top_p=100,num_predict=50)
+llm = ChatOllama(model=models[0], max_tokens=100)
+while True:
+    user_input = input("Prompt: ")
+    prompt = user_input# + "<|end_header_id|>"
+    res = llm.stream(prompt)
 
-res = llm.stream("Can you help me knowing some modules?")
-
-for chunk in res:
-    print(chunk.content, end="")
+    for chunk in res:
+        print(chunk.content, end="")
+    print()

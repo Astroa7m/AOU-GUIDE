@@ -1,7 +1,9 @@
 import csv
 import enum
 import json
+import re
 
+from langdetect import detect
 from deep_translator import GoogleTranslator
 
 id_column_name = "\ufeffid"
@@ -616,6 +618,35 @@ class GenericDataHelpers:
                 if row[id_column_name] == faculty_id:
                     return row['name']
 
+    @staticmethod
+    def is_english(text):
+        english_pattern = re.compile(r'^[a-zA-Z0-9\s,.\'"\-()?!]+$')
+        return bool(english_pattern.match(text.strip()))
+    @staticmethod
+    # Function to filter out English entries
+    def create_english_only_dataset(file_name):
+
+        with open(file_name) as f:
+            data = json.load(f)
+
+        english_entries = []
+
+        for entry in data:
+            # Check if the prompt is in English
+            if GenericDataHelpers.is_english(entry['prompt']):
+                # Check if all 'chosen' entries are in English
+                chosen_all_english = all(GenericDataHelpers.is_english(c['content']) for c in entry['chosen'])
+                # Check if all 'rejected' entries are in English
+                rejected_all_english = all(GenericDataHelpers.is_english(r['content']) for r in entry['rejected'])
+
+                # If prompt, chosen, and rejected are all in English, add the entry
+                if chosen_all_english and rejected_all_english:
+                    english_entries.append(entry)
+
+        with open("orpo_dataset_en.json", "w") as f:
+            json.dump(english_entries, f, indent=4, ensure_ascii=False)
+
+
 
 class PassedTutorHelpers:
     @staticmethod
@@ -653,4 +684,4 @@ class PassedTutorHelpers:
 
 
 if __name__ == '__main__':
-    GenericDataHelpers.create_prompts_and_completion_from_input_with_translations()
+    GenericDataHelpers.create_english_only_dataset("orpo_dataset.json")

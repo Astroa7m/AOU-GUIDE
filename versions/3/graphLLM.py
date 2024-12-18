@@ -3,12 +3,11 @@ from langchain_core.prompts import PromptTemplate
 
 import ToolHelpers
 from LLMsHelper import get_chat_groq_llm, get_singleton_general_llm
-from versions._helpers.neo4j_connection import get_graph
+from versions._helpers.neo4j_connection import graph
 
 cypher_llm = get_chat_groq_llm()
 qa_llm = get_singleton_general_llm()
 
-graph = get_graph()
 
 ####################
 # For database generation
@@ -39,5 +38,6 @@ uni_info_cypher_chain = GraphCypherQAChain.from_llm(
 
 # for chunk in answer:
 #     print(chunk.content, end="")
+
 
 
