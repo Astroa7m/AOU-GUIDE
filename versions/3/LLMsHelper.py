@@ -14,8 +14,8 @@ def get_singleton_general_llm():
 
 
 
-def get_chat_groq_llm():
-    return ChatGroq(model_name="Llama3-8b-8192", temperature=0, groq_api_key = "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")
+# def get_chat_groq_llm():
+    # return ChatGroq(model_name="Llama3-8b-8192", temperature=0, groq_api_key = "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")
 
 # cypher specialized llm
 # llm = Ollam(....)

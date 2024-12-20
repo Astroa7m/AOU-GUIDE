@@ -71,10 +71,10 @@
   },
   {
     "info": {
-      "id": 200305,
+      "id": 200010,
       "title": "",
       "name": "Muhanned Albulushi",
-      "password": "200305",
+      "password": "200010",
       "GPA": 3.65,
       "academic_performance": {
         "M110 - Python Programming": {
@@ -146,6 +146,8 @@
       "special_tutor_id": 101010,
       "title": "Dr. ",
       "name": "Mohammed Abrar",
+      "email": "fake.dr.abrar@outlook.com",
+      "email_app_password": "iloe gfvm jskg pgdb",
       "password": "101010",
       "department": "Software Engineering",
       "subjects_taught": ["TM355 - Software Engineering", "Java Programming", "Data Structures"],

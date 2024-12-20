@@ -4,30 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51e1784b-2b35-40b4-876b-7b2e42b2007e" name="Changes" comment="Added mistral llm, created and modified agents and neo4j graph, created orpo dataset pipeline conversion, refactored the code.">
-      <change afterPath="$PROJECT_DIR$/current_user.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/agent_prompt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/versions/3/sentenceTransformerWrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/versions/3/vector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/versions/4/fake_api_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/versions/4/fake_auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/versions/4/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/versions/4/home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/versions/4/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/versions/4/main.py" afterDir="false" />
+    <list default="true" id="51e1784b-2b35-40b4-876b-7b2e42b2007e" name="Changes" comment="lot of things, but most importantly done with version 4 for the final presentation">
+      <change afterPath="$PROJECT_DIR$/versions/4/for_testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions/4/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/orpo_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/orpo_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/training_data/aou_training_dataset.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/training_data/aou_training_dataset.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finetuned_model_testing/testing_quantized_fine_tuned_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/finetuned_model_testing/testing_quantized_fine_tuned_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions/1/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/1/main1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions/1/semantic_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/1/semantic_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions/2/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/2/main2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions/3/LLMsHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/3/LLMsHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions/3/graphLLM.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/3/graphLLM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions/3/main3.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/3/main3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions/_helpers/neo4j_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/_helpers/neo4j_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/agent_prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/agent_prompt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/4/fake_api_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/versions/4/fake_api_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions/4/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/versions/4/home.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,53 +56,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.LLMsHelper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ToolHelpers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.aou_chatbot_api.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chekcing_gpu_existence.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_embeddings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_retrieval.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_retrieval2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_helpers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_prep.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_upload.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dataset_counter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.first_retrieval.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graphLLM.executor&quot;: &quot;Run&quot;,
-    &quot;Python.helpers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_scrapping.executor&quot;: &quot;Run&quot;,
-    &quot;Python.neo4j_connection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.orpo_helper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_tutor_embeddings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.semantic_search.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simple_scrapping.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing_fine-tuned_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing_finetuned_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing_finetuned_model2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing_quantized_fine_tuned_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing_quantized_fine_tuned_model_gpt4all.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing_vector_index.executor&quot;: &quot;Run&quot;,
-    &quot;Python.trying_models.executor&quot;: &quot;Run&quot;,
-    &quot;Python.use_retrieval (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.use_retrieval.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ahmed/PycharmProjects/M269&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.LLMsHelper.executor": "Run",
+    "Python.ToolHelpers.executor": "Run",
+    "Python.aou_chatbot_api.executor": "Run",
+    "Python.chekcing_gpu_existence.executor": "Run",
+    "Python.create_embeddings.executor": "Run",
+    "Python.create_retrieval.executor": "Run",
+    "Python.create_retrieval2.executor": "Run",
+    "Python.data_helpers.executor": "Run",
+    "Python.data_prep.executor": "Run",
+    "Python.data_upload.executor": "Run",
+    "Python.dataset_counter.executor": "Run",
+    "Python.first_retrieval.executor": "Run",
+    "Python.for_testing.executor": "Run",
+    "Python.graphLLM.executor": "Run",
+    "Python.helpers.executor": "Run",
+    "Python.home.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main1.executor": "Run",
+    "Python.main2.executor": "Run",
+    "Python.main3.executor": "Run",
+    "Python.module_scrapping.executor": "Run",
+    "Python.neo4j_connection.executor": "Run",
+    "Python.orpo_helper.executor": "Run",
+    "Python.run_tutor_embeddings.executor": "Run",
+    "Python.semantic_search.executor": "Run",
+    "Python.simple_scrapping.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.testing_fine-tuned_model.executor": "Run",
+    "Python.testing_finetuned_model.executor": "Run",
+    "Python.testing_finetuned_model2.executor": "Run",
+    "Python.testing_quantized_fine_tuned_model.executor": "Run",
+    "Python.testing_quantized_fine_tuned_model_gpt4all.executor": "Run",
+    "Python.testing_vector_index.executor": "Run",
+    "Python.tools.executor": "Run",
+    "Python.trying_models.executor": "Run",
+    "Python.use_retrieval (1).executor": "Run",
+    "Python.use_retrieval.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ahmed/PycharmProjects/AOU Guide/versions/4",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\versions\4" />
       <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\data\training_data" />
       <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\finetuned_model_testing" />
       <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\data\aou_data\csv" />
@@ -133,7 +120,7 @@
       <recent name="C:\Users\ahmed\PycharmProjects\AOU Guide\retrievals\first_RAG" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.for_testing">
     <configuration name="create_embeddings" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
@@ -160,20 +147,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_helpers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="for_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="GROQ_API_KEY" value="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" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/data_helpers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versions/4/for_testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,6 +235,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versions/4/helpers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="home" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AOU Guide" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versions/4/home.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,7 +339,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AOU Guide" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,33 +348,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versions/4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testing_quantized_fine_tuned_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AOU Guide" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finetuned_model_testing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finetuned_model_testing/testing_quantized_fine_tuned_model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versions/4/tools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,19 +366,19 @@
       <item itemvalue="Python.graphLLM" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.neo4j_connection" />
+      <item itemvalue="Python.home" />
+      <item itemvalue="Python.for_testing" />
+      <item itemvalue="Python.tools" />
       <item itemvalue="Python.helpers" />
       <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.data_helpers" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.testing_quantized_fine_tuned_model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.for_testing" />
+        <item itemvalue="Python.home" />
+        <item itemvalue="Python.tools" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.helpers" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.testing_quantized_fine_tuned_model" />
-        <item itemvalue="Python.data_helpers" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726325587096</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="lot of things, but most importantly done with version 4 for the final presentation">
+      <option name="closed" value="true" />
+      <created>1734508766691</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734508766691</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -627,7 +623,8 @@
     <MESSAGE value="First trial of fine-tuned model" />
     <MESSAGE value="agent setup" />
     <MESSAGE value="Added mistral llm, created and modified agents and neo4j graph, created orpo dataset pipeline conversion, refactored the code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added mistral llm, created and modified agents and neo4j graph, created orpo dataset pipeline conversion, refactored the code." />
+    <MESSAGE value="lot of things, but most importantly done with version 4 for the final presentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="lot of things, but most importantly done with version 4 for the final presentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

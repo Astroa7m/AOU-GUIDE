@@ -1,10 +1,14 @@
 import streamlit as st
+from langchain.agents import create_react_agent, AgentExecutor
 from langchain_community.chat_models import ChatOllama
 from langchain_community.chat_message_histories import (
     StreamlitChatMessageHistory,
 )
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables import RunnableWithMessageHistory
+from tools import tools
+
+
 
 
 st.title("G'day "+st.session_state.username)
@@ -19,6 +23,15 @@ if len(history.messages) == 0:
 print(st.session_state.user)
 
 llm = ChatOllama(model="llama3")
+
+# agent = create_react_agent(llm, tools, agent_prompt)
+# agent_executor = AgentExecutor(
+#     agent=agent,
+#     tools=tools,
+#     handle_parsing_errors=True,
+#     verbose=True
+# )
+
 
 system_prompt = """
 You are an AI chatbot having a conversation with a user.
@@ -44,6 +57,7 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 chain = prompt | llm
+
 
 chain_with_history = RunnableWithMessageHistory(
     chain,
