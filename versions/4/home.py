@@ -1,13 +1,34 @@
 import streamlit as st
-from langchain.agents import create_react_agent, AgentExecutor
+from langchain.agents import create_react_agent, AgentExecutor, create_tool_calling_agent
 from langchain_community.chat_models import ChatOllama
 from langchain_community.chat_message_histories import (
     StreamlitChatMessageHistory,
 )
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder, PromptTemplate
 from langchain_core.runnables import RunnableWithMessageHistory
+from langchain_experimental.llms.ollama_functions import OllamaFunctions
+
 from tools import tools
 
+agent_prompt = PromptTemplate.from_template(f"""
+You are an Arab Open University (AOU) expert providing information about various aspect with the university.
+Be as helpful as possible and return as much information as possible.
+Do not answer any questions that do not relate to AOU, studies, tutors, modules, etc.
+
+You are talking to either a student at AOU or a tutor, you can determine that yourself without exposing it to the 
+user by looking at the title provided within the user info, if the title field is empty then it is a student, 
+else it is a tutor.
+
+user info:
+{st.session_state.user}
+Begin!
+
+Previous conversation history:
+{{history}}
+
+New input: {{question}}
+{{agent_scratchpad}}
+""")
 
 
 
@@ -22,7 +43,7 @@ if len(history.messages) == 0:
 
 print(st.session_state.user)
 
-llm = ChatOllama(model="llama3")
+llm = OllamaFunctions(model="llama3")
 
 # agent = create_react_agent(llm, tools, agent_prompt)
 # agent_executor = AgentExecutor(
@@ -48,19 +69,22 @@ Who am I, what is my schedule, what are my marks, etc.
 logged in user data:\n
 """ + st.session_state.user
 
-prompt = ChatPromptTemplate.from_messages(
-    [
-        ("system", system_prompt),
-        MessagesPlaceholder(variable_name="history"),
-        ("human", "{question}"),
-    ]
-)
+# prompt = ChatPromptTemplate.from_messages(
+#     [
+#         ("system", system_prompt),
+#         MessagesPlaceholder(variable_name="history"),
+#         ("human", "{question}"),
+#     ]
+# )
 
-chain = prompt | llm
 
+agent = create_tool_calling_agent(llm, tools, agent_prompt)
+agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
+
+# chain = llm | agent_prompt
 
 chain_with_history = RunnableWithMessageHistory(
-    chain,
+    agent_executor,
     lambda sessionId: history,
     input_messages_key= "question",
     history_messages_key="history"
